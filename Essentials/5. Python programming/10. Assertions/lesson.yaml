@@ -1,0 +1,4 @@
+id: 420d9aa6-4042-4694-9b82-ff59dc2cf797 
+description: Learn how to use Python assertions to raise exceptions in case a condition is not met
+# prerequisites:
+#   - id: 34f017d8-c4c0-468c-bd43-bb2f1ed17683 # Control Flow
