@@ -5,7 +5,8 @@
 - machine translation, where the system generates the translation of some text in another language
 - named entity recognition, where the system identifies
 - and many more different tasks
-<!-- OVERVIEW OF THE PROCESS -->
+  <!-- TODO why is NLP hard? -->
+  <!-- OVERVIEW OF THE PROCESS -->
 - to process text, we need to represent it numerically
 - that consists of a few steps, which we will go into a lot more detail on
 - firstly we need to split up the text into discrete atomic units, typically words
