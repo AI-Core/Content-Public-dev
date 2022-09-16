@@ -72,6 +72,103 @@ _show transformer diagram_
 - dec does not have to share weights with enc
 - you can pull different combinations of enc-decs off the shelf
 
+# What happens in the pipeline?
+
+- tokenisation
+- model
+- post processing
+
+## tokenisation
+
+- source text is split into tokens
+- special tokens are added
+- special tokens are mapped to word index
+
+## automodel
+
+- `from transformers import AutoModel`
+- can load weights from a checkpoint
+- creates model without finetuned head layer
+- takes tokenised input
+- last_hidden_state.shape = [B x seq_len x hidden_size]
+- there are also more specific models used for tasks called AutoModelForX where X is a common NLP task
+- `from transformers import AutoModelForSequenceClassification`
+- every model outputs logits, not predictions
+- this clssifier model is binary
+- `model.config.id2label`
+- every part of the pipeline can be adapted to your specific task
+
+### autotokeniser
+
+- autotokeniser can take weights from a pretrained model checkpoint
+- sentences can be padded so that they're all the same length
+- truncation=True trims off the ends of sentences that are too long
+- tokeniser returns dictionary of token ids and attention mask which shows which words have been masked
+
+# Models
+
+- AutoModel infers the architecture from the pretrained weights you ask it to take on
+- automodel gets the model config from a file, including which class should be used, meanwhile, it gets the model weights from a model file
+
+- you can get the config for any model in the HF library too by importing things like BertConfig for example
+- you can get pretrained weights by calling this class's from_pretrained classmethod
+- then you cn load this into a BertModel
+
+## saving a model
+
+- model.save_pretrained(saved_model_name)
+- model.from_pretrained is the opposite of save_pretrained (it loads in instead of saves weights)
+
+# tokenisation
+
+## word based tokenisation
+
+- splits on spaces and punctuation
+- some punctuation is removed
+- limitation: plurals being represented differently
+- limitation: vocab becoming very large
+- we can limit the number of words in our text, typically taking the top n most common words
+- limitation: multiple words are represented as the UNKNOWN token
+- this results in a loss of information as different unknown words are represented as the same token
+- you don't want your tokeniser to be producing inputs where many of the characters are special characters, like [UNK]
+
+## cahracter based vocabularies
+
+- languages all have less characters than words so vocabularies stay small
+- limitation: but characters typically hold less information than words
+- limitation: sequences can become very long, as most words contain multiple characters
+- solves some of the limitations of word based tokenisation
+
+## subword-based tokenisers
+
+- a middle ground between word and character based tokenisers
+- frequently used words are not split
+- rare words are broken down into different parts of words which are tokenised individually
+
+- words are split into
+- subword tokenisation algorithms typically have ways to indicate completions e.g. BERT ##ization
+- many algorithms for sub-word tokenisation algorithms
+  - BERT, DistilBERT uses the word-piece alrogithm
+  - XLNet, ALBERT use unigram
+  - GPT-2, RoBERTa use byte-pair encoding
+-
+
+- tokeniser.tokenise() takes in a string of text and returns a sequence of tokens
+- when you get a tokeniser tokeniser.from_pretrained
+- tokenizer.decodde takes in ids and returns a string of decoded ids to show the words they represent
+
+# Batch processing text
+
+- tokenizer.pad_token_id gives the id of the token that should be used to make all sequences the same length
+- but you don't want the transformers to contextualise the other words in the context of the padding tokens
+- so we give the model what is known as an attention mask
+- it's a binary tensor with the same shape as the batch of tensors, it has zeros where padding tokens have been inserted, and ones everywhere else
+- it tells the model whether to pay attention to the token in each of those positions or not
+
+<!-- TODO find where best to put this in -->
+
+- most transformers have a limitation to the number of words that you're allowed to pass in as input because of the way that the self-attention mechanism scales quadratically with the sequence length
+
 # TODO what is self-supervised data?
 
 # TODO what are zero shot predictions?
