@@ -8,7 +8,6 @@
   description: |+
     Create a decorator to time how long a function takes to run and print the duration
 
-
 - id: 8ba0ffea-6146-42e6-a256-64f36b99fa3f
   name: Printing a Word Before and After Every Function Call
   description: |+
@@ -30,12 +29,10 @@
       - `%%%%%%%%%%`
       - `**********`
 
-
 - id: e800ca82-07b0-4fc9-b3bc-aa443d820283
   name: Decorator to Save Function Output with Context
   description: |+
     Create a decorator that saves the string output from a simple function to a file using a context manager
-
 
 - id: a0ba8eef-0392-4158-a3ad-2fdbc6cd0d8c
   name: Unpacking and Decorating the Job

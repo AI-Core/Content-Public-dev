@@ -20,7 +20,6 @@
     
     Notice that you can import modules that are inside a package, just like you can import modules that are in the same folder as your main file. This makes it easier to organise your code into different files and folders.
 
-
 - id: dbc3a9f7-a407-44cc-91bf-b0145dff3d79
   name: Import Variables from Modules
   description: |+
@@ -47,7 +46,6 @@
 
     3. Go back to `main_notebook.ipynb` and restart the kernel. 
     4. Run the cell again. You should see the message "This is function 1 in module 1. I have been changed!"
-
 
 - id: 556ccf02-d77c-427b-8f79-824199f276f7
   name: Importing 3rd Party Packages

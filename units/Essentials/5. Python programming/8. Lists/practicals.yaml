@@ -46,7 +46,6 @@
     1. Create a list with ten zeros, do it using the '*' operator. Name it `list_1`
     2. Create a set from `list_1` and print its length.
 
-
 - id: 2752580b-bd0e-4881-9dd8-3f7c073d4688
   name: Comprehensions
   description: |+
@@ -61,4 +60,4 @@
 - id: 88c74ef8-676e-45af-a3fc-c849ede91107
   name: Simple Typed Function
   description: |+
-    Create a function that takes in a list of words and returns the total number of characters in the list, then type the function's inputs and outputs
+    Create a function that takes in a list of words and returns the total number of characters in the list, then define the type the function's inputs and outputs

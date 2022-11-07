@@ -20,24 +20,20 @@
     
     Turn the above generator into a generator comprehension
 
-
 - id: 524ab45b-b977-447a-a43f-fb2e4e0c77ea
   name: Yes/No
   description: |+
     Using 2 yield statements, create a generator which alternatively yields `yes` and `no`
-
 
 - id: aef8bb2b-2cb8-493c-8087-5d9ae2fb7225
   name: Byte Generator
   description: |+
     Create a loop which iterates through a generator you define that generates incrementing binary bytes (8 digit numbers containing only ones and zeros) up to 256
 
-
 - id: f0745f47-1242-4001-a90c-0e18adb1820a
   name: Binary Generator Comprehension
   description: |+
     Create an generator comprehension that infinitely generates ones or zeros randomly
-
 
 - id: e60cac40-2918-4dca-b215-111486664c42
   name: Password Generator
