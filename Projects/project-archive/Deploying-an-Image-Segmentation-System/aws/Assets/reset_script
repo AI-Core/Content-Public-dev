@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo wget -O ~/api.py https://aicore-files.s3.amazonaws.com/api.py 

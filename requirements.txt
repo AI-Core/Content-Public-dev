@@ -1,7 +1,0 @@
-psycopg2-binary
-sqlalchemy
-PyYaml
-pandas
-ipykernel
-requests
-boto3
