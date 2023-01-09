@@ -1,0 +1,75 @@
+name: AiCore Orientation
+description: |
+  A quick overview of AiCore and how to get the most out of being part of the community
+id: e991901c-af71-4853-8c97-98d6678600a8
+requires_aws: false
+requires_github: false
+rotate_to: ccec2912-b0c5-4798-bcfd-21add0e658af
+milestones:
+  - name: Welcome
+    id: c308f2ca-7686-4e24-99ed-3f907c712999
+    tasks:
+      - name: An overview of the journey you're about to take
+        id: d0da02b5-cab4-4813-941c-aeb4b9162e06
+        type: video
+        video_url: https://www.youtube.com/embed/5XLa9uyYwZk
+        duration: 0
+  - name: Using the Portal
+    id: 97d87969-3d01-4f65-b77e-fe3b3950c54d
+    tasks:
+      - name: How to get unstuck
+        id: 9f2a716f-a8ba-48c4-89e6-e6b06ab1d706
+        type: video
+        video_url: https://www.youtube.com/embed/ozBwoDFEzEo
+        duration: 0
+      - name: AiCore Meetups
+        id: 77fe306d-034f-4e65-bfca-7ee9c6158f02
+        type: video
+        video_url: https://www.youtube.com/embed/68gzkKz_WdU
+        description: |
+          Every Monday-Thursday evening, we meet up on our virtual campus. 
+
+          You can find the link to join, as well as all other events in the AiCore calendar.
+          Click [here](https://calendar.google.com/calendar/u/1?cid=dGhlYWljb3JlLmNvbV8ydXFmYmk2bWtrcGczdXRldTh2MjNnY21ia0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) to add it to your calendar.
+        duration: 1
+  - name: Setting up
+    id: 4cb3dd89-0c34-4c7c-90c0-233415882f00
+    tasks:
+      - name: Create a GitHub account
+        id: 0c60b6ac-1da8-45c9-a80b-89b58f18593a
+        description: |
+          GitHub is where every good developer stores and shares their code and where every team collaborates on software.
+
+          Make an account and set a display picture and brief bio [here](https://www.github.com).
+        duration: 1
+      - name: Complete your Slack profile
+        id: f96263a8-3c01-41bf-b405-90506d208bac
+        description: |
+          Set a display picture in Slack like everyone else. 
+          The last thing we want is a faceless community, so this is really important to us.
+
+          You should also set your preferred name and a quick bio.
+          A simple way to write a useful bio is to have a sentence on your background and list your hobbies.
+        duration: 0
+      - name: Ensure you've applied your AiCore orange background to your Slack and LinkedIn profile picture
+        id: 217806fb-7bb1-48b8-a139-d9a7839d2098
+        duration: 1
+        description:
+          This consistent theme amongst AiCore graduates stands out and has been seen to attract more attention from recruiters and those hiring.
+
+          It also looks professional.
+
+          You can download the orange background <a href="https://aicore-files.s3.amazonaws.com/hiring-process/Profile+Background.png" download="Profile Background.png">here</a>.
+
+          Make sure to download the LinkedIn banner <a href="https://aicore-files.s3.amazonaws.com/hiring-process/LinkedIn+Banner.png" download="Profile Background.png">here</a>.
+
+          You can use [this tool](https://www4.lunapic.com/editor/?action=transparent) to remove the background from your display picture and [this tool](https://www.canva.com) to combine the images.
+      - name: Download VSCode
+        id: 62dbcee3-d0a4-44d2-93e0-d0660bd0223d
+        description: |
+          VSCode is a free and open-source code editor for Microsoft Windows, Linux, and macOS.
+
+          It's where you're going to write all of your code, so you need to install it now.
+        duration: 2
+        prerequisites:
+          - f227e021-88bf-4cb6-97cf-73bd8a0fa612 # tour of vscode

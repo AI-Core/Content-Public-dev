@@ -1,0 +1,843 @@
+name: |
+  Modelling Airbnb's property listing dataset
+description: |
+  Build a framework to systematically train, tune, and evaluate models on several tasks that are tackled by the Airbnb team
+id: 996af772-5609-4680-8022-d6761f434223
+requires_aws: False
+cover_img: https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/images/scenarios/airbnb.png
+rotate_to: ec1090b6-791b-4a2a-8aa6-6575c48f29bb
+requires_github: True
+milestones:
+  - name: Set up the environment
+    description: Let's set up our dev environment to get started!
+    id: 74fe741d-39cd-4336-acc7-3cd0e83a6d4b
+    tasks:
+      - name: Join the project calendar
+        id: 19285dbf-f913-468b-b42e-da2a431b293d
+        description: |
+          To keep up with all the events associated with this project, please join its respective Google Calendar using this [link](https://calendar.google.com/calendar/u/1?cid=Y19kcTRsbzc5YjA5NmtmMW0xMm1lYmljY2I0b0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+        duration: 0
+      - name: Set up GitHub
+        id: fe77ad01-57e7-479a-8ee5-ae6f1bcd0f5f
+        description: |
+          In this project, you'll use GitHub to track changes to your code and save them online in a GitHub repo. Hit the button on the right to automatically create a new GitHub repo. We'll tell you when you need to use it as you go through the project.
+        duration: 1
+        prerequisites:
+          - 86076c6d-6df5-4c14-8f5e-7d3dfe661de6
+          - b457ee87-74b7-414d-bbc8-43fb8acc8cc4
+      # We don't use AWS in this project anymore
+      # - name: Set up AWS
+      #   id: 2724098e-eb22-4dfa-aea3-6624a2195653
+      #   description: |
+      #     In this project, we'll use some services running in the cloud. Hit the button on the right to automatically create a new AWS cloud account. We'll tell you when we need to use it as we go through the project.
+      #   duration: 0
+
+  - name: Get an overview of the system you're about to build
+    description: |
+      You're about to start developing a framework for evaluating a wide range of machine learning models that can be applied to various datasets. Let's get started.
+    id: 840019e4-ca05-4c8f-b50b-feea2fdd6a4e
+    tasks:
+      - name: Get an overview of the system in this video
+        description: Watch this short video
+        id: 1ac611b8-1916-4c6d-8cf5-85866bd6514c
+        type: video
+        video_url: https://www.youtube.com/embed/Tub0xAsNzk8
+        duration: 1
+  - name: Data preparation
+    description: |
+      Before building the framework, get a grasp of how the Airbnb dataset is structured and clean it.
+    id: 4af421b5-6d0d-4ab1-b87c-ac2615218e12
+    tasks:
+      # TODO rename CSV from tabular.csv to listings.csv
+      - name: Load in the tabular dataset
+        description: |
+          Use the following [link to download a `.zip` file containing the dataset](https://aicore-project-files.s3.eu-west-1.amazonaws.com/airbnb-property-listings.zip). Unzip it and you will find two folders: `images` and `tabular_data`. Inside the `tabular_data` folder, you will find a file called `AirBnbData.csv`. 
+
+          The tabular dataset has the following columns:
+          - ID: Unique identifier for the listing
+          - Category: The category of the listing
+          - Title: The title of the listing
+          - Description: The description of the listing
+          - Amenities: The available amenities of the listing
+          - Location: The location of the listing
+          - guests: The number of guests that can be accommodated in the listing
+          - beds: The number of available beds in the listing
+          - bathrooms: The number of bathrooms in the listing
+          - Price_Night: The price per night of the listing
+          - Cleanliness_rate: The cleanliness rating of the listing
+          - Accuracy_rate: How accurate the description of the listing is, as reported by previous guests
+          - Location_rate: The rating of the location of the listing
+          - Check-in_rate: The rating of check-in process given by the host
+          - Value_rate: The rating of value given by the host
+          - amenities_count: The number of amenities in the listing
+          - url: The URL of the listing
+          - bedrooms: The number of bedrooms in the listing
+
+          Create a file named `tabular_data.py` which will contain the code you write for this task.
+
+          There are missing values in the rating columns. Start by defining a function called `remove_rows_with_missing_ratings` which removes the rows with missing values in these columns.
+          It should take in the dataset as a pandas dataframe and return the same type.
+
+          The "Description" column contains lists of strings. 
+          You'll need to define a function called `combine_description_strings` which combines the list items into the same string. 
+          Unfortunately, `pandas` doesn't recognise the values as lists, but as strings whose contents are valid Python lists.
+          You should look up how to do this (don't implement a from-scratch solution to parse the string into a list).
+          The lists contain many empty quotes which should be removed. 
+          If you don't remove them before joining the list elements with a whitespace, they might cause the result to contain multiple whitespaces in places.
+          The function should take in the dataset as a pandas dataframe and return the same type.
+          It should remove any records with a missing description, and also remove the "About this space" prefix which every description starts with.
+
+          The "guests", "beds", "bathrooms", and "bedrooms" columns have empty values for some rows. 
+          Don't remove them, instead, define a function called `set_default_feature_values`, and replace these entries with the number 1.
+          It should take in the dataset as a pandas dataframe and return the same type.
+
+          Put all of the code that does this processing into a function called `clean_tabular_data` which takes in the raw dataframe, calls these functions sequentially on the output of the previous one, and returns the processed data.
+
+          Inside an `if __name__ == "__main__"` block, do the following things:
+          1. Load the raw data in using pandas
+          2. Call `clean_tabular_data` on it
+          3. Save the processed data as `clean_tabular_data.csv` in the same folder as you found the raw tabular data.
+
+          The next time that you need to clean another tabular dataset, you will use the same code.
+        # TODO replace with imputing
+        id: ca0d8263-1b61-47d1-9d7b-bb652fac81b4
+        prerequisites:
+          - 45d60050-aef5-400b-a6cb-e35f35f9ace9 # Python + CSV, JSON, YAML, Images, Audio, Video
+          - 3949170b-c8b8-4353-9983-cdfb18b6efbe # Pandas - Advanced Dataframe Operations
+          - 3fad431d-917f-4989-abc8-6d22d2961e37 # Data Cleaning in Pandas
+          - b17e0a6b-68db-4a1f-9433-04ab57d6da3a # Missing Data
+          - 2f2a6aee-4b86-4aea-bdee-962b61c3ddb4 # EDA and Basic Visualisation
+          # TODO add imputation
+        duration: 6
+      - name: Get a grasp of the format of the image data
+        id: d8a5ace3-d09c-40c3-a575-782a5c8c7bf0
+        description: |
+          The other folder in the `.zip` file contains images of the listings.
+
+          In the folder, there are many folders that each correspond to an Airbnb listing that you saw in the tabular dataset in the previous task. 
+
+          Each of the folders is named as the UUID of the listing which it contains the images for.
+
+          Create a file named `prepare_image_data.py` which will contain the code you write in this milestone.
+
+          Firstly, define a function called `download_images` which downloads the image folder for each example from S3 and puts them into a folder called images.
+          Be careful not to download all of the images in one place and check that it works for a few examples before downloading every image.
+
+          Inside your data folder, create a folder called `processed_images`.
+
+          Define a function called `resize_images` which loads each image, and resizes it to the same height and width before saving the new version in your new `processed_images` folder.
+          Do not overwrite the original image by saving it in the same location which you found it.
+          Set the height of the smallest image as the height for all of the other images.
+          Your code should maintain the aspect ratio of the image and adjust the width proportionally to the change in height, rather than just squashing it vertically.
+          This function should also ensure that every image is in RGB format.
+          If it isn't, discard it.
+
+          Put all of the code that does this processing into a function which calls these functions sequentially on the output of the previous one.
+          Call this function inside an `if __name__ == "__main__"` block.
+
+          Next time you need to prepare another image dataset, you will import the functions you defined here.
+        # QUESTION: do images need to be same number of pixels?
+        duration: 4
+        prerequisites:
+          - c5ac37e6-8115-4aa6-8ff3-d3d4d1a7890a
+          - f0379838-450b-4d9e-8cf2-4b9178abe37e
+          - 28dc20c6-dc74-4e7c-b330-5f991779162d # if name = main
+        # TODO add PIL
+
+      ### Thinking about it, I don't think it is needed at this point
+      # - name: Create a dataset class
+      #   id: 398a8ec8-34da-48ad-936d-e4e858a8aa87
+      #   description: |
+      #     Create a class that represents an instance of each dataset.
+
+      #     Call the class that represents the tabular features of a property and their classification "PropertyTabularDataCategoryDataset".
+
+      #     Call the class that represents the images of a property and their classification "PropertyImageCategoryDataset".
+
+      #     When initialised, each class should load in the data. When iterated through, it should return a tuple of the features and the corresponding label for a particular example.
+
+      #     For example, if you have a
+
+      #     Remember that in order to index an object that was created from a custom class, you need to define the `__getitem__` method.
+      #   duration: 3
+
+      # TODO split the dataset
+
+      - name: Get the data in the right format
+        id: 78261182-eac0-42d1-a71f-8ef0b1d06b5d
+        description: |
+          In your `tabular_data.py` file, define a function called `load_airbnb` which returns the features and labels of your data in a tuple like `(features, labels)`.
+
+          The features should be a pandas dataframe of the tabular data. 
+          It is extremely important that the features matrix does not contain the label that you will be predicting, so your function should take in the name of a column as a string as a keyword argument "label", remove that from the features, and instead return it as the labels.
+
+          For now, just work with the numerical tabular data. Filter out the columns which include text data. This and the image data will be used later.
+
+        # TODO we are not explaining how to combine the image data and the tabular data
+        # prerequisites:
+        #   - # TODO sklearn datasets
+        duration: 4
+        prerequisites:
+          - 48d3830f-61cb-4b0d-8dc8-246f1b25382c
+          - 7e5a5266-ea05-4aa6-9bbe-b8affd65e280
+          - 89b7fb50-9de8-46a4-bf86-d54cf316b899
+
+      - name: Begin documenting your experience
+        id: 13ceb1e6-2f67-4706-b803-919782563f1d
+        description: |
+          Now that you have prepared both datasets, add documentation to your README file following this [guide](https://github.com/AI-Core/ExampleDocumentation).
+
+          Include brief descriptions on the process for cleaning the data (especially images).
+        duration: 1
+        # prerequisites:
+        #   - TODO writing a good README
+
+  - name: Create a regression model
+    # TODO this milestone is not actually _needed_ for this project. If we had more examples attachd to the content, we could remove this. Do this in the future.
+    description: |
+      Create some machine learning models which predict the price of the listing per night and evaluate them.
+    id: bec98e59-755a-4312-b229-e7d9a9e480c2
+    tasks:
+      - name: Create a simple regression model to predict the nightly cost of each listing
+        id: 7153d648-ca99-4bd5-9899-e21d653c7b11
+        description: |
+          Create a file named `modelling.py` which will contain the code you write in this milestone.
+
+          Start by importing your `load_airbnb` function defined earlier and using it to load in a dataset with the price per night ("Price_Night") as the label.
+          At this point, it should only include numerical values. You will use the other modes of data later.
+
+          Use sklearn to train a linear regression model to predict the "Price_Night" feature from the tabular data.
+          You should find and use the built in model class `SGDRegressor` provided by sklearn instead of building your own from scratch.
+
+
+          The point of this task is to get a baseline to compare other more advanced models to, and to try to improve upon.
+        prerequisites:
+          - 89b7fb50-9de8-46a4-bf86-d54cf316b899 # Data for ML
+          - 54d541f6-987b-461e-a64b-1c3e76e810c5 # Intro to Models - Linear regression
+          - ab8dba5e-5bd2-4e09-8d00-32ba8484596c # Validation and Testing
+          - 00640ac4-3411-4d51-8618-9d1081b4abaa # Gradient based optimization
+        duration: 4
+
+      - name: Evaluate the regression model performance
+        id: c51d9392-a70b-4b6a-9840-1cec3ed6cbc2
+        description: |
+          Use sklearn to compute the key measures of performance for your regression model. 
+          That should include the RMSE, and R^2 for both the training and test sets.
+
+          Don't worry about the absolute performance of the model, what's important is how its performance compares to the models you will train next.
+        prerequisites:
+          - a027ad34-762b-46d7-84b4-fe753229c620 # Bias and Variance
+          - 6d31dd18-6250-4e3b-8bd3-695a87e1bc6f # Maximum Likelihood Estimation
+          - 8191c8fe-19a0-442b-94ec-f1f68972a869 # Evaluation Metrics - Regression
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b # hyperparameters
+        duration: 2
+
+      # TODO add milestone(/task?) on feature selection and creation
+
+      - name: Implement a custom function to tune the hyperparameters of the model
+        id: 65b58c0f-2413-487f-bb66-2f883bae32c8
+        description: |
+          Create a function called `custom_tune_regression_model_hyperparameters` which performs a grid search over a reasonable range of hyperparameter values.
+
+          SKLearn has methods like GridSearchCV to do this, BUT instead of using them out the box, use this task to implement a similar thing from scratch to ensure that you have a solid understanding of what's going on under the hood.
+
+          The function should take in as arguments:
+          1. The model class
+          2. The training, validation, and test sets
+          3. A dictionary of hyperparameter names mapping to a list of values to be tried
+
+          It should return the best model, a dictionary of its best hyperparameter values, and a dictionary of its performance metrics.
+
+          The dictionary of performance metrics should include a key called "validation_RMSE", for the RMSE on the validation set, which is what you should use to select the best model.
+
+          Make sure that this function is general enough that it can be applied to other models.
+
+          Note that the function should take in a model class, not an instance of that class, so that it can initialise that class with the hyperparameters provided.
+        prerequisites:
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b # hyperparameters
+        duration: 2
+
+      - name: Tune the hyperparameters of the model using methods from SKLearn
+        id: db113849-ea9d-47c7-95c4-f0f7d06a3091
+        description: |
+          In practice, you probably won't need to implement a grid-search from scratch.
+
+          Create a function called `tune_regression_model_hyperparameters` which uses SKLearn's GridSearchCV to perform a grid search over a reasonable range of hyperparameter values.
+        prerequisites:
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b # hyperparameters
+        duration: 2
+
+      - name: Save the model
+        id: 6460bc80-22ee-44d1-8912-13e97c151dce
+        description: |
+          Now you need to save the model.
+
+          Create a folder called `models`.
+
+          Within your `models` folder, create a folder called `regression` to save your regression models and their metrics in.
+
+          Define a function called `save_model` which saves the model in a file called `model.joblib`, its hyperparameters in a file called `hyperparameters.json`, and its performance metrics in a file called `metrics.json` once it's trained and tuned.
+
+          The function should take in the name of a folder where these files should be saved as a keyword argument "folder". 
+          In this case, set that argument equal to `models/regression/linear_regression`.
+
+          Note: If you're on windows, the path separator will be different.
+          Use Python's `os` library to avoid having to write the separator explicitly.
+        # prerequisites:
+        #   -
+        # TODO awaiting lesson on saving models to be released
+        duration: 1
+
+      - name: Beat the baseline regression model
+        id: 6c4de501-36e2-4dbc-936a-42ec9ba85962
+        description: |
+          Improve the performance of the model by using different models provided by sklearn. 
+
+          Use decision trees, random forests, and gradient boosting.
+          Make sure you use the regression versions of each of these models, as many have classification counterparts with similar names.
+
+          It's extremely important to apply your `tune_regression_model_hyperparameters` function to each of these to tune their hyperparameters before evaluating them.
+          Because the sklearn API is the same for every model, this should be as easy as passing your model class into your function.
+
+          Save the model, hyperparameters, and metrics in a folder named after the model class. 
+          For example, save your best decision tree in a folder called `models/regression/decision_tree`.
+
+          Define all of the code to do this in a function called `evaluate_all_models`
+
+          Call this function inside your `if __name__ == "__main__"` block.
+        # QUESTION: does sklearn provide gradient boosting?
+        prerequisites:
+          - 5906e2d6-b031-4f0f-9535-f2558a7a521b # Hyperparameters
+          - f4bec46e-ecb4-4811-8053-2dccb0339f24 # Grid Search & K-fold Cross Validation
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b # Regularization
+          - 78b30b6a-3a3e-45b8-88e8-1150bb8e2763 # Regression Trees
+          - 8c04655f-1322-4192-b307-fbe5a7748de8 # Random forests and Bagging
+          - f9eeaba4-7c4b-4182-bb90-8b9f9e99ae50 # Boosting and Adaboost
+          - 80233b52-6152-409f-b686-c9cfb9fde3d1 # Gradient Boosting
+        duration: 9
+
+      - name: Find the best overall regression model
+        id: 17d4d575-cb5d-425e-b28d-30fc62c36f1e
+        description: |
+          Define a function called `find_best_model` which evaluates which model is best, then returns you the loaded model, a dictionary of its hyperparameters, and a dictionary of its performance metrics.
+
+          Call this function inside your `if __name__ == "__main__"` block, just after your call to `evaluate_all_models`.
+        prerequisites:
+          - 28dc20c6-dc74-4e7c-b330-5f991779162d # if name = main
+          - f4bec46e-ecb4-4811-8053-2dccb0339f24
+        duration: 1
+        # highlights:
+        #   - "Notice how we could have chosen to call the `find_best_model` function within `evaluate_all_models`, but we didn't because there may be times when you have already done the training recently, and just want to find the best model based on the metrics that have already been saved. For example, when you want to compare the performance of already trained models, or when you want to load the best known model into a different script to experiment with or use for predictions. These functions are related, so it's good that they're encapsulated in the same file, but one doesn't need to encapsulate the other."
+
+      #  TODO visualise the performance of all models against each other
+      - name: Update your documentation
+        id: 9b9c3346-60bd-43b8-8c07-d31728d10bdd
+        description: |
+          Update your README file, talk about why you used each model and how you used it.
+
+          Report the metrics of the models you created, and what further experiments you would have liked to attempt.
+        duration: 1
+        # prerequisites:
+        #   - TODO writing a good README
+
+  # NOTE everything above here could be its own project but it wouldn't have been anything industry related
+
+  - name: Create a classification model
+    description: |
+      Create a bunch of classification models and evaluate their performance.
+    id: c3d5aff1-4a5c-4673-8531-5c7b6b63fe61
+    tasks:
+      - name: Create a simple classification model
+        id: f953f71a-1af9-4e5b-bdd8-9ff982817865
+        description: |
+          Start by importing your `load_airbnb` function defined earlier and using it to load in a dataset with the "Category" as the label.
+
+          Use sklearn to train a logistic regression model to predict the category from the tabular data.
+        prerequisites:
+          - e6991438-bdcd-4170-9e28-a9e7d8ab3569 # Classification
+          - 776fec70-0835-4e53-a655-7f83e1aec42a # Multiclass Classification
+        duration: 5
+
+      - name: Evaluate the classification model performance
+        id: 79bea8de-f3ae-49c0-91f8-f0401040f983
+        description: |
+          Use sklearn to compute the key measures of performance for your classification model. 
+          That should include the F1 score, the precision, the recall, and the accuracy for both the training and test sets.
+
+          Don't worry about the absolute performance of the model, what's important is how its performance compares to the models you will train next.
+        prerequisites:
+          - 525b4998-158b-4a69-940e-a1eb75b8e542 # Evaluation Metrics - Classification
+        duration: 2
+
+      - name: Tune the hyperparameters of the model
+        id: fef0dbba-555d-4542-8e05-cb638e4655c0
+        description: |
+          Create a function called `tune_classification_model_hyperparameters` which does the same thing as the `tune_regression_model_hyperparameters` function you defined earlier but evaluates the performance using a different metric.
+
+          As with the earlier function, it should take in as arguments:
+          1. The model class
+          2. The training, validation, and test sets
+          3. A dictionary of hyperparameter names mapping to a list of values to be tried
+
+          And it should return the best model, a dictionary of its best hyperparameter values, and a dictionary of its performance metrics.
+
+          The dictionary of performance metrics should include a key called "validation_accuracy", for the accuracy on the validation set, which is what you should use to select the best model.
+        prerequisites:
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b # hyperparameters
+        duration: 2
+
+      - name: Save the classification model
+        id: 248b4e6c-e2db-4bc0-b641-2e8677a2d87d
+        description: |
+          Now you need to save the classification model.
+
+          Within your `models` folder, create a folder called `classification` to save your classification models and their metrics in.
+
+          Call the `save_model` function which you defined earlier to save the classification model, its hyperparameters, and metrics.
+
+          In this case, set the `folder` argument equal to `models/classification/logistic_regression`.
+        # prerequisites:
+        #   -
+        # TODO awaiting lesson on saving models to be released
+        duration: 1
+        # highlights:
+        #   - "Notice how the `folder` argument saved us from having to write a different function for saving classification and regression models, which would have contained much of the same repeated code"
+
+      - name: Beat the baseline classification model
+        id: d063e291-1cc7-4ec6-be8f-76b4fc8b88e2
+        description: |
+          Improve the performance of the model by using different models provided by sklearn. 
+
+          Use decision trees, random forests, and gradient boosting.
+          Make sure you use the classification versions of each of these models, as many have regression counterparts with similar names, which you should have used earlier.
+
+          It's extremely important to apply your `tune_classification_model_hyperparameters` function to each of these to tune their hyperparameters before evaluating them.
+          Again, this should be as easy as passing your model class into your function.
+
+          Like you did earlier, save the model, hyperparameters, and metrics in a folder named after the model class, but this time in the `classification` folder within the `models` folder. 
+
+          Adapt your `evaluate_all_models` function which you defined earlier so that it takes in a keyword argument called `task_folder`.
+          Change your earlier code so that in the earlier regression case, that parameter was set to `models/regression`.
+          In this case, it should be set to `models/classification`.
+        # QUESTION: does sklearn provide gradient boosting?
+        prerequisites:
+          - 5906e2d6-b031-4f0f-9535-f2558a7a521b # Hyperparameters
+          - f4bec46e-ecb4-4811-8053-2dccb0339f24 # Grid Search & K-fold Cross Validation
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b # Regularization
+          - 78b30b6a-3a3e-45b8-88e8-1150bb8e2763 # Regression Trees
+          - 8c04655f-1322-4192-b307-fbe5a7748de8 # Random forests and Bagging
+          - f9eeaba4-7c4b-4182-bb90-8b9f9e99ae50 # Boosting and Adaboost
+          - 80233b52-6152-409f-b686-c9cfb9fde3d1 # Gradient Boosting
+        duration: 9
+
+      - name: Find the best overall classification model
+        id: 8016507a-a6af-46bb-b0f3-86495c6a7f64
+        description: |
+          Adapt your `find_best_model` function defined earlier so that it takes in your `task_folder` as a parameter and looks inside there to find the models which it should compare.
+
+          Like earlier, it should still return you the loaded model, a dictionary of its hyperparameters, and a dictionary of its performance metrics.
+
+          Call this function inside your `if __name__ == "__main__"` block just after your call to `evaluate_all_models`.
+        prerequisites:
+          - 28dc20c6-dc74-4e7c-b330-5f991779162d # if name = main
+        duration: 1
+
+      - name: Update your documentation
+        id: 55666529-8131-4341-8189-bccfd7d0f250
+        description: |
+          Update your README file, talk about how you improved the models and how you prevented overfitting.
+        duration: 1
+        # prerequisites:
+        #   - TODO writing a good README
+
+  - name: Create a configurable neural network
+    description: |
+      Use a neural network to predict the nightly listing price from the numerical data in the tabular dataset.
+    id: a722bf07-a74e-4dd3-8798-95fb15995b5d
+    tasks:
+      - name: Create the Dataset and Dataloader
+        id: 2512f59f-4eaf-45a0-bcfc-1e2b7ca312b0
+        description: |
+          Create a PyTorch Dataset called `AirbnbNightlyPriceImageDataset` that returns a tuple of `(features, label)` when indexed. 
+          The features should be a tensor of the numerical tabular features of the house.
+          The second element is a scalar of the price per night.
+
+          Create a dataloader for the train set and test set that shuffles the data. Further, split the train set into train and validation.
+        prerequisites:
+          - 1419b0b3-f91d-4a0a-b4f3-4d20342fc636 # What is PyTorch
+          - 4cdfb904-d2b7-4c5e-a2d4-7f18f08622ea # PyTorch Tensors
+          - 049a81a7-59a4-47af-9ed7-d046810f4b26 # PyTorch Datasets
+          - 2097084f-788c-4326-8f4f-b421c4eef1a0 # Custom PyTorch Datasets
+          - 6e24dcd1-2e31-46c2-a83e-0b03eff05006 # PyTorch Transforms
+          - 8014afb2-eff4-4aa6-bb88-b8082146d53c # PyTorch Data Loaders
+          - cb6c9af9-af27-4a7a-b9a3-c199be79e573 # Creating a PyTorch Dataset from the Classis Diabetes Dataset
+        duration: 8
+        # verification:
+        #   - test shape of features and labels
+
+      - name: Define the first neural network model
+        id: 26b0fb4d-2147-4220-80cf-03da5d351273
+        description: |
+          Define a PyTorch model class containing the architecture for a fully connected neural network.
+
+          To start with, it should only ingest the numerical tabular data.
+          We will process the text and image features later.
+
+          Don't train it yet. Instead, just ensure that it can perform a forward pass on a batch of data and produce an output of the correct shape.
+
+          To to this, define the start of a function called `train` which takes in the model, the data loader, and the number of epochs.
+          For now, just get the first batch of data from the dataloader and pass it through the model, then break out of the training loop.
+        prerequisites:
+          - 85c81f9a-d998-47f5-afc6-db35f6c49954
+        duration: 14
+
+      - name: Create the training loop and train the model to completion
+        id: c0d51cda-25a1-4ac3-8158-46f28ed17d97
+        description: |
+          Complete the training loop so that it iterates through every batch in the dataset for the specified number of epochs, and optimises the model parameters.
+        # TODO tune the model
+        prerequisites:
+          - 85c81f9a-d998-47f5-afc6-db35f6c49954 # Training Loops in PyTorch - Linear regression example
+          - 2faa29c6-4070-454f-8b87-9d51b7500fae # Optimisation in PyTorch - Linear regression example
+          - 4b983bdf-a28f-4b87-bdbe-464384efac2a # Logistic regression in PyTorch
+          - d661c61d-a77c-470f-9512-db06c4cdb212 # Multiclass classification in PyTorch
+          - f8589a8f-2d51-4dd0-8ee3-ffc3b421ce03 # Buildingyourfirst neural network in PyTorch
+        duration: 10
+
+      - name: Visualize the metrics
+        id: 9b3047c4-1f29-476d-a430-db45b2b66aa4
+        description: |
+          Use tensorboard to visualize the training curves of the model and the accuracy both on the training and validation set.
+        prerequisites:
+          - fa913a8a-f4c7-4ad8-8410-13cff6a4ad85 # Tensorboard
+        duration: 4
+
+      - name: Create a configuration file to change the characteristics of the model
+        id: a0a13b52-dbfb-4135-863a-332265382bbd
+        description: |
+          Create a YAML file called `nn_config.yaml`, next to your `modelling.py` file, that defines the architecture of the neural network.
+
+          Specify:
+          - The name of the optimiser used under a key called `optimiser`
+          - The learning rate
+          - The width of each hidden layer under a key called `hidden_layer_width` (For simplicity, make all of the hidden layers the same width)
+          - The depth of the model
+
+          Then, define a function called `get_nn_config` which reads in this file and returns it as a dictionary.
+
+          Pass the config into your `train` function as the hyperparameter dictionary which you define earlier.
+
+          Specify a keyword argument called "config" which must be passed to your model class upon initialisation.
+
+          Your network should then use that config to set the corresponding hyperparameters.
+        duration: 14
+        prerequisites:
+          - b3b47a07-e9b2-4b01-8152-cb7c88c6b28e
+
+      - name: Save the model
+        id: 620e73af-bcc3-424b-91ee-7e5cc426900f
+        description: |
+          Create a new folder named `neural_networks`. Inside it, create a folder called `regression`.
+
+          Adapt your function called `save_model` so that it detects whether the model is a PyTorch module, and if so, saves the torch model in a file called `model.pt`, its hyperparameters in a file called `hyperparameters.json`, and its performance metrics in a file called `metrics.json`.
+
+          Your metrics should include:
+          - The RMSE loss of your model under a key called `RMSE_loss` for training, validation, and test sets
+          - The R^2 score of your model under a key called `R_squared` for training, validation, and test sets
+          - The time taken to train the model under a key called `training_duration`
+          - The average time taken to make a prediction under a key called `inference_latency`
+
+          Every time you train a model, create a new folder whose name is the current date and time.
+
+          So, for example, a model trained on the 1st of January at 08:00:00 would be saved in a folder called `models/regression/neural_networks/2018-01-01_08:00:00`.
+        # TODO change so that model weights are saved instead of entire pickled model
+        prerequisites:
+          - 0a6fc357-4b14-482a-a221-7f373169f163 # Saving and Loading PyTorch Models
+        duration: 6
+        # highlights:
+        #   - Notice how we saved redundant code by adaptingyour`save_model` function rather than defining a totally new one.
+        # gems:
+        #   - Latency matters when you come to making predictions that users will expect back near instantly, and especially if you deploy the model serverlessly
+
+      - name: Tune the model
+        id: a1faa105-b407-47a0-ad0b-7259302e30ea
+        description: |
+          Define a function `generate_nn_configs` which creates many config dictionaries for your network.
+
+          Define a function called `find_best_nn` which calls this function and then sequentially trains models with each config.
+          It should save the config used in the `hyperparameters.json` file for each model trained.
+          Return the model, metrics, and hyperparameters.
+          Save the best model in a folder 
+
+          Try 16 different parameterisations of your network, and then move on. You don't want to be stuck here forever, and that should be enough to find something that works.
+        duration: 12
+        prerequisites:
+          - f4bec46e-ecb4-4811-8053-2dccb0339f24
+          - b097a50c-2ad4-4cdd-8596-38d8d6efca6b
+        # highlight:
+        #   - Notice how we choose to save every model, not only the best one, because the training of these models can take a long time and a lot of compute.
+
+      - name: Update your documentation
+        id: 3064b6e8-d65e-4cb3-ada6-f0a34b1c9bff
+        description: |
+          Update your README file, talk about the architecture of the model, and how you used it.
+
+          Also, include screenshots of the graphs you obtained from tensorboard.
+          Show images which display all of the models trained on the same graph, but then create a new section which highlights the training and performance characteristics of the best parameterised network.
+
+          Use [this link](https://alexlenail.me/NN-SVG/) to generate a diagram of the network and add it to your README file.
+        duration: 1
+        # prerequisites:
+        #   - TODO writing a good README
+
+  # - name: Use transfer learning to create a deep learning model for image classification
+  #   tasks:
+  #     - name: Create the architecture of the model for the neural network image classifier
+  #       id: 4a985829-3a65-443e-a703-83bb0ef8b0bd
+  #       description: |
+  #         Use transfer learning to define a model class for a image classification network with a ResNet-50 backbone.
+
+  #         Start by creating the outline of the training loop to get a batch of examples and make an initial prediction.
+
+  #         Save your predicted values for the first batch as a variable called `predictions` and then break out of the training loop.
+
+  #         Don't worry about training the model yet. The important things here are:
+  #         1. Ensure that the model can perform a forward pass on a batch of examples and that the output is of the right shape.
+  #         2. Ensure that the output represents valid probability distributions
+  #         3. Ensure that you have not forgotten to replace the final linear layer of the pretrained model. A catastrophic mistake is to append a layer on the end of the model, rather than replace the its final linear layer.
+  #       prerequisites:
+  #         - 5f9f45bd-b0f5-4717-ab89-71f548631ab3 # What are Convolutional Neural Networks
+  #         - bcf57998-417d-4349-909f-c2085b5bdea3 # The Convolution Operation
+  #         - 789ec86b-352d-4eee-b5ae-2ee9cfc959c0 # Building Convolutional Networks in PyTorch
+  #         - bba9869a-6430-4348-a6bc-ad5e46fe0b5e # Hardware for Deep Learning
+  #         # TODO transfer learning essentials
+  #         - c7e6dd56-b06b-45ec-bcb1-e91fbbf13150 # Transfer Learning
+  #         # TODO add lesson on
+
+  #       duration: 8
+  #       verification:
+  #         - check: Test that the model saves the predictions in a variable called predictions which has the right shape
+  #           feedback_on_failure: It looks like your
+  #         - Ensure the outpus are valid probability distributions
+  #         - Ensure that the final fully connected layer of the model has been replaced, not appended to
+
+  #     - name: Train the model
+  #       id: 4d1d2911-f9ca-47dc-91b3-a780e7d5bcb9
+  #       description: |
+  #         Select the optimizer and the loss function for your model, as well as the number of epochs and batch size.
+
+  #         Similar to the previous milestone, include these hyperparameters in the YAML file named `config.yaml`.
+  #         Add a key to this file called `Transfer Learning` and set it to the name of the model that you want to use for transfer learning.
+
+  #         Inside the `neural_networks` folder, create a folder named `CNN`.
+
+  #         Save the accuracy and the cross-entropy loss of the model in a JSON file called `metrics.json`, and the model itself in a file called `model.pt` file in a folder with the date and time of the training.
+
+  #         So, for example, if you train a model on the 1st of January at 08:00:00, you will have a folder called `neural_networks/CNN/2018-01-01_08:00:00`.
+
+  #         Also, save the `config.yaml` file in the `CNN` folder.
+  #       prerequisites:
+  #         - df50cf2f-d42d-4288-ab25-77b760ef3f0d # Dropout
+  #         - ffdbc682-e7d1-4dd5-ba2c-b37b0912a4ad # Batch Normalization
+  #         - e1485a05-f339-49b8-b7ec-f5a4e0754d7b # Convolutional Networks
+  #         - 0a6fc357-4b14-482a-a221-7f373169f163 # Saving and Loading PyTorch Models
+  #       duration: 6
+
+  #     - name: Visualize the metrics
+  #       id: db7ff68f-eadc-47e0-bc88-0d14c76bac19
+  #       description: |
+  #         Use tensorboard to visualize the accuracy and cross-entropy loss of the model over time, whilst it trains.
+
+  #         You can observe the metrics of the training and validation sets to check if the model is overfitting.
+
+  #         While observing the metrics, you can also use the parameters you used in the configuration file to check what the best values are.
+
+  #       duration: 4
+
+  #     # TODO milestone on early stopping
+  #     - name: Update your documentation
+  #       id: d46d6875-182c-4427-b931-3020a7a155c7
+  #       description: |
+  #         Update your README file, talk about the architecture of the model, and how you used it.
+
+  #         Also, include screenshots of the graphs you obtained from tensorboard.
+  #       duration: 1
+  #   description: |
+  #     Process the images to classify the images of the listings.
+
+  #     Part of the architecture in this CNN will be concatenated with the other models
+  #   id: 5c866747-3c3a-4232-859c-f0df170e21fc
+
+  # - name: Add text features to the model
+  #   tasks:
+  # TODO move text processing from 2nd milestone to here
+  #     - name: Create the embeddings for the text features
+  #       id: b14d6874-9e16-4252-afde-2d1064db9326
+  #       description: |
+  #         Create the text embedding for the "Title", "Description" and "Amenities" features.
+
+  #         Use BERT to generate the embeddings. Take a look at this [video](https://youtu.be/WOr2qhd1t-A) to learn how to user BERT for creating embeddings.
+
+  #         You can use any number of outputs for the embeddings, but remember to note it down in a configuration file.
+
+  #         Create a new directory under the `neural_networks` folder called `text_classification`, and save the configuration file in this directory under the name `config.yaml`.
+  #       # TODO remove link to external video
+  #       duration: 12
+
+  #     - name: Create a dataset and dataloader for the text features
+  #       id: aa4f9e2f-b2a2-4fae-9e40-4c9614f0395c
+  #       description: |
+  #         Create a dataset and a dataloader for the text features.
+
+  #         The dataset should return a tuple, where the first element is the embedding and the second element is the label.
+
+  #         Again, you can check this [video](https://youtu.be/WOr2qhd1t-A) to learn how to use the dataloader with embeddings.
+  #       duration: 10
+
+  #     - name: Create and train a classification neural network for the text features
+  #       id: b9e77131-0fd9-4b03-b497-d4e1e4e82073
+  #       description: |
+  #         Create a classification neural network for the text features.
+
+  #         Use a CNN model that takes in the embeddings and return the predicted label.
+
+  #         Add the architecture of the model to the configuration file so that next time you need to change the architecture, you can easily change it in the configuration file.
+
+  #         Train the model, and save the accuracy, the loss function, and the used architecture in a JSON file called `metrics.json`. Save the model in a file called `model.pt` in the corresponding folder.
+
+  #         So, for example, if you train a model on the 1st of January at 08:00:00, you will have a folder called `neural_networks/text_classification/2018-01-01_08:00:00`.
+  #       duration: 10
+  #     - name: Update your documentation
+  #       id: 45286d76-6a3a-45ff-ac0e-103dbd961fe9
+  #       description: |
+  #         Update your README file, talk about the architecture of the models you created, how you used it, and which one showed better results.
+
+  #         Also, include screenshots of the graphs you obtained from tensorboard.
+  #       duration: 1
+  #   description: |
+  #     Process the text to generate the features that will be used to classify the listings.
+
+  #     Don't worry about the accuracy of the predictions, you will concatenate the output of this model with the other models
+  #   id: 16839041-d231-415d-ab67-493a10c3c841
+
+  # - name: Create multimodal models by combining others
+  #   id: b7837e29-eebf-41cb-8bcc-3078758f4fbe
+  #   description: |
+  #     Concatenate all the models together to create a unified multimodal model that performs category classification by combining the input images, text, and tabular data.
+
+  #   # QUESTION can the model process multiple images simultaneously
+  #   tasks:
+  #     - name: Create the configuration file for the combined models
+  #       id: 08360a30-7f98-4a84-b230-d3202e015197
+  #       description: |
+  #         In the `neural_networks` folder, create a folder called `combined_model`.
+
+  #         Save the configuration file in this folder under the name `config.yaml`.
+
+  #         For this model, you will have three models combined into a new one, so you will need to include the architecture of the three models in the configuration file.
+
+  #         Add a key for each part of the model, so one for the image model, one for the text model, and one for the tabular model, and additionally, add another key for the combined model, where you will define the structure of the model once the outputs of the other models are concatenated.
+  #       duration: 6
+
+  #     - name: Create the dataset and dataloader for the three inputs
+  #       id: 2f2695b9-fde6-4a30-b6b3-942ff19619fd
+  #       description: |
+  #         Create a dataset that returns a tuple with four elements, where the first element is the list of tabular data, the second element is a tensor representing an image, the third element are the embeddings for the text features, and the fourth element is the "category".
+
+  #         In this case, you can add the "Price_Night" feature to the tabular dataset.
+
+  #         You can use the configuration file you created earlier to conveniently change the size of the embeddings.
+  #       duration: 8
+
+  #     - name: Train the combined model
+  #       id: f0e3bb47-af46-40fa-bb91-fd2cf1f7fb40
+  #       description: |
+  #         Define the architecture of the combined model. For the individual models, you can use the same architecture as you used in the previous milestones.
+
+  #         Then, concatenate the outputs of the individual models and pass them to a linear layer where the number of inputs is the sum of the number of outputs of the individual models, and the number of outputs is equal to the number of categories.
+
+  #         Save the accuracy and the loss function in a JSON file called `metrics.json`, and the model in a file called `combined_model.pt` in the corresponding folder.
+
+  #         So, for example, if you train a model on the 1st of January at 08:00:00, you will have a folder called `neural_networks/combined_model/2018-01-01_08:00:00`.
+
+  #         Also, add the architecture that you used to train the model to the `metrics.json` file.
+  #       duration: 10
+
+  #     - name: Update your documentation
+  #       id: 26a8faca-cab9-49e6-8877-ddd125af5df9
+  #       description: |
+  #         Now, you will be able to predict the housing category of the listings given the images, so make sure you add screenshots of your model making predictions.
+  #       duration: 1
+
+  # TODO milestone to deploy as API
+
+  # TODO milestone on tuning the configuration file
+
+  # WTF literally nothing until here is even specifically related to widetext it's just a bunch of random modelling exercises. What is defined above is far from anything that the airbnb team worked on.
+  # widetext literally has nothing to do with exploring lots of different models the models which widetext combines are already prescribed by the framework
+
+  - name: Reuse the framework for another use-case with the Airbnb data
+    id: 25b8fb61-db90-4a7b-a8cc-59d40dea57f3
+    description: |
+      To recap, you have now created a framework for training, tuning, and selecting from a wide range of models that can process images, text, and tabular data.
+
+      Now it's time to test that it works in the same way on any dataset.
+    tasks:
+      - name: Reusing the framework
+        id: 34491ec8-99c7-483c-bd10-6e3f79286dd4
+        description: |
+          Use your `load_dataset` function to get a new Airbnb dataset where the label is the integer number of bedrooms.
+
+          The previous label (the category) should now be included as one of the features.
+
+          Run your entire pipeline to train all of the models and find the best one.
+        duration: 6
+      - name: Update your documentation
+        id: 26a8faca-cab9-49e6-8877-ddd125af5df9
+        description: |
+          Add a section that introduces the new dataset. Within it, show visualistions of model performance and example screenshots of your model making predictions.
+
+          Include visualisations from tensorboard as well as graphics generated for those traditional models not trained with tensorboard.
+        duration: 1
+        # prerequisites:
+        #   - TODO writing a good README
+
+        # TODO add milestone for creating dashboard to visualise and explore the different models
+        # TODO add milestone for applying the same framework on 10 other datasets
+        # TODO add milestone for creating dashboard to compare performances across those datasets
+# name: |
+#   Building Airbnb's Deep Learning Classification Framework: WIDeText
+# description: |
+#   Airbnb is a platform that allows people to rent out their properties. Within Airbnb, many teams want to use AI to create classification systems.
+
+#   This is an implementation of Airbnb's framework for building and deploying classification systems, known as WIDeText.
+
+#   WIDeText can ingest multiple modalities of data simultaneously and produce multimodal machine learning models as a result.
+
+# - name: Reuse the WIDeText framework for another use-case
+#   id: 25b8fb61-db90-4a7b-a8cc-59d40dea57f3
+#   description: |
+#     To recap, you have now created a framework for building multimodal classification models that can process images, text, and tabular data.
+
+#     The point of this is to reduce the overhead for any team that wants to develop and deploy one of these models.
+
+#     So that means that it needs to work on other datasets too.
+#     It's time to test that.
+#   tasks:
+#     - name: Reusing the framework
+#       id: 34491ec8-99c7-483c-bd10-6e3f79286dd4
+#       description: |
+#         The WIDeText framework you created should be easy to apply to other classification tasks.
+
+#         Use your `load_dataset` function to get a new Airbnb dataset where the label is the integer number of bedrooms.
+
+#         The previous label (the category) should now be included as one of the features.
+
+#         Run your entire pipeline
+
+#       duration: 6
+#     - name: Update your documentation
+#       id: 26a8faca-cab9-49e6-8877-ddd125af5df9
+#       description: |
+# Add a section that introduces the new dataset. Within it, show visualistions of model performance and example screenshots of your model making predictions.
+#       duration: 1

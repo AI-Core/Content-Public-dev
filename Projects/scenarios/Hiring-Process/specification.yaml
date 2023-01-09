@@ -1,0 +1,277 @@
+name: The Hiring Process
+description: |
+  This pathway guides you through the tasks that will launch your career, which we've successfully used for hundreds of others.
+requires_aws: False
+# requires_github: False
+id: ec1090b6-791b-4a2a-8aa6-6575c48f29bb
+requires_github: False
+milestones:
+  - name: Prepare your CV
+    description: ""
+    id: 18fba24e-9dd6-4441-a29b-5de6b0878ff4
+    tasks:
+      - name: Download the template
+        id: a75c4a66-4a0d-4adb-9797-b5e7f3b87018
+        description: Please download the example CV [here](https://aicore-files.s3.amazonaws.com/hiring-process/Template+CV.docx). This will give you a feel for what an data industry grade CV looks like.
+        duration: 0
+      - name: Insert your AiCore project blurbs
+        id: 98101978-742f-487e-bc38-56503984ffd9
+        description:
+          We've already designed, tested, and iterated many different CV-ready descriptions for each of the projects you've already completed at AiCore.
+
+          Check them out [here](https://docs.google.com/document/d/1MWBCQ5hPoDKsBQasKDEIh22bkko06vUj0c8QIekeVx8/edit).
+
+          Insert these into your CV in the experience section.
+        duration: 1
+      - name: Get Feedback
+        id: fead0535-1add-4859-a3d3-6431ec8a239c
+        description:
+          Please upload your CV [here](https://docs.google.com/forms/d/e/1FAIpQLSfFDaJHWwL6Pj2rPQ0UNQO8ffK8tsS-OYzD82s-AIgOjzHrXQ/viewform?usp=sf_link) for the AiCore team to check.
+
+          We'll get back to you as soon as possible with feedback for you to implement via Slack. If you want to make things go a little faster, give Ahmed Eldiwany a message there.
+
+          Keep an eye on your Slack DMs!
+        duration: 12
+      - name: Read your feedback
+        id: 5a48af91-e431-45d4-9f1d-e3afaa1964e8
+        description: Read the feedback you've received from the AiCore team via Slack.
+        duration: 1
+      - name: Implement feedback
+        id: 075a7d03-0d3e-4f72-8007-57624c72fbd1
+        description: Implement every point of feedback shared with you from the AiCore team.
+        duration: 3
+      - name: Get the "all-clear" from the AiCore team
+        id: 016eb925-6e4b-4d93-aa09-385cb7ca5420
+        description: |
+          The "all-clear" is the indication that your CV is ready to be used to apply for job applications.
+
+          You may need to do several rounds of iteration to get the "all-clear" from the AiCore team.
+          Once you've updated your CV based on the most recent feedback, upload it again using the same form linked above.
+
+          Don't continue beyond this point until you have received the "all-clear" from the AiCore team via a Slack message.
+        duration: 3
+
+  - name: Prepare your Linkedin Profile
+    description: ""
+    id: 74cdebb6-52bb-429e-b1b3-1deb208abe02
+    tasks:
+      - name: Ensure you've added AiCore as part of your education on your LinkedIn profile
+        id: 69a97bd1-215e-4c15-94bd-c5e82fb667fd
+        duration: 1
+        description:
+          Add AiCore as part of your education on your LinkedIn profile.
+
+          You should set the name of the course to "Machine Learning Engineering", "Data Science", "Data Engineering", or "Data Analysis" depending on your chosen specialisation.
+      - name: Ensure you've applied your AiCore orange background to your LinkedIn profile picture
+        id: e63dc9ca-c578-45ce-87dd-5049eb80c7a3
+        duration: 1
+        description:
+          This consistent theme amongst AiCore graduates stands out and has been seen to attract more attention from recruiters and those hiring.
+          It also looks professional.
+
+          You can download the orange background [here](https://aicore-files.s3.amazonaws.com/hiring-process/Profile+Background.png).
+
+          You can download the Linkedin banner [here](https://aicore-files.s3.amazonaws.com/hiring-process/LinkedIn+Banner.png).
+
+          You can use any online tool, such as [Lunapic](https://www6.lunapic.com/editor/?action=transparent) to remove the background from your display picture and replace it with the orange.
+      - name: Ensure that you DON'T have the "#open to work" tag on your LinkedIn profile pic
+        id: ab3bc2b9-73df-4c79-84c0-abb079528f37
+        duration: 0
+        description:
+          Remove the "#open to work" tag from your LinkedIn profile pic. Counterintuitively, this makes you look needy.
+
+          Hiring managers believe that the best candidates are not "open to work", as they expect them to already in a great role.
+      - name: Book your careers meeting.
+        id: 5ba0598c-d7db-4c84-9051-641dea5e650a
+        duration: 0
+        description: |
+          It's time to book your careers meeting with Ahmed.
+
+          In this meeting, you'll identify the most appropriate companies and industries to start applying for, go over some essential inside tips that we've learnt from already placing hundreds of people, and give the AiCore team an idea of the things that they can start doing to source opportunities for you.
+
+          Book your meeting using this [link]https://calendly.com/adiwany/30min?&a1=Initial%20careers%20meeting).
+
+  - name: Do your research
+    description: ""
+    id: 6dae02ae-730f-4161-9fbf-67da395a9fe9
+    tasks:
+      - name: Check out the list of companies that AiCore can introduce you to
+        id: bc99dc57-4dd3-40e8-88a2-0af3577155e1
+        duration: 1
+        description: |
+          Look through [this list](https://docs.google.com/spreadsheets/d/10cEXoZxIZF0qDcG-4RC5PR5TR-5_VaFfuadNvR3jVdc/edit?usp=sharing). 
+          Send Ahmed Eldiwany 3 companies that you're really interested in.
+
+      - name: Interview with Sithan Kanna from AIG
+        id: 9fbbce41-b14d-498c-85dc-31f441c05dab
+        duration: 1
+        video_url: https://www.youtube.com/embed/l0HJ8du1KLs
+        type: video
+
+      - name: Interview with Piotr Jelonek from Preqin
+        id: c7edd414-468c-4eed-b162-2eac088d258d
+        duration: 1
+        video_url: https://www.youtube.com/embed/dEXkwvwcm0s
+        type: video
+
+      - name: Interview with Jacob Tsafatinos from Uber
+        id: a5727245-5ca2-46ad-b5dd-f82751cd27a6
+        duration: 1
+        video_url: https://www.youtube.com/embed/FsNzXFamL_0
+        type: video
+
+      - name: Interview with Dominika Wnuk from Datamundi
+        id: 0789924a-486b-4c4b-bc9c-9c6a9f7857ba
+        duration: 1
+        video_url: https://www.youtube.com/embed/GSq-9_YaMW0
+        type: video
+
+  - name: Get recruiters working for you
+    description: ""
+    id: 41f946db-19c8-4f68-a749-56c24138ded9
+    tasks:
+      - name: Connect with 30 recruiters on LinkedIn
+        id: 64165e20-55ff-4497-b29d-4c3476c978f2
+        duration: 3
+        description: Connect with 30 recruiters working in the field of data and AI on LinkedIn.
+
+      - name: Prepare to call all of those recruiters on a regular basis
+        id: 2735e610-e76c-4264-85ee-8360eb6f4645
+        duration: 1
+        description:
+          Let recruiters work for you. Let them know you are seeking a role, and they will help you.
+
+          The secret here, is to CALL recruiters. Call them. Do not give them the chance to ignore you via email or LinkedIn.
+
+          When you get on the phone with them for the first time, you can use the following script
+
+          """
+          Hi, I'm looking for a role in data engineer/ML engineer/data scientist.
+
+          I have experience in building <DESCRIPTION OF YOUR DATA COLLECTION PROJECT>, <DESCRIPTION OF YOUR SPECIALISATION PROJECT>
+
+          I'm not looking for an entry level role as I already have experience in building industry grade systems.
+
+          I have experience with AWS, Docker, writing industry grade code, testing and much more.
+
+          I'm looking for around £40K or more.
+          """
+
+          It is important to mention the specific tools you've used, such as Spark, Docker, and AWS.
+          Mention as many of these as you can without droning on, but avoid mentioning ONLY basic ones like Python, Git.
+
+          The more you can mention about tools used to deploy production systems, like testing, containerisation etc, the better.
+
+          Firstly, make a list of the recruiters you have connected, then create a weekly recurring calendar event to call them.
+
+          You need to be persistent.
+
+  - name: Prepare to apply for jobs on a regular basis
+    description: ""
+    id: 05c95fd3-8f0e-4bba-950b-bb45d435337a
+    tasks:
+      - name: Read these tips
+        id: bd7262ad-2693-44b8-a71a-bcfbdbea7be7
+        duration: 0
+        description: |
+
+          - Companies may post a job in 10 different places (e.g. LinkedIn, Otta, Cord etc), but they typically only check one place actively. This is typically the same place that they have listed on their main website - apply here. 
+          - Quality over quantity. Making 300 applications with LinkedIn's 1-click apply never works in practice. People who do this have the lowest conversion from application to interview. Be intentional about where you want to go.
+
+      - name: Create at least 3 hours worth of weekly recurring calendar event to apply for jobs
+        id: cc7ed4d9-3559-4f17-94b6-f07c9baff2c1
+        duration: 0
+        description:
+          Create at least 3 hours worth of weekly recurring calendar events to dedicate to applying to jobs.
+
+          This isn't something that you can just do once. You need to be persistent.
+
+          Do not get discouraged. Many people end up having to apply for dozens of jobs.
+          Hiring functions within companies can be brutal and blind to good talent.
+          Keep going and lean on the AiCore community and team if you ever feel even slightly discouraged.
+          We've seen it all before so be confident that we can help.
+
+      - name: Identify a short list of 10 companies that you would REALLY want to work for
+        id: b8aa3cbb-d366-4f2b-b0bd-dba384abb200
+        duration: 12
+        description:
+          Don't be a fool and just write down Facebook, Amazon, Google.
+          Think about where you would REALLY like to work.
+          Spend time researching what each company values and identify where they align with you.
+
+          You need to have a reason for applying to a company, not only because they are definitely going to ask you for it during interview, but also because if you go to work there you will be committing a significant chunk of your life to it.
+
+      - name: Reach out to members of the teams that you would like to join on LinkedIn
+        id: 1eba7fcd-a7ae-4776-9aa9-f4781349d9cb
+        duration: 3
+        description:
+          Reach out to members of the teams that you would like to join.
+
+          You can use this template to explain why you are really interested in their work, why you would be a great fit, and to get the conversation going.
+
+          """
+
+          Hi
+
+          I've been following along with the work that your team has been doing. I think it's extremely interesting, and honestly I would love to be a part of it.
+
+          Can you tell me a little more about what it looks like day to day?
+
+          """
+
+          When it seems appropriate, you can follow up with this
+
+          """
+          As I thought, it sounds exactly like the kind of work I would love doing and would be able to contribute to.
+
+          Can you get me in conversation with the person in charge of hiring?
+          """
+
+          You can reach out to the entire team, or just to the people that you think are most relevant to you.
+
+          Create a DAILY recurring slot in your calendar to do this.
+          If you are really serious about working somewhere great, then you need to do this consistently.
+
+          Again, don't get discouraged. It can take a while, but you need to keep pushing.
+
+      - name: Apply for 10 jobs per week
+        id: dc0d8982-bb7f-4629-98d3-5f3df0094c75
+        duration: 1
+        description: Create a daily recurring calendar event to apply for jobs and stick to it whilst following the tips and strategies explained above.
+  - name: Interview Practice
+    id: b115bd54-d04b-4e54-8370-287b8d4d9ee9
+    description: Practice your interview skills.
+    tasks:
+      - name: Soft skills interview practice
+        id: 73348896-9f4d-4e66-ac98-3c42d933a161
+        duration: 1
+        description:
+          OK, so you have secured a few interviews. Time to get a little practice and sharpen up your interview skills.
+
+          Book a mock interview with Ahmed [here](https://calendly.com/adiwany/30min?&a1=Soft-skills%20mock%20interview). 
+
+          You can also book a mock interview with our Alumni engineers
+
+          Book a mock interview with Wayne [here](https://calendly.com/waynerose-95).
+
+          Book a mock interview with Miruna [here](https://calendly.com/miruna_nitu).
+
+          Book a mock interview with James [here](https://calendly.com/joverend98).
+
+          Book a mock interview with Chris [here](https://calendly.com/chrisyw0/).
+      - name: Technical interview practice - Round I
+        duration: 1
+        id: 94d2bf2c-ea87-4d07-b2c8-9be672259b64
+        description:
+          You have advanced through to the technical interview phase. So, let's get a bit of practice.
+
+          Book your mock technical interview with Ahmed using this [link](https://calendly.com/adiwany/30min&a1=Mock%20Technical%20Interview)
+
+  - name: Get hired!
+    description: ""
+    id: 1c2b622f-3d0c-43da-bc21-0c1f8b0a055d
+    tasks:
+      - name: Once you're hired, fill in this form. Congratulations!
+        id: b82a1f49-5de9-4e6f-add5-19d18a40f2dc
+        description: We are all so proud of you. Please let us know your role, company and salary [here](https://forms.gle/ZQkNdY75CB5WE4W98)
+        duration: 1

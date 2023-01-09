@@ -1,0 +1,11 @@
+- Great engineers build things. 
+- That's why projects are the most important thing that you can work on.
+- You just set up your first project through the AiCore Portal
+- From the projects page, you can see exactly what you need to do, step by step, broken down by milestones and tasks within those milestones
+- __`[KEY POINT OF VALUE]`__ using this to guide, you'll follow an exact pathway to implement a real industry AI system
+- A github repo has also been created for you, which is where you should frequently commit your code to
+- Like the project page, the github repo reflects the milestones and tasks, which you can view from the issues tab
+- if you close an issue on github, that progress will also be reflected in the portal
+- __`[KEY POINT OF VALUE]`__ because our team can keep up to date with your progress as you complete tasks, you can get the exact support you need, from the best person for the job, as soon as possible
+- __`[KEY POINT OF VALUE]`__ once you've completed every task, and implemented the system from end-to-end, you'll have experience doing the job, and can clear evidence to prove it 
+- so let's get started

@@ -1,0 +1,270 @@
+name: Pinterest Data Processing Pipeline
+description:
+  Pinterest crunches billions of datapoints every day to decide how to
+  provide more values to their users. In this project, you'll recreate the same system to do that.
+id: cfeb9c26-9a82-467f-b91e-77d1c70cf985
+cover_img: https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/images/scenarios/pinterest.png
+requires_aws: True
+requires_github: True
+rotate_to: ec1090b6-791b-4a2a-8aa6-6575c48f29bb
+milestones:
+  - name: Set up the environment
+    id: 593ccbbd-0d50-40df-9fc8-42c49438da81
+    description: Let's set up your environment to get started!
+    tasks:
+      - name: Join the project calendar
+        id: c67d7440-6052-458c-a92f-3cb7066c7b38
+        description: |
+          To keep up with all the events associated with this project, please join its respective Google Calendar using this [link](https://calendar.google.com/calendar/u/1?cid=Y19zMXZuZ2kxNGI4MTdrZnMwbnFvM25jbG9qMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+        duration: 0
+      - name: Set up GitHub
+        id: 5ec8d049-8991-4e73-bf77-d523072bd315
+        description: |
+          In this project, you'll use GitHub to track changes toyourcode and save them online in a GitHub repo. Hit the button on the right to automatically create a new GitHub repo. We'll tell you when you need to use it as you go through the project.
+        duration: 1
+        prerequisites:
+          - 86076c6d-6df5-4c14-8f5e-7d3dfe661de6
+          - b457ee87-74b7-414d-bbc8-43fb8acc8cc4
+
+  - name: Briefing
+    id: 0f108db2-27d2-4aae-b08e-38c43bf8ff7d
+    description: Check out this video which gives you an overview of the system.
+    tasks:
+      - name: An overview of the system you're about to build
+        description: Watch this short video
+        id: da847e12-a5ec-4820-aeab-8d6275e686c7
+        type: video
+        video_url: https://www.youtube.com/embed/f8VNs1pmhb0
+        duration: 1
+
+  - name: Data Ingestion - Configuring the API
+    id: 884d1d0d-c85e-4d4f-b1d7-8d38333180fc
+    description: Configure an API that will track the uploading of simulated data.
+    tasks:
+      - name: Download the Pinterest infrastructure
+        id: 0ea4cbc2-d451-4337-be80-59bdabfbf6ec
+        description: |
+          Firstly, you need to get your hands on some infrastructure similar to that which you'd find if you were a data engineer working at Pinterest.
+          Download the zip package from [this link](https://aicore-files.s3.amazonaws.com/Data-Eng/Pinterest_App.zip).
+
+          These files contain a few things:
+            - An API listening for events made by users on the app, or developer requests to the API          
+            - A user emulations script which simulates users uploading data to Pinterest.
+        prerequisites:
+          - 0aad50dc-3cec-4aae-94d5-adc309c7381d # 1 Data Pipelines
+          - 0e210c69-333e-4ed9-82f0-a28fe9a653ae # 2 Data Ingestion
+          - d11ad81b-5b22-48cf-bba7-6f9356de2ebf # 3 Data Storage
+          - 07171595-c486-436b-9f81-c16e1018ce31 # 4 Batch Processing and Streaming
+          - 8c541ce6-82c0-4737-b8cc-7b263f3b0754 # 5 Data Transformation - ETL & ELT
+          - 5f275e05-b41b-4fe9-8554-73533cd8f070 # 6 Enterprise Data Warehouses
+          - dc93dd36-45fd-4d3e-b8a6-6898d9b1cb45 # 1 (Big) Data Engineering Fundamentals
+          - d59664af-e709-410c-a373-607f0bc7abc5 # 2 Layers and Tools
+          - 48f8b710-d8ed-4362-8810-db97dbbe50bd # 3 Data Engineering Lifecycle
+        duration: 7
+
+      - name: Extract the `Pinterest_App` files
+        id: f51f71b7-7c2f-478c-99d1-611651badb9d
+        description: |
+          You should include the API within the same folder as all of your other project code, which should be pushed to github.
+
+          The user emulation script however, should not be included in that repo.
+        duration: 1
+
+      - name: Start the simulation
+        id: 631bd340-b5a5-40a6-9fd2-31d94e239522
+        description: |
+          Firstly run the `project_pin_API.py` script to start the API and listen for POST requests on http://localhost:8000/pin/.
+
+          Run the `user_posting_emulation.py` script to start simulating the user making POST requests to Pinterest.
+
+          You should see that the data is being received in the user posting terminal and the API is receiving an OK status for each POST request.
+        prerequisites:
+          - 91f4433e-c2e0-43eb-8052-9ee5b3127d31 # 1 Intro to FastAPI
+        duration: 5
+
+  - name: Data Ingestion - Consuming the data in Kafka
+    id: f182a935-9009-4678-8c10-5681d53f7a1d
+    description: Use Apache Kafka to ingest and process batch and streaming data.
+    tasks:
+      - name: Create a Kafka topic
+        id: b393c517-b9ea-4757-9637-cf7476d5db2e
+        description: |
+          Stop both scripts and in the terminal create a Kafka topic where you will send the data to.
+        prerequisites:
+          - 0e210c69-333e-4ed9-82f0-a28fe9a653ae # 2 Data Ingestion
+          - d11ad81b-5b22-48cf-bba7-6f9356de2ebf # 3 Data Storage
+          - ca0aa20a-3191-11ec-8d3d-0242ac130003 # 1 What is Kafka
+          - b74e9fbc-319c-11ec-8d3d-0242ac130003 # 2 Kafka Hands-On
+          - 06ee1960-6d82-436f-b8a6-7c5d514bfd2a # 4 Kafka-Python
+        duration: 6
+
+      - name: Check that the topic has been created and initialised.
+        id: 700ba833-fd45-47f9-b491-89787c7722a6
+        description: |
+          Using the terminal, describe your topic to check that it has successfully been created and is ready to receive data.
+        prerequisites:
+          - 0d7adc26-325a-11ec-8d3d-0242ac130003 # 3 Stream Processing and APIs
+        duration: 1
+
+      - name: Send events from the API to Kafka
+        id: ea0088b9-fec1-4fa9-ae5c-046409b0d7e4
+        description: |
+          You will need to create a KafkaProducer using the kafka-python package, available through a pip install.
+          Once created, edit the POST requests method so that the producer sends data to your created topic.
+
+          Refer to the kafka-python documentation on how to do [this](https://kafka-python.readthedocs.io/en/master/).
+        duration: 6
+
+      - name: Create Kafka consumers for both pipelines
+        id: 5be661a3-1703-4a0d-9d11-9c39b53a550d
+        description: |
+          Create two Python files, one for the batch processing pipeline called `batch_consumer.py` and one for the real time streaming pipeline called `streaming_consumer.py`.
+          Within each file, use the `python-kafka` library to make a consumer which receives data from the topic you created previously.
+        duration: 4
+
+      - name: Test the consumers
+        id: 4f113d02-adf9-47b2-b14f-df5bf634946d
+        description: |
+          Run the API, the user emulation script and each of the consumers in a separate terminal at the same time. 
+          Check that both consumers are receiving the data sent to the topic.
+        duration: 1
+
+  - name: "Batch Processing: Ingest data into the data lake"
+    id: 962974fa-57f0-4d9f-a8b9-12219782da47
+    description: Store your batch data in a S3 data lake.
+    tasks:
+      - name: Create an S3 bucket
+        id: 4f5f85d9-c5bc-43f1-9e84-00c33e68fbf9
+        description: |
+          Create a new AWS S3 bucket which will receive the data from the Kafka batch processing consumer. 
+
+          Name the bucket uniquely with a UIID4 in the following format `pinterest_data_<UIID4>`.
+        prerequisites:
+          - f0379838-450b-4d9e-8cf2-4b9178abe37e
+        duration: 4
+
+      - name: Send data to the S3 bucket
+        id: a2c13891-5fd9-4231-a4de-2c15be251f9a
+        description: |
+          Within the `batch_consumer.py` file, use Kafka-Python to extract the messages from the consumer. 
+
+          Then use `boto3` to send the data received by the Kafka consumer to the S3 bucket you have created when it is consumed. 
+
+          Your code should save each event as a JSON file.
+
+          The data will be kept in S3 for long-term persistent storage, and wait to be processed all at once by Spark batch processing jobs either run periodically by Airflow (Pinball has since been deprecated).
+        duration: 4
+
+  - name: "Batch Processing: Process the data using Spark"
+    id: 64226486-0ff6-4c92-a79a-c0574dbe4cf6
+    description: Import your data from the S3 data lake into Apache Spark. Learn how to perform data transformations using Spark.
+    tasks:
+      - name: Identify how the data needs to be processed
+        id: 0b7736ed-45c3-4123-b2d2-b80ade2e849b
+        description: |
+          Take a look at one of the JSON files sent to the S3 bucket and write down three ways you will need to clean the data or group the records.
+        prerequisites:
+          - 07171595-c486-436b-9f81-c16e1018ce31 # 4 Batch Processing and Streaming
+          - 8c541ce6-82c0-4737-b8cc-7b263f3b0754 # 5 Data Transformation - ETL & ELT
+          - 5f275e05-b41b-4fe9-8554-73533cd8f070 # 6 Enterprise Data Warehouses
+          - 022176d6-21f6-437a-89f8-881709114947 # 1 Spark Theory
+          - 83389f7d-912b-476f-9efb-c68da65a8de5 # 2 Spark Basics
+        duration: 8
+
+      - name: Ensure that you are able to get the data from S3 in Spark locally
+        id: 7443f514-bd01-4ed2-b54b-61faa43a0c94
+        description: |
+          Write a script to have Spark read the data from an S3 bucket. 
+          Don't worry about implementing the actual processing code right now, just check that Spark can access the data without any issues and display it in a Spark dataframe.
+        duration: 6
+        prerequisites:
+          - 87734538-9348-4dbb-9870-d0e951e86899 # spark packages
+
+      - name: Implement the Spark processing code to perform the cleaning transformations you identified
+        id: bd9fcaef-2a6e-4fa3-b5cf-2d9593bbfa97
+        description: |
+          Based on your previous analysis, write the Spark code to clean the data in the ways you previously identified.
+
+          For processing the data throughout the pipeline you will use Apache Spark. 
+          Spark is incredibly relevant in the data engineering world due to it's incredible speed when processing data. 
+          By using Spark Pinterest seen a reduction from 3 1/2 hours of data processing time using Hadoop MapReduce to under 2 hours. 
+          This is due to Spark's in-memory data processing abilities and other optimisations. 
+          For now, just show the results and sanity check that they work as expected.
+        duration: 4
+
+  - name: "Batch Processing: Orchestrate the batch processing using Airflow"
+    id: b7634ea7-2f18-43c1-9a17-e367bc374199
+    description: Use Apache Airflow to manage your data pipeline.
+    tasks:
+      - name: Set up Airflow locally to trigger the Spark job once per day
+        id: 98dc47cb-4e56-4c06-b316-940444dc70d2
+        description: |
+          In the original system, the Pinterest team developed their own tool, called Pinball, to trigger periodic Spark batch jobs.
+          Since then, Pinball has been deprecated.
+          Airflow has taken over as the industry standard tool for orchestrating jobs, such as the daily Spark job used in this system.
+          That's why here, we'll use Airflow as an alternative to Pinball.
+
+          Tip: During testing, you may want to increase the frequency that the job is triggered so that you can ensure the trigger is working.
+        prerequisites:
+          - 63e68dba-8efa-46cd-a495-f7597bf8c9fe # Intro to Apache Airflow
+        duration: 5
+
+  - name: "Streaming: Kafka-Spark Integration"
+    id: 8c0214d5-6d2c-49b9-ae8d-1980fd2b633e
+    description: Use your previously constructed Kafka consumer to send the streaming data to Apache Spark.
+    tasks:
+      - name: Consume data using Spark streaming
+        id: 158cd1b7-8330-474e-a8c2-b96d3d5537a5
+        description: |
+          In your `streaming_consumer.py` file, ensure that you are able to consume the data from Kafka to Spark streaming.
+          You will need to submit the Spark streaming jar file to your pyspark submit arguments(check the Kafka Spark integration notebook).
+        prerequisites:
+          - 76a732d7-3224-4f1a-bc5d-4d693539d510 # 3 Streaming
+          - d9d3a214-04f1-4885-ad54-59f7dccda371 # 1 Integrating Kafka with Spark
+        duration: 6
+
+  - name: Spark Streaming
+    id: a01639cd-91fa-44e4-a0bf-0f67a0cd0275
+    description: Compute real-time features on your streaming data with Spark Streaming.
+    tasks:
+      - name: Consider useful features required in real time
+        id: 934c2adb-1e4b-4af0-b299-4c5fa76fa5fa
+        description: |
+          Based on the raw data received from the user, define two features you want to compute, and one way in which you need to clean the data
+        duration: 6
+
+      - name: Define the streaming job
+        id: 7d1d7622-8aa7-44a8-9f36-cfc669896e02
+        description: |
+          Write the Spark code which will perform those cleaning and feature computation transformations.
+        duration: 3
+
+  - name: "Streaming: Storage"
+    id: 30ad7587-8b59-4cdc-8b60-12db7152e481
+    description: Send your streaming data to a Postgres database for long-term storage.
+    tasks:
+      - name: Create a database
+        id: 0d4d248f-786c-47c5-bc60-209de8e0249e
+        description: |
+          Create a local Postgres database with a schema that matches the attributes of your processed event. Name the database `pinterest_streaming` and the database table `experimental_data`.
+        prerequisites:
+          - 13308eb8-cd86-4e7e-b91a-271e01020dc9 # 1 SQL Setup
+          - 9edc0c54-ff0e-4d4c-bdda-49ed3527a94e # 2 SQL Basics
+          - c7ace46d-395a-47fe-b311-fd3b604270c0 # 3 CRUD
+          - cf776c94-6dbe-4c80-8a00-af842f5c66ea # 4 Joins
+          - 30d1f6c4-3518-4b0e-a6e7-d3198fb12c62 # 5 Aggregations
+          - c5573ed3-239a-41d4-a435-74db5e153547 # 6 Subqueries
+          - 84a9c4c6-3bb2-4095-a96a-6d4ec15498c3 # 7 pyscopg2 and SQLAlchemy
+        duration: 6
+
+      - name: Spark streaming to storage
+        id: b2f0ecdd-c97b-4b7d-bf2b-ed57600849f8
+        description: |
+          Improve the Spark code so that it puts the processed data into the local Postgres database.
+
+          You will need to add a custom jar file to your PYSPARK SUBMIT ARGUMENTS. 
+
+          In the original system, Pinterest used MemSQL as the intermediary data store between Spark Streaming and the real-time dashboard, but MemSQL is a closed source software tool which requires a license.
+
+          So inyourcase, we'll use Postgres instead, as it's open source and can be easily queried using pgAdmin4.
+        duration: 3

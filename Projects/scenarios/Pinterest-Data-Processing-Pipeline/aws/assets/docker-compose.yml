@@ -1,0 +1,16 @@
+version : '3.4'
+services:
+    project_user_emulation:
+        image: verc112/pinterest_user_emulation:latest
+        restart: always
+        depends_on:
+            - project_api
+        network_mode: host
+    project_api:
+        image: verc112/pinterest_api:latest
+        restart: always
+        volumes:
+           - ~/code:/Pinterest_App/API
+        network_mode: host
+        ports:
+            - 8000:8000

@@ -1,0 +1,228 @@
+name: Data Analytics Migration to Tableau
+description: |
+  Take on the role of a Data Analyst at Skyscanner and work on a project requirement to migrate existing data analytics tasks from an Excel-based manual system into interactive Tableau reports
+id: fce80f76-f4de-4d8b-a88b-1704466bc58e
+cover_img: https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/images/scenarios/data-analytics-migration.png
+requires_aws: False
+requires_github: True
+rotate_to: ec1090b6-791b-4a2a-8aa6-6575c48f29bb
+milestones:
+  - name: Set up the environment
+    tasks:
+      - name: Join the project calendar
+        id: 9d67fb57-66d0-4fc7-ae9d-481290ad22c9
+        description: |
+          To keep up with all the events associated with this project, please join its respective Google Calendar using this [link](https://calendar.google.com/calendar/u/0?cid=Y19iaGE5a25vanJsdjBvbXZzMmM5cXA0cGFlb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+        duration: 0
+      - name: Set up Github
+        id: 032dcdb6-69e1-450c-96aa-819a45d6aba1
+        description: |
+          In this project, we'll use GitHub to track changes to your code and save them online in a GitHub repo. Hit the button on the right to automatically create a new GitHub repo. We'll tell you when you need to use it as you go through the project.
+        duration: 1
+        prerequisites:
+          - 86076c6d-6df5-4c14-8f5e-7d3dfe661de6
+          - b457ee87-74b7-414d-bbc8-43fb8acc8cc4
+      - name: Setup AWS
+        id: 232dcdb6-69e1-450c-96aa-819a45d6aea2
+        description: |
+          In this project, we'll use some services running in the cloud. If you don't already have a free-tier account, [go to the AWS website](https://aws.amazon.com/) and create a new one. We'll tell you when we need to use it as we go through the project.
+
+          If you are unsure how to create a new AWS account, please review the `Essential Cloud Technology` module and follow the instructions there. 
+
+          You will need to create an RDS instance and an S3 bucket, as we will be using those in a few steps. You may also need to create Security Groups for your RDS instance to allow access.
+        duration: 3
+        prerequisites:
+          - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9 # What is AWS
+          - ec099114-05ce-4299-96da-8b372b4f432d # AWS RDS
+          - f0379838-450b-4d9e-8cf2-4b9178abe37e # S3 and boto3
+          - d867845b-17a7-401b-b9aa-c0de78e835f0 # EC2 instances
+    description: Let's set upy our development environment to get started!
+    id: 293ccbbd-0d50-40df-9fc8-42c49438da21
+  - name: "Data wrangling and cleaning"
+    tasks:
+      - name: Load the CSV data files into Pandas dataframes
+        id: 13003bd3-8235-470e-bd92-ce0598190e2a
+        description: |
+          Download the CSV data files [from the following link](https://data-analytics-migration-to-tableau.s3.eu-west-1.amazonaws.com/data-analytics-files.zip)
+          
+          Next, open Visual Studio Code, create a new `flights.py` file and use Pandas to load all the USA flights data files. 
+
+          Turn each CSV file into a separate dataframe (so that one dataframe corresponds to one year's data). 
+
+          Check that the data was imported successfully.
+        prerequisites:
+          - 7e5a5266-ea05-4aa6-9bbe-b8affd65e280 # 6 Pandas - Concepts and Dataframe Operations
+        duration: 1
+      - name: Data cleaning
+        id: 6db4559f-36d2-490a-856e-0b789bdf2cd5
+        description: |
+          Using Pandas, print the number of records that contain `NULL` values in any of their columns using Panda's `isnull()` and `isna()` functions. 
+
+          Next, remove any columns that contain `NULL` or `NA` values in all of their records. 
+
+          Finally, for any records that still contain `NULL` or `NA` fields, replace them with zeros.
+        prerequisites:
+          - 3fad431d-917f-4989-abc8-6d22d2961e37 # 1 Data Cleaning in Pandas
+          - b17e0a6b-68db-4a1f-9433-04ab57d6da3a # 3 Missing Data
+        duration: 2
+      - name: Data integration
+        id: 8dac29a4-40c0-4104-9015-c3af83210ef0
+        description: |
+          Using Pandas, integrate all of the dataframes together into one master dataframe. 
+
+          This will require making sure all dataframes have the same number of columns, and that each of the column types are the same.
+        duration: 2
+      - name: Export the data to a `combined_data.csv` file
+        id: 22a8a5d2-b321-442f-8ec7-10a477b265cb
+        description: |
+          Using Pandas, export the final master dataframe into one file called `combined_data.csv`. Ensure that the file contains header titles for each column. 
+
+          Next, using the command line interface, copy the file to your S3 bucket using the `aws s3 cp` command. 
+
+          Finally, open AWS and download a copy from AWS S3 to your local machine.
+        prerequisites:
+          - f0379838-450b-4d9e-8cf2-4b9178abe37e
+        duration: 1
+    description: |
+      Prepare the flights data for analysis by exploring, cleaning and integrating the various data files and creating a final, integrated master file.
+    id: 2d2595e7-6b18-4fb0-afec-0d7f4acff13a
+  - name: "PostgreSQL RDS data import and reporting"
+    tasks:
+      - name: Connect pgAdmin4 to the PostgreSQL RDS
+        id: f7d79af5-73d0-45d0-b8c0-b0ff3d2de8c1
+        description: |
+          Open your AWS console, search for RDS, select `DB Instances` and copy your endpoint address. 
+
+          Using your locally installed pgAdmin4, create a new server called `production_server`, and connect to your PostgreSQL RDS using that endpoint along with the username `postgres` and password `postgres`. 
+
+          Leave all remaining settings as they are. Ensure the connection is working properly.
+        prerequisites:
+          - ec099114-05ce-4299-96da-8b372b4f432d
+        duration: 1
+      - name: Create the `flights_analytics_database`
+        id: 9e2ac4b7-c329-479d-88fc-5b17f4c17152
+        description: |
+          Using pgAdmin4, right-click on the `production_server` and create a new database also called `flights_analytics_database`. 
+
+          Refresh the database list and ensure you can see the new database.
+        prerequisites:
+          - 13308eb8-cd86-4e7e-b91a-271e01020dc9 # 1 SQL Setup
+        duration: 0
+      - name: Create the `flights` table
+        id: fa80351d-edf6-471e-9400-3fa94a5bcae6
+        description: |
+          Using pgAdmin4, open the query tool and execute a SQL statement to create a new table called `flights`. 
+
+          This table should have the same number of columns and the same column types as those in the `combined_data.csv` file, but you will also need to add an extra column called `id` as the primary key. 
+
+          Next, refresh the tables list in the `flights_analytics_database` database and ensure that you can see the new table and its columns.
+        prerequisites:
+          - 9edc0c54-ff0e-4d4c-bdda-49ed3527a94e # 2 SQL Basics
+        duration: 1
+      - name: Import the `combined_data.csv` file into the `flights` table
+        id: 38c88230-bf78-4e25-b431-5d92e2082d3a
+        description: |
+          Using pgAdmin4, right-click on the `flights` table and select `Import/Export` to load the `combined_data.csv` file into the `flights` table. 
+
+          In the properties window that pops-up, make sure you select `Import`, `csv` as the format, `,` as the delimiter, and enable `Header`.
+
+          Next, click on the `Columns` tab at the top of the menu and remove the `id` column from the list of columns to import (otherwise you will get an error). 
+
+          Click OK and wait until the data import completes successfully.
+        duration: 1
+      - name: Explore the `flights` table and calculate some statistics
+        id: d7dcf8db-4d5a-4176-b2a7-79c8adb1921d
+        description: |
+          Using SQL statements in pgAdmin4, explore the data in the `flights` table. Execute a `SELECT` statement and limit your results to 100 records. How many columns do you see?
+
+          How many total records does the table contain? Does it have the same number of records as those in the `combined_data.csv` file? 
+
+          Which year had the most number of total inbound and outbound flights? Which country is the most popular destination for flights?
+        prerequisites:
+          - c7ace46d-395a-47fe-b311-fd3b604270c0 # 3 CRUD
+          - cf776c94-6dbe-4c80-8a00-af842f5c66ea # 4 Joins
+          - 30d1f6c4-3518-4b0e-a6e7-d3198fb12c62 # 5 Aggregations
+        duration: 3
+    description: |
+      Connect your locally installed pgAdmin4 to the PostgreSQL RDS database, import the `combined_data.csv` file into PostgreSQL and explore the data before creating some basic reports
+    id: d4492dbf-9e04-4b59-958f-2750fa8052ee
+  - name: "Integrate Tableau Desktop with PostgreSQL RDS"
+    tasks:
+      - name: Download and install Tableau Desktop
+        id: bf4c491d-fac7-4da3-8dd7-f98dab3274f9
+        description: |
+          Download the latest version of Tableau Desktop [from here](https://www.tableau.com/products/desktop/download), run the installer to configure it on your local machine, then open Tableau.
+
+          If you don't have access to the full version, create a trial account. 
+
+          `Note:` If you're on a MAC, you may need to manually download the PostgreSQL connector [from here](https://www.tableau.com/support/drivers), and move it to the `Users/[user]/Documents/My Tableau Repository/Connectors` directory.
+        prerequisites:
+          - 3337329e-7bc0-4876-8edf-cb3056035c32 # 2 Tableau - Introduction
+          - b905d035-01a9-40dc-9c6d-051f771c1aa4 # 3 Tableau - Installation
+        duration: 1
+      - name: Configure the PostgreSQL connector and connect to the `flights_analytics_database` RDS
+        id: ab3c0a32-5cdd-47ed-93e6-44937d117405
+        description: |
+          Using Tableau, select the PostgreSQL connector and enter your PostgreSQL RDS database settings. The settings are the same as the ones you used earlier to connect pgAdmin4 to PostgreSQL (same endpoint, username and password).
+
+          Once the connection is established, click on `Update data` and select `live` to confirm that you can access the data stored in the `flights` table. The data should appear on the bottom right-hand section of the screen.
+        prerequisites:
+          - 09964746-d1f4-4670-a75c-817edacddbcd # 4 Tableau - Integration with PostgreSQL
+        duration: 2
+    description: |
+      Install Tableau Desktop on your local machine, configure it to be used with PostgreSQL, and connect to the RDS database
+    id: da15b9ac-bd0f-4483-9fca-88f749567ab9
+  - name: "Create Tableau Reports"
+    tasks:
+      - name: Tableau data exploration
+        id: 6b2996ed-34cc-4b34-8e44-35157d4d8a27
+        description: |
+          Familiarise yourself with Tableau's landing page and interface. 
+
+          Next, click on `New Sheet` at the bottom left of the screen to open Tableau's main interface. 
+
+          How many total records are there? Is the number of records that same as those in the `flights` table and the `combined_data.csv` file?
+        duration: 2
+      - name: Create a Tableau report for the historical flight origins and destinations
+        id: 3944188c-598f-471e-bd41-ba80e8de32f6
+        description: |
+          Create a Tableau chart that displays the historical data for the highest flight destinations using the `SUM` function.  
+
+          Sort the data in descending order, then add a filter on the `Year` field to make the chart searchable by year.
+
+          Save this report in a file called `flight_origins_destinations.twb` and push this into your Github repository.
+        prerequisites:
+          - 5d0df867-384a-47b9-a5d2-c9907e83c0b9 # 5 Tableau - Create Dashboards
+        duration: 2
+      - name: Create a Tableau report for the average distance travelled
+        id: 8abccea4-e838-4194-814c-dc0fb0987eb1
+        description: |
+          Create a new bar chart that shows the average distance that airplanes travel for all flights (the overall average) for each carrier. 
+
+          Add a filter on the `Year` field to make it searchable by year.
+
+          Save this report in a file called `average_distance_travelled.twb` and push this into your Github repository.
+        duration: 2
+      - name: Create a Tableau report for the most used flight numbers
+        id: e3d27fee-9698-4958-814d-86a1cee062db
+        description: |
+          Create a new line chart that shows the top most used flight numbers (by calculating the `SUM` of both inbound and outbound flights).
+
+          For each of the top 5 flight numbers, what is their most popular origins and destinations?
+
+          Save this report in a file called `most_used_flight_numbers.twb` and push this into your Github repository.
+        duration: 2
+      - name: Create a Tableau report for flight delays and cancellations
+        id: 7457d724-26ae-4b0f-b586-2a18cdded64a
+        description: |
+          Create a new treemap dashboard that shows which airport has the highest overall arrival delay for all flights for all years? 
+
+          Which airport has the overall highest average departure delay for all flights for all years? 
+
+          Which airport has the highest number of cancelled flights for all years?
+
+          Save this report in a file called `delays_and_cancellations.twb` and push this into your Github repository.
+        duration: 2
+    description: |
+      Use Tableau to create a variety of analytics reports based on the flights dataset and export your work to Github
+    id: 41a2b36d-ae2d-4cdf-b81e-8eec720b70e3

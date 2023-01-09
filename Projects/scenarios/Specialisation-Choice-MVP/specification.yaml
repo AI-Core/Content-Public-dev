@@ -1,0 +1,59 @@
+name: Choose Your Specialisation
+description: |
+  Get more detailed information on the different opportunities in industry and pick your specialisation. 
+id: 6461e8ce-1944-46dc-8b25-436ff0045280
+requires_aws: False
+requires_github: False
+cover_img: https://aicore-portal-public-prod-307050600709.s3.eu-west-1.amazonaws.com/images/scenarios/specialisation-choice.png
+milestones:
+  - name: Choose your specialisation
+    description: |
+      Get more detailed information on the different opportunities in industry and pick your specialisation.
+    id: 5001982e-f21e-4030-ab7e-258eb643c8b4
+    tasks:
+      # - name: What is Data Engineering?
+      #   id: df46a90a-60dd-44d1-b33e-8de791ec93c8
+      #   duration: 1
+      #   video_url: https://www.youtube.com/embed/03vMzPpX5Ts
+      #   type: video
+      # - name: What is Data Science?
+      #   id: 17254288-c3b4-498a-8abf-4fdf569198d4
+      #   duration: 1
+      #   video_url: https://www.youtube.com/embed/BajyfJQslIw
+      #   type: video
+      # - name: What is Machine Learning Engineering?
+      #   id: d64d2690-2b6f-4986-8ff0-0c7682a36675
+      #   duration: 1
+      #   video_url: https://www.youtube.com/embed/9_IcVBXDZe8
+      #   type: video
+      # - name: What is Data Analytics?
+      #   id: 67860e69-ef80-4583-8c22-6e2f466b13ec
+      #   duration: 1
+      #   video_url: https://www.youtube.com/embed/9ZVgr41yj1M
+      #   type: video
+      - name: Research the available specialisations
+        id: f234937b-fb1c-4f8a-84f0-788a33f89141
+        description: |
+          Talk to a support engineer or alumni engineer about the specialisations AiCore can offer and the opportunities within each. 
+          We'll help you find the right one and advise as much as we can.
+        duration: 6
+      - name: Select your specialisation
+        id: cda13458-dcf1-466b-a84a-a814ea1191c1
+        description: |
+          Pick which specialisation you will be undertaking.
+        type: choice
+        options:
+          - Data Science:
+              - FormattedChoice: "Data Science"
+              - Choice: 996af772-5609-4680-8022-d6761f434223
+          - Data Engineering:
+              - FormattedChoice: "Data Engineering"
+              - Choice: cfeb9c26-9a82-467f-b91e-77d1c70cf985
+          - ML Engineering:
+              - FormattedChoice: "ML Engineering"
+              - Choice: 9f1749cc-4ba8-4037-ade0-414fcadf848b
+          - Data Analyst:
+              - FormattedChoice: "Data Analytics"
+              - Choice: fce80f76-f4de-4d8b-a88b-1704466bc58e
+        endpoint: "/user/updateproject"
+        duration: 1

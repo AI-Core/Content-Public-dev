@@ -1,0 +1,433 @@
+name: API Data Collection Pipeline
+description: |
+  An implementation of an industry grade data collection pipeline that runs scalably in the cloud.
+id: c65d94e3-e606-43a5-8dfc-a8e6a4b8e71f
+requires_aws: True
+
+milestones:
+  - name: Set up the environment
+    tasks:
+      - name: Set up AWS
+        id: 132dcdb6-69e1-450c-96aa-819a45d6aea2
+        description: |
+          In this project, we'll use some services running in the cloud. Hit the button on the right to automatically create a new AWS cloud account. We'll tell you when we need to use it as we go through the project.
+        duration: 0
+    description: Let's set up our dev environment to get started!
+    duration: 0
+    id: 193ccbbd-0d50-40df-9fc8-42c49438dab1
+  - name: Decide the API you are going to collect data from
+    tasks:
+      - name: Decide the API
+        id: 9f57ecc5-44ba-4265-a49b-f48f4179b6e1
+        description: |
+          Select your subject of interest from one of these publicly available APIs.
+          - CoinMarketCap API https://coinmarketcap.com/api/
+          - NASA API https://api.nasa.gov/
+          - Urban data https://urbanobservatory.ac.uk/
+          - UK police data https://data.police.uk/docs/
+          - Met museum API https://metmuseum.github.io/
+          - Spotify data https://developer.spotify.com/documentation/web-api/
+          - Create an account if the API you have selected requires you to do so. 
+          - Take note if there are any rate limitations for the API selected you might only be able to make a certain amount of requests a day. 
+          - So try to avoid making too many requests in a 24 hour period.
+
+        duration: 2
+    description: ""
+    duration: 2
+    id: f483c315-a9c9-4825-9850-c5172ad3ad94
+
+  - name: Create your API class to retrieve data.
+    tasks:
+      - name: Research the API documentation.
+        id: 7d6ae609-b493-4ef2-9fc1-1986869512aa
+        description: |
+          Research your chosen APIs documentation to understand how to authenticate with the API if required and retrieve data.
+        prerequisites:
+          - bf5e1b7b-0556-4417-809a-85e544ba2e0e # 1 APIs and requests
+        duration: 2
+
+      - name: Create an API class.
+        id: b9c5cc12-1348-4eff-abdb-f6f93d59c2d5
+        description: |
+          Create the initial class for your API, this class will contain all methods to retrieve and store your data.
+
+          If the API you have chosen requires you to authenticate with the API, add code to your classes initialisation method to do so.
+        duration: 2
+
+      - name: Identify data to retrieve.
+        id: 49e78ead-cca7-4f96-b3f6-5b9b19eb80d6
+        description: |
+          Identify some data that you would like to retrieve from your chosen API. In the Spotify case this could be retrieving data about different music genres or artists.
+        duration: 1
+
+      - name: Create methods to retrieve the data.
+        id: 1737f8fc-d31e-462f-a4e5-57869c287fbc
+        description: |
+          Develop methods to retrieve the data you identified in the previous task from the API. Commonly you will use the Python Requests to retrieve data from an API.
+
+        duration: 1
+
+      - name: Run main body of code only within `if __name__ == "__main__"` block
+        id: 82abe2f1-4be8-469a-a466-7629f0b9426e
+        description: |
+          Within the initialiser, have your class call all of the methods implemented so far. Test that you're getting the data you expect from the API.   
+
+          Initialise the class within the `if __name__ == "__main__"` block, so that it only runs if this file is run directly rather than on any import, and make sure it all works.
+        prerequisites:
+          - c2db5943-3f32-4cde-b8f5-396009dbd0a5 # 8 Object Oriented Programming
+        duration: 1
+
+      - name: Begin documenting your experience
+        id: 5c636ee9-8a8e-4081-ad11-f76a27da05d6
+        description: |
+          Now that you have chosen your website and built the initial API class, add documentation to your README file following this [guide](https://github.com/AI-Core/ExampleDocumentation).
+
+          Make sure to include your reasoning for choosing your website, the technologies you've used etc.
+        duration: 0
+    description: ""
+    duration: 7
+    id: 566defd6-b936-45b5-b7c4-da5ac041dd0d
+
+  - name: Retrieving and storing data from the API.
+    tasks:
+      - name: Deterministically generate a unique ID
+        id: f1e37ab2-cd2f-4bb6-b0e9-e48dc47667a5
+        description: |
+
+          Firstly test that you are getting the expected data from the API using your previously created methods.
+
+          Analysis the data retrieved by the API to check if there's a unique identifier for each record. 
+          This could be an ID for a song track in Spotify's case or the unique name of an asteroid for NASA. 
+
+          Identifying this unique value will help you to stop retrieving the same data in the future and prevent duplicate entries in your database.
+
+        duration: 1
+
+      - name: Generate a v4 UUID to act as the globally unique ID for this entry
+        id: 4f859792-0bf7-41f7-af37-61772f3b485e
+        description: |
+          Along with the user friendly id, it is typical to reference each record with a universally unique ID (UUID). 
+          They can be easily generated by importing the Python `uuid` library. 
+          Use the library to generate a unique ID for each record and save this ID along with the each record's features. 
+          You should use a version 4 UUID (universally unique ID) as is conventional.
+          Look up how to generate one in Python if you need to.
+        duration: 1
+
+      - name: Extract data and store in dictionary which maps feature name to feature value
+        id: 0ca2cbb3-65f4-436a-9116-1c60fe078e59
+        description: |
+          Your dictionary should include all details for each record, it's unique ID and links to any images associated with each record.
+        prerequisites:
+          - ee468b4e-b54c-464f-becb-caa81721ad06 # 2 Web Scraping
+        duration: 2
+
+      - name: Create a method to retrieve image data from the API.
+        id: 71047ff3-b642-4000-9346-8afa54209868
+        description: |
+          If the data you retrieve contains links to images then create a method to download the image from the links in the data.
+          You might need to look at a library called urllib to download them.
+          Just search stack overflow for this, and copy the function which you find.
+
+          It's critical to save the images, not just save their link. Otherwise, if the website changes the URL at which these images are stored, your entire dataset will be useless.
+        duration: 1
+
+      - name: Save the raw data dictionaries locally
+        id: 211ae31a-fdbe-4488-ad17-6f4494e9f1cf
+        description: |
+          At some point in the future you may realise that you wanted to do something with this data which you don't realise now. Because of that, it's useful to save all of this data so that if you do need it, you've got it.
+
+          Firstly, write code to create a folder called `raw_data` in the root of your project if it doesn't yet exist.
+
+          Then, write code to create a folder for each datapoint collected within the `raw_data` folder, using the datapoint's id as the name for the folder.
+
+          In the datapoint's folder, save the dictionary in a file called `data.json`.
+          Don't spend time now scraping as much data as you can, as you'll need to do this again later. Simply make sure you can store it locally.
+
+        duration: 1
+
+      - name: Create a method to store the images from your data.
+        id: e78056e4-718d-4c50-99d3-e5b6dc83098c
+        description: |
+
+          Create a method which will create a subfolder inside each datapoints folder called 'images'.
+
+          Then as your scraper runs, programatically put all of your images for each example in the corresponding image folder. Name each image with an index starting from 0 followed by the image file extension. For example, 1.jpg.
+          If your data naturally falls into categories, have Python create a subfolder which has the subcategory as the name when it finds a new category.
+
+        duration: 1
+
+      - name: Update your documentation
+        id: 41871d66-edfb-4dd7-b536-27779777d25b
+        description: |
+          Continuing to follow the guidelines for documentation, add your experience and insight to your README file.
+
+          Talk about the methods you have added and the reasoning behind your approach.
+        duration: 0
+    description: ""
+    duration: 7
+    id: 98de10b3-7335-42ac-9cc7-79cb79eaa329
+
+  - name: Documentation and testing
+    tasks:
+      - name: Refactor and optimise current code
+        id: 6d2857a3-3360-4c48-902d-76da4413e566
+        description: |
+          Refactoring will be a continuous and constant process, but this is the time to really scrutinise your code. Are there any unrequired nested loops, repeated code that could have been a function, was recursion used but not required?
+        prerequisites:
+          - 79517a55-42c6-4e7a-b2cb-6fb80949b773 # 2 Dynamic Programming
+        duration: 1
+
+      - name: Add docstrings to all functions
+        id: a457eef1-3173-4c46-804b-0a5032a7d846
+        description: |
+          Select a consistent format to create your docstrings, do you like they way google does it, numpy or epytext? Docstring all your methods so that they are easy to understand by other users.
+        prerequisites:
+          - 9de4031e-e4c8-4adc-845c-1222986607d5 # 4 Docstring and Typing
+        duration: 0
+
+      - name: Create a unit test for each of your public methods
+        id: 0343c09b-e833-49a2-9757-2fd01fd3766c
+        description: |
+          These tests could be as simple as checking your method returns the correct data type or as complicated as checking you are getting all the required data from each request. 
+          Think about what tests you feel would make your scraper as robust as possible and implement them.
+        duration: 1
+
+      - name: Create a file which runs all of your tests when you run it
+        id: 66a62bbb-e4b8-4b95-964b-bc525be668cf
+        description: |
+          Create a file that performs integration testing of your scraper. Be careful with all the imports, as navigating through different folders is a bit of a challenge.
+        duration: 1
+
+      - name: Test your unit tests are passing for all of your public methods.
+        id: ce7b84c3-54b5-4955-a9c3-8d724bf14054
+        description: |
+          If your test is failing think about why it might be failing. Is it because the method isn't functioning as it should or does the data you're testing against no longer exist? Make changes to each piece of code until they are all passing their tests.
+        duration: 1
+
+      - name: Update your documentation
+        id: c6e561ef-c830-4a9c-8df0-6139bd9ed6b2
+        description: Update your README file. Add documentation on unit testing and how testing works for your API data collection pipeline.
+        duration: 0
+    description: ""
+    duration: 4
+    id: c2a369f2-5647-4a37-b36e-3e299a67b72a
+
+  - name: Scalably store the data
+    tasks:
+      - name: Upload your raw data folder to S3
+        id: fb4b5c00-a703-4ef0-8e5d-febb658d1c5f
+        description: |
+          Each record should have its own JSON file containing all information for that record and be uploaded directly to S3 using boto3. 
+          This should include both the tabular and image data.
+
+          You should store the file and any image data in a folder with the id of the record as the folder name.
+          Inside that folder, save the tabular data in a file called `data.json` and any images in a folder called `images`.
+        prerequisites:
+          - d3fd14cd-8d7b-4c5e-89f7-38616638958b # 2 S3 and boto3
+        duration: 1
+
+      - name: Upload any tabular data to RDS
+        id: 157ccb4b-e446-4fcf-977c-4ab0a8d7d3b4
+        description: |
+          Create a free tier micro RDS database, remember to make it publicly available. 
+          You can use pandas to create a dataframe for each record and then upload to RDS using psycopg2 and sqlalchemy.
+        prerequisites:
+          - 83f7de9b-5d35-4a41-a534-053fd161c0b6 # 1 AWS Overview & RDS
+        duration: 2
+
+      - name: Upload any image data to S3
+        id: 6571b513-3e93-48f6-99a6-fe7b3dd09e5d
+        description: |
+          This can be done directly by creating a method which dumps the data directly to S3 using boto3.
+        duration: 1
+
+      - name: Update your documentation
+        id: 947a73f5-01fd-470e-be94-3f94057822b6
+        description: |
+          Add more documentation to your README file based on what you have done for this milestone. 
+
+          Talk about the cloud services you have used and how you interact with them in your pipeline (Boto3).
+
+          Don't forget to check the example documentation for more information and to guide you.
+        duration: 0
+    description: ""
+    duration: 4
+    id: 2ec4c0d6-2214-4b0b-b2bd-6c4ca773171b
+
+  - name: Getting more data
+    tasks:
+      - name: Check scraper can return at least 400 samples
+        id: 806a5e73-63b6-4e19-b908-300b4fa70b03
+        description: |
+          You may want to implement a counter, or use tqdm to create a progress bar to track the scraper is getting the required records.
+        duration: 1
+
+      - name: Finish testing any additional public methods implemented
+        id: da5a8009-97c9-4f7a-b155-e2c39f0259a8
+        description: |
+          Add more tests for any more public methods you have implemented and reruns all tests to ensure they pass.
+        duration: 0
+
+      - name: Implement a way to prevent requesting the same data (check the user-friendly ID)
+        id: 6a163b6f-1c08-4959-88a8-54d607b9f40d
+        description: |
+          You can implement this by creating a method which checks if the sample corresponding to that ID has already been retrieved.
+        duration: 1
+
+      - name: Prevent duplicate images being collected
+        id: 141cee26-b96f-4da3-9415-b5b61c818dc6
+        description: |
+          You can leverage the UUID of each sample to prevent duplicates from images as well.
+        duration: 1
+
+      - name: Ensure that scraper can request 1000 samples without stopping
+        id: e5f25aff-2c95-4cda-b607-0942525c4157
+        description: |
+          If your API class is failing to get the required 1000 samples. You may need to implement some try/except statements to bypass any requests which cause it to fail.
+          Change your methods to deal with any contingencies and rerun it until it gets the required samples.
+        duration: 0
+
+    description: ""
+    duration: 3
+    id: 6eea93fc-8ca0-461c-8b07-0c9abb4f8929
+
+  - name: Make your API class scalable
+    tasks:
+      - name: Final refactoring of code
+        id: 8ae68dbb-90e0-4392-b654-fd9f5c26073d
+        description: |
+          You can implement a final refactoring of your code to make it more readable
+        duration: 1
+
+      - name: Check all tests are passing
+        id: b9852475-f348-4a13-a2cb-234f3dc33254
+        description: |
+          Rerun all your tests to ensure they are passing before you move onto containerising your scraper.
+        duration: 0
+
+      - name: Scalably prevent rescraping by checking your remote database table of tabular data to see if you've already retrieved this data, or have already have a record with this user-friendly ID
+        id: a7e85479-1335-4bc2-b9ee-49ad4336f5d1
+        description: |
+          Use sqlalchemy and psycopg2 to create a connection to the remote database. Then use an SQL statement to check if a record exits with the user-friendly ID.
+        prerequisites:
+          - 84a9c4c6-3bb2-4095-a96a-6d4ec15498c3 # 7 pyscopg2 and SQLAlchemy
+        duration: 1
+
+      - name: Create Docker image which runs the scraper
+        id: 887b03bf-310b-4318-beed-e150e2a901c6
+        description: |
+          Create a Dockerfile to build your scraper image locally and test it runs to completion. You may want to check your remote database to see your scraper is adding entries correctly when it runs.
+        prerequisites:
+          - 06d96433-7b50-41bc-bbbc-227f1f70152b # 1 Intro to Docker
+          - b8873f7d-087f-479b-a2f5-b26dbf77dc7a # 2 Docker
+        duration: 2
+
+      - name: Containerise the scraper
+        id: a2a21162-dc72-4e0f-a152-2be42154abee
+        description: |
+          Create the Docker image and push it to your Dockerhub account.
+        duration: 1
+
+      - name: Run the scraper on an EC2 instance
+        id: fa630de4-b75e-4d2b-8a9a-6a3f01f8850e
+        description: |
+          Ensure your docker container runs locally. Once it runs locally upload the required files to build the image to a micro EC2 instance. Install docker on the EC2 instance and build and run the image there.
+          If you are going to run additional commands on the EC2 instance, you will need to run the container in `detach` mode.
+        prerequisites:
+          - 891e6afd-f4c6-4b14-aae1-42a8e9e059fa # 3 EC2 Instances
+        duration: 1
+
+      - name: Update your documentation
+        id: 71f57f8f-50a1-40c9-95cc-1ec1a2782b75
+        description: |
+          Update your README file with what you have done for this milestone.
+
+          Talk about docker and how it works, your code refactorisation and the techniques you used to avoid collecting the same data.
+        duration: 0
+    description: ""
+    duration: 6
+    id: 19efb4d1-08eb-45da-beb0-96295cfdad58
+
+  - name: Monitoring and alerting
+    tasks:
+      - name: Set up a Prometheus container to monitor your scraper
+        id: 331a5886-fc4d-4116-9357-23e3cfe24041
+        description: |
+          Create a docker container running Prometheus and configure its `prometheus.yml` config file. Similar to the last task in the previous milestone, if you are going to run additional commands on the EC2 instance, you will need to run the container in `detach` mode.
+          Don't worry if, right now, you are not able to see the metrics, we will get to that point in next tasks.
+        prerequisites:
+          - c50d3121-191c-4485-a456-152f29742715 # 1 Intro to Prometheus
+          - 2af5a6db-bb8d-4aa5-b9ba-75fa2633f255 # 2 Prometheus
+        duration: 1
+
+      - name: Monitor the hardware metrics of the EC2 instance
+        id: bf0f8d21-43c4-4b21-826e-ee6608455258
+        description: |
+          Create a node exporter to monitor hardware metrics while the scraper is running locally.
+        duration: 1
+
+      - name: Monitor the docker container that runs your scraper
+        id: 6108d641-e24e-4f04-b5e1-32ca6091688a
+        description: |
+          Configure the daemon file for Docker as well as the prometheus.yml file to monitor the metrics of the container. Watch this video to see how to do this [here](https://youtu.be/0XLliK-G92w).
+        duration: 1
+
+      - name: Observe the metrics
+        id: 2a906d15-8dcf-4cf2-9983-f3a84dff2512
+        description: |
+          If everything is working, Prometheus should be sending metrics to the 9090 port in the localhost, but we need to see those metrics. Refer to the video included in the previous task to see how to do this.
+        duration: 1
+
+      - name: Create a Grafana dashboard for these metrics
+        id: fcfcaed7-a32c-4850-9ac3-acb6f0e272f5
+        description: |
+          Create dashboard in Grafana to monitor the metrics of the containers and the hardware metrics of the EC2 instance.
+        prerequisites:
+          - a0088509-c9f8-4876-ac69-ac7c27695782 # 3 Grafana
+        duration: 1
+
+      - name: Update your documentation
+        id: 677e7368-f3a6-4d0f-96c6-613f76edd890
+        description: |
+          Update your README file with everything you have done for this milestone, making sure to talk about prometheus and grafana and how it links with your API collection pipeline.
+
+          Continue to reference the example documentation, while making sure your docs are clear and concise.
+        duration: 0
+    description: ""
+    duration: 5
+    id: a3e46569-bfda-4aea-8785-7dca51366812
+
+  - name: Set up a CI/CD pipeline for your Docker image
+    tasks:
+      - name: Set up the GitHub secrets
+        id: 53a1416a-2cbf-4fcc-a614-b268a35c0981
+        description: |
+          You will push a new Docker image to your Dockerhub account, so you will need to set up the relevant GitHub secrets that contains your credentials. Take a look at [this website](https://docs.docker.com/ci-cd/github-actions/) to check out which secret variables are required.
+        prerequisites:
+          - a58ce9ff-7145-47a0-b2b8-34f47a481f88 # 1 GitHub Actions
+        duration: 1
+
+      - name: Create the GitHub action
+        id: 1d68139d-7aa0-4ac0-aecb-9d0f4b433782
+        description: |
+          Create a GitHub action that is triggered on a `push` to the `main` branch of your repository. The action will build the Docker image and push it to your Dockerhub account.
+        duration: 1
+
+      - name: Restart your scraper
+        id: 9471f993-87ea-4d26-8d7b-f3e7131b2942
+        description: |
+          On the EC2 instance, create some cronjobs to restart the scraper every day. The cronjobs should stop and kill the container, and pull the latest image from your Dockerhub account.
+        duration: 1
+
+      - name: Update your documentation
+        id: aef4f959-b353-4929-8f83-c3622c2c45b7
+        description: |
+          Congratulations on finishing this project! Update your README file with what you have done for this milestone.
+
+          Talk about CI/CD pipelines and the process you have developed.
+
+          Go over your entire docs and make sure they read well and are clear and concise.
+        duration: 0
+    description: In this milestone you will have to create a CI/CD pipeline to build and deploy your Docker image to DockerHub.
+    duration: 3
+    id: a5a7db4e-f936-42da-95b6-706d58d23b9c
