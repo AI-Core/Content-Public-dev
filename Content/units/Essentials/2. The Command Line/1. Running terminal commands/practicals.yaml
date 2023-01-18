@@ -1,0 +1,12 @@
+- description: |+
+    1. Using the `rm` command, remove a file named "myFile2.txt" from the "MyFolder" directory.   
+
+  id: 8e1bf266-f12f-4729-82fd-89161ffee9f6
+  name: Remove a File
+
+  
+- description: |+
+    1. Using the `alias` command, create an alias for the `ls` command so that it prints out all of the files in the current directory in reverse alphabetical order.
+
+  id: c71637a0-68d6-4d25-abe6-1c0f89edbfe9
+  name: Create an Alias
