@@ -1,0 +1,14 @@
+name: Python Essentials
+id: 9e31b5c2-18b7-495f-9db0-e93225551981
+description: Pathway to get to the lesson Object Oriented Programming
+lessons:
+- name: What is Python?
+  id: 218220c1-a559-4ebc-b3d8-2fb10ff76302
+- name: Printing things in Python
+  id: 55b2eae1-aa8b-4243-b2df-0de2f02b073e
+- name: Functions and function calls
+  id: a5378de1-4913-409c-bbbb-277a23f2a5f5
+- name: Defining Functions
+  id: 4223a361-1776-424d-a561-1f8fb0260862
+- name: Object Oriented Programming
+  id: c2db5943-3f32-4cde-b8f5-396009dbd0a5

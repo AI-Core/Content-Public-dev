@@ -6,7 +6,11 @@
 
 
 - description: |+
-    1. Make changes to a file, stage the changes using git add, and use the 'git status' command to track changes to the cloned repository.
+    1. Create a new repository with the `git init` command.
+    2. Create a new text file in the repository, add some data to it, and save it.
+    3. Stage the changes using git add, and use the `git status` command to track changes to the cloned repository.
+    4. Commit the changes and add a commit message.
+    5. View the commit message using the `git log` command.
   
   id: bc18d340-807b-4ada-926c-2d718b268e51
   name: Tracking Changes with Git
