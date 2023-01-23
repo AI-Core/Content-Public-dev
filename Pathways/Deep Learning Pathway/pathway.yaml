@@ -1,7 +1,13 @@
 name: Deep Learning Pathway
 id: 419c2c02-2d08-4370-8fdd-48b3e6d61bf8
+target_lessons:
+- name: Saving and Loading PyTorch Models
+  id: 0a6fc357-4b14-482a-a221-7f373169f163
+source_lessons:
+- name: Essential ML Concepts Review
+  id: f0732552-323d-4cd3-a0dc-58b14a13d129
 description: Pathway to get to the lesson(s) Saving and Loading PyTorch Models from
-  the lesson Essential ML Concepts Review
+  the lesson(s) Essential ML Concepts Review
 lessons:
 - name: Essential ML Concepts Review
   id: f0732552-323d-4cd3-a0dc-58b14a13d129

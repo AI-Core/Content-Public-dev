@@ -1,5 +1,9 @@
 name: Imports
 id: 6b7f955b-0365-45c3-83f7-a7925c59642f
+target_lessons:
+- name: Imports
+  id: 1e915112-889d-428b-905b-b8cf4bdce0bf
+source_lessons: null
 description: Pathway to get to the lesson(s) Imports
 lessons:
 - name: What is Python?
