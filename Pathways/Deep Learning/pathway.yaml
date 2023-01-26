@@ -43,17 +43,11 @@ lessons:
   id: fa913a8a-f4c7-4ad8-8410-13cff6a4ad85
 - name: Optimisation in PyTorch - Linear regression example
   id: 2faa29c6-4070-454f-8b87-9d51b7500fae
-- name: What are Convolutional Neural Networks?
-  id: 5f9f45bd-b0f5-4717-ab89-71f548631ab3
-- name: The Convolution Operation
-  id: bcf57998-417d-4349-909f-c2085b5bdea3
 - name: Logistic regression in PyTorch
   id: 4b983bdf-a28f-4b87-bdbe-464384efac2a
 - name: Multiclass classification in PyTorch
   id: d661c61d-a77c-470f-9512-db06c4cdb212
 - name: Building our first neural network in PyTorch
   id: f8589a8f-2d51-4dd0-8ee3-ffc3b421ce03
-- name: Building Convolutional Networks in PyTorch
-  id: 789ec86b-352d-4eee-b5ae-2ee9cfc959c0
 - name: Saving and Loading PyTorch Models
   id: 0a6fc357-4b14-482a-a221-7f373169f163

@@ -1,7 +1,7 @@
 name: Python Essentials
 id: 9e31b5c2-18b7-495f-9db0-e93225551981
-description: Pathway to get to the lesson(s) Object Oriented Programming from the
-  lesson(s) What is Python?
+description: Pathway to get to the lesson(s) Magic Methods, What is `self` in Python?,
+  Operators from the lesson(s) What is Python?
 lessons:
 - name: What is Python?
   id: 218220c1-a559-4ebc-b3d8-2fb10ff76302
@@ -27,9 +27,17 @@ lessons:
   id: 75cbb06b-2e16-439a-a1db-b897b2e1ec46
 - name: Object Oriented Programming
   id: c2db5943-3f32-4cde-b8f5-396009dbd0a5
+- name: Magic Methods
+  id: 9cdc8093-c329-418c-bf2d-3756757bfc74
+- name: What is `self` in Python?
+  id: 912900e3-839c-4f97-a6bb-0cb994a0345e
 target_lessons:
-- name: Object Oriented Programming
-  id: c2db5943-3f32-4cde-b8f5-396009dbd0a5
+- name: Magic Methods
+  id: 9cdc8093-c329-418c-bf2d-3756757bfc74
+- name: What is `self` in Python?
+  id: 912900e3-839c-4f97-a6bb-0cb994a0345e
+- name: Operators
+  id: 75cbb06b-2e16-439a-a1db-b897b2e1ec46
 source_lessons:
 - name: What is Python?
   id: 218220c1-a559-4ebc-b3d8-2fb10ff76302
