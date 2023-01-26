@@ -1,0 +1,7 @@
+id: e0ea18a5-0aa1-43a1-b43a-4daa81d23f53
+description: Learn how to read data from AWS Kinesis using Databricks
+prerequisites:
+  - 76ac6786-1a03-4b8a-82eb-7b65457d7ad7 #Databricks Essentials
+  - 66abbb38-3319-4e8f-a63b-a8ed6f8a5a8c # Databricks - S3 mount
+  - 1b045114-5308-419a-bdcb-d5979f4a8090 # Kinesis
+  - 07ea9db4-c8af-4a33-a321-d77b71f5d8e9 # What is AWS

@@ -18,7 +18,9 @@
 - description: |+ 
     1. Create a list of 3 dictionaries, where each dictionary contains the keys "name", "age" and "favourite_colour". 
     2. Assign appropriate values to each key in each dictionary.
-    3. Use nested for loops to iterate through each dictionary, and assign all the key-value pairs to a single dictionary.
+    3. Using nested for loops or list comprehension, create a new dictionary where the value of each "name" key is a key. 
+    4. The values in the new dictionary should be a dictionary of the other two key-value pairs from each original dictionary.
+    5. As an example, the new dictionary should key-values pairs like this: "Sarah" : {"age": 25, "favourite_colour", "blue"}
 
   id: ef2d703b-761a-4287-99b3-70fbac5e06a3
   name: Nested Data Structures
