@@ -1,0 +1,4 @@
+id: 33391350-5798-4c25-b4e3-5f3fb3b1573e
+description: Learn the essentials of neural networks and the steps involved in building and training them
+prerequisites:
+  - a306a459-ecba-445a-b408-ddb699ef99a3 # PyTorch on GPU

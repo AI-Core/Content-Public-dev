@@ -1,0 +1,4 @@
+id: b15ce589-2a6e-4073-8040-82a0c6ae687a
+description: Learn what is the difference between `torch.nn` and `torch.nn.functional` and how to properly use them
+prerequisites:
+  - c0f0c87d-b43c-48fd-9942-6f3adcc856bd # Understanding PyTorch

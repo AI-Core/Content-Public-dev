@@ -1,0 +1,4 @@
+id: 9af44d81-e8a7-489c-9903-3a0f5fa137f0
+description: Neural networks don't give the exact answer, but an approximation of it. Learn more about this concept and how it relates to the way neural networks work.
+prerequisites:
+  - 33391350-5798-4c25-b4e3-5f3fb3b1573e # Understanding Neural Networks

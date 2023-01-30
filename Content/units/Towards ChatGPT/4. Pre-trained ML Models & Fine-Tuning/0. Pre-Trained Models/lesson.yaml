@@ -1,0 +1,4 @@
+id: cf818558-5f60-403d-b14e-6ac47b795f62
+description: Learn how to use the models that the PyTorch community has trained so that you can use them for your own tasks
+prerequisites:
+  - 9af44d81-e8a7-489c-9903-3a0f5fa137f0 # Neural Networks are General Function Approximators
