@@ -1,9 +1,0 @@
-- id: 750d85ee-9175-4348-8f26-3d7363aa4b34
-  name: Bias-variance trade-off from scratch
-  description: |
-    - update your from scratch linear regression code to use a validation set
-    - graph both the losses together on the same plot
-    - do they look as expected?
-    - can you identify if your model is underfitting or overfitting to the data from these graphs?
-    - which of these possibilities mean your model is biased or has high variance?
-    - add early stopping to your linear regression from scratch code

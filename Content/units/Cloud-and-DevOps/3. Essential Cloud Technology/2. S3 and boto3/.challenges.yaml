@@ -1,9 +1,0 @@
-- id: f24c074f-7d4c-497e-9320-d1feba57edd6
-  name: A bucket full of Cats
-  description: |+
-    1. Create an S3 bucket
-    2. Create an IAM user, and store your credentials
-    3. If you haven't, install aws cli, and configure your local machine using aws configure
-    4. Install boto3
-    5. Download images from this website 'https://all-free-download.com/free-photos/cute-cat-jpg.html'
-    6. Upload them to your S3 bucket using boto3

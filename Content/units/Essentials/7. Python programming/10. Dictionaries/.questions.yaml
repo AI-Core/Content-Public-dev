@@ -1,8 +1,0 @@
-questions:
-  - question: How can you change all the values in a dictionary to uppercase?
-  - question: Can you change all the keys in a dictionary to lowercase?
-  - question: "You have the following dictionaries: \n `dict_1 = {'key_1': 20, 'key_2': 40, 'key_3': 30}` \n\n `dict_2 = {'key_4': 20, 'key_5': 40, 'key_1': 30}` \n\n `dict_1.update(dict_2)` \n ## How many keys will dict_1 have?"
-  - question: Why would you use a tuple rather than a list?
-  - question: "True or False: You need parentheses to define a tuple."
-  - question: "Take a look at these values: \n `5` \n\n `0` \n\n `''` (empty string) \n\n `[]` (empty list) \n\n `None` \n ## Which one would return True if you cast it into a boolean?"
-

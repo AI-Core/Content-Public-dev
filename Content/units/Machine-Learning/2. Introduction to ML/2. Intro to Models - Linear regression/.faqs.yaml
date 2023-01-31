@@ -1,8 +1,0 @@
-id: 54d541f6-987b-461e-a64b-1c3e76e810c5
-name: Intro to Models - Linear regression
-questions:
-- answer: You can replace np.linalg.inv with np.linalg.pinv to calculate pseudo inverse.
-  created_at: '2022-02-02 03:39:10'
-  id: 3b2f91d6-1fc0-4a9f-a11e-c4c62a009fe5
-  question: 'When running Linear Regression model it was failing to calculate the
-    inverse of a singular matrix. '

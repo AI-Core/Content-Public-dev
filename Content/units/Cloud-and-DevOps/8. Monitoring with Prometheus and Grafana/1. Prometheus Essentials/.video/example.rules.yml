@@ -1,6 +1,0 @@
-groups: # High level grouping
-  - name: example # Name of the group of rules
-    interval: 30s # How often they should be evaluated (deafult: 1m)
-    rules: # Set of rules in this this group
-    - record: job:http_inprogress_requests:sum # Name of the rule
-      expr: sum by (job) (http_inprogress_requests) # Evaluated expression

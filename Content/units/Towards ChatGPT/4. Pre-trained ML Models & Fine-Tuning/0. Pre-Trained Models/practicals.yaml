@@ -1,5 +1,0 @@
-- description: |+
-    Find a pre-trained sentiment analysis model on HuggingFace and use it to classify 
-
-  id: 18f511c0-6c35-4408-862e-2c7ed212a52d
-  name: Using Pre-trained Sentiment Analysis Model

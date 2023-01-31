@@ -1,4 +1,0 @@
-id: b2e42513-1620-4cee-afb3-792936b4bdac
-description: Learn the concept of word embeddings and how they can be used to help a neural network understand the meaning of words.
-prerequisites:
-  - a87a5fd9-b271-4cbf-be43-21319b5afce1 # Intro to NLP

@@ -1,9 +1,0 @@
-questions:
-  - question: What is the difference between True distribution, Empirical distribution, and model distribution?
-  - question: What is representattiveness? Why is it important?
-  - question: How can you improve representativeness?
-  - question: In Information Theory, what is entropy?
-  - question: From a mathematical perspective, what is cross entropy?
-  - question: What is KL divergence? How is it related to Cross Entropy?
-  - question: What assumption do you make in the Central Limit Theorem?
-  - question: How is the Central Limit Theorem related to, for example, linear regression?

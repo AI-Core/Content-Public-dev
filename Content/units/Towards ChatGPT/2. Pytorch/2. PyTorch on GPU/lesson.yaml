@@ -1,4 +1,0 @@
-id: a306a459-ecba-445a-b408-ddb699ef99a3
-description: PyTorch can be used in a CPU or a GPU. Learn how to use it in a GPU to speed up your training process
-prerequisites:
-  - b15ce589-2a6e-4073-8040-82a0c6ae687a # torch.nn.functional
