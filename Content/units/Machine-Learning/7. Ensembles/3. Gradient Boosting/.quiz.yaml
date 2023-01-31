@@ -1,0 +1,64 @@
+name: Gradient Boosting
+questions:
+  - question: Select everything true about Gradient Boosting
+    options:
+      - option: Gradient boosting looks at the difference between its current approximation and the known target
+        correct: true
+      - option: In regression, Gradient Boosting methods only works with Mean Squared Error
+        correct: false
+      - option: In regression, Gradient Boosting methods only works with Mean Absolute Error
+        correct: false
+      - option: We can use gradient decent method for minimizing the loss function
+        correct: True
+      - option: Gradient Boosting can be either a classification or regression method
+        correct: true
+      - option: In each stage, a new algorithm compensates the shortcomings of existing model
+        correct: true
+  - question: If your Gradient Boosting ensemble overfits the training set, should you increase or decrease the learning rate?
+    options:
+      - option: Increase the learning rate
+        correct: false
+      - option: Decrease the learning rate
+        correct: true
+      - option: Do not change the learning rate
+        correct: false
+  - question: What are the similarities between Gradient Boosting and Random Forest?
+    options:
+      - option: Both use tree-based methods
+        correct: true
+      - option: They are ensembles methods
+        correct: true
+      - option: The both have a learning rate parameter
+        correct: false
+      - option: They both use entropy as the loss function
+        correct: false
+      - option: They can be used both for classification and regression
+        correct: true
+  - question: Select everything true about Gradient Boosting and AdaBoost
+    options:
+      - option: Gradient Boosting are more robust against outliers than AdaBoost
+        correct: true
+      - option: They both can be used for classification and regression
+        correct: true
+      - option: Gradient Boosting, as opposed to AdaBoost, can be used for clustering
+        correct: false
+      - option: In terms of base algorithms, Gradient Boosting is more flexible than AdaBoost
+        correct: true
+      - option: Both AdaBoost and Gradient Boosting build weak learners
+        correct: true
+  - question:  Which of the following are parameters of the GradientBoostingClassifier in sklearn?
+    options:
+      - option: learning_rate
+        correct: true
+      - option: n_estimators
+        correct: true
+      - option: max_depth
+        correct: True
+      - option: subsample
+        correct: True
+      - option: test_fraction
+        correct: false
+      - option: impurity
+        correct: false
+      - option: loss
+        correct: true

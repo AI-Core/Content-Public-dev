@@ -1,0 +1,74 @@
+- id: a49b1a48-257d-4894-a018-efafb25180eb
+  name: torch fundamentals
+  description: |
+    - create some model parameters for a simple linear model
+      - a torch 3-vector called w
+      - a torch scalar called b
+    - create an example mini-dataset with features called X and labels called y
+      - X should have shape (4, 3) (4 examples, 3 features)
+      - y should have shape (4)
+      - make up a dummy function for assigning labels e.g. y = sum(features)
+    - create a prediction using the linear regression equation
+    - create a function to compute the MSE loss
+    - compute the derivatives of the loss with respect to all of the variables which contributed to it
+      - get an error? why? remember what kwarg you need to give the tensors which you want to compute the derivatives of when you created them?
+    - should your data (features, labels) have requires_grad=True?
+    - what about your model parameters (w, b)?
+    - try loss.backward() again
+    - check the `.grad` attribute of the model params
+    - what is the grad_fn of the loss?
+    - does the grad_fn exist for the model params, predictions or features? Discuss why?
+    - run .backward() again, without running the whole script. What error occurs and why?
+
+- id: 70d910fb-0591-4558-a05f-669771259d3a
+  name: linear regression forward
+  description: |
+    - Load in the Boston housing dataset from sklearn
+    - Create a new class called LinearRegression which inherits from the relevant pytorch module
+    - In the initialiser, initialise the parent class using `super()` and define the layers to initialise their parameters. 
+      - Which layers will this linear regression model need?
+      - Which pytorch class will your layer(s) be instances of?
+      - Use the docs to find the parameters that it will take
+    - Create a forward method which takes in the input and passes it through the desired transformation
+      - Which magic method does the forward method call internally?
+    - Test that you can successfully pass the dataset through your model and are returned the expected shape
+
+- id: 17f68a6f-7cca-4b6b-949a-745456e97c7b
+  name: linear regression backward
+  description: |
+    - Define a function called train which takes in your model, and for a number of epochs, runs the training loop that we're used to
+    - Remember to include:
+      - initialising the optimiser
+      - passing your model parameters to the optimiser so it knows what to optimise
+      - use the pytorch autograd functionality to calculate the gradients
+      - zero the gradients!
+
+- id: 6cdbb3f7-5d68-4718-929c-fe447a0b571f
+  name: Logistic regression
+  description: |
+    - Implement the model class for a logistic regression model
+    - make sure to make use of torch.nn.Sequential when defining your layers
+    - implement the training loop and fit the model on the breast cancer dataset
+
+- id: d0e52384-ecf3-4840-a40d-fd4f854941b8
+  name: My first neural network
+  description: |
+    - Load in the Boston housing dataset from sklearn
+    - Create a new class called NeuralNetwork which inherits from the relevant pytorch module
+    - In the initialiser, initialise the parent class
+      - Define the pytorch layers
+        - the architecture is up to you, but keep it relatively small to start with whilst you debug
+        - the only constraint is that you should obviously have more than one layer
+    - Discuss: where are the model parameters initialised?
+    - Create a forward method which takes in the input and passes it through the layers
+    - Test that you can successfully pass the dataset through your model and are returned the expected shape 
+    - Compare the loss, loss curve, and R^2 (from sklearn) to those from a linear regression model
+      - Discuss: What's the difference? Why? Is this what you expected?
+
+- id: 3fae87da-1ee1-4e12-8f2d-ba327773712f
+  name: logistic regression but now it's deep
+  description: |
+    - Load in the breast cancer dataset
+    - Create a neural network classifier class
+    - Implement the training loop
+    - Compare performance with your logistic regression classifier

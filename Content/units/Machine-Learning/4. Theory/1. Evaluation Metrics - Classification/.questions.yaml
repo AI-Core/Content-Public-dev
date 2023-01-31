@@ -1,0 +1,16 @@
+questions:
+  - question: Name four different metrics for classification
+  - question: How do you calculate the precision?
+  - question: What is another term for recall? How do you calculate it?
+  - question: Why would you want to calculate the f1 score?
+  - question: "Imagine that you have the following confusion matrix:
+              \n\n `   F,  T`
+              \n\n `F [20, 2]`
+              \n\n `T [4, 10]`
+              What is the accuracy, recall, and precision?"
+  - question: "What is it better: having a lower rate of False Positive or a lower rate of False Negatives?"
+  - question: How do you create the ROC curve? What is the AUC?
+  - question: Why would you use RMSE instead of MSE?
+  - question: Why would you use MSE instead of MAE?
+  - question: What is R-2 (R squared)? How do you calculate it?
+  

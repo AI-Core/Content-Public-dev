@@ -1,0 +1,70 @@
+name: Intro to FastAPI
+questions:
+  - question: Which of the following are alternatives to FastAPI?
+    options:
+      - option: The GitHub API
+        correct: false
+      - option: AWS Lambda
+        correct: false
+      - option: Flask
+        correct: true
+      - option: AWS API Gateway
+        correct: true
+      - option: AWS Braket
+        correct: false
+      - option: GCP Cloud Functions
+        correct: false
+      - option: Snowflake
+        correct: false
+  - question: What requests can you add to a FastAPI application?
+    options:
+      - option: GET
+        correct: true
+      - option: POST
+        correct: true
+      - option: PUT
+        correct: true
+      - option: DELETE
+        correct: true
+      - option: PATCH
+        correct: true
+  - question: If not specified, what is the default data type for a query parameter?
+    options:
+      - option: String
+        correct: true
+      - option: Integer
+        correct: false
+      - option: Float
+        correct: false
+      - option: Boolean
+        correct: false
+      - option: List
+        correct: false
+      - option: Dict
+        correct: false
+  - question: What is the default type of response returned by a FastAPI application?
+    options:
+      - option: XML
+        correct: false
+      - option: HTML
+        correct: false
+      - option: JSON
+        correct: true
+      - option: CSV
+        correct: false
+      - option: YAML
+        correct: false
+      - option: Markdown
+        correct: false
+  - question: How can you check the documentation of your own API (created with FastAPI)?
+    options:
+      - option: Checking the docstring of the package or script that contains the API
+        correct: false
+      - option: Visiting the `/docs` endpoint
+        correct: True
+      - option: Visiting the `/openapi` endpoint
+        correct: False
+      - option: Checking the `/redocs` endpoint
+        correct: True
+      - option: Checking the `/swagger` endpoint
+        correct: False

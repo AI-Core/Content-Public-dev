@@ -1,0 +1,59 @@
+name: Streaming
+questions:
+  - question: What of the following best defines the operation done by DStream?
+    options:
+      - option: Dstream is a Continuous Stream of RDD
+        correct: true
+      - option: Dstream is a Continuous Stream of DataFrame
+        correct: false
+      - option: Dstream is a Continuous Stream of SQL databases
+        correct: false
+      - option: Dstream is a Continuous Stream of Datasets
+        correct: false
+      - option: None of the above
+        correct: false
+  - question: Select everything True about Spark Streaming
+    options:
+      - option: The basic abstraction of Spark Streaming is DRR
+        correct: false
+      - option: Kafka, Flume and Kinesis are data sources that can be used by Spark Streaming
+        correct: true
+      - option: To start a streaming job, you need to create a SparkContext
+        correct: true
+      - option: All functionalities of Spark Streaming are available in Python
+        correct: false
+      - option: You can work with RDDs, DataFrames, or SQL in Spark Streaming
+        correct: true
+      - option: "There are two kind or receivers: Trusted and Untrusted"
+        correct: false
+  - question: Which of the following is NOT a transformation on DStream
+    options:
+      - option: union
+        correct: false
+      - option: mappartitions
+        correct: true
+      - option: map
+        correct: false
+      - option: flatMap
+        correct: false
+      - option: merge
+        correct: true
+      - option: builder
+        correct: true
+     
+  - question: Which of the following is NOT an output operation on DStream
+    options:
+      - option: SaveAsTextFiles
+        correct: false
+      - option: foreachRDD
+        correct: false
+      - option: updateStateByKey
+        correct: true
+      - option: saveAsHadoopFiles
+        correct: false
+      - option: countByWindow
+        correct: true
+      - option: reduceByKey
+        correct: true
+
+ 

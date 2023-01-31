@@ -1,0 +1,90 @@
+- id: 06d64a78-bf25-4a52-9a9f-a410466fab61
+  name: String Length
+  description: |+
+    1. Print the length of the word:
+    `long_word = 'Pneumonoultramicroscopicsilicovolcanoconiosis'`
+    Don't worry if you can't see the whole word, you can select it and copy it to the clipboard.
+    2. Print the length of `long_word`.
+    2. Access the first letter of `long_word` by indexing the variable and assign it to `first_c`. 
+    3. Access the last letter of `long_word` and assign it to `last_c`. 
+    4. Use an arithmetic operator to append `last_c` to `first_c` and print the result
+
+- id: 864ed954-756a-40cd-9716-e58ec931af21
+  name: Basic arithmetic
+  description: |+
+    You have two variables:
+
+    `a = 42`
+    `b = 25`
+    
+    1. Print the sum of `a` and `b`
+    2. Print the difference of `a` and `b`
+    3. Print the product of `a` and `b`
+    4. Print the division of `a` by `b`
+    Now `a = 4.2`
+    5. Print the type of `a + b`. Why does this happen?
+
+- id: dc4a83e8-e7fc-4146-99da-0cae797e0ab6
+  name: Exercises on Numbers
+  description: |+
+    1. What is the difference between an integer and a floating-point number?
+    2. Write an expression using addition & subtraction & multiplication & division that is equal to 1044.75.
+    3. What is the modulo operator? How can you check if a number is multiple of three?
+    4. What is the difference between normal and floor division?
+    5. Calculate `1 + 2 * 3 - 4 / 6 * (6 + 7) * 8 ** 9`
+
+- id: 959dc92e-954e-4c90-8fe3-d79c1e68ddc0
+  name: Calculate your shopping bills.
+  description: |+
+    1. Assign variables for each of these items and their prices
+      - Tomatoes cost 87p for a pack of 6
+      - 500g sugar costs £1.09
+      - Washing sponges cost 29p for a pack of 10
+      - Juice is £1.89 per 1.5l bottle
+      - Foil is £1.29 per 30m roll<br>
+    2. Using arithmetic operations in Python, calculate the price of 1kg sugar
+    3. What is the price of 20 washing sponges, 3l of juice, and 2 packs of tomatoes?
+
+- id: 65757d09-09b2-46f1-98f0-9846e58340d4
+  name: Calculate a groups shopping bills.
+  description: |+
+    1. How much would it cost for 5 people if each person needs:
+      - A pack of tomatoes
+      - 3 washing sponges
+      - A litre of juice
+      - 20m of foil
+      - 180g sugar
+    2. Assign the value to `total`
+      - Provide your answer as a printed variable called `total`.
+    3. These prices do not include VAT. Calculate the VAT on the total, assuming that VAT is 20%. 
+    4. Then round it appropriately to two decimal places.
+
+- id: db511c61-e43b-4c13-94a5-44570bebaeca
+  name: Volumes and surfaces of shapes.
+  description: |+
+    1. You have shapes with measurements:
+      - Cuboid:
+        - Height (`h`): 25/7
+        - Width (`w`): 25/2
+        - Length (`l`): 35
+      - Cone:
+        - Height (`h`): 10
+        - Radius of base (`r`): 3
+
+    2. Calculate the volume and surface areas of the shapes using the following equations.
+      
+      - `cuboid_volume = l * w * h`
+      - `cuboid_surface_area = 2(lw + lh + hw)`
+
+      - `cone_volume = pi * r**2 * h/3`
+      - `cone_surface_area = pi * r(r + sqrt(h**2 + r**2))`
+
+    3. Write two print statements (one for each shape) in the format:
+      "The volume of {shape} is {x} and the surface area is {y}."
+        
+
+
+
+    
+
+

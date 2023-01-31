@@ -1,0 +1,171 @@
+name: Loops
+questions:
+  - question: "True or False: for and while loops are usually applied for the same purposes"
+    options:
+      - option: "True"
+        correct: false
+      - option: "False"
+        correct: true
+  - question: Which of the following commands are used in a loop for control flow?
+    options:
+      - option: continue
+        correct: true
+      - option: start
+        correct: false
+      - option: stop
+        correct: false
+      - option: break
+        correct: true
+      - option: pass
+        correct: true
+  - question: Which of the following is a valid syntax for a loop?
+    options:
+      - option: "while (i < 10):"
+        correct: true
+      - option: while (i < 10)
+        correct: false
+      - option: "while True:"
+        correct: true
+      - option: "for i in 10:"
+        correct: false
+      - option: "for i in range(0, 10):"
+        correct: true
+      - option: "for i, j in enumerate(range(0, 10)):"
+        correct: true
+  - question: "What is the data type of i within this loop? for i in enumerate(range(10)):"
+    options:
+      - option: int
+        correct: false
+      - option: tuple
+        correct: true
+      - option: list
+        correct: false
+      - option: str
+        correct: false
+      - option: float
+        correct: false
+      - option: bool
+        correct: false
+  - question: How do you (gracefully) stop an infinite loop?
+    options:
+      - option: In a notebook, pressing the stop button
+        correct: true
+      - option: Closing and opening Python
+        correct: false
+      - option: Using Ctrl+C
+        correct: true
+      - option: Using Ctrl+Z
+        correct: false
+      - option: "Infinite loops will eventually stop, so you can't stop it manually"
+        correct: false
+  # - options:
+  #     - correct: false
+  #       option: 0, 1, 2, 3, 4, 5, 6
+  #     - correct: false
+  #       option: 0, 2, 4, 6
+  #     - correct: false
+  #       option: 0, 1, 3, 5
+  #     - correct: false
+  #       option: 1, 3, 5
+  #     - correct: true
+  #       option: 0, 2, 4
+  #     - correct: false
+  #       option: 2, 4, 6
+  #   question: 'You have the code on the right-hand side.
+
+  #     What is the output?'
+  # - options:
+  #     - correct: true
+  #       option: x < 10 ; x += 1
+  #     - correct: false
+  #       option: x < 10 ; x += 2
+  #     - correct: true
+  #       option: x < 10 ; x += 3
+  #     - correct: true
+  #       option: x != 10 ; x += 1
+  #     - correct: false
+  #       option: x < 9 ; x += 1
+  #     - correct: true
+  #       option: x <= 9 ; x = x + 1
+  #   question: 'You have the code on the right-hand side.
+
+
+  #     Select all options which fill the gaps so the last printed number is 9'
+  # - options:
+  #     - correct: false
+  #       option: 1; 2; 3; 4; 5; 6; 7; 8; 9
+  #     - correct: true
+  #       option: '[1, 2, 3]; [4, 5, 6]; [7, 8, 9]'
+  #     - correct: false
+  #       option: '[1];[2];[3];[4];[5];[6];[7];[8];[9]'
+  #     - correct: false
+  #       option: '[1, 2, 3] , [4, 5, 6] , [7, 8, 9]'
+  #     - correct: false
+  #       option: It will throw and error
+  #   question: 'You have the following list of lists:
+
+
+  #     _array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]_
+
+
+  #     What will the following code print?'
+  # - options:
+  #     - correct: true
+  #       option: i; range(len(array)); array[i][i]
+  #     - correct: true
+  #       option: i, j; enumerate(range(len(array))); array[i][j]
+  #     - correct: false
+  #       option: i, j; enumerate(len(array)); array[i][j]
+  #     - correct: true
+  #       option: i, j; enumerate(array); j[i]
+  #     - correct: false
+  #       option: i, j; enumerate(array); array[i][j]
+  #   question: 'You have the following list of lists:
+
+
+  #     _array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]_
+
+
+  #     Considering the incomplete code on the right-hand side
+
+
+  #     Which options would print the following output?
+
+
+  #     _1_
+
+  #     _5_
+
+  #     _9_
+
+
+  #     Change indented lines with pictures.
+
+
+  #     Select all that apply'
+  # - options:
+  #     - correct: false
+  #       option: Option a)
+  #     - correct: false
+  #       option: Option b)
+  #     - correct: true
+  #       option: Option c)
+  #     - correct: false
+  #       option: Option d)
+  #     - correct: true
+  #       option: Option e)
+  #   question: 'You have the following dictionary:
+
+
+  #     _superhero = {''Alias'' : ''Batman'', ''Name'' : ''Bruce'', ''Surname'' : ''Wayne'',
+  #     ''Superpower'' : ''Being Rich''}_
+
+
+  #     Which option can ''invert'' the dictionary? This means the key becomes the value
+  #     and the value becomes the key. For example:
+
+
+  #     _superhero\_invert = {''Batman'': ''Alias'', ''Bruce'': ''Name'' ... }_
+
+
+  #     Select all that apply'

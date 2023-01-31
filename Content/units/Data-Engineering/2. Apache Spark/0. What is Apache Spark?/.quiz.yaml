@@ -1,0 +1,77 @@
+name: Spark Theory
+questions:
+  - question: What languages does Spark support?
+    options:
+      - option: C++
+        correct: false
+      - option: Perl
+        correct: false
+      - option: Java
+        correct: true
+      - option: Go
+        correct: false
+      - option: Scala
+        correct: true
+      - option: Matlab
+        correct: false
+      - option: Python
+        correct: true
+      - option: R
+        correct: true
+  - question: Which type of data processing Spark offers?
+    options:
+      - option: Batch-based processing
+        correct: true
+      - option: Streamed-based processing
+        correct: true
+      - option: None
+        correct: false
+      - option: Both
+        correct: true
+  - question: Which of the following component is NOT part of Apache Spark?
+    options:
+      - option: GraphX
+        correct: false
+      - option: MapReduce
+        correct: true
+      - option: Scala
+        correct: true
+      - option: Spark SQL
+        correct: false
+      - option: MLLib
+        correct: false
+      - option: Cassandra
+        correct: true
+  - question: What is the Sparks data loading mechanism?
+    options:
+      - option: Eager Loading
+        correct: false
+      - option: Lazy Loading
+        correct: true
+      - option: Node Loading
+        correct: false
+      - option: Cluster Loading
+        correct: false
+  - question: Which of the following is TRUE? Select ALL that apply
+    options:
+      - option: Cluster Managers receives requests from executors to allocate more resources for the executors
+        correct: false
+      - option: Cluster Managers receives requests from the driver to allocate more resources for the executors
+        correct: true
+      - option: 'Executors have multiple options to allocate resources: Local, Standalone, Mesos, YARN, Kubernetes, amongst others'
+        correct: false
+      - option: 'Drivers have multiple options to allocate resources: Local, Standalone, Mesos, YARN, Kubernetes, amongst others'
+        correct: false
+  - question: What functionalities do Spark provide?
+    options:
+      - option: Machine Learning
+        correct: true
+      - option: Batch processing
+        correct: true
+      - option: Stream processing
+        correct: true
+      - option: Graph processing
+        correct: true
+      - option: SQL queries
+        correct: true
+

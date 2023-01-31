@@ -1,0 +1,8 @@
+- name: House price data
+  id: 63046646-293a-4903-b488-040fe7912570
+  description: |+
+    1. Load the California house pricing dataset from sklearn
+    2. Unpack the data
+    3. Print its type and shape
+    4. Turn it into a pandas dataframe
+    5. Use a handy pandas method to find the mean, variance and other descriptive stats of the data

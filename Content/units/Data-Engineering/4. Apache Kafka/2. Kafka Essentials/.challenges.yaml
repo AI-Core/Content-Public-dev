@@ -1,0 +1,39 @@
+- name: Running a Simple Kafka System  
+  id: fde582a4-3324-11ec-8d3d-0242ac130003
+  description: |  
+    - If you haven't already done so, follow the steps in the Lesson 1 Notebook to download and untar Apache Kafka for Linux.
+    - Run each of the Bash commands mentioned in the Zookeeper, Topic, Producer and Consumer sections
+    - Make a note of how fast the data appears in the Consumer terminal once it is entered into the Producer terminal.
+- name: Zookeeper Properties
+  id: aa71b77a-3746-11ec-8d3d-0242ac130003
+  description: |
+    - Open the zookeeper.properties file, which is in the Config folder, and read through it using your preferred text editor.
+    - Write down how many configurable properties are mentioned and what each one of them does.
+- name: Kafka Server Properties
+  id: 39bbe8a0-1ca0-4f73-8894-16e78b0f4849
+  description: |
+    - Go to the Kafka Config folder on your machine.
+    - Open the server.properties file.
+    - Read through the file.
+    - Write down all the main configurable properties.
+    - Briefly explain what each one of them does.
+- name: Kafka Producer Properties
+  id: 4a23b0c3-b90c-481b-869f-c6da8612abca
+  description: |
+    - Go to the Kafka Config folder on your machine.
+    - Open the producer.properties file.
+    - Read through the file.
+    - Write down all the main configurable properties.
+    - Briefly explain what each one of them does.
+- name: Kafka Consumer Properties
+  id: df3532cb-7fc5-4ed2-a747-d27e64b1556e
+  description: |
+    - Go to the Kafka Config folder on your machine.
+    - Open the consumer.properties file.
+    - Read through the file.
+    - Write down all the main configurable properties.
+    - Briefly explain what each one of them does.
+- name: "Bonus: AWS MSK - Kafka in the cloud"
+  id: 4c965ba2-9398-4e61-8976-b295f2a17b39
+  description: |
+    Click [here](https://docs.aws.amazon.com/msk/latest/developerguide/getting-started.html) and step through this tutorial

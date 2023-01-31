@@ -1,0 +1,76 @@
+name: Grafana
+questions:
+  - options:
+      - correct: true
+        option: Completley open source for running data analytics and alerting
+      - correct: true
+        option: Can be connected to multiple popular data sources allowing all your metrics to be viewable in one place.
+      - correct: true
+        option: Has integration for alerting built in.
+      - correct: true
+        option: Can create as many dashboards as you like and configure them to your liking.
+      - correct: false
+        option:  Has to be used and stored on the cloud.
+      - correct: false
+        option: Not too many options for notifying you of alerts
+      - correct: false
+        option: Only one dashboard is viewable and you need to switch between them.
+      - correct: true
+        option: Filter data across any custom time range
+      - correct: true
+        option: Apply expressions to your metrics to get the data you need and want.
+    question: What's great about using Grafana to create custom dashboards?
+  - options:
+      - correct: true
+        option: AWS CloudWatch
+      - correct: true
+        option: PostgreSQL
+      - correct: true
+        option: Microsoft SQL Server
+      - correct: true
+        option: Azure Monitoring
+      - correct: true
+        option: Jira
+      - correct: false
+        option: Slack
+      - correct: false
+        option: Discord
+      - correct: false
+        option: Steam
+    question: What are some of the already integrated data sources you can have Grafana track.
+  - options:
+      - correct: true
+        option: Discord
+      - correct: true
+        option: Email
+      - correct: true
+        option: Microsoft Teams
+      - correct: true
+        option: Google Hangouts
+      - correct: true
+        option: Slack
+      - correct: false
+        option: Facebook Messenger
+      - correct: false
+        option: Text Message
+      - correct: false
+        option: Steam
+    question: What are some of the platforms you can have Grafana alert you on?  
+  - options:
+      - correct: true
+        option: Panel Library to save custom panels that are reusable.
+      - correct: true
+        option: Playlist to rotate through different dashboards.
+      - correct: true
+        option: Folders to store your dashboards in an more orgainised manner.
+      - correct: true
+        option: Explore to quickly run queries to check metrics you may consider adding to your dashboard.
+      - correct: true
+        option: Rows to orgainise your dashboard panels.
+      - correct: false
+        option: Annotate graphs with the pen tool.
+      - correct: false
+        option: Export graph in png format.
+      - correct: true
+        option: Add links to other dashboards from a dashboard
+    question: What are some of the features you can use when creating dashboards?

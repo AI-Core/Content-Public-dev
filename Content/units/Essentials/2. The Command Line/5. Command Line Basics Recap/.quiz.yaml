@@ -1,0 +1,140 @@
+name: 'Programming Environment: Operating Systems and Command Line'
+questions:
+  - options:
+      - correct: true
+        option: Virus Susceptibility compared to other OSs
+      - correct: true
+        option: Closed Source
+      - correct: false
+        option: Its default terminal uses Bash
+      - correct: false
+        option: Short Range of applications available
+      - correct: true
+        option: Worse support by open source software
+    question: Select disadvantages of using Windows. Select all that apply.
+  - options:
+      - correct: false
+        option: Arch Linux
+      - correct: false
+        option: Fedora
+      - correct: true
+        option: Prometheus
+      - correct: false
+        option: Ubuntu
+      - correct: false
+        option: Debian
+      - correct: true
+        option: Distro
+      - correct: true
+        option: Theano
+    question: Which is NOT a Linux Distribution? Select all that apply.
+  - options:
+      - correct: true
+        option: They are also known as Command Lines
+      - correct: true
+        option: They allow us to send simple text commands to our computer
+      - correct: false
+        option: They are interfaces that allow you to interact with the computer using windows and icons
+    question: Mark everything TRUE about Terminals
+  - options:
+      - correct: false
+        option: Using PowerShell
+      - correct: true
+        option: Using Git Bash
+      - correct: false
+        option: 'For Windows: Using the default Terminal (Command Prompt)'
+      - correct: true
+        option: 'For MacOS: Using the default Terminal'
+      - correct: true
+        option: 'For Linux: Using the default Terminal'
+    question: How can you use Bash commands in your terminal? Select all that apply.
+  - options:
+      - correct: false
+        option: You should always use GUI
+      - correct: false
+        option: CLI allows you to visualize more tasks
+      - correct: true
+        option: CLIs usually take less resources than GUIs
+      - correct: true
+        option: CLI commands often remain the same as opposed to new GUIs
+    question: Why would you use CLI and not simply the GUI? Select all that apply.
+  - options:
+      - correct: false
+        option: Search the Python docs
+      - correct: false
+        option: Add the command to your `.bashrc` file and open a new terminal
+      - correct: true
+        option: Search "bash <name of command>" in a browser
+      - correct: true
+        option: Follow the command with `--help` and run this in the terminal
+      - correct: true
+        option: prefix the command name with `man` and run this in the terminal
+    question: How should you find help on how to use a bash terminal command?
+  - options:
+      - correct: true
+        option: foo.txt contains now only 'Hello World'
+      - correct: false
+        option: A new file is created and it contains 'Hello World'
+      - correct: false
+        option: '''Hello World'' is appended to the end of foo.txt'
+      - correct: false
+        option: A new file foo.txt is created in the DataScience directory
+      - correct: false
+        option: The CLI throws an error
+    question: |
+      In your terminal you write _ls_ and see this:
+
+
+      _foo.txt_
+
+      _bar.txt_
+
+      _DataScience/_
+
+
+      You then write:
+
+
+      _echo "Hello World" > foo.txt_
+
+
+      What happens?
+  - options:
+      - correct: true
+        option: cp bar.txt DataScience/
+      - correct: false
+        option: rm bar.txt DataScience/
+      - correct: true
+        option: touch DataScience/bar.txt
+      - correct: false
+        option: cat bar.txt DataScience/
+      - correct: true
+        option: mv bar.txt DataScience/
+      - correct: false
+        option: echo DataScience/bar.txt
+    question: |
+      In your terminal you write _ls_ and see this:
+
+
+      _foo.txt_
+
+      _bar.txt_
+
+      _DataScience/_
+
+
+      Which option will result in a file named bar.txt in the  DataScience/
+      directory?
+
+      Select all that apply.
+  - options:
+      - correct: true
+        option: False - you should add this file to your `.bashrc` file (if using a bash terminal)
+      - correct: false
+        option: False - you should run this every time you create a new terminal
+      - correct: false
+        option: False - you should prefix this with `export`
+      - correct: false
+        option: true - aliases are applied globally
+    question: Writing _alias ~='cd ~' _makes that anytime you write ~, you will move
+      directly to $HOME, even after restarting the computer.

@@ -1,0 +1,28 @@
+questions: 
+  - question: What does CRUD stand for?
+  - question: What command would you run to create a blank table, which command would you use to create one from an existing table?
+  - question: Which three attributes do you use when creating a table?
+  - question: Name two constraints you can apply to columns, what do these constraints do?
+  - question: What statements would you use to update the rows of a database?
+  - question: "What does the following code do:<br>
+
+              `CREATE TABLE movies (`
+              <br>&emsp;`title VARCHAR(30) NOT NULL`,
+              <br>&emsp;`release_date DATE NOT NULL`,
+              "
+
+  - question: "What does the following code do:<br>
+    
+                `INSERT INTO actor_short`
+                <br>&emsp;`SELECT * FROM actor`
+                <br>&emsp;`WHERE first_name LIKE '%EN'`;
+              " 
+  - question: What command would you use to remove a whole table using SQL?
+  - question: "What does the following code do:<br>
+
+              `CREATE TABLE movies (`
+              <br>&emsp;`minutes INT CONSTRAINT positive CHECK (minutes > 0),`,
+              <br>&emsp;`CONSTRAINT valid_premier CHECK (release_date > premier_access)`,
+              "
+  - question: What is the CHECK command used for?
+

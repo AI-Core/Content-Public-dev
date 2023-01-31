@@ -1,0 +1,18 @@
+- name: Creating a daily weather report
+  id: dded9968-2d34-4310-b6de-bfda6d86da49
+  description: |+
+    1. Create a new remote repository in your GitHub account. 
+    2. You will eventually use if for storing weather data, so name your repository accordingly.
+    3. Clone the repository to your local machine.
+    4. Copy the DAG file 'dag_test_dependencies.py' to the folder 'dags' in your local machine.
+    5. Change the file according to the name of your repository and the directory you cloned it to.
+    6. Unpause the DAG by running 'airflow dags unpause dag_test_dependencies' or by going to the 'DAGS' tab in the UI and clicking on the 'dag_test_dependencies' DAG.
+    7. Create a python function or script that will connect to the BBC weather webpage, and retrieve data about the temperature and humidity every hour in London. If you create the python function you will need to use the PythonOperator, but if you create the script you will need to use the BashOperator.
+    8. Clean the data, so both the temperature and the humidity are stored as integers.
+    9. The task created in last exercise will be connected to two different tasks:
+      - The first task is appending the data to a csv file. Then, you will stage and commit the data, and finally push it to your remote repository.
+      - The second task is creating a table in your database. (Use any database you want). The table will have three columns: time, temperature, and humidity. Make sure that, if the table exists, it won't throw an error.
+      - Insert the retrived data into the table.
+  # difficulty: Hard
+  # tags:
+  #   - Apache Airflow

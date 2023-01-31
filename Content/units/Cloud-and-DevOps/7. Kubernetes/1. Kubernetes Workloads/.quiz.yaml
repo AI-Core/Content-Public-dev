@@ -1,0 +1,51 @@
+name: Kubernetes Workloads
+questions:
+  - question: Select Everything True about Pods
+    options:
+      - option: It is recommended to create Pods directly
+        correct: false
+      - option: The Docker image should be specified in the status field of the Pod
+        correct: false
+      - option: Workloads can be broadly divided into Pods and Workloads Resources
+        correct: true
+      - option: Commonly, you will see Pods containing a single containers
+        correct: true
+      - option: If you delete a 'bare' Pod, it will automatically start running again
+        correct: false
+  - question: Select Everything True about Jobs and CronJobs
+    options:
+      - option: CronJob needs a special template for the jobs to be created
+        correct: true
+      - option: The spec.backoffLimit sets the number of retries before Job gives up
+        correct: true
+      - option: By default, Job resources will be removed right after the Pod has succesfully ran N times
+        correct: false
+      - option: You can also use a Job to run multiple Pods in parallel
+        correct: true
+      - option: parallelism, manualSelector, and ttlSecondsAfterFinished are all possible Job specs
+        correct: true
+      - option: schedule, startingTime, and suspend are all possible CronJob specs
+        correct: false
+  - question: Which of the following statements are true?
+    options:
+      - option: You can manage ReplicaSets from Deployments
+        correct: true
+      - option: In the container specs.resources you can set both limit and requests
+        correct: true
+      - option: You can set as many DaemonSets replicas as your cluster allows
+        correct: false
+      - option: The resources you create will be deployed to the default namespace by default
+        correct: true
+      - option: By default, when you start a pod, it will be placed in all nodes, so it is always available
+        correct: false
+  - question: Which description best fits a DaemonSet?
+    options:
+      - option: A way to run a copy of a pod on all or some nodes
+        correct: true
+      - option: A method to manage clusters of pods
+        correct: false
+      - option: A channel through which to pass information between two or more nodes
+        correct: false
+      - option: A system to connect nodes and pods
+        correct: false
+      

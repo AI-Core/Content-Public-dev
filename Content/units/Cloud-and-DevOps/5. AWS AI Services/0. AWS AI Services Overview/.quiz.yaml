@@ -1,0 +1,99 @@
+name: AWS ML Services Overview
+questions:
+  - options:
+      - correct: true
+        option: AWS SageMaker comes with an integrated IDE specifically designed for Machine Learning.
+      - correct: true
+        option: SageMaker allows you to automatically tune the hyperparameters of your model.
+      - correct: true
+        option: Comes with prebuilt solutions for common use cases.
+      - correct: true
+        option: Comes with an integrated feature store which helps ensure feature consistency.
+      - correct: false
+        option: Allows you to schedule training jobs.
+      - correct: false
+        option: Store your data on your local machine and use Sagemaker to train your models.
+      - correct: false
+        option: Can't easily integrate with Kubernetes and Kubeflow.
+      - correct: false
+        option: Have to integrate with your own model monitoring platform.
+    question: Select everything true about Amazon SageMaker. 
+
+  - options:
+      - correct: true
+        option: AWS Transcribe and Comprehend
+      - correct: false
+        option: AWS Lex and Transcribe
+      - correct: false
+        option: AWS Rekognition and Lex
+      - correct: false
+        option: AWS Polly and Lex
+      - correct: false
+        option: AWS Polly and Rekognition 
+      - correct: false
+        option: AWS Kendra and Comprehend
+      - correct: false
+        option: AWS Personalise and AWS Fraud Detector
+      - correct: false
+        option: AWS Polly and Lex
+    question: If you wanted to convert customer phone orders into text and then analyse it to gain insights which two AWS ML Services would you use?
+  
+  # - options:
+  #     - correct: false
+  #       option: AWS Transcribe and Comprehend
+  #     - correct: false
+  #       option: AWS Lex and Transcribe
+  #     - correct: false
+  #       option: AWS Rekognition and Lex
+  #     - correct: false
+  #       option: AWS Polly and Lex
+  #     - correct: true
+  #       option: AWS Polly and Personalise
+  #     - correct: false
+  #       option: AWS Kendra and Comprehend
+  #     - correct: false
+  #       option: AWS Personalise and AWS Fraud Detector
+  #     - correct: false
+  #       option: AWS Polly and Lex
+  #   question: You have created an app that teaches your users how to learn a language. You like to convert the language text into speech and recommend lessons to your users which services you use.
+  
+  # - question: If you wanted to convert customer phone orders into text and then analyse it to gain insights which two AWS ML Services would you use?
+  #   options:
+  #     - correct: false
+  #       option: AWS Transcribe and Comprehend
+  #     - correct: false
+  #       option: AWS Lex and Transcribe
+  #     - correct: false
+  #       option: AWS Rekognition and Lex
+  #     - correct: false
+  #       option: AWS Polly and Lex
+  #     - correct: true
+  #       option: AWS Polly and Personalise
+  #     - correct: false
+  #       option: AWS Kendra and Comprehend
+  #     - correct: false
+  #       option: AWS Personalise and AWS Fraud Detector
+  #     - correct: false
+  #       option: AWS Polly and Lex
+  
+  # - question: You have created an app that teaches your users how to learn a language. You would like to convert the language text into speech and recommend lessons to your users which services you use.
+  #   options:
+  #     - correct: false
+  #       option: AWS Transcribe and Comprehend
+  #     - correct: false
+  #       option: AWS Lex and Transcribe
+  #     - correct: false
+  #       option: AWS Rekognition and Lex
+  #     - correct: false
+  #       option: AWS Polly and Lex
+  #     - correct: true
+  #       option: AWS Lex and Forecast
+  #     - correct: false
+  #       option: AWS Kendra and Comprehend
+  #     - correct: false
+  #       option: AWS Personalise and AWS Fraud Detector
+  #     - correct: false
+  #       option: AWS Polly and Lex
+
+    # question: Your business has a need to predict what level of stock they may need for next month. 
+    #           They would also like a chatbot that can help customers gain information about their orders which two services would you suggest.

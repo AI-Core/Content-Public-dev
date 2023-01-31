@@ -1,0 +1,4 @@
+questions:
+  - question: What is a generator and how is it different to a list or a tuple?
+  - question: How can I force a generator to compute all of the values so that I can print them?
+  - question: How do I write a comprehension and a generator?

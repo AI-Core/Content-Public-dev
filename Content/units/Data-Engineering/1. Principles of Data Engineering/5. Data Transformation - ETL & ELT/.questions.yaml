@@ -1,0 +1,12 @@
+questions: 
+  - question: What is data transformation? Why do organisations use it?
+  - question: What does ETL stand for? Briefly explain each step.
+  - question: What does ELT stand for? Briefly explain each step. 
+  - question: How is ETL different from ELT? Give an example.
+  - question: Give 2 examples of data transformation types.
+  - question: Provide 2 challenges of data transformation.
+  - question: What is one main advantage of ETL? Provide an example.
+  - question: What is one main advantage of ELT? Provide an example.
+  - question: What are 2 ways ETL can be implemented in an organisation?
+  - question: What is data cleansing? Give an example.
+  - question: Briefly explain data de-duplication.

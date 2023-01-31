@@ -1,0 +1,87 @@
+name: EDA and Basic Visualization
+questions:
+  - question: What metrics can you use to measure the central tendency?
+    options:
+      - option: Mean
+        correct: true
+      - option: Standard Deviation
+        correct: false
+      - option: Median
+        correct: true
+      - option: Mean Squared Error
+        correct: false
+      - option: Mode
+        correct: true
+      - option: Variance
+        correct: false
+      - option: Count
+        correct: false
+      - option: Range
+        correct: false
+  - question: What metrics can you use to measure the dispersion?
+    options:
+      - option: Mean
+        correct: false
+      - option: Standard Deviation
+        correct: true
+      - option: Median
+        correct: false
+      - option: Mean Squared Error
+        correct: true
+      - option: Mode
+        correct: false
+      - option: Variance
+        correct: true
+      - option: Count
+        correct: false
+      - option: Range
+        correct: true
+  - question: What are the motivations for visualizing your data prior to use it on your model?
+    options:
+      - option: It is useful for having a easier way to interpret complex information
+        correct: true
+      - option: Having a visual way to observe the central tendency of your data which will help you easily find outliers
+        correct: false
+      - option: Having a visual way to observe the dispersion of your data which will help you easily find outliers
+        correct: true
+      - option: It will help you detect trends in your data that, in a tabular manner, would be difficult to observe
+        correct: true
+      - option: It is useful to check if your dataset is balanced
+        correct: true
+      - option: You could see possible correlations between variables, which eventually would affect the performance of your model
+        correct: true
+  - question: What of the following are visualization libraries in Python?
+    options:
+      - option: matplotlib
+        correct: true
+      - option: plotly
+        correct: true
+      - option: Tableau
+        correct: false
+      - option: ggplot
+        correct: true
+      - option: numpy
+        correct: false
+      - option: bokeh
+        correct: true
+  - question: What functions are available in plotly.express?
+    options:
+      - option: dendogram
+        correct: false
+      - option: array
+        correct: false
+      - option: pie
+        correct: true
+      - option: scatter
+        correct: true
+      - option: data
+        correct: true
+      - option: geo
+        correct: false
+  - question: "True or False: You should always perform an EDA to a new dataset"
+    options:
+      - option: "True"
+        correct: true
+      - option: "False"
+        correct: false
+      

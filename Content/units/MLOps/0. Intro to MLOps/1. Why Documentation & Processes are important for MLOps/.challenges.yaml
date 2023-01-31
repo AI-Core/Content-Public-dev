@@ -1,0 +1,12 @@
+- id: 74fe5427-16b8-4f1a-bc19-80c2c5cf3679
+  name: Your first process documentation
+  description: |
+    Think of a regular process you have in your life, at home or work, and document it in [Notion](http://notion.so/)
+
+- id: 8c14edc8-d14c-4ddb-a736-85701622610f
+  name: Your first code documentation
+  description: |
+    Look through some code you have written recently and document it in [Notion](http://notion.so/). Stretch yourself to apply the best possible formatting so that it is as easy as possible to read. 
+    Be careful to not repeat yourself (keep it DRY).
+    Scrutinise whether documentation is really needed here. Is the code already self-explanatory?
+    

@@ -1,0 +1,26 @@
+- name: How to build big data pipelines
+  id: b07934db-2e4b-4ade-81a3-b8b203992d8d
+  description: |
+    1. Read through this blog which explains how to architect big data pipelines: https://searchdatamanagement.techtarget.com/feature/How-to-build-an-all-purpose-big-data-pipeline-architecture 
+    2. Write down the key stages and components in the big data pipeline.
+    3. Explain what is the Lambda architecture.
+    4. What are the best practices that this article recommends?
+- name: data warehouse vs data lake
+  id: 2b7a2252-3dd0-4b16-93d9-1f3975ec7169
+  description: |
+    1. What this video providing a high-level comparison between a data warehouse and a data lake: https://www.youtube.com/embed/TcgiZFZ-r1U 
+    2. What are the 5 differences between the warehouse and lake?
+    3. What is the difference between schema-on-read and schema-on-write? Which is the more modern approach and why?
+- name: Data wrangling 
+  id: 613bc8f0-8bff-4ba9-a871-cab4423156ea
+  description: |
+    1. Read the following article on data wrangling: https://hevodata.com/learn/data-wrangling/ 
+    2. Describe the benefits of data wrangling.
+    3. Explain the 6 steps required to perform data wrangling in an enterprise.
+    4. What are the industry best practices for data wrangling?
+- name: Design a big data ingestion system
+  id: 70e534c3-1282-4b3a-9546-8f5640590221
+  description: |
+    1. A requirement has been raised by the Emirates Airlines data science team to prepare a new big data lake in the cloud that captures all raw data produced from the check-in system.  
+    2. You have been tasked with designing this system and selecting the appropriate tools. The requirement is to ingest the raw data in real-time to an appropriate cloud storage platform and then performing de-duplication on the raw data.
+    3. Create a system design which includes the components, tools, steps and any other details required.  To get some help, refer to the Emirates Airlines check-in system diagram.

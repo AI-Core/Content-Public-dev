@@ -1,0 +1,11 @@
+questions: 
+  - question: What is an S3 bucket, does it have to have a unique name?
+  - question: What file types can you store in an S3 bucket?
+  - question: What is the free tier limit of an S3 bucket?
+  - question: What is AWS IAM?
+  - question: We can use AWS resources with which Python package?
+  - question: What does the following line of code do `response = s3_client.upload_file('cute_cat.jpg', 'ai-core-bucket-eta-cohort', 'cat.jpg')`?
+  - question: You can download files from s3 using which command?
+  - question: After importing boto3 which command would you run to being using an S3 bucket as a resource. 
+ 
+ 

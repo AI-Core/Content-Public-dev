@@ -1,0 +1,21 @@
+name: 'AWS RDS'
+questions: 
+  - question: What is AWS?
+  - question: What is Cloud computing?
+  - question: All Amazon Web Services are accessible from which location on AWS?
+  - question: How would you describe AWS RDS?
+  - question: What does RDS stand for?
+  - question: What is a security group?
+  - question: AWS RDS allows the creation of many different types of databases can you name three of them?
+  - question: You can use which Python library to connect to your RDS database?
+  - question: "What does the following line of code do:<br><br>
+              `engine = create_engine(f'{DATABASE_TYPE}+{DBAPI}://{USER}:{PASSWORD}@{ENDPOINT}:{PORT}/{DATABASE}')`?"
+  - question: "What does the following code do?<br><br>
+              `from sklearn.datasets import load_iris`<br>
+              `import pandas as pd`<br><br>
+              `data = load_iris()`<br>
+              `iris = pd.DataFrame(data['data'], columns=data['feature_names'])`<br><br>
+              `iris.to_sql('iris_dataset', engine, if_exists='replace')`?"
+  - question: "
+  
+              What about the following code: `df = pd.read_sql_table('iris_dataset', engine)`?"

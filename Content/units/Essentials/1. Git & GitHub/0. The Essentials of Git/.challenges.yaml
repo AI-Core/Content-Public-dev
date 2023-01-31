@@ -1,0 +1,40 @@
+- name: Create a git repo and remote starting remotely
+  id: 6dce9cec-b815-41d5-9b58-c1d42b99965d
+  description: |+
+    1. Create a new github repo on github and clone it
+    2. Make a new branch
+    3. Make a change
+    4. Add it to staging
+    5. Commit it
+    6. Push this branch to the remote
+    7. Make a pull request and merge it 
+  # difficulty: Basic
+  # tags:
+  #   - git
+  #   - github
+
+- name: Create a git repo and remote starting locally
+  id: e9bce1ad-31f1-4cd7-82b3-5cc9a0e0d0f8
+  description: |+
+    1. Create a new repo locally
+    2. Create any change, for example, create a file named `hello_world.txt`
+    3. Make a commit
+    4. Make a new change in the same file
+    5. Add it to staging
+    6. Oh no that was actually a mistake! I didn't mean to stage it
+    7. Use `git reset` to reset the staging area
+    8. Make a new branch called `Cozy_Branch`
+    9. Make a file called `test.txt` and put something on the first line
+    10. Switch back to `master` or `main`, depending on the name git used to initialised your repo (don't merge the changes)
+    11. Make a new branch called `Sweet_Branch`
+    12. Make ANOTHER file called `test.txt` (we're trying to cause a merge conflict)
+    13. Commit the change to this branch
+    14. Now merge `Cozy_Branch` into `Sweet_Branch` (which branch does that mean you need to run the command from?). 
+      - You should get a merge conflict in that file where incompatible changes have been made
+    15. Fix the conflict by editing the file
+    16. Commit the fix
+    17. Merge the changes into `master` or `main`
+  # difficulty: Basic
+  # tags:
+  #   - git
+  #   - github

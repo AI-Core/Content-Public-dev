@@ -1,0 +1,6 @@
+questions:
+  - question: Name three types of errors that you can encounter in Python.
+  - question: What is the first step in the process of debugging a Python program?
+  - question: True or False, an undesired behavior in Python will always raise an error
+  - question: How can you use debugger mode in VSCode? What will it do?
+  - question: What is the difference between a debugger and a traceback?

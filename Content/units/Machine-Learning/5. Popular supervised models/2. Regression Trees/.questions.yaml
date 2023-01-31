@@ -1,0 +1,15 @@
+questions:
+  - question: What is the difference between regression tree and classification tree?
+  - question: How do decision rules work in regression trees?
+    answer: For each split, the 'purity' is measured by a metric that measures the difference between each sample label in that bucket and the average of all labels in that bucket
+  - question: Can you use entropy or Gini impurity on regression tree?
+    answer: No, Gini impurity and entropy are computed for discrete values
+  - question: What criterion can you use in regression trees for measuring the quality of a split?
+    answer: Squared error, Friedman MSE, absolute error
+  - question: In sklearn, with what library can you use a regression tree?
+    answer: sklearn.tree. The class is DecisionTreeRegressor
+  - question: What does the feature_importances_ attribute represent?
+  - question: How can you prevent overfitting in a regression tree?
+    answer: You can restrict the maximum depth of the Decision Tree or increase the min_samples_split
+  - question: Do you need to scale the data in a regression tree?
+    answer: Not necessarily, the decisions are taken based on features using their own scales, so they don't have to be scaled to fit the rest features

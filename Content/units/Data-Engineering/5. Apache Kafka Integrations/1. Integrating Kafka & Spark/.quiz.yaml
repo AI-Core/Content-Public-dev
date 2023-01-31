@@ -1,0 +1,64 @@
+name: Integrating Kafka with Spark
+questions:
+  - question: Which of the following are components of the Apache Spark framework?
+    options:
+      - option: "MLlib"
+        correct: true
+      - option: "Consumers"
+        correct: false
+      - option: "Streaming"
+        correct: true
+      - option: "Topics"
+        correct: false
+      - option: "GraphX"
+        correct: true
+      - option: "PySpark"
+        correct: false
+  - question: Which of the following statements are False about Kafka-Spark integration?
+    options:
+      - option: "Kafka and Spark are not commonly integrated in global corporations due to the complex technicalities involved"
+        correct: false
+      - option: "Spark Streaming acts as the data producer while Kafka acts as the data processing component"
+        correct: false
+      - option: "Kafka and Spark Streaming are integrated together to handle and process batch data"
+        correct: false
+      - option: "It's possible to run Spark code to process and manipulate data as it arrives from Kafka in real-time" 
+        correct: true
+      - option: "If Kafka and Spark are integrated in a wider system, it's not possible for Spark to connect to downstream consumers"
+        correct: false
+  - question: Which of the following are possible options for persisting data in the Data Storage layer in a Kafka-Spark integration?
+    options:
+      - option: "S3"
+        correct: true
+      - option: "HBase" 
+        correct: true
+      - option: "Relational database"
+        correct: true
+      - option: "Another Kafka topic" 
+        correct: true
+      - option: "HDFS"
+        correct: true
+      - option: "In-memory" 
+        correct: false
+  - question: Which of the following statements are True regarding setting up Spark on a local machine?
+    options:
+      - option: "PySpark cannot be used directly from the terminal, but rather via Python code saves to a .py file"
+        correct: false
+      - option: "There is no need to setup SPARK_HOME in your enviornment variables as it's picked up automatically by PySpark"
+        correct: false  
+      - option: "In addition to setting up SPARK_HOME, it's important to ensure that JAVA_HOME and HADOOP_HOME are propertly configured just in case"
+        correct: true
+      - option: "A zookeeper server is not required if we are to connect Spark to Kafka locally"
+        correct: false  
+  - question: Which are the following statements are True about running the Spark-Kafka integration locally?
+    options:
+      - option: "To submit the Spark job, we use the spark-class command"
+        correct: false
+      - option: "There is no need to first open a Kafka broker server as Spark automatically does this for us."
+        correct: false  
+      - option: "In order to run successfully, we need a zookeeper server running before submitting the Spark job."
+        correct: true
+      - option: "If we want, it's possible to run the entire Wordcount application from the PySpark CLI and we don't have to open the notebook to run the Python code."
+        correct: true  
+      - option: "A Kafka topic is not required to produce data in Spark as a Kafka producer will suffice."
+        correct: false

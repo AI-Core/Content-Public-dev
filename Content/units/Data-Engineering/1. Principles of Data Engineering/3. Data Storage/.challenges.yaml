@@ -1,0 +1,28 @@
+- name: IBM data warehouse
+  id: 17664254-82af-49a9-b0e8-7e6831d26b8c
+  description: |
+    1. Watch this IBM video [explaining enterprise data warehouses](https://www.youtube.com/embed/k4tK2ttdSDg)
+    2. What are the main differences between a data warehouse, data lake and data mart according to the video?
+    3. What are the main features of a data warehouse? Why is it used? How can we configure EDW?
+    4. What are the data sources that can feed a data warehouse? Who are the users of the output of an EDW?
+- name: Hadoop distributed file system
+  id: 567f9720-24d7-40ca-8d00-f9e03f09f600 
+  description: |
+    1. Watch this Oracle video [explaining what is HDFS](https://www.youtube.com/embed/jFsYao4C3cw)
+    2. What are the main HDFS features explained in the video? What are the HDFS cluster components?
+    3. How does HDFS handle files? How is data divided into blocks? 
+    4. How does High Availability work in HDFS? How does the replication process work? What is Rack Awareness?
+- name: NoSQL MongoDB
+  id: de7a4584-852d-4e2e-861e-c17c13aa2d4c  
+  description: |
+    1. What this MongoDB video on [what is MongoDB](https://www.youtube.com/embed/EE8ZTQxa0AM)
+    2. How does MongoDB store document data when compared to Excel? What benefits does MongoDB provide?
+    3. Download and install the MongoDB for Ubuntu: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+    4. Run MongoDB.  What are your main observations? Are there any major errors you encountered?
+- name: Apache Hive for big data warehousing
+  id: 469e2bdd-bda0-4cae-a39e-dc08042f9373
+  description: |
+    1. Watch this video explaining [what is Apache Hive](https://www.youtube.com/embed/cMziv1iYt28)
+    2. What can Hive be used for? Where does it fit in the data engineering platform?
+    3. When should Hive not be used? Can the tool perform real-time updates? Explain why.
+    4. What are the benefits Hive provides? How can we query data stored in Hive? What is schema-on-read?

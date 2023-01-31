@@ -1,0 +1,8 @@
+id: ca0aa20a-3191-11ec-8d3d-0242ac130003
+name: Kafka Overview
+questions:
+- answer: This is for an older version of spark, it's no longer supported. Spark supports
+    streaming to kafka using the spark session now.
+  created_at: '2022-02-02 03:39:10'
+  id: 3654562b-0a27-49ce-a8e7-de443acc048c
+  question: Can't import kafka.streaming, module not found

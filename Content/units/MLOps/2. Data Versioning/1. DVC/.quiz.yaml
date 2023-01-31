@@ -1,0 +1,32 @@
+name: DVC
+questions:
+  - question: What are some of the main uses of DVC?
+    options:
+      - option: Creating datasets based on engineered features
+        correct: false
+      - option: Keeping track of the version of the data
+        correct: true
+      - option: Plotting metrics of the performance of a model
+        correct: true
+      - option: Keeping track of the features used by a model
+        correct: false
+      - option: Uploading large files to a remote server
+        correct: true
+      - option: Keep track of metadata to prevent git from tracking large files
+        correct: true
+  - question: What of the following are commands of DVC?
+    options:
+      - option: init
+        correct: true
+      - option: checkout
+        correct: true
+      - option: pull
+        correct: true
+      - option: push
+        correct: true
+      - option: cherry-pick
+        correct: false
+      - option: status
+        correct: true
+      - option: commit
+        correct: true

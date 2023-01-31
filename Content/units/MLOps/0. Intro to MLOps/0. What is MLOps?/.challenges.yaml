@@ -1,0 +1,9 @@
+- id: ee3f3172-ae58-42bc-885a-a1a76ed79e8b
+  name: Consider your use of MLOps
+  description: Consider a project you've worked on in the past, now identify a process, a piece of documentation, or a tool that would have streamlined your ML system production
+
+- id: dbce8c44-4d57-4730-8d0c-c5e98e11ce0f
+  name: Diagram your own MLOps
+  description: |
+    On paper, draw a diagram of a ML project that you have worked on, then identify several areas where an MLOps tool, process or piece of documentation could have streamlined the process.
+      - consider now which of these would be present in a non-ML project. Which are DevOps and which are MLOps?

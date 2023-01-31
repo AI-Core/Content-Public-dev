@@ -1,0 +1,32 @@
+- name: Integrating Kafka with Spark Streaming - PySpark WordCount - Part 1
+  id: d01fd89b-99f8-4a74-b94b-af7a30dd89a5
+  description: |
+    1. Watch the following video https://www.youtube.com/embed/zVgPNjSjua0 
+    2. Create the code step by step as described in the video
+    3. Run your code.  What is the output you get?
+    4. Write down any bugs or issues you faced while running this challenge.  How did you resolve these issues?
+- name:  Integrating Kafka with Spark Streaming - PySpark WordCount - Part 2
+  id: 3d208765-f2ec-42b8-b4d5-f007cc3be43f
+  description: |
+    1. Ensure you've completed the the above challenge first and that it ran successfully
+    2. Modify the Pyspark code to produce a second output (in addition to the word count) to also display a count of the number of letters in each word.
+    3. Which Spark function will you use for this? Briefly explain why you selected this function.
+- name:  Integrating Kafka with Spark Streaming using PySpark - Twitter - Part 1
+  id: 76a837c9-3b08-4a7f-bf5c-39d568f051e1
+  description: |
+    1. First of all, ensure that Spark and Kafka are correctly set up and running.
+    2. Go to this link and follow the instructions to create your PySpark code: https://www.rittmanmead.com/blog/2017/01/data-processing-and-enrichment-in-spark-streaming-with-python-and-kafka/
+    3. You can use this link to the Github repository to get the code directy and run it, but it's encouraged to write the code yourself: https://gist.github.com/rmoff/fb033086b285655ffe7f9ff0582dedbf 
+    4. Use this Twitter JSON file as your input data: https://gist.github.com/pandafulmanda/4442be1d0208b3b087fe1f61b0a70e75 
+    5. Extract the author name from each tweet
+    6. Count the number of tweets per author
+    7. Sort the author count
+- name: Advanced - Integrating Kafka with Spark Streaming using PySpark - Twitter - Part 2
+  id: 7ffa75b9-95a6-46c5-9558-a6771b898d2d
+  description: |
+    1. Ensure you've successfully completed the above challange and that the code is running without issues
+    2. In this challenge, you'll need a Twitter account setup to ingest real-time tweet data.
+    3. Connect your twitter feed to the Kafka cluster created earlier.
+    4. Go to this link and start writing the code from the Windowed Stream Processing section: https://www.rittmanmead.com/blog/2017/01/getting-started-with-spark-streaming-with-python-and-kafka/
+    5. Calculate the total number of tweets as they arrive
+    6. Display the number of tweets by author

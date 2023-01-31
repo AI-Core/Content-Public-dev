@@ -1,0 +1,64 @@
+- name: Change directory and move around
+  id: 70ba4400-c0b7-406e-ad91-d67664ef1f74
+  description: |+
+    1. Open a terminal
+    2. List the contents of that folder
+    3. Change directory (folder) and move into one inside it
+    4. List the contents
+    5. List all of the contents in the folder by using the -a flag after the ls command
+    6. How do I move back up to the parent folder?
+    
+- name: Where am I?
+  id: 9db5a500-04e7-4617-aff8-fdbdc6f10746
+  description: |+
+    1. Look up a bash command to print your current working directory
+
+- name: Say it back to me
+  id: 86807d3e-8dc7-4f48-879d-c6fc45790757
+  description: |+
+    1. Use the echo command to print your name to stdout (to the terminal)
+    2. Redirect the name into a file called myname.txt
+    3. Add your name to the file by using redirection to append
+
+- name: Create a blank file
+  id: a5d23b2f-a63b-46ea-9469-77a933803754
+  description: |+
+    1. Use the touch command to create a blank file
+    2. Open it and edit it
+    3. List the contents of your folder in `long` format (hint: use a flag)
+    4. Touch the same file again
+    5. What has changed when you list it again?
+  
+- name: Display some files
+  id: e56fbf82-27a5-4a07-afb5-6ca4ad41c071
+  description: |+
+    1. Create two blank files using touch and put something inside them
+    2. Use the `cat` command to display the contents of the files. 
+
+- name: Environment variables
+  id: 52438ed0-a328-490e-b043-4bb8547a8f4a
+  description: |+
+    1. Look up how to create a variable in the terminal and save your name in a variable called "name"
+    2. Edit your .bashrc file so that whenever you open a new terminal it says "hello <your name>" (you might need to edit a different file if you are using an alternative shell to bash, such as zsh, or are on windows) (you might want to delete this later, as it could get annoying)
+  # difficulty: Basic
+  # tags:
+  #   - terminal
+  #   - env
+
+- name: Make, edit and redirect to files, then count words
+  id: 1c7fcbf4-ce55-4b53-853b-1891b4884fe1
+  description: |+
+    Using only the command line...<br>
+    1. Create a new folder and move into it<br>
+    2. Create 3 new files<br>
+    3. Redirect your name into the first file<br>
+    4. Append your age to the first file without using an editor (use redirection... but be careful not to overwrite it)<br>
+    5. Look up the command for how to count the number of words in a file and check that it works<br>
+    6. Now look up how to use the same command to count the number of characters in the file<br>
+    7. Create an alias for this command (more challenging)
+  # difficulty: Basic
+  # tags:
+  #   - terminal
+  #   - redirection
+  #   - touch
+  #   - aliases

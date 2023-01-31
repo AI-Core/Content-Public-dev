@@ -1,0 +1,17 @@
+- id: d40df7bb-6fe9-4b63-84fd-bf320125f589
+  name: Configuring AWS CloudWatch Events
+  description: | 
+    - Go to the events section of the AWS CloudWatch page.
+    - Lets create an new scheduled event using a Cron expression.
+    - find out how to create cron expression, search online and configure your event to fire everyday 5 minutes.
+    - Check here to understand how to configure a cron expression in AWS https://docs.aws.amazon.com/lambda/latest/dg/services-cloudwatchevents-expressions.html.
+    - Add three targets a Lambda functin to run, an SNS topics for notification and restart an EC2 instance(Select SSM Automation). 
+    - Now let's configure an alarm to check that the event was run correctly.
+    - Create an alarm based on an event and select the metric failed invocation to track whether the job has run correctly.
+    - Hopefully with everything configured correctly you will now have your alarm steady in the OK state.
+    - Add the alarm to a dashboard main so you can track it's status.
+
+
+
+
+

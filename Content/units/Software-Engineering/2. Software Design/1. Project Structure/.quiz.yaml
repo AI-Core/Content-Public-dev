@@ -1,0 +1,64 @@
+name: Project Structure
+questions:
+  - question: What of the following files SHOULD be included in your project before publishing it? Select also those files that help to create the necessary files. Select ALL that apply
+    options:
+      - option: __main__.py
+        correct: false
+      - option: setup.py
+        correct: true
+      - option: main.py
+        correct: false
+      - option: setup.cfg
+        correct: false
+      - option: __init__.py
+        correct: false
+      - option: dist folder
+        correct: true
+  - question: What arguments can you pass to the setup method from setuptools? Select all that apply
+    options:
+      - option: name
+        correct: true
+      - option: description
+        correct: true
+      - option: short_description
+        correct: false
+      - option: url
+        correct: true
+      - option: download_url
+        correct: true
+      - option: github
+        correct: false
+      - option: author
+        correct: true
+      - option: packages
+        correct: true
+  - question: "True or False: Python Packages have to follow the same structure to be published in pypi"
+    options:
+      - option: "True"
+        correct: false
+      - option: "False"
+        correct: true
+  - question: Which of the following commands allow you to see the list of packages installed in your virtual enviroment?
+    options:
+      - option: pip packages
+        correct: false
+      - option: pip freeze
+        correct: true
+      - option: ls packages
+        correct: false
+      - option: pip list
+        correct: true
+      - option: echo packages
+        correct: false
+  - question: Which of the following commands are used to create the distribution file and publish your package?
+    options:
+      - option: python setup.py sdist
+        correct: true
+      - option: python upload pypi
+        correct: false
+      - option: twine upload packages
+        correct: false
+      - option: python setup.py
+        correct: false
+      - option: twine upload dist/*
+        correct: true

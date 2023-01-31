@@ -1,0 +1,35 @@
+name: Docstring and Typing
+questions:
+  - question: Select Everything TRUE about Docstrings
+    options:
+      - option: They are the same as Comments
+        correct: false
+      - option: They are implemented the same way as Comments
+        correct: false
+      - option: All public methods should include a docstring
+        correct: true
+      - option: In a class, docstrings only contain information about the methods
+        correct: false
+      - option: Google is the name of a Docstring format
+        correct: true
+      - option: Sphinx is the name of a Docstring format
+        correct: true
+  - question: What classes are included in the typing module? Select all that apply.
+    options:
+      - option: Any
+        correct: true
+      - option: Union
+        correct: true
+      - option: Set
+        correct: true
+      - option: Join
+        correct: false
+      - option: None
+        correct: true
+      - option: Intersection
+        correct: false
+      - option: List
+        correct: true
+      - option: Callable
+        correct: true
+        

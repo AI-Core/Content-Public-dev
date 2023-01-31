@@ -1,0 +1,17 @@
+- id: f017c2e6-c31d-4ff5-9288-93deaede679a
+  name: Create a mini docker system monitor
+  description: |
+      - Using a single command (bash script preferably) start (optional):
+          - When starting your container your will need to change /path/to/prometheus.yml:/etc/prometheus/prometheus.yml to
+          - /path/to/prometheus folder containing rules and config file/:/etc/prometheus/
+          - node/windows exporter which will scrape the metrics
+          - docker exporter (as previously done)
+      - Find a few (minimum `7`) interesting data variables you can monitor, for example:
+          - Per-CPU temperature
+          - Per-CPU load
+          - Number of Docker containers running on OS
+          - How much RAM is taken
+          - How much RAM Docker takes
+      - After inspection of the above possibilities, code the timeseries queries inside a `os.rules.yml`
+      - Create appropriate `prometheus.yml` which sets the necessary targets
+     

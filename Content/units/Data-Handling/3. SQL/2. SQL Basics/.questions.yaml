@@ -1,0 +1,24 @@
+questions: 
+  - question: How would you describe data and how does it relate to a dataset?
+  - question: What are two advantages of using SQL Databases?
+  - question: What are two disadvantages of using SQL?
+  - question: What does CRUD stand for?
+  - question: What common keyword allows use to read data from a database, what is the anatomy of the statement?
+  - question: Does SQL ignore whitespace when creating statements? How are statements terminated?
+  - question: What does LIMIT allows us to do, what about GROUP BY?
+  - question: How would you use the LIKE command, what is it's use?
+  - question: How would you use the BETWEEN command?
+  - question: "What does the following code do:<br>
+
+              `SELECT *` 
+              <br>`FROM payment`
+              <br>`WHERE payment_date < '2017-01-25' AND staff_id = 2`
+
+              "
+  - question: "What does the following code do:<br>
+
+              `SELECT customer_id, payment_date, amount`
+              <br>`FROM payment`
+              <br>`WHERE amount BETWEEN 10.0 AND 11.99`;
+
+              "

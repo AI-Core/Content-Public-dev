@@ -1,0 +1,13 @@
+- id: 73a20d3d-62d0-4c60-ad43-ef81e41266b7
+  name: Create an exporter for your GitHub metrics
+  description: |
+    - Navigate to https://prometheus.io/docs/instrumenting/exporters/ and find the github node exporter.
+    - Go to the page and read the instructions for creating your GitHub metrics exporter.
+    - Using the commands in the readme setup the docker image which will begin exporting your metrics.
+    - Remember to change the USERS environment variable your GitHub username to get metrics for your account.
+    - Add to your prometheus.yaml the configuration for your GitHub exporter so prometheus can track it.
+    - Check that your metrics for the node exporter are being collected from the Prometheus targets window.
+    - Test your exporter is working using Prometheus to run expressions on the metrics!
+
+
+   

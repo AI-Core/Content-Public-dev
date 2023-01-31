@@ -1,0 +1,115 @@
+name: AWS CloudWatch
+questions:
+  - options:
+      - correct: true
+        option: Observability of all our AWS resources and applications in one centralised location.
+      - correct: false
+        option: Allows us to edit your AWS resources security settings in a centralised location.
+      - correct: true
+        option: Explore, analyse and visualise logs from our AWS services.
+      - correct: false
+        option: Launch changes to code stored in an S3 bucket from the CloudWatch dashboard.
+      - correct: true
+        option: Easily collect and analyse metrics from multiple AWS Services.
+      - correct: true
+        option: Set alarms and automate actions based on events that happen with your AWS services.
+      - correct: false
+        option: Create multiple AWS services by defining a template.
+      - correct: false
+        option: Containerise your AWS resources all from one centralised location.        
+    question: Which of the following are some of the benefits of using CloudWatch
+  - options:
+      - correct: true
+        option: Alarms can be configured to alert to changes in a metric.
+      - correct: false
+        option: You cannot configure the alarms to check metrics within a range of values.
+      - correct: true
+        option: You can see the alarms alerts directly from the main CloudWatch dashboard and CloudWatch navbar.
+      - correct: true
+        option: Alarms can be configured to check the metric in a custom time frame and the default is a check every 5 minutes.
+      - correct: true
+        option: The three alarm states are, insufficient data, in alarm and OK.
+      - correct: false
+        option: The three alarm states are, green, amber and red alert.
+      - correct: false
+        option: You cannot configure alarms based on statistics.
+      - correct: false
+        option: You can only be alerted by alarms from the AWS CloudWatch services page.
+    question: What is true about AWS CloudWatch Alarms.
+  - options:
+      - correct: true
+        option: When an event is invoked you can have it handled by multiple targets.
+      - correct: true
+        option: Events indicate some state change in an AWS environment.
+      - correct: true
+        option: Using CloudWatch you can configure events to automate processes for you like restarting an AWS RDS Cluster.
+      - correct: false
+        option: You can only create rules which trigger targets when events happen, CloudWatch doesn't allow you to schedule rules.
+      - correct: false
+        option: Preconfigured events are not avaliable to you when creating rules you need to define them customly.
+      - correct: false
+        option: Once configured rules can't be edited you need to delete the old rule and recreate a new one.
+      - correct: false
+        option: You can't setup events to be sent to other AWS accounts.
+      - correct: false
+        option: CloudWatch rules are only a short term solution until you can implement a long term solution.
+    question: Mark everything true about AWS CloudWatch events.
+  - options:
+      - correct: true
+        option: Dashboards give you full flexability to configure which AWS metrics, logs, alarms to track from a central location.
+      - correct: true
+        option: You can configure multiple CloudWatch dashboard for different purposes i.e tracking all lambda function logs, viewing all metrics for running EC2 instances.
+      - correct: false
+        option: You can only create predefined types of dashboard widgets CloudWatch doesn't have the option for custom widgets yet.
+      - correct: false
+        option: You can only track resources of the same type from a dashboard i.e logs dashboard, alarms dashboard.
+      - correct: false
+        option: Once the dashboard is created you would need to create a new one to edit it you can't swap widgets in and out.
+      - correct: true
+        option: You can view multiple metrics in one widget even metrics from multiple different AWS resources.
+      - correct: false
+        option: Dashboards can only be configured to be viewable by the user that created the dashboard.
+      - correct: false
+        option: Dashboard are just for tracking metrics of your orgainisation.
+      - correct: false
+        option: You can only have a couple of metrics per dashboard.
+    question: What is true about using AWS CloudWatch dashboards.
+  - options:
+      - correct: true
+        option: The metrics explorer is great is you would like to view all metrics of a specific resource in one location.
+      - correct: true
+        option: From the metrics explorer you can export individual widgets to an AWS CloudWatch dashboard.
+      - correct: true
+        option: You can apply mathematical expressions to metrics if you so choose.
+      - correct: false
+        option: Metric streams allow you to configure the way in which metric information is stream to the screen.
+      - correct: false
+        option: You can only view one metric on a graph from the AWS CloudWatch dashboard and from All metrics.
+      - correct: true
+        option: You have many options for how to view your metrics such as line, number, bar and pie charts.
+      - correct: false
+        option: Metrics graphs are only shown in real time. 
+      - correct: false
+        option: You can only use the predefined metrics built into AWS CloudWatch.
+      - correct: false
+        option: You can only track metrics about AWS resources.
+    question: What is true about AWS CloudWatch metrics
+  - options:
+      - correct: true
+        option: From the Log Insights section of CloudWatch we can define custom queries allowing us to view our logs the way we want.
+      - correct: true
+        option: CloudWatch will suggest fields which can be contained in your queries from the Log Insights panel.
+      - correct: false
+        option: There is a set limit of 20 log entries viewable when running you log queries.
+      - correct: true
+        option: AWS will create log groups for you when you configure a service which has viewable logs, for instance a Lambda function.
+      - correct: false
+        option: Logs are only viewable from the Logs Insights section of CloudWatch.
+      - correct: false
+        option: Everytime you want to change your query you have to recreate it.
+      - correct: false
+        option: Log queries can only be applied to one log group individually.
+      - correct: true
+        option: You can export the results of you queries directly to an AWS dashboard as a widget.
+
+    question: What is true about AWS CloudWatch logs.

@@ -1,0 +1,12 @@
+questions: 
+  - question: What is the difference between streaming and real-time data?
+  - question: Provide an example of where batch data processing can be used in a company?
+  - question: List 2 tools that can be used for data ingestion.
+  - question: What is a database system? Give an example tool that can be used as a database.
+  - question: What does the acronym ACID stand for?
+  - question: What does the acronym EDW stand for? What does it mean?
+  - question: How many tiers are in an enterprise data warehouse? List one of them.
+  - question: List 2 concepts related to datawarehousing. Explain each one briefly.
+  - question: What is Normalization? Provide an example.
+  - question: What is Hadoop HDFS? When do we use it?
+  - question: Mention and explain one tool that can be used for streaming data processing.

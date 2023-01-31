@@ -1,0 +1,70 @@
+name: Error Handling
+questions:
+  - options:
+      - correct: true
+        option: If we don't implement error handling then Python will stop executing code and stop further code from running.
+      - correct: true
+        option: Helps clarify your code and what is expected of it.
+      - correct: true
+        option: Allows you to define code which could help correct errors while your code is running.
+      - correct: false
+        option: Our code wouldn't run without error handling.
+      - correct: false
+        option: So the errors can be reported to the user of the program.
+      - correct: false
+        option: Stops errors completely when our code is running.
+    question: Why in Python do we implement error handling in our code.
+  - options:
+      - correct: true
+        option: MemoryError
+      - correct: false
+        option: KeyboardError
+      - correct: true
+        option: SystemError
+      - correct: false
+        option: InterfaceError
+      - correct: true
+        option: ImportError
+      - correct: true
+        option: EOFError
+      - correct: false
+        option: AssemblingError
+      - correct: true
+        option: RecursionError
+      - correct: true
+        option: ReferenceError
+      - correct: false
+        option: UnderflowError
+    question: Using the Python docs which of the following are types of Python Built-in Exceptions.
+  - options:
+      - correct: true
+        option: 'True'
+      - correct: false
+        option: 'False'
+    question: You can define custom exceptions in Python by creating a class which inherits from the "Exception" class.
+  - options:
+      - correct: false
+        option: try "Type of error"
+      - correct: false
+        option: finally "Type of error"
+      - correct: true
+        option: except "Type of error"
+      - correct: true
+        option: except ("Type of error", "Type of another error", ...)
+      - correct: false
+        option: finally ("Type of error", "Type of another error", ...)
+    question: Which is the correct syntax which allows us to catch a specific type of error.
+  - options:
+      - correct: true
+        option: _try_ will run only if our code doesn't run into an error.
+      - correct: true
+        option: _except_ will only run when our code runs into an error.
+      - correct: true
+        option: _finally_ will always run after try or except conditions are met.
+      - correct: false
+        option: _finally_ only runs if the try statement is run.
+      - correct: false
+        option: _finally_ is only run if the except statement is run.
+      - correct: false
+        option: Code in all clauses run everytime our code is executed.
+    question: When will the code within each of the following clauses (try, except, finally) run when executing your Python code.

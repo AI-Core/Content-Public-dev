@@ -1,0 +1,59 @@
+id: 06d96433-7b50-41bc-bbbc-227f1f70152b
+name: Intro to Docker
+questions:
+- answer: 'There might be multiple reasons, but two of the most commons are:
+
+
+    1. You are not in the right directory. When you create the Docker image, the Dockerfile
+    has to be in the directory you specify in the docker build command
+
+
+    2. The other reason is because the Dockerfile hasn''t been named properly. The
+    extension of a Dockerfile has to be Dockerfile (capitalized). If you have only
+    a single dockerfile in your project, you can just name it Dockerfile, with no
+    extension at all. However, if you want to add more dockerfiles to your project,
+    you need to specify the dockerfile you are going to use to build the image by
+    adding the `-f` flag followed by the path to your Dockerfile to the `docker build` command'
+  created_at: '2022-02-02 03:39:10'
+  id: ca955658-f4d4-4a7a-9f0f-19e4ed7fdf1f
+  question: I am trying to create the Docker image, but whenever I run the `docker
+    build` command, it just throws an error. What am I doing wrong?
+    
+- answer: "Docker images or EC2 instances don't support any sort of GUI applications,\
+    \ so you need to set headless mode. However, that might not be enough, you have\
+    \ to allow your browser use your mouse, so you need to use the no-sandox option\n\
+    The last issue you might find, is that, when you use Chrome in selenium, it tries\
+    \ to store all the information in a directory called `dev/shm`, but if that's not\
+    \ enough, Chrome will crash. To avoid it, you can use a workaround that will store\
+    \ the info in a temporary file. \n\nSo, the code you should add when creating\
+    \ the webdriver should look like this:\n\n`from selenium import webdriver\nfrom\
+    \ selenium.webdriver.chrome.options import Options\n\nchrome_options = Options()\n\
+    chrome_options.add_argument('--headless')\nchrome_options.add_argument('--no-sandbox')\n\
+    chrome_options.add_argument('--disable-dev-shm-usage')\n\ndriver = webdriver.Chrome('/path/to/your_chrome_driver_dir/chromedriver',\
+    \ chrome_options=chrome_options)`"
+  created_at: '2022-02-02 03:39:10'
+  id: 5a4d725d-7528-444f-a1a7-90c8d56c336f
+  question: 'When I run my scraper locally, it works fine. Even when I run a container
+    using selenium, it works without any issue. However, when I run it on an EC2 instance,
+    I receive the following error: "devToolsActivePort file doesn''t exist" '
+    
+- answer: 'Yes! You just need a bit of experience with the command line interface,
+    but we are sure that at this point this will be easy!
+
+
+    First, your container should be running, otherwise, there won''t be anything to
+    access to. Run the command `docker ps` to see all the containers that are currently
+    running
+
+
+    Find the container that you want to get access to, you can either use the name
+    or the id. Then run `docker exec -it <name or id of the container> /bin/bash`
+
+
+    And it would be like you were inside another computer! From there, simply navigate
+    to the file you want to change, and change it using Nano or Vim (You might need
+    to install one of those editors inside the container)'
+  created_at: '2022-02-02 03:39:11'
+  id: 7a087302-ee34-44b1-b1e6-288d4cfdf07a
+  question: I want to change a file that is stored in a Docker container, is there
+    a way to do so?

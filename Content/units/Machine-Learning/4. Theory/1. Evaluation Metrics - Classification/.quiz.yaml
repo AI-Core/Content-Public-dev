@@ -1,0 +1,139 @@
+name: 'Machine Learning: Evaluation metrics'
+questions:
+  - options:
+      - correct: true
+        option: Can be used as an objective to optimise model parameters during gradient
+          descent
+      - correct: false
+        option: Accuracy could be used to train gradient models instead
+      - correct: true
+        option: Loss often acts as a proxy for our task
+      - correct: false
+        option: This is always the only value we should monitor
+      - correct: false
+        option: It has (-inf, +inf) range
+      - correct: true
+        option: It has (0, +inf) range
+    question: Mark everything true about loss
+  - options:
+      - correct: true
+        option: Shows proportion of correctly predicted examples
+      - correct: false
+        option: Used in regression tasks
+      - correct: true
+        option: Used in classification tasks
+      - correct: false
+        option: Should be used with imbalanced datasets (e.g. 1% of dataset with binary
+          label=False and all others with label=True)
+      - correct: false
+        option: We always have to monitor accuracy
+      - correct: false
+        option: Can be used as a loss function to train algorithms via gradient descent
+    question: Mark everything true about accuracy
+  - options:
+      - correct: false
+        option: Another name for accuracy
+      - correct: true
+        option: Used in classification tasks
+      - correct: false
+        option: Used in regression tasks
+      - correct: true
+        option: Shows which class is confused with which
+      - correct: false
+        option: Works only for binary classification
+      - correct: true
+        option: Can be normalized and shown as a percentage
+      - correct: true
+        option: Can be unnormalized and shown as a exact count
+    question: Mark everything True about the confusion matrix
+  - options:
+      - correct: true
+        option: True/False refers to the correctness of the prediction, Positive/Negative
+          to the labels binary representation
+      - correct: false
+        option: True/False refers to the labels binary representation, Positive/Negative
+          to the correctness of the prediction
+    question: About the confusion matrix items
+  - options:
+      - correct: false
+        option: We can obtain a higher score by being conservative about predictions
+          (e.g. predicting True for only those which we are sure about), trying not
+          to increase false positives.
+      - correct: true
+        option: We can obtain a higher score simply by predicting more true positives
+          (without consideration for false positives)
+      - correct: false
+        option: It is hard to cheat on this metric alone
+      - correct: true
+        option: It isn't hard to cheat on this metric alone
+    question: Mark everything true about precision
+  - options:
+      - correct: true
+        option: We can obtain a higher score by being conservative about predictions
+          (e.g. predicting True for only those which we are sure about), trying not
+          to increase false positives.
+      - correct: false
+        option: We can obtain a higher score simply by predicting more true positives
+          (without consideration for false positives)
+      - correct: false
+        option: It is hard to cheat on this metric alone
+      - correct: true
+        option: It isn't hard to cheat on this metric alone
+    question: Mark everything true about recall
+  - options:
+      - correct: false
+        option: We can obtain a higher score by being conservative about predictions
+          (e.g. predicting True for only those which we are sure about), trying not
+          to increase false positives.
+      - correct: false
+        option: We can obtain a higher score simply by predicting more true positives
+          (without consideration for false positives)
+      - correct: true
+        option: It is hard to cheat on this metric alone
+      - correct: false
+        option: It isn't hard to cheat on this metric alone
+      - correct: false
+        option: 1 refers to multiplier which cannot be changed
+      - correct: true
+        option: It is the harmonic mean of precision and recall
+    question: Mark everything true about F1 score
+  - options:
+      - correct: true
+        option: They have the same minima
+      - correct: true
+        option: Usually we use MSE for optimization
+      - correct: false
+        option: RMSE increases large errors
+    question: MSE vs RMSE (root mean square error)
+  - options:
+      - correct: true
+        option: Both have the same minima
+      - correct: true
+        option: y\_pred - y\_true = 0.5; Loss will be higher with MAE formula
+      - correct: false
+        option: y\_pred - y\_true = 0.5; Loss will be higher with MSE formula
+      - correct: false
+        option: y\_pred - y\_true = 5; Loss will be higher with MAE formula
+      - correct: true
+        option: y\_pred - y\_true = 5; Loss will be higher with MSE formula
+    question: MSE vs MAE (mean absolute error)
+  - options:
+      - correct: false
+        option: Takes values between 0 and 1
+      - correct: false
+        option: Is used for both classification and regression
+      - correct: false
+        option: Cannot be used to compare the performance of a model without additionally
+          looking at it's loss
+      - correct: true
+        option: An R-Squared score of zero indicates that the given model is no better
+          than random guessing
+      - correct: false
+        option: Can be computed as a function of the precision and recall
+      - correct: true
+        option: Can be interpreted as the proportion of the variation in the target
+          variables captured by the model
+      - correct: true
+        option: Is the ratio of the total square error of your predictions to the
+          total error of guessing the mean for all examples, subtracted from 1
+    question: Mark everything true about the R-Squared score

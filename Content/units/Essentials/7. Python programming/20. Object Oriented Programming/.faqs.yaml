@@ -1,0 +1,50 @@
+id: c2db5943-3f32-4cde-b8f5-396009dbd0a5
+name: Object Oriented Programming
+questions:
+- answer: 'Lists in Python have a different behaviour from other programming languages.
+    They point to a place in memory, so when you create a new variable whose value
+    is a list, Python allocates a space in memory for that variable.
+
+
+    Thus, if your class has a list as an argument, and you assign a default value
+    to this list, every new instance will point to the original list, and therefore
+    assigning the new value (the default one) to the older value.'
+  created_at: '2022-02-02 03:39:10'
+  id: 7bfac49a-9af8-44a6-8026-13c6428105be
+  question: Whenever I create a new class that accepts a list as an argument, older
+    instances of this class get a new value for the list
+- answer: 'First of all, just to be clear, a function within a class is named method.
+    Please, this has to be crystal clear
+
+
+    The way to call a method is by calling it from the instance corresponding to the
+    class. For example, if you have a Car class, with a drive method, you can write:
+
+
+    my_car = Car()
+
+    my_car.drive()'
+  created_at: '2022-02-02 03:39:10'
+  id: 9ed8e978-19de-48a5-a608-129ae79c3b8c
+  question: I can't seem to call functions which i have defined within a class
+- answer: 'This question can be answered from the technical perspective, or from a
+    perspective that wants to keep a code clean and friendly user. Let''s start with
+    the possible technical issues
+
+
+    If you can''t turn your code into a function, make sure you are following the
+    right syntax: use the "def" keyword, use parentheses to define the arguments if
+    any, don''t forget the colon, and then, don''t forget the right indentation
+
+
+    Now, if you want to create a function to make your code cleaner and nicer, there
+    is a very good principle for that: separation of concerns. Your function should
+    do something tangible, with a specific use. For example, a function that downloads,
+    cleans, and uploads data does too many things. It would be worth separating it
+    into its concerns: one function for downloading data, another for cleaning data,
+    and another for uploading data. That way, it will be easier to do these three
+    things separately, and at the same time, doing all three in sequence won''t affect
+    the performance of the code'
+  created_at: '2022-02-02 03:39:11'
+  id: 1c68dc1f-526c-474e-800b-1a7f681647a7
+  question: I am having some problems when trying to make my code into a function.

@@ -1,0 +1,33 @@
+- id: fc2652cf-8c41-4954-9e4e-18ee9cf10dda
+  name: Create a single nginx pod
+  description: |
+    - These practicals are going to be done locally, using minikube
+    - If you haven't, start minikube
+    - Create a config .yaml file for a Pod 
+      - Make sure you use the correct API version and kind parameters
+      - In the container, use a nginx image (nginx:alpine will suffice)
+    - Run the pod, and make sure that it is created observing the minikube dashboard, or by looking at the pods using the right kubectl command
+    - Execute the pod to \"enter\" the command line (sh) of the container. Remember that in this sense, kubernetes has a command very similar to Docker
+    - Check that you can run bash commands. For example, try running 'ls'
+
+- id: 4f198eff-6aee-4aea-aed4-3e884d364c18
+  name: Create and update a Deployment
+  description: |
+    - Create a config .yaml file for a Deployment with the following characteristics
+      - 2 replicas
+      - the container uses the nginx:alpine image
+      - the container uses the port 80
+      - Make sure you use consistent labels
+    - Run the deployment and observe that you have two pods. You can use this command 'kubectl describe deployment nginx-deployment'
+    - Looks like you have to use a different nginx image. Create a NEW .yaml file with the same metadata as the previous one but a nginx:1.14.2 image
+    - Run the NEW deployment and observe the changes when you run 'kubectl describe deployment nginx-deployment'
+    - It seems that you need to scale up your resources. Create a NEW .yaml file with 4 replicas
+    - Run the NEW deployment and observe the changes when you run 'kubectl describe deployment nginx-deployment'
+
+- id: 968eed12-5416-4ad7-99f7-3ce0d4893d81
+  name: CronJobs
+  description: |
+    - Follow the following example to create a CronJob: https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/
+    - Change the granularity to every 5 minutes
+    - Observe the logs from the pod
+    - Don't forget to delete the job when you are done

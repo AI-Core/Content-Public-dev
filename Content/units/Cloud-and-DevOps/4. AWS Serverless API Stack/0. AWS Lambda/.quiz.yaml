@@ -1,0 +1,112 @@
+name: 4.2.0 AWS Lambda
+questions:
+  - options:
+      - correct: false
+        option: Cheaper than EC2 per unit time
+      - correct: true
+        option: Runs code in serverless applications
+      - correct: false
+        option: You can SSH into the machine running your code and see it on your
+          EC2 console
+      - correct: true
+        option: Can be triggered by a cron job
+      - correct: true
+        option: Can be triggered by an API request
+      - correct: true
+        option: Can be triggered manually
+      - correct: false
+        option: Can be triggered by another instance of itself
+      - correct: false
+        option: Must be executed with the default IAM Role provided when created
+      - correct: false
+        option: Pricing is based purely on per unit time usage
+      - correct: false
+        option: Can run code on GPU
+      - correct: true
+        option: Can import from adjacent files in the same way as you can locally
+      - correct: false
+        option: Can import 3rd party dependencies as long as they are listed in a
+          requirements.txt file
+      - correct: true
+        option: Can run many different runtimes, including Python 3.8
+      - correct: false
+        option: AWS Lambda runs the whole script. The usual way to write the code
+          is to define a function and call it at the bottom of your script
+      - correct: true
+        option: In python, you must specify a function which takes in two arguments,
+          that will run when the lambda function is triggered
+      - correct: true
+        option: We call the code in a lambda function a "deployment package"
+    question: Which of the following statements are true about AWS Lambda?
+  - options:
+      - correct: true
+        option: Avoid invoking another instance of the same lambda function from within
+          one to avoid a cascading large number of invocations
+      - correct: false
+        option: It's best to leave IAM permissions relatively open in case you decide
+          to use other AWS resources from the same account later
+      - correct: false
+        option: It's best to set a timeout of at least 2x how long you expect your
+          lambda function to run for to avoid the function failing if it does take
+          that long
+      - correct: false
+        option: It's best to set a memory limit of at least 2x how much memory you
+          expect your lambda function to consume to avoid the function failing if
+          it does require that much memory
+      - correct: false
+        option: You should keep unused lambda functions as a form of version control
+      - correct: true
+        option: You should define any AWS resource clients (e.g. boto3.client('s3))
+          outside of your handler function
+      - correct: false
+        option: You should define any (requests for) personal information outside
+          of your handler function
+      - correct: true
+        option: Use environment variables to pass constants like a bucket name to
+          your function, rather than hard-coding them
+    question: Which of the following correctly describe best practices for making
+      lambda functions?
+  - options:
+      - correct: false
+        option: No limit on size of lambda layer
+      - correct: true
+        option: Layers can be uploaded as .zip files or specified as S3 URL locations
+      - correct: true
+        option: No limit on the number of layers which a lambda function can have
+      - correct: false
+        option: Layers can reference each other
+      - correct: true
+        option: We call the code in a lambda layer a "deployment package"
+      - correct: true
+        option: You can use Lambda Layers created by other AWS accounts than your
+          own
+      - correct: true
+        option: In a Python runtime, the modules boto3, json and os are available
+          for import without a lambda layer
+      - correct: true
+        option: Layers should contain any required 3rd party dependencies not provided
+          by default in Lambda functions
+      - correct: false
+        option: A lambda layer's zipped deployment package should be such that if
+          you were to unzip it, it would contain nothing but the source code of the
+          dependencies which you want to access
+    question: Mark the following statements which are true for AWS Lambda Layers
+  - options:
+      - correct: true
+        option: Item being put in S3
+      - correct: false
+        option: An EC2 instance, as long as it is created in the same region by the
+          same account
+      - correct: true
+        option: Another lambda function
+      - correct: true
+        option: Another instance of the same lambda function
+      - correct: true
+        option: A web request made to an API
+      - correct: true
+        option: A cron job configured through Cloudwatch Rules
+      - correct: false
+        option: A web request made directly to the lambda function
+      - correct: false
+        option: Any other account within your AWS organisation
+    question: Which of the following can trigger lambda functions on your AWS account?

@@ -1,0 +1,62 @@
+name: pyscopg2 and SQLAlchemy
+questions:
+  - question: Which of the following are alternatives to pyscopg2?
+    options:
+      - option: queries
+        correct: true
+      - option: AWS dbapi
+        correct: false
+      - option: txpostgres
+        correct: true
+      - option: MongoDB
+        correct: false
+      - option: AWS S3
+        correct: false
+      - option: Python PG Extras
+        correct: true
+    
+  - question: SQLAlchemy only works with PostgreSQL
+    options:
+      - option: 'True'
+        correct: false
+      - option: 'False'
+        correct: true
+  
+  - question: Which of the following are methods from an Engine object?
+    options:
+      - option: connect
+        correct: true
+      - option: execute
+        correct: false
+      - option: begin
+        correct: true
+      - option: commit
+        correct: false
+      - option: select
+        correct: false
+  
+  - question: What parameters can you use in pandas to_sql method?
+    options:
+      - option: name
+        correct: true
+      - option: con
+        correct: true
+      - option: table
+        correct: false
+      - option: directory
+        correct: false
+      - option: schema
+        correct: true
+      - option: host
+        correct: false
+  
+  - question: Select everything true about ORMs
+    options:
+      - option: It stands for Object Relational Mapper
+        correct: true
+      - option: It allows us to use the tables of a database as a Python object
+        correct: true
+      - option: SQLAlchemy handles the tables to be communicated with our Python code
+        correct: true
+      - option: ORM only works with PostgreSQL
+        correct: false

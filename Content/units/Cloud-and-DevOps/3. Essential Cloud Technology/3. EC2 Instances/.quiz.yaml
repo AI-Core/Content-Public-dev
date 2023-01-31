@@ -1,0 +1,38 @@
+name: EC2 Instances
+questions:
+  - question: What OS are supported by the Amazon Machine Image (AMI)? 
+    options:
+      - option: MacOS
+        correct: true
+      - option: Windows
+        correct: true
+      - option: Raspbian
+        correct: false
+      - option: Ubuntu
+        correct: true
+      - option: PostgreSQL
+        correct: true
+  - question: If you have an EC2 instance, you SHOULD include your personal IP address.
+    options:
+      - option: "True"
+        correct: true
+      - option: "False"
+        correct: false
+  - question: They .pem key you download can only be used by the user that generated it
+    options:
+      - option: "True"
+        correct: false
+      - option: "False"
+        correct: true
+  - question: Select everything True about working in an EC2 instance.
+    options:
+      - option: You can run selenium as long as it is in headless mode.
+        correct: true
+      - option: The webdriver and the browser are installed by default
+        correct: false
+      - option: If you leave a program running and you logout the EC2 instance, the work will stop
+        correct: true
+      - option: You can install multiplexer on the EC2 instance
+        correct: true
+      - option: Running a code in your EC2 instance will imply an additional cost
+        correct: false

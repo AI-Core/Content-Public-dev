@@ -1,0 +1,7 @@
+id: 022176d6-21f6-437a-89f8-881709114947
+name: Spark Theory
+questions:
+- answer: 'Java 17 was installed, Apache Spark only supports Java8 or 11. '
+  created_at: '2022-02-02 03:39:10'
+  id: f6509e34-a349-4194-b58a-80a740b3e61c
+  question: Spark Session won't start on Windows.

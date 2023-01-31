@@ -1,0 +1,39 @@
+- name: Implement a grid search
+  id: dbecdfb3-fe79-443f-9a31-61a67967d1bc
+  description: |+
+    1. Update your from-scratch linear regression code to include a grid search over learning rates and batch size
+    2. Print the best hyperparameterisations
+    3. Initialise a model with them and train it
+    4. Save your custom model. Is it used in the same way as the LinearRegression model provided by sklearn?
+
+- name: Finding hyperparameters and parameters
+  id: e2b81357-04d1-42d7-9ece-0c70b8462a3b
+  description: |+
+    1. Find a few sklearn machine learning methods, at least three. Try to find algorithms as different as possible.
+    2. What are their hyperparameters, what are their parameters?
+
+- name: Tuning hyperparameters
+  id: e2b81357-04d1-42d7-9ece-0c70b8462a3b
+  description: |+
+    1. Load the California housing dataset
+    2. Split the data using [KFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html) 
+    3. Use one of the models you found in the previous practical to implement it into GridSearchCV
+    4. Train the model and save it
+
+- name: Nested cross validation
+  id: 8982a581-e200-49ae-9325-2e6d5e5c6f2a
+  description: |+
+    1. Check out [what is nested cross validation](https://machinelearningmastery.com/nested-cross-validation-for-machine-learning-with-python/)
+    2. What does it do?
+    3. How does it helps in model performance evaluation?
+
+- name: Randomized search cross validation
+  id: 46b8ef6a-4acd-4e54-8a7a-1792ccf62dcd
+  description: |+
+    1. Check out [`sklearn.RandomizedSearchCV`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
+    2. Attempt the first practical using it instead of regular grid search
+
+- name: Multiprocessing K-Fold
+  id: fc05e4d0-d83c-4044-aa18-c07819377706
+  description: |+
+    1. Grid search with K-Fold is slow. Parallelize it using [multiprocessing](https://docs.python.org/3.8/library/multiprocessing.html) so that it can run on multiple cores

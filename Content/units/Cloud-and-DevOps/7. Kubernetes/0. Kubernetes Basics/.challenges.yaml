@@ -1,0 +1,22 @@
+- id: fc2652cf-8c41-4954-9e4e-18ee9cf10dda
+  name: kubectl and minikube
+  description: |
+    - Go through the notebook to install kubectl and minikube in your local machine
+    - If you haven't yet, you have to install Docker first
+    - Initialize the kubernetes configuration by running 'minikube start'
+    - Check the dashboard, if everything works fine, you are ready for the next practicals!
+
+- id: c40a46a5-5569-4541-829a-03e67e2aefa1
+  name: Declarative Kubernetes
+  description: |
+    - Kubernetes have different ways to deploy its resources, but they can be broadly divided into Declarative and Imperative.
+    - Look for information about declarative implementation
+    - Create a yaml file that creates a simple pod with an ubuntu container. You can use the ubuntu image from dockerhub
+    - Use kubectl to create the pod using the yaml file using the apply command (kubectl apply -f <yaml_file>)
+
+- id: c40a46a5-5569-4541-829a-03e67e2aefa1
+  name: Declarative Kubernetes
+  description: |
+    - Kubernetes have different ways to deploy its resources, but they can be broadly divided into Declarative and Imperative.
+    - Look for information about imperative implementation https://kubernetes.io/docs/tasks/manage-kubernetes-objects/imperative-command/
+    - Create a pod using imperative commands. Look at this [blog](https://betterprogramming.pub/kubernetes-tips-create-pods-with-imperative-commands-in-1-18-62ea6e1ceb32) if you get stuck 

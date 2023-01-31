@@ -1,0 +1,12 @@
+questions:
+  - question: What is the difference between multiclass and multilabel
+  - question: What is the difference between argmax and softmax
+  - question: Why is it preferable to use softmax against argmax?
+  - question: What is the range of values of the softmax function?
+  - question: What is the sum of all the elements in a vector that is the output of the softmax function?
+  - question: How do you compute stable softmax? Why does it work?
+  - question: What is One Hot Encoding and how does it work?
+  - question: What is the problem of using the whole array resulting from performing One Hot Encoding to a vector?
+  - question: What is the loss function of a Multiclass classification?
+  - question: When should you use simple linear models?
+  

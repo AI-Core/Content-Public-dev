@@ -1,0 +1,37 @@
+name: MLOps Documentation & Processes
+questions:
+  - question: Which of the following options is the best definition of documentation?
+    options:
+      - option: A piece of writing which details how code should be written
+        correct: false
+        reason: Documentation is for more than just code! You might get value out of documenting how your company's annual review process works.
+      - option: Any form of writing which describes how somethings works
+        correct: true
+      - option: Comments in code
+        correct: false
+        reason: This is a great form of documentation, but code isn't the only thing which requires documentation!
+      - option: Asking your team to explain how something works
+        correct: false
+  - question: Where should I create documentation?
+    options:
+      - option: Production grade documentation should always be hosted on GitHub
+        correct: false
+        reason: There is no reason to not use other tools to build or host documentation. Documentation is not just for programmers
+      - option: Notion is the best place to create documentation because it's easiest to edit and share
+        correct: false
+      - option: As an individual responsible for some part of the documentation, you should create it wherever you prefer.
+        correct: false
+        reason: It's important to make sure your company's documentation is all stored in one place so that there is a single source of truth. Also, the company needs to have ownership of the documentation in case the original creator leaves, or someone else in the org needs to edit it.
+      - option: The choice of where to create documentation and how to build it should be agreed on by the team, wherever that may be, and then consistently developed in that one place by everyone in the team.
+        correct: true
+  - question: Which processes are worth documenting?
+    options:
+      - option: The format and agenda of regular process meetings
+        correct: true
+      - option: The agenda for every meeting
+        correct: false
+        reason: You probably don't need to write all of this down
+      - option: What the software development pipeline looks like
+        correct: true
+      - option: How to raise problems and who to report them to
+        correct: true 

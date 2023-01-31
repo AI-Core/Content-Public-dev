@@ -1,0 +1,79 @@
+name: Kafka - Topology and Components
+questions:
+  - question: Which of the following statements are True about Kafka?
+    options:
+      - option: "Kafka can handle both real-time and batch data processing"
+        correct: true
+      - option: "Producers are used to capture and consume data"
+        correct: false
+      - option: "Zookeeper is a main component in the Kafka core system"
+        correct: false
+      - option: "Events represent a data record or something that happened in the real world"
+        correct: true
+      - option: "Producers and Consumers are inter-dependent on each other and must wait for each other to finish data processing"
+        correct: false
+      - option: "Events stored in Topics are deleted immediately after they are consumed"
+        correct: false
+  - question: What are the main components in a Kafka System?
+    options:
+      - option: "Broker"
+        correct: true
+      - option: "Distributor" 
+        correct: false
+      - option: "Producer"
+        correct: true
+      - option: "Bash Script"
+        correct: false   
+      - option: "Consumer"
+        correct: true
+      - option: "Zookeeper"
+        correct: true 
+      - option: "Spark"
+        correct: false
+      - option: "HDFS" 
+        correct: false
+      - option: "Ingestor"
+        correct: false 
+      - option: "Container"
+        correct: false
+      - option: "Flume" 
+        correct: false
+      - option: "Feeder" 
+        correct: false
+      - option: "Topic" 
+        correct: true
+  - question: Which of the following statements are True about Kafka Topics
+    options:
+      - option: "They are used to store Events" 
+        correct: true
+      - option: "A Topic can only connect to exactly one Producer"
+        correct: false
+      - option: "Data in a Topic is deleted as soon as it's consumed"
+        correct: false
+      - option: "Storing data in Topics for a long time is one of the major problems that Kafka users complain from"
+        correct: false
+      - option: "Topics store data into Partitions"
+        correct: true
+      - option: "Partitions do not require any form of Key or ID to access data, as they automatically track the data sequence"
+        correct: false   
+  - question: Which of the following statements are True about Kafka Consumers
+    options:
+      - option: "Consumers are an optional part of Kafka"
+        correct: false
+      - option: "There can only be one Consumer at a given point in time"
+        correct: false
+      - option: "Consumers can specify both the Topic and the Partition from reach to consume data from"
+        correct: true
+      - option: "Kafka has only one type of Consumer"
+        correct: false
+  - question: Which of the following statements are True about Kafka Producers
+    options:
+      - option: "There can be multiple Producers in a Kafka cluster"
+        correct: true
+      - option: "Each Producer must have an equivalent Consumer ready"
+        correct: false
+      - option: "Producers can only connect to Kafka via a Broker"
+        correct: false
+      - option: "When running the Producer command in Linux, we don't need to specify the Topic name"
+        correct: false
+

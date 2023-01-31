@@ -1,0 +1,17 @@
+questions:
+  - question: By convention, what is the first argument passed to a classmethod? And a static method?
+  - question: What are the three main dunder methods (magic methods) implemented by default using dataclass? What does each method do?
+  - question: What is the main purpose of using properties?
+  - question: Do static methods need self? If not, why would you use it?
+  - question: "You have a Time class:
+              \n\n `class Time:`
+              \n\n\t def __init__(self, hour:int, minutes:int, seconds:int):
+              \n\n\t\t   self.hour = hour
+              \n\n\t\t   self.minutes = minutes
+              \n\n\t\t   self.seconds = seconds
+              \n\n\t def display(self):
+              \n\n\t\t   print(f\"It's {self.hour}:{self.minutes}:{self.seconds}\")
+              You want to implement a method to initialize a Time object that always takes the same value Midnight (0, 0, 0)
+
+              What is the optimal way to do it?"
+  - question: You want to implement a method to check whether the time you are passing to the constructor is legit or not. What is the optimal way to do it?

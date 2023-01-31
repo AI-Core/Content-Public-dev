@@ -1,0 +1,24 @@
+id: 7e5a5266-ea05-4aa6-9bbe-b8affd65e280
+name: Intro to Pandas
+questions:
+- answer: 'They perform the same operation actually, so the confusion is understandable.
+    Remember that when using replace, you have to specify what value you want to replace
+    and the value you want to replace it for.
+
+
+    For example, df.replace(np.nan, 0)
+
+
+    fillna, on the other hand, just needs the value you want to replace the nan for.
+
+
+    For example, df.fillna(0)
+
+
+    There is not a lot of difference between their execution time, so just use the
+    one you like the most!'
+  created_at: '2022-02-02 03:39:10'
+  id: 4ce0fe2d-8920-44c8-bda4-500443311dbf
+  question: Let's say that we have a category column with missing values np.nan. Which
+    method is best for replacing np.nan with 'Missing'? Using imputer from sklearn,
+    df.fillna or df.replace?

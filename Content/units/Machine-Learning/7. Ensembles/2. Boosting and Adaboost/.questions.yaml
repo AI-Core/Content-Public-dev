@@ -1,0 +1,14 @@
+questions:
+  - question: What is boosting?
+  - question: What is the different between bagging and boosting?
+  - question: What is AdaBoost?
+  - question: How does AdaBoost corrects predecessor's mistakes?
+  - question: You can use AdaBoost in sklearn with what library (not class)? 
+    answer: Library is ensemble (Don't confuse with the class AdaBoost)
+  - question: What is the default estimator in AdaBoost?
+  - question: What parameters can you tweak in sklearn's AdaBoost?
+  - question: How do you visualize the most relevant features in a dataset using AdaBoost? How does it work? 
+    answer: feature_importances_. It looks at how much the estimators that use that feature reduce impurity on average
+  - question: If your AdaBoost ensemble underfits the training data, what hyperparameters should you tweak and how?
+  - question: What are the staged method in AdaBoost?
+  

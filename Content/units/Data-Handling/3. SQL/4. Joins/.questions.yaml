@@ -1,0 +1,14 @@
+name: 'SQL Joins'
+questions: 
+  - question: Describe what the SQL statement join does.
+  - question: There are four types of join can you name two of them?
+  - question: What does aliasing allow us to do and why is it useful?
+  - question: What keyword is used to perform aliasing and what is typically aliased in SQL?
+  - question: The statement, "Select all records from Table A and Table B, where the join condition is met" represents which type of join?
+  - question: "Imagine we have table A on the left and Table B on the right.<br> 
+              The statement, Select all records from Table A, along with records from Table B for which the join condition is met
+              represents which type of join?"
+  - question: What records would be selected if we performed a full outer join?
+  - question: What kinda of join does the following image represent? <br> ![](https://raw.githubusercontent.com/life-efficient/Data-Engineering-Private/main/2.%20SQL/3.%20Joins/images/Left_join.png?token=ATUXC5PEEVAQKGF36VFMEZLBT7FRY)
+  - question: What kinda of join does the following image represent? <br> ![](https://raw.githubusercontent.com/life-efficient/Data-Engineering-Private/main/2.%20SQL/3.%20Joins/images/Inner_join.png?token=ATUXC5PZNPDSFEKEV4W3563BT7F5S)
+  - question: What kinda of join does the following image represent? <br> ![](https://raw.githubusercontent.com/life-efficient/Data-Engineering-Private/main/2.%20SQL/3.%20Joins/images/Full_outer.png?token=ATUXC5NMXK27O6KACT3GSC3BT7F6O)

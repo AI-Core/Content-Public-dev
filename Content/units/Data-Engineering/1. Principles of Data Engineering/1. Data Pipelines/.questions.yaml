@@ -1,0 +1,12 @@
+questions: 
+  - question: What is meant by Data Ingestion? 
+  - question: What is a Data Pipeline? Can it move batch and real-time data?
+  - question: What are the 7 components of a Data Pipeline?
+  - question: What is batch data ingestion? How is it different from streaming and real-time?
+  - question: List 3 challenges facing data pipelines in global companies.
+  - question: What are 2 best practices for data ingestion?
+  - question: Give an example of a streaming data pipeline and how it can be used.
+  - question: Provide an example of a batch data pipeline and how it can be used.
+  - question: What is a data source? Provide some examples of data sources.
+  - question: How is data moved throughout a data engineering platform in global companies?
+  - question: What is data wrangling? Why do we need it in global companies?

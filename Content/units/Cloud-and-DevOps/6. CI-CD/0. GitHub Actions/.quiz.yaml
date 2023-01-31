@@ -1,0 +1,120 @@
+name: GitHub Actions
+questions:
+  - options:
+      - correct: true
+        option: Continuous Integration / Continuous Deployment (or Delivery)
+      - correct: false
+        option: CI/CD Is Code Development
+      - correct: false
+        option: Code Integration / Code Deployment (or Delivery)
+      - correct: false
+        option: Cloud Integration / Cloud Deployment (or Delivery)
+    question: What does CI/CD stand for?
+  - options:
+      - correct: true
+        option: CircleCI
+      - correct: false
+        option: Jenkins
+      - correct: true
+        option: AWS CodeDeploy
+      - correct: false
+        option: Terraform
+      - correct: true
+        option: Azure Pipelines
+      - correct: false
+        option: Git Kraken
+    question: Which of the following are alternatives to GitHub Actions in the sense
+      that they can be used to set up CI/CD pipelines?
+  - options:
+      - correct: true
+        option: Remove human error in deployment
+      - correct: true
+        option: Save time by automatically deploying code
+      - correct: true
+        option: Automatically run tests and code checks
+      - correct: true
+        option: You want users to always have the latest version of the software
+      - correct: true
+        option: You don't want to share cloud credentials with specific individuals
+    question: What are the motivations to use GitHub Actions or other CI/CD tools?
+  - options:
+      - correct: true
+        option: A runner is a server running the GitHub Actions runner application
+      - correct: true
+        option: You can use a runner hosted by GitHub, or one that you host yourself
+      - correct: true
+        option: Runners listen for and run jobs defined in your workflow
+      - correct: false
+        option: Runners listen for and run steps defined in your workflow
+    question: Select everything true about the Runners in GitHub actions
+  - options:
+      - correct: true
+        option: Jobs run in parallel
+      - correct: false
+        option: All jobs in a workflow must run on the same OS which you defined the
+          runner to use
+      - correct: true
+        option: Jobs can run conditionally based on whether another job completes
+          or not
+      - correct: false
+        option: All jobs in a workflow run on the same computer
+    question: Select everything true about Jobs in GitHub actions
+  - options:
+      - correct: true
+        option: You can define your own actions
+      - correct: true
+        option: You can use public actions built and released by the community
+      - correct: true
+        option: An action must be used as a step in a job
+      - correct: false
+        option: An action can be defined to be used as a job or as a step
+      - correct: false
+        option: You can only use one action within each job
+    question: Select everything true about the Actions in GitHub Actions
+  - options:
+      - correct: false
+        option: A step run a job
+      - correct: true
+        option: A step can run an action
+      - correct: true
+        option: A step can run a shell command
+      - correct: false
+        option: Steps happen in parallel
+      - correct: true
+        option: Steps happen on the same computer
+    question: Select everything true about the Steps in GitHub Actions
+  - options:
+      - correct: true
+        option: A schedule. E.g. every day at 5am
+      - correct: true
+        option: A pull request
+      - correct: false
+        option: A commit
+      - correct: false
+        option: A pull
+      - correct: true
+        option: A push to a specific branch
+      - correct: true
+        option: A push to one of several branches
+      - correct: true
+        option: Creating an issue
+      - correct: true
+        option: Commenting on an issue
+    question: Which of the following Events can trigger a workflow on GitHub Actions?
+  - options:
+      - correct: true
+        option: It is free to use GitHub Actions (within limits)
+      - correct: false
+        option: There is a limit of 100 workflows that you can set up on a GitHub
+          repo
+      - correct: false
+        option: You need a Pro GitHub account to use GitHub actions
+      - correct: false
+        option: You pay more for workflows with more steps
+      - correct: true
+        option: You pay more for workflows which take longer
+      - correct: false
+        option: You pay more for using more runners
+      - correct: false
+        option: You can only run workflows on a organisational account
+    question: Select everything true about pricing and access to GitHub Actions

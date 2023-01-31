@@ -1,0 +1,103 @@
+id: 101f383a-8ff3-47d9-9ce8-6e8d95defb5c
+name: Command Line
+questions:
+- answer: "First of all, if you are on Mac or Linux, you won't see gitbash, because\
+    \ the default terminal on both OSs already use bash, so there is no need to install\
+    \ gitbash. \n\nIf you are on Windows, make sure you have installed gitbash, and\
+    \ then restart VSCode"
+  created_at: '2022-02-02 03:39:10'
+  id: dc6636e9-04cc-4f6c-bb09-17667f376a01
+  question: I Can't find git bash in the terminal dropdown in VSCode
+- answer: 'You need to add miniconda (or anaconda) to path. There are a few alternatives,
+    but just to make it simpler, you can first uninstall miniconda, and reinstall
+    it. Then, when it asks you if you want to add miniconda to PATH, tick that box,
+    and keep going with the installation. '
+  created_at: '2022-02-02 03:39:10'
+  id: 2eb17c42-b9ec-41b8-b8bd-eef21db9b33f
+  question: 'When I type conda in my terminal, I find the next message: "conda command
+    not found". I''m pretty sure I installed it, so what''s going on?'
+- answer: "Create the virtual environment using conda instead of Python. Python doesn't\
+    \ manage your packages, so each virtual environment you create using python will\
+    \ contain the same libraries as \"unvirtualized\" environment. \n\nYou can create\
+    \ a conda environment using \"conda create --name <name of your environment>\"\
+    , and then don't forget to activate it!"
+  created_at: '2022-02-02 03:39:10'
+  id: bdc0f69c-34be-4b6d-9819-aa2687bffd4b
+  question: I am in a virtual environment, but I still have conflicts with some of
+    my packages. I made sure that this virtual environment didn't have any other package
+    before installing anything, why is this happening?
+- answer: 'Your bash file may simply not exist yet. That''s fine. You should simply
+    create one.
+
+
+    Another reason why it may not exist is that you are using a different terminal
+    such as zsh. If you can see zsh written at the top of your terminal, then that
+    is the case. In this case, you should be using .zshrc instead of .bashrc, and
+    if .zshrc doesn''t exist that''s fine - again, just create it!'
+  created_at: '2022-02-02 03:39:10'
+  id: 626d7f9a-a555-4f9b-9b01-20078c0960bd
+  question: I can't find the bashrc file. Isn't it installed by default?
+- answer: 'Take a look at your code. Should it actually be ending. You might be running
+    something which contains an infinite while loop.
+
+
+    By the way, press Ctrl + C if you are running a script, or press the "Interrupt"
+    button to stop the execution'
+  created_at: '2022-02-02 03:39:10'
+  id: 6c9fc2b9-a994-4885-8159-2baef21496b4
+  question: My code has been running for ages and nothing is happening
+- answer: "If you are using Linux or Mac, you need to tell the terminal that you are\
+    \ the administrator, so you can write \"sudo\" at the beginning of each command.\
+    \ For example \"sudo nano ~/.bashrc\" \n\nIf you are using gitbash on Windows,\
+    \ \"sudo\" will not be recognized, but you can open gitbash as an administrator\
+    \ right-clicking on gitbash and then selecting \"Open as administrator\""
+  created_at: '2022-02-02 03:39:10'
+  id: b19fac83-9ab9-452a-be1b-d89b2430345a
+  question: 'Whenever I run certain commands in the terminal or on GitBash, I receive
+    the following message: Access is denied. I can''t figure out why or how to get
+    past this'
+- answer: 'First of all, you need to make sure what your PATH looks like. In your
+    terminal, run "echo $PATH" and you will see a series of directories separated
+    by a colon. Each directory belongs to PATH, so you can move your file to any of
+    those directories.
+
+
+    To do so, you can run "mv <directory of your file> <one of the directories of
+    PATH>"'
+  created_at: '2022-02-02 03:39:10'
+  id: 08542a82-4bff-4fe9-b512-11edb689c487
+  question: How do I move a file to PATH?
+- answer: 'First of all, check that the alias is well wriitten, check the notebook
+    to know how to do it.
+
+
+    If it''s well written, then, the reason is still not working is because you need
+    to use a different shell. Instead of .bashrc, try .bash_profile
+
+
+    If that still doesn''t work, modify the .bash_login file
+
+
+    If that sill doesn''t work, modify the .profile file'
+  created_at: '2022-02-02 03:39:10'
+  id: 7f186cb0-b7f7-4123-aa73-9a4f3ab278f8
+  question: I am using aliases and adding them to .bashrc. However, it doesn't seem
+    to work. What am I doing wrong?
+- answer: Simply run "touch <file_name>"
+  created_at: '2022-02-02 03:39:10'
+  id: a8990d8a-2037-42b2-9e50-922a84fb599a
+  question: How do I create a blank file from the terminal?
+- answer: 'Oops, that looks like a problem. That means that you deleted the previous
+    content of your ~/.bashrc file. This might be caused because you used a single
+    > instead of double >>. The first one writes a file, and if it already existed,
+    it will delete its previous content. On the other hand, two redirect signs (>>)
+    will append the values to the end of the file
+
+
+    Take a look at this thread to know how to start conda when you open your terminal
+    https://askubuntu.com/questions/849470/how-do-i-activate-a-conda-environment-in-my-bashrc'
+  created_at: '2022-02-02 03:39:10'
+  id: 45c5a665-c2d4-4544-b1ff-a31d62808881
+  question: 'I''m aliasing commands to the bashrc and it''s stopped working and the
+    (base) at the start of my terminal lines has stopped showing. Please could I get
+    some help? '

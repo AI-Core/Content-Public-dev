@@ -1,0 +1,16 @@
+id: d8373c94-0031-470e-abd4-f9a07f2afbaf
+name: Loops
+questions:
+- answer: 'A loop repeats an operation until a condition is not met anymore. In the
+    case of a while loop, the condition is quite clear, because is written in the
+    same while statement, so make sure that the condition is met
+
+
+    In the case of a for loop, the condition is that there are elements in the iterable
+    that hasn''t been visited yet. Remember that, by iterable we mean a data type
+    with multiple items inside, such as a list, dictionary, tuple... But, what if
+    the iterable is empty? All elements are visited even before starting the for loop!
+    So before starting the for loop, make sure that your iterable is not empty'
+  created_at: '2022-02-02 03:39:10'
+  id: 173aab81-7660-4ae3-a0e5-7429dccf7065
+  question: Python isn't running my loop, as if it doesn't exist

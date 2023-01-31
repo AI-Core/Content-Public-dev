@@ -1,0 +1,170 @@
+name: Python Programming. Comprehension and Lambda Functions
+questions:
+  - options:
+      - correct: false
+        option: Comprehensions can create list, dictionaries, sets, and tuples
+      - correct: true
+        option: Comprehensions can create list, dictionaries, sets, and generators
+      - correct: true
+        option: List comprehensions are almost always faster than for loops when performing operations
+      - correct: false
+        option: You can't add if / else conditions to a comprehension list
+      - correct: false
+        option: You can't add lambda functions to list comprehensions
+      - correct: true
+        option: Dictionary comprehensions and set comprehensions are created using curly brackets ( {  } )
+      - correct: true
+        option: You can assign a lambda expression to a variable
+      - correct: true
+        option: Lambda functions are also named anonymous functions or lambda abstractions
+      - correct: false
+        option: Lambda functions can contain statements such as return, pass, assert or raise.
+      - correct: true
+        option: Lambda functions can accept more than one argument
+    question: 'Select everything TRUE about comprehensions and Lambda functions:'
+  - options:
+      - correct: false
+        option: '{v for v in dic1.values()}'
+      - correct: false
+        option: '{v: k for k, v in dic1.values()}'
+      - correct: false
+        option: '{v: k for k, v in dic1.values()}'
+      - correct: false
+        option: '{k: v for k, v in dic1.items()}'
+      - correct: true
+        option: '{v: k for k, v in dic1.items()}'
+      - correct: true
+        option: '{k: v for v, k in dic1.items()}'
+    question: How can you invert a dictionary 'dic1' using comprehensions?
+  - options:
+      - correct: true
+        option: '(lambda x: x \* 3 - 1)(x)'
+      - correct: false
+        option: 'lambda x: x \* 3 - 1'
+      - correct: false
+        option: 'lambda x: return x \* 3 - 1'
+      - correct: false
+        option: x \* 3
+      - correct: true
+        option: x * 3 - 1
+      - correct: true
+        option: (x * 3 - 1)
+    question: 
+      "You have the following incomplete code:
+      
+      _tripled = [\\_\\_\\_ for x in range(5)]_
+      
+      _print(tripled)_
+      
+      
+      Fill the gap so that the output is:
+      _[-1, 2, 5, 8, 11]_"
+  - options:
+      - correct: false
+        option: a) ; d) ; c)
+      - correct: false
+        option: g) ; b) ; c)
+      - correct: true
+        option: d) ; a) ;  c)
+      - correct: false
+        option: c) ; a) ; f)
+      - correct: false
+        option: e) ; a) ; c)
+      - correct: false
+        option: d) ; f) ; b)
+    question: 
+      "Fill the gaps in the correct order so the code returns _[10, 5, 4, 9, 1]_:
+      
+      
+      l = [12, 42, 10, 5, 4, 11, 21, 9, 1]
+      
+      clean = [\\_\\_\\_   \\_\\_\\_ for x in l]
+      
+      clean = [x for x in clean \\_\\_\\_]
+
+      print(clean)
+      
+      
+      Options:
+      
+      a) else None
+      
+      b) if l
+      
+      c) if x
+      
+      d) x if x <= 10
+      
+      e) x if x >= 10
+      
+      f) print x
+      
+      g) print l"
+  
+  - options:
+      - correct: true
+        option: Option a)
+      - correct: false
+        option: Option b)
+      - correct: true
+        option: Option c)
+      - correct: false
+        option: Option d)
+      - correct: false
+        option: Option e)
+      - correct: false
+        option: Option f)
+    question: 
+      "You have the following list of lists:
+      
+      _planets = [['Mercury', 'Venus', 'Earth'], ['Mars', 'Jupiter', 'Saturn'], ['Uranus', 'Neptune', 'Pluto']]_
+      
+      Which of the following will print out: ['Mercury', 'Jupiter', 'Neptune']
+      
+      Select all that apply:
+      
+      
+      a)
+      
+      flatten_planets = []
+      
+      for sublist in planets:
+      
+      \_\_\_\_for planet in sublist:
+      
+      \_\_\_\_\_\_\_\_if len(planet) > 6:
+
+      \_\_\_\_\_\_\_\_\_\_\_\_flatten_planets.append(planet)
+      
+      
+      b)
+      
+      flatten_planets = []
+      
+      for sublist in planets:
+      
+      \_\_\_\_for planet in sublist:
+      
+      \_\_\_\_\_\_\_\_if len(planet) < 6
+      
+      \_\_\_\_\_\_\_\_\_\_\_\_flatten_planets.append(planet)
+      
+      
+      c) 
+      
+      flatten_planets = [planet for sublist in planets for planet in sublist if len(planet) > 6]
+      
+      
+      d) 
+      
+      flatten_planets = [planet for sublist in planets for planet in sublist if len(planet) < 6]
+      
+      
+      e) 
+      
+      flatten_planets = [planet for planet in planets if len(planet) > 6]
+      
+      
+      f)
+      
+      flatten_planets = [planet of planet in planets if len(planet) < 6]"

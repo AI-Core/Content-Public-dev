@@ -1,0 +1,15 @@
+name: 'CICD'
+questions: 
+  - question: What is the purpose of GitHub Actions?
+  - question: What does CI and CD stand for?
+  - question: What is a GitHub actions event, workflow, Job?
+  - question: What are some of the most useful events we can trigger the `on` statement with?
+  - question: Where type of file would you define a GitHub workflow in?
+  - question: What is the basic structure of a GitHub workflow?
+  - question: What is a GitHub workflow strategy, does order matter when defining a strategy?
+  - question: What does `strategy.fail-fast` and `strategy-max-parallel` do?
+  - question: What is a step, does it have to run an action, how many steps can your workflow have?
+  - question: How are the `uses` and `with` statements used?
+  - question: What does the `run` statement do?
+  - question: The `context` keyword allows you a set of defined or predefined _____ within the workflow?
+  

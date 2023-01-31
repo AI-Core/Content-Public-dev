@@ -1,0 +1,26 @@
+- id: dc99de3f-0747-4170-97bc-80c8f9acb8c1
+  name: Tokyo Olympics
+  description: |+
+    1. Download the datasets from the following URL: https://aicore-files.s3.amazonaws.com/Data-Eng/Olympics.zip
+    2. You are going to work with 5 DataFrames: Athletes, Coaches, EntriesGender, Medals, and Teams
+    3. For all DataFrames Observe the name of the columns and the corresponding dtype 
+    4. For the Gender DataFrame: Plot a bar graph showing the number of athletes in each discipline. Create a new bar graph splitting the total number by gender.
+    5. For the Athletes DataFrame: Plot a graph showing the number of athletes per country
+    6. For the Teams DataFrame: Plot a graph showing the number of teams per discipline
+    7. for the Medals DataFrame: Plot a graph showing the number of medals per country. For each country, display how many Gold, Silver, and Bronze medals they obtained.
+    
+
+- id: 23171470-914a-4383-ad6a-14d75a65083e
+  name: India Air Quality
+  description: |+
+    1. Download the dataset from the following URL: https://aicore-files.s3.amazonaws.com/Data-Eng/India_Air_Quality.csv
+    2. Load it into a DataFrame 
+    3. Observe the name of the columns and the corresponding dtype
+    4. Check how many missing values each column has
+    6. Plot the correlation between the following features: so2, no2, and pm2_5
+    7. Plot the correlation between the following features: so2, no2, and spm. What difference can you spot with respect the previous plot?
+    8. Plot the distribution of the following features: so2, no2, pm2_5, and spm. You can do it in 4 different graphs
+    9. Observing all graphs you plotted so far, what can you tell about the relasionships between pm2_5 and spm? or rspm and NO2?
+    10. Group the emissions by state (Using groupby) and store the result into a new variable
+    11. Plot the new DataFrame using an area plot.
+    12. For each state, what emmission is the main contributor to the total emmissions?

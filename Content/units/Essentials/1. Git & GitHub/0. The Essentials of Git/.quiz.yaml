@@ -1,0 +1,129 @@
+name: 'Programming Environment: Git and GitHub'
+questions:
+  - options:
+      - correct: false
+        option: Free
+      - correct: false
+        option: Open-Source
+      - correct: true
+        option: Centralised Version Control System
+      - correct: true
+        option: Works only on the cloud
+    question: "'Git is a free and open-source centralised version control system that\
+      \ works only on the cloud, so other users can have access to the project' \n\
+      From this statement, select what is False.\n\tSelect all that apply."
+  # - options:
+  #     - correct: true
+  #       option: Branching
+  #     - correct: false
+  #       option: Remote Repository
+  #     - correct: false
+  #       option: Local Repository
+  #     - correct: true
+  #       option: Merging
+  #     - correct: false
+  #       option: Stashing
+  #   question: 'The Image on the right represents the idea(s) of...
+
+  #     Select all that apply.'
+  - options:
+      - correct: false
+        option: 'True'
+      - correct: true
+        option: 'False'
+    question: "True or False: Git works only with projects based on programming"
+  - options:
+      - correct: false
+        option: Initialised
+      - correct: true
+        option: Modified
+      - correct: false
+        option: Under Review
+      - correct: true
+        option: Staged
+      - correct: false
+        option: Pushed
+      - correct: true
+        option: Commited
+    question: 'Select the three main states of a file in Git.
+
+      Select all that apply.'
+  - options:
+      - correct: false
+        option: Nothing is wrong
+      - correct: true
+        option: First letter should be uppercase
+      - correct: false
+        option: It does not state who made the commit
+      - correct: false
+        option: It should have quotation marks to specify it is a string
+      - correct: true
+        option: It is written in the past tense, but would be written in present tense
+      - correct: true
+        option: It does not specify the 'features'
+    question: 'You are working with your team and see the following commit message:
+
+      ''added new features on main.py''
+
+      What is wrong with this message?
+
+      Select all that apply.'
+  # - options:
+  #     - correct: false
+  #       option: 'True'
+  #     - correct: true
+  #       option: 'False'
+  #   question: 'You are working on a project whose structure looks like the image on
+  #     the right-hand side. You write the following commands:
+
+
+  #     _git add ._
+
+  #     _git commit -m ''dummy message''_
+
+
+  #     True or False, since add has a dot ( . ), ALL files are always committed'
+  - options:
+      - correct: false
+        option: git init, git commit -m, git add.
+      - correct: false
+        option: git commit -m, git init, git add.
+      - correct: false
+        option: git init, git commit -m, git add .
+      - correct: false
+        option: git add ., git init, git commit -m
+      - correct: true
+        option: git init, git add ., git commit -m
+    question: What is the correct order to create a LOCAL Repository in a folder that
+      already has files in it. Then commit to all changes in the folder.
+  - options:
+      - correct: false
+        option: Create Empty Repository on GitHub, git init, git add ., git commit -m 'first commit', git push -u origin main, git branch -M main, git remote add origin
+      - correct: true
+        option: Create Empty Repository on GitHub, git branch -M main, git init, git remote add origin, git add ., git commit -m 'first commit', git push -u origin main
+      - correct: true
+        option: Create Empty Repository on GitHub, git init, git add ., git commit -m 'first commit', git branch -M main, git remote add origin , git push -u origin main
+      - correct: false
+        option: Create Empty Repository on GitHub, git init, git commit -m 'first commit', git add .,git branch -M main, git remote add origin , git push -u origin main
+      - correct: false
+        option: Create Repository on GitHub, add README.md file in GitHub, git init, git add ., git commit -m 'first commit',git branch -M main, git remote add origin , git push -u origin main
+    question: 'How can you create a REMOTE Repository on GitHub from an existing LOCAL
+      FOLDER?
+
+      Select all that apply.
+
+      '
+  - options:
+      - correct: true
+        option: git clone <URL>
+      - correct: false
+        option: git request <URL>
+      - correct: true
+        option: Using Visual Studio Code
+      - correct: false
+        option: Dowloading the code from the GitHub webpage
+      - correct: true
+        option: Using the GitHub Desktop App
+    question: 'How can you create a LOCAL Repository from an existing Remote Repository.
+
+      Select all that apply.'

@@ -1,0 +1,28 @@
+- name: Design a data ingestion system
+  id: 53e63488-7b15-433f-8f11-69601290617f
+  description: |
+    1. You've been hired as a data engineer at a prestigious bank. They tasked you with designing a system to ingest data from the mainframe computer, move the data to a storage location and prepare the data for creating daily reports on the customer credit card transactions.
+    2. Which data ingestion and processing approach would you use for this use case? Why?
+    3. Create a high-level UML system design diagram (similar to that of the Emirates Airlines example) showing the different steps of the process.  Which tools would you use in each step?
+    4. For each of the tools mentioned, what are the functions you expect them to perform? 
+- name: Batch data processing
+  id: f4996f31-7c57-4324-9b0c-32f84d93d0dc
+  description: |
+    1. Read Talend's blog about batch data processing: https://www.talend.com/resources/batch-processing/
+    2. Watch the video provided about how batch data processing could be used in the beer industry.
+    3. What are the benefits of using batch processing in organisations?
+    4. When is it recommended to use batch over real-time or streaming data processing? Why?
+- name: Splunk stream processing
+  id: fe7bee3a-14dd-4756-870e-70b23b355178
+  description: |
+    1. Read this Splunk blog on What is Stream Processing: https://www.splunk.com/en_us/data-insider/what-is-stream-processing.html#what-is-pulsar 
+    2. How does stream processing work? 
+    3. Describe what is a stateful stream process and compare it to the stateless processing.
+    4. Explain what Pulsar is.  What features does it provide?
+- name: Building a real-time auction system
+  id: 2931f7f8-4bc3-4438-8ee8-ac0955b5875e
+  description: |
+    1. Watch this video on: "Building a data processing system for real-time auctions" from the Spark AI 2020 summit: https://databricks.com/session/building-a-data-processing-system-for-real-time-auctions
+    2. What are the business use cases that this solution is attempting to resolve?
+    3. What were the components of the original system used? Why did the company switch from Hadoop MapReduce to Spark?
+    4. What are the tools used to design this new system? Write down the role of each tool and what it was used for.

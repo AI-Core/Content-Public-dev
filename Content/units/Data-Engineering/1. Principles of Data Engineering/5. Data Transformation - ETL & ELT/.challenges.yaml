@@ -1,0 +1,30 @@
+- name: ETL overview
+  id: b81f1ddd-411b-4e9f-b126-782c90cb0d12
+  description: |
+    1. Watch this IBM video [explaining ETL](https://www.youtube.com/embed/OW5OgsLpDCQ)
+    2. What are the 4 main benefits that ETL provides based on the video?
+    3. Read this IBM blog on ETL vs. ELT https://www.ibm.com/cloud/learn/etl?utm_medium=OSocial&utm_source=Youtube&utm_content=SOFWW&utm_id=YTDescription-101-ETL-Product-Page-ETL 
+    4. What are the main points the article discusses about ETL and how it compares to ELT?
+- name: SQL vs NoSQL
+  id: 422974d4-02f6-4c6b-afff-85bd8712d4cf
+  description: |
+    1. Watch this IBM video [comparing SQL to NoSQL](https://www.youtube.com/embed/Q5aTUc7c4jg)
+    2. What are the main types of NoSQL data stores discussed in the video?
+    3. What are the differences between a SQL and NoSQL data store?
+    4. What are some of the business use cases that would require a NoSQL data store?
+- name: OLAP vs OLTP
+  id: c9734bfe-d821-4d39-aec7-a4253a4eab2e
+  description: |
+    1. Watch this video [explaining what ETL data warehouse, OLAP and OLTP systems are](https://www.youtube.com/embed/oF_2uDb7DvQ)
+    2. Using the examples provided in the video, which system would store the Point of Sale data? Would we do aggregations and analytics on the same database?
+    3. How would the unstructured data be stored?
+    4. Compare and contrast OLAP and OLTP system features and when we should use each.
+- name: Using Talend ETL on AWS cloud
+  id: 0b9bcfaa-5272-4d76-9937-824114a00bc1
+  description: |
+    1. Read this overview tutorial explaining What is Talend https://www.tutorialspoint.com/talend/index.htm 
+    2. Watch this video explaining [how to use Talend on AWS cloud](https://www.youtube.com/embed/uLb9-weyHwM)
+    3. What are the use cases to use Talend on the AWS cloud? Why benefits does the tool provide?
+    4. How can a data engineer use Talend to perform data transformation tasks? 
+    5. Download the tool from the official website https://www.talend.com/free-trial/.  
+    6. Install and run the tool and explore the various features it provides.

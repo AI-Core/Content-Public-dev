@@ -1,0 +1,15 @@
+questions:
+  - question: What is gradient based optimisation? How does it help us to find the optima?
+  - question: How is gradient based optimisation related to ML models?
+  - question: When we move towards the optima, what is the step size at each iteration? Can we change the value of said step?
+  - question: What is an epoch?
+  - question: How does full batch differ from mini-batch?
+  - question: What is mini-batch gradient descent? How do you choose its size?
+  - question: What is the problem with different scales in your features?
+  - question: Name two ways to solve it. What is the difference between both?
+  - question: What is the problem of normalizing the data before splitting the data?
+  - question: "True or False: You need to manually implement gradient descent in sklearn"
+  - question: How does full batch gradient descent differ from stochastic gradient descent?
+  - question: When we say SGD, are we typically referring to full batch gradient descent, min-batch or stochastic gradient descent?
+    answer: Despite the acronym, we mean mini-batch, not stochastic
+  

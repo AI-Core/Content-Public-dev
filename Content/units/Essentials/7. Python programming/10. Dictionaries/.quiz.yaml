@@ -1,0 +1,222 @@
+name: Dictionaries and Tuples
+questions:
+  - options:
+      - correct: true
+        option: A dictionary is ordered, changeable and indexed
+      - correct: false
+        option: A dictionary is ordered, changeable and unindexed
+      - correct: false
+        option: A dictionary is unordered, changeable and indexed
+      - correct: false
+        option: A dictionary is unordered, changeable and unindexed
+      - correct: false
+        option: Dictionaries can store empty keys
+      - correct: false
+        option: Dictionaries can store duplicated keys
+      - correct: true
+        option: Dictionaries store key-value pairs
+      - correct: false
+        option: Dictionary keys can have any type
+      - correct: true
+        option: Dictionary values can have any type
+      - correct: false
+        option: The length of a dictionary is the double of keys it has, because it accounts the key AND the value
+      - correct: true
+        option: If you have a dictionary called _dict\_test,_ you can access the keys of a dictionary running _dict\_test.keys()_
+      - correct: false
+        option: If you have a dictionary called dict\_test, you can access the values of a dictionary running _dict\_test.items()_
+    question: Select everything TRUE about dictionaries
+  # - options:
+  #     - correct: false
+  #       option: dic\_test[1][1]
+  #     - correct: false
+  #       option: dic_\__test[1]['Age']
+  #     - correct: true
+  #       option: dict\_test['Person\_2']['Age']
+  #     - correct: false
+  #       option: dict\_test[dict\_test.keys()[ 1 ]]['Age']
+  #     - correct: true
+  #       option: dict\_test[list(dict\_test.keys())[ 1 ]]['Age']
+  #     - correct: true
+  #       option: list(dict\_test[list(dict\_test.keys())[ 1 ]].values())[1]
+  #   question: 'You have the dictionary on the right hand side:
+
+
+  #     Select all option(s) that returns 30'
+  # - options:
+  #     - correct: true
+  #       option: 'car.update({''colour'' : ''black''})'
+  #     - correct: true
+  #       option: car['colour'] = 'black'
+  #     - correct: false
+  #       option: 'car.add({''colour'' : ''black''})'
+  #     - correct: false
+  #       option: car.update('colour' = 'black')
+  #     - correct: false
+  #       option: car('colour') = 'black'
+  #     - correct: false
+  #       option: car.get('colour') = 'black'
+  #   question: 'You have the dictionary on the right hand side:
+
+  #     And the following incomplete code:
+
+
+  #     _\_\_\__
+
+  #     _print(car)_
+
+
+  #     Fill the gaps so the output is:
+
+
+  #     _{''brand'': ''Audi'', ''model'': ''A3'', ''year'': 2011, ''colour'': ''black''}_
+
+
+  #     Select the options that return the output'
+  # - options:
+  #     - correct: false
+  #       option: my\_dict.max()
+  #     - correct: false
+  #       option: my\_dict.items().max()
+  #     - correct: false
+  #       option: my\_dict.values().max()
+  #     - correct: false
+  #       option: max(my\_dict())
+  #     - correct: false
+  #       option: max(my\_dict().items())
+  #     - correct: true
+  #       option: max(my\_dict().values())
+  #   question: 'You have the following dictionary:
+
+
+  #     _my\_dict = {''w'':450, ''x'':600, ''y'':42, ''z'': 780}_
+
+
+  #     How can you return the maximum value?'
+  # - options:
+  #     - correct: false
+  #       option: Option a)
+  #     - correct: false
+  #       option: Option b)
+  #     - correct: true
+  #       option: Option c)
+  #     - correct: false
+  #       option: Option d)
+  #     - correct: true
+  #       option: Option e)
+  #     - correct: false
+  #       option: Option f)
+  #   question: 'You have the following dictionaries:
+
+
+  #     _dic1={1: 10, 2: 20, 3: 10}_
+
+  #     _dic2={1: 20, 3: 30, 4: 40}_
+
+  #     _dic3={5: 50, 6: 60, 4: 30}_
+
+  #     _dic4 = {}_
+
+
+  #     Which code will make dic4 be:
+
+
+  #     _dic4 = {1: 10, 2: 20, 3: 10, 4: 30, 5: 50, 6: 60}_
+
+
+  #     Choose the options from the image on the right-hand side.
+
+
+  #     Select all that apply.'
+  - options:
+      - correct: true
+        option: You can create a tuple running _t=()_
+      - correct: true
+        option: You can create a tuple running _t= 1,_
+      - correct: false
+        option: You can create a tuple running _t=(1)_
+      - correct: true
+        option: You can create a tuple running _t=(1, )_
+      - correct: false
+        option: tuples are ordered and mutable
+      - correct: true
+        option: tuples are ordered and immutable
+      - correct: false
+        option: tuples are unordered and mutable
+      - correct: false
+        option: tuples are unordered and immutable
+      - correct: true
+        option: You can index and slice a tuple the same way you do it with a list
+    question: Select everything TRUE about tuples
+  - options:
+      - correct: false
+        option: sorted(names) is a tuple
+      - correct: true
+        option: len(names[0]) returns 5
+      - correct: false
+        option: names.sort() is a tuple
+      - correct: false
+        option: _names[3] = 'Blair'_ changes 'Ivan' for 'Blair'
+    question: 'You have a variable named _names_:
+
+      names = (''Harry'', ''Ahmed'', ''Blair'', ''Ivan'')
+
+      Select everything TRUE about _names_:'
+  - options:
+      - correct: false
+        option: x is a tuple
+      - correct: true
+        option: x is an integer
+      - correct: false
+        option: y is a tuple
+      - correct: true
+        option: y is an integer
+      - correct: false
+        option: The code throws an error
+    question: 'You run the following code:
+
+      x, y = (3, 4, )
+
+      Select everything TRUE about the variables'
+  - options:
+      - correct: false
+        option: tup[1] = 1 will return (1, [3, 4], [5, 6])
+      - correct: false
+        option: tup[1] = 1 will return ([1, 2], 1, [5, 6])
+      - correct: false
+        option: tup[1, 1] = 1 will return ([1, 2], [3, 1], [5, 6])
+      - correct: true
+        option: tup[1][1] = 1 will return ([1, 2], [3, 1], [5, 6])
+    question: 'You have the following tuple:
+
+      tup = ([1, 2], [3, 4], [5, 6])
+
+      Select everything TRUE about _tup_:'
+  - options:
+      - correct: false
+        option: len(tup)
+      - correct: false
+        option: tup(2)
+      - correct: true
+        option: tup[2]
+      - correct: false
+        option: tup[2:3]
+      - correct: false
+        option: tup.count(4)
+      - correct: true
+        option: tup.count(1)
+      - correct: false
+        option: tup.index(1)
+      - correct: true
+        option: tup.index(8)
+    question: 'Consider the following incomplete code:
+
+      tup = (1, 5, 4, 1, 8, 1, 5, 2, 2, 2, 1, 8)
+
+      print(\_\_\_)
+
+      Fill the gap with any option, so the output after running the code is:
+
+      4
+
+      Select all that apply.'

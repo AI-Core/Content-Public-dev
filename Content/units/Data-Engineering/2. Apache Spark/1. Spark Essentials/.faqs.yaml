@@ -1,0 +1,43 @@
+id: 83389f7d-912b-476f-9efb-c68da65a8de5
+name: Spark Basics
+questions:
+- answer: 'Java 17 was installed, Apache Spark only supports Java8 or 11. '
+  created_at: '2022-02-02 03:39:10'
+  id: f6509e34-a349-4194-b58a-80a740b3e61c
+  question: Spark Session won't start on Windows.
+- answer: This is for an older version of spark, it's no longer supported. Spark supports
+    streaming to kafka using the spark session now.
+  created_at: '2022-02-02 03:39:10'
+  id: 3654562b-0a27-49ce-a8e7-de443acc048c
+  question: Can't import kafka.streaming, module not found
+- answer: 'Couldn''t start a Spark session with Java 8 and Spark 3. Needed to install
+    Java JDK 11.
+
+
+    Installed Java JDK 11 and then needed a machine restart before it would run.'
+  created_at: '2022-02-02 03:39:10'
+  id: 04cadbb1-6a03-4f73-bbe0-e1052f164de8
+  question: 'Exception: Java gateway process exited before sending the driver its
+    port number when starting a Spark session'
+- answer: 'First, make sure you installed the right version of Java, it should be
+    Java JDK 11. Take a look at this page to download it https://www.oracle.com/es/java/technologies/javase/jdk11-archive-downloads.html
+
+
+    Make sure you know where you installed it, you will use this path later!
+
+
+    Then, modify your ~/.bashrc file and add this:
+
+
+    export JAVA_HOME=<directory where you installed JAVA>
+
+    export PATH=$JAVA_HOME/bin:$PATH
+
+
+    Also, make sure that .bashrc is the file that runs everytime you open a terminal,
+    otherwise locate the file that opens up whenever you open the terminal and add
+    these lines to that file'
+  created_at: '2022-02-02 03:39:11'
+  id: 8586e514-c9ff-468e-bb17-2eec931ca42b
+  question: 'I have Java installed, but I can''t seem to create the JAVA_HOME environment
+    variable. Any help in doing this would be appreciated. '

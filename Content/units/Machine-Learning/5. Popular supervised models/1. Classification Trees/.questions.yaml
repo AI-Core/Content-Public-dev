@@ -1,0 +1,20 @@
+questions:
+  - question: How does a decision tree work?
+  - question: What is a pure split?
+  - question: Can you separate a bucket into three different splits?
+  - question: What is the Gini impurity? How do you calculate it?
+  - question: Between two datapoints, where should you make the split?
+    answer: Right in the middle point
+  - question: Name a big problem with decision trees
+    answer: They require a lot of space in memory, since the data has to be attached to the model
+  - question: What library do you use in sklearn for calling a classification tree?
+    answer: sklearn.tree. The class is DecisionTree
+  - question: What is the max_depth? What is the min_samples_leaf?
+    answer: The maximum depth of the tree and the minimum number of samples required to be at a leaf node. A split point at any depth will only be considered if it leaves at least min_samples_leaf training samples in each of the left and right branches.
+  - question: In sklearn, how can you visualize the results of the decision tree?
+    answer: "Using the plot_tree function on the decision tree like this:
+            clf = clf.fit(iris.data, iris.target)
+            tree.plot_tree(clf)"
+  - question: What parameters does the model learn when training?
+    answer: None, is a non parametric model
+  

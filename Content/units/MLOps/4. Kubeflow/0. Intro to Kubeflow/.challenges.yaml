@@ -1,0 +1,34 @@
+- id: 77ae600b-33a1-4e6c-aa8b-c037b8c17ccf
+  name: Manipulating K8s objects through Kubeflow
+  description: |
+    Check how to directly manipulate `k8s` objects [here](https://www.kubeflow.org/docs/components/pipelines/sdk/manipulate-resources/). __It should not be done in general__ and `k8s` objects are better provided more "statically", but it is worth knowing one can do this from `kubeflow`.
+
+- id: 871c48d1-549e-419d-a06c-901e1112bea4
+  name: Visualisation in Kubeflow
+  description: |
+    Check visualization within `Kubeflow UI` [here](https://www.kubeflow.org/docs/components/pipelines/sdk/output-viewer/). __You might want to use different way for `visualization`s though as `kubeflow`'s target is a little different_
+
+- id: 9c3fa118-fbe1-4170-b2ae-2abcbc143c83
+  name: K8s-first data formats
+  description: |
+    Check out [`min.io`](https://min.io/) for better understanding of the cloud-native and `k8s` first data format
+
+- id: 21019796-6cf8-49b3-a867-66e798698b47
+  name: ArgoProj
+  description: |
+    Read about basics of [`argoproj`](https://github.com/argoproj/argo-workflows/) which is used by `kubeflow` to orchestrate workflows
+
+- id: 6d93cb10-2534-4cb5-80bd-995a5cb3348b
+  name: Feast with Kubeflow
+  description: |
+    Look into `feast` - a __feature store__ which can be used together with `kubeflow`. Check [relevant documentation](https://www.kubeflow.org/docs/external-add-ons/feature-store/overview/).
+
+- id: 940f51fc-8974-4701-8b11-4bd7169d3d02
+  name: Integrated tools for serving
+  description: |
+    Check out integrated [tools for serving](https://www.kubeflow.org/docs/external-add-ons/serving/) (includes `NVidia`'s `Triton` and `bento` project)
+
+- id: 6b11d190-a195-48b0-ae04-527d6cdcfa91
+  name: Kubeflow Fairing
+  description: |
+    Check out [`kubeflow fairing`](https://www.kubeflow.org/docs/external-add-ons/fairing/fairing-overview/) for improved hybrid cloud experience with `ML` (also allows to run/debug our runs locally). In addition, one can easily open an `endpoint` with deployed `model`, hence __worth checking out!__

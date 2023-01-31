@@ -1,0 +1,176 @@
+- name: House price predictions
+  id: 319da5a4-d235-4bf4-bbb3-be7f6e51867f
+  description: |+
+    1. Load in the California house pricing data and unpack the features and labels
+    2. Import a linear regression model from sklearn
+    3. Fit the model
+    4. Create a fake house's features and predict it's price
+    5. Compute the score of the model on the training data
+
+- id: 829d5012-6c60-46d4-97ff-25028e29b368
+  name: Linear regression from scratch
+  description: |+
+    1. Load in the California dataset for testing and debugging
+    2. Create a class called LinearRegression
+    3. Randomly initialise two attributes for the weight and bias
+    4. Create a .predict method which takes in some data and returns a linear prediction
+    5. Create a .fit_analytical method which computes the analytical solution
+    6. Create a .fit method which uses gradient descent to optimise the model
+    7. Profile your code to find out how long each of the fit methods takes
+    8. Apply the same model to a different regression dataset
+
+- id: e121bee1-e51c-4d5f-9f43-f604b7d13f6f
+  name: Access the sklearn parameters
+  description: |+
+    1. Fit a linear regression model to the California housing dataset
+    2. Take a look at the docs, and figure out how to print the weights and bias that this model has learnt for the dataset
+    3. Take a look at the docs for the dataset, and 
+    4. Discuss: what does this tell you about the importance of each feature?
+  
+- id: 65fd1a8c-a2e8-4404-812b-ef3728f349bc
+  name: Visualise the sklearn parameters
+  description: |+
+    1. Take a single feature of the housing dataset
+    2. Scatter plot it against the label in an X-Y graph
+    3. Fit a model to that feature
+    4. Plot your predictions on top (as a line, not a scatter)
+    5. Discuss: what do you expect the weight and bias values to be?
+    6. Access the weight and bias from the model and print them
+    7. Were your expectations correct?
+
+- id: a03bc655-4fbc-43f7-a9fe-0cc644076edb
+  name: One more time
+  description: |+
+    1. Repeat the first challenge for another regression dataset
+
+- id: 2e20ec1c-ff2f-47e6-ad4c-1aa69fccd216
+  name: Your own linear regression
+  description: |+
+    1. Repeat the previous challenge for your own data!
+
+- id: 75f11c7c-90df-45c0-9f1c-5a4d683ee121
+  name: Draw the loss function
+  description: |+
+    1. Fit a linear regression model to predict the house prices from one column of the California house price dataset
+    2. Access the weight and bias from the model
+    3. One by one, set the models' weight parameter equal to the value in a range of values from 10 below and 10 above the found weight and calculate the mean square error (hint: there's an sklearn tool for computing the MSE)
+    4. Plot the loss agains the parameter value
+    5. Discuss: does it look how you expect?
+
+- name: Randomness
+  id: d28d7f8b-8320-4cb3-9b99-1936010e12a5
+  description: |+
+    1. Load in an sklearn dataset and a linear regression model
+    2. Initialise the model, BUT DONT FIT IT
+    3. Print the score (yes it will suck because we havent fit it yet)
+    4. Fit the model
+    5. Print the score
+    6. Run this script again
+    7. Is the score before fitting the same? discuss: why?
+    8. Is the score after fitting the same? dicsuss: why?
+
+- name: Predicting using a single feature and visualising your model
+  id: 4486079c-73b8-4926-a47e-a1d621e80fbf
+  description: |+
+    1. Load in the house pricing data
+    2. Select just one feature (column) of the data
+    3. Initialise a linear regression model
+    4. Use plotly to plot the value of the features against the labels
+    5. Plot the predictions of your fitted model on the same graph
+      - Can you plot a line, rather than just datapoints please?
+    6. Try also plotting predictions before you fit the model, as well as after, so that you can see how the model is initialised and how it improved
+    7. Compare the score before fitting with the score after fitting
+
+- name: Best feature
+  id: a4dbf8f8-49bc-494c-a78e-a32eae8a956f
+  description: |+
+    1. Do the last challenge for each feature in the house price dataset in a loop
+    2. For each, print the score
+    3. Which feature does the experiment tell you has the most predictive power?
+
+- name: Best two features
+  id: 5b149d47-5374-4965-9ab9-bf678b2fc5e8
+  description: |+
+    1. Create an empty numpy matrix of size n x n, where n is the number of features, called scores
+    2. Create a nested loop to get every possible combination of two features
+      - Obviously dont try out the same feature with itself
+    3. For each, compute the score and put it in the scores matrix
+    4. Which feature pair does the experiment tell you has the most predictive power?
+    5. Discuss: does it make sense that the matrix is symmetrical?
+    6. Bonus:
+      - Use itertools to get all of the permutations of features (should mean you dont need to nest your loops)
+      - Initialise the matrix full of infinity (np.inf) so that you can just take the argmin of the matrix to get the best two feature combination. What does argmin do?
+
+- name: The best model
+  id: 1a69a20d-a838-4b7d-805b-56692096dab5
+  description: |+
+    1. Find three models in sklearn other than linear regression that can be used for regression
+    2. Fit them to the house price dataset and compare their score
+    3. Save the best model to your local machine
+    4. Load the model back in and use it to compute some predictions
+
+- name: Classification
+  id: 6d30522c-c137-4810-a622-9d70ed5b138c
+  description: |+
+    1. Load in the breast cancer dataset from sklearn
+    2. Find a classification model in sklearn
+    3. Initialise the model
+    4. Fit the model
+    5. Get the score on the training data
+    6. Print a prediction made by the fitted model
+
+- name: Inside classification
+  id: 12bd52a9-c63d-4cbd-ad9f-5eafaa8ded73
+  description: |+
+    1. Most classification models have a `predict_proba` method. 
+    2. Discuss: What does it do? What does the value returned?
+
+- name: Ooops, wrong model
+  id: 264ad91e-6fa9-4e9e-a50b-67cb264893dd
+  description: |+
+    1. Accidentally use a regression model on a classification dataset
+    2. Look at the outputs
+    3. Discuss: what's wrong with this?
+    4. Make sure you don't let anyone see this code on your github -_-
+
+- name: Ooops, wrong model II
+  id: 10dfa94b-f6ea-4b57-a696-fbf0ea878b71
+  description: |+
+    1. Accidentally use a classification model on a regression dataset
+    2. Look at the score
+    3. Discuss: what's wrong with this?
+
+- name: The best dataset
+  id: a4e17558-f611-4c26-acfa-635c069f39e5
+  description: |+
+    1. Find 3 sklearn regression datasets
+    2. Write a loop which fits a linear regression model for each dataset and saves its score in a dictionary
+    3. Take a quick look at what the score actually represents in the docs (don't worry, we'll go over this in detail later)
+    4. Discuss: does this necessarily mean that the model is "better" for this problem?
+      - What tolerances are acceptable?
+
+- name: Best model, best data
+  id: 8b53b299-bebe-4b90-9e7f-237b8933d8d8
+  description: |+
+    1. Write a nested for loop which computes the score of 3 regression models on 3 regression datasets
+    2. Print only the best score, the name of the model and the name of the dataset
+
+- name: Model comparison
+  id: 5d5ca1da-e71a-40b3-957b-53c64a84e2bb
+  description: |+
+    1. Train at least 3 different sklearn regression models on a dataset
+    2. Repeat the experiment for at least 3 different regression datasets
+    3. For each dataset, save a CSV containing 
+      - The name of the model in each row
+      - In the columns:
+        - The score
+        - Time taken to fit
+        - Time taken to predict on the whole training set
+        - The size of the model occupied in memory (look up how to do that)
+
+- name: Your own data
+  id: 55ec61d6-4530-413a-9e07-8cd44b8f0d14
+  description: |+
+    1. Load a small part of your own data into the correct format (perhaps just one column as features and one as labels)
+    2. Choose a suitable model and fit it to your data
+    3. Compute the score

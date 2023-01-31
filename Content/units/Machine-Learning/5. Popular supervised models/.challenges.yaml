@@ -1,0 +1,27 @@
+- in your groups, create a github repo called "ML-Model-Comparison"
+  - with one person coding and sharing their screen, and the other members of the group talking through the code they should write, 
+    - create a file called get_data.py in the repo
+    - in that file
+      - initialise a random seed
+      - create a function to
+        - load in the classic Boston House Price dataset
+        - split into train, val, test sets and return them
+  - push the repo to GitHub
+  - add the other members of the group as collaborators
+  - now, each person pick a model we've learnt about
+  - create a new file for that model in the repo
+  - create a function to fit the model to some data, and takes in several different hyperparameter values
+  - create another function which generates random hyperparameter values
+  - create a final function which calls both of the above functions and returns a list of dictionaries of the train, val and test scores
+  - each make a pull request to the ML-Model-Comparison repo
+  - one by one, take turns to share your screen and give a code review to the person next to you on their pull request
+    - leave helpful comments and either request changes or accept the pull request
+    - if they let any bugs or bad code practices through, it's your fault!
+  - after all the pull requests have been updated and merged
+  - each pull the repo and run the code to check it works for you
+  - add some fancy features
+    - use the library tqdm to show a progress bar
+    - use the library matplotlib to plot the resulting scores in whatever way you deem useful
+  - each pin this repo to your GitHub profile (unless you have already got a better showcase of work)
+  - adapt the code so that it runs for not just this dataset, but other toy regression datasets
+  - extend this project to work for a classification dataset

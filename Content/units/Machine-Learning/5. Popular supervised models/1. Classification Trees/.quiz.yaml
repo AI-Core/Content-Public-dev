@@ -1,0 +1,66 @@
+name: Classification Trees
+questions:
+  - question: Select everything true about Decision Trees.
+    options:
+      - option: Decision trees are supervised learning models.
+        correct: true
+      - option: Decision trees are unsupervised learning models.
+        correct: false
+      - option: Decision trees are ensemble learning models.
+        correct: false
+      - option: Decision trees can be used for classification.
+        correct: true
+      - option: Decision trees can be used for regression.
+        correct: false
+      - option: Decision trees have a single root node.
+        correct: true
+  - question: Select everything true about entropy in a decission tree
+    options:
+      - option: Entropy is a measure of the uncertainty in a decision.
+        correct: true
+      - option: Entropy can be replaced by Information Gain.
+        correct: false
+      - option: Entropy can be replaced by Gini Impurity.
+        correct: false
+      - option: Entropy is zero if the sample is completely homogeneous.
+        correct: true
+      - option: Entropy is one if the sample is completely homogeneous.
+        correct: false
+      - option: Entropy is zero if the sample is equally divided between different classes
+        correct: false
+      - option: Entropy is one if the sample is equally divided betwwen different classes
+        correct: true
+  - question: Select everything true about Gini Impurity
+    options: 
+      - option: For a binary classification, Gini Impurity becomes zero if all classes belong to the first class
+        correct: true
+      - option: For a binary classification, Gini Impurity becomes zero if all classes belong to the second class
+        correct: true
+      - option: For a binary classification, Gini Impurity becomes one if all classes belong to the second class
+        correct: false
+      - option: For a binary classification, Gini Impurity becomes one if all classes belong to the second class
+        correct: false
+      - option: The maximum value for Gini Impurity is 1
+        correct: false
+      - option: The maximum value for Gini Impurity is 0.5
+        correct: true
+  - question: "True or False: You can reduce variance by increasing the maximum depth of a tree"
+    options:
+      - option: "True"
+        correct: false
+      - option: "False"
+        correct: True
+  - question: What parameters can you include in the DecisionTreeClassifier in sklearn?
+    options:
+      - option: criterion
+        correct: true
+      - option: max_depth
+        correct: true
+      - option: max_features
+        correct: true
+      - option: classes
+        correct: false
+      - option: n_classes
+        correct: false
+      - option: random_state
+        correct: true

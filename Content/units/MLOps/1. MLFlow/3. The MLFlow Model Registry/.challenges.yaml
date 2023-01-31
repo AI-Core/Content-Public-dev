@@ -1,0 +1,57 @@
+- id: b81840f8-cb0a-4321-8937-d0732ca5f540
+  name: Start a model registry
+  description: |
+    "- create a new repo (maybe MLFlow-Registry) and open it up in vscode
+    - use the bash command in the notebook to run a mlflow server locally
+      - you might need to set your MLFLOW_TRACKING_URI environment variable
+      - set the default artifact
+    - create a new experiment where you fit a model and log the score
+    - register the model on your mlflow server
+    - check out the model registry on the ui
+      - sometimes a bug can cause the models tab not to show
+        - if that happens, visit it directly at http://127.0.0.1:5000/#/models
+    - train another instance of the model and register is as version 2
+    - from within the mlflow UI, move the model into the stage "Staging"
+    - from within python, move the model into the stage "Production"
+    - write a new python file which loads the model from the registry and uses it to make a prediction"
+
+- id: f8eed874-28fb-4a97-b137-c8aad7aa9e45
+  name: Run your Dockerised model remotely
+  description: |
+    - Push your model docker image to docker hub
+    - Spin up an EC2 instance and SSH in
+    - Docker pull the image and run it
+    - Test that you can load the model in and make a prediction from within the EC2
+    - Later, test that you can load the model in and make a prediction from your remote
+
+- id: 18b9c99f-544c-4d6c-bcba-c23150f9347e
+  name: Create a remote model registry
+  description: | 
+    - imagine you're working at a company
+    - everyone needs access to the model registry, so we'd better make it on the cloud
+    - create an EC2 instance, install mlflow, and start a mlflow server
+      - again, refer to the notebook for how to do this
+    - expose the port the server is running on (by default 5000) to the internet
+    - edit the EC2 security group's inbound rules to allow TCP requests on the same port
+    - back on your local machine,
+      - tell MLFlow to use your remote server as the tracking URI
+        - either set your environment variable MLFLOW_TRACKING_URI to `http://<server_ip>:5000`
+        - or use `mlflow.set_tracking_uri(http://<server_ip>:5000)`
+      - set up a new MLProject to train a simple sklearn model and register it to the remote model registry
+      - load the model from the remote registry and make a prediction using it
+
+- id: 50487a32-10c1-42b5-95d5-a5360b6d036d
+  name: Load models for inference from your cloud model registry within FastAPI
+  description: |
+    - Build a FastAPI which loads a particular production model (e.g. house-price-predictor/Production) from the model registry and makes a prediction
+
+- id: b9e40dcf-9f2e-4b45-9408-91ab500b58e0
+  name: Separate API and model registry as microservices
+  description: |
+    - split up your API by moving one of them to a different EC2 instance
+    - why might you want to do this?
+      - security
+        - you could allow only particular IPs of company employees to access the MlFlow server so they can see the UI, as well as programmatically interact with the registry
+        - you could allow public access to the API, where only predictions can be made but the registry or UI can't be accessed
+      - disentangle different parts of the stack, and work of different teams
+      - distribute the workload

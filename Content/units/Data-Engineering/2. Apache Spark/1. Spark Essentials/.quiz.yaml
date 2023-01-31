@@ -1,0 +1,60 @@
+name: Spark Basics
+questions:
+  - question: How can you create an RDD?
+    options:
+      - option: Parallelizing an existing collection
+        correct: true
+      - option: Anything processed by Spark will be trated as an RDD
+        correct: false
+      - option: Calling for the executor instances
+        correct: false
+      - option: Using the rdd method
+        correct: false
+      - option: Referencing an external dataset
+        correct: true
+
+  - question: Which of the following options is a valid path for loading a dataset in Spark?
+    options:
+      - option: Full path to the local file
+        correct: true
+      - option: Relative path to the local file
+        correct: true
+      - option: "An URI pointing to an S3 bucket: s3n://"
+        correct: true
+      - option: "An URI pointing to an HDFS: hdfs://"
+        correct: true
+      - option: "An URI pointing to a text file"
+        correct: true
+
+  - question: "True or False: map, filter, and flatmap need a function as an argument"
+    options:
+      - option: "True"
+        correct: true
+      - option: "False"
+        correct: false
+
+  - question: Which of the following are rdd methods?
+    options:
+      - option: count()
+        correct: true
+      - option: countByValue()
+        correct: true
+      - option: Broadcast()
+        correct: false
+      - option: SparkConf()
+        correct: false
+      - option: mean()
+        correct: true
+    
+  - question: Select everything TRUE about Spark SQL.
+    options:
+      - option: You can send queries using the sql() method from a SparkSession class
+        correct: true
+      - option: From a SparkSession class, you can create a dataframe using sparkContext
+        correct: false
+      - option: From a SparkSession class, you can create a dataframe using table
+        correct: true
+      - option: You can create a dataframe using the DataFrame class from the sql library
+        correct: true
+      - option: From a SparkSession class, you can create a Spark DataFrame from a pandas DataFrame using the method createDataFrame
+        correct: true

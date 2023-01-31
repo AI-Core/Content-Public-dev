@@ -1,0 +1,64 @@
+name: Missing Data
+questions:
+  - question: Select Everything True about missing values in a dataset
+    options:
+      - option: A dataset with missing data will have the same standard deviation as the same dataset with no missing data
+        correct: false
+      - option: It is recommended to fill in the missing data with the mean value of the available data
+        correct: false
+      - option: The worst thing that missing data does is lower sample size
+        correct: false
+      - option: The best option to deal with missing data is dropping the column containing missing data
+        correct: false
+      - option: One of the common reasons of having missing values is due to a faulty data acquisition process
+        correct: True
+  - question: Select Everything True about handling missing values in Pandas
+    options:
+      - option: In Pandas, they will be always represented by a null value
+        correct: false
+      - option: The aggregation functions in Pandas will not take them into account
+        correct: true
+      - option: By default, dropna will drop the columns containing missing values
+        correct: false
+      - option: df.isna() and df.isnull() do the same thing
+        correct: true
+      - option: The value argument in df.fillna() accepts an integer, a dictionary or a list
+        correct: false
+      - option: The method argument in df.fillna() accepts backfill, bfill, or ffill.
+        correct: true
+      - option: df.notna() is equivalent to ~df.isnull()
+        correct: true
+  - question: Select Everything True about Data Imputation
+    options:
+      - option: Imputation is really just making up data to artificially inflate result
+        correct: false
+      - option: Imputing the mean value will increase the bias of your data
+        correct: true
+      - option: For a pandas series, you can any of the sklearn imputers
+        correct: false
+      - option: You can impute categorical data using the same way you impute numerical data
+        correct: false
+      - option: We can use the same techniques for imputing data in a time series dataset and in a regular dataset
+        correct: true
+  - question: Which of the following are functions from the missingno module?
+    options:
+      - option: heatmap
+        correct: true
+      - option: bar
+        correct: true
+      - option: scatter
+        correct: false
+      - option: box
+        correct: false
+      - option: matrix
+        correct: true
+      - option: tree
+        correct: false
+      - option: dendrogram
+        correct: true
+  - question: "Read about Multiple Imputation, and answer True or False: Multiple imputation is good for features, but not for labels"
+    options:
+      - option: "True"
+        correct: false
+      - option: "False"
+        correct: true

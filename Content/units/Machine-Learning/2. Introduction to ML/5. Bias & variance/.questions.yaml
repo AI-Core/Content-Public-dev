@@ -1,0 +1,11 @@
+questions:
+  - question: What is bias?
+  - question: What is variance?
+  - question: What is the problem with bias?
+  - question: What is the problem with variance?
+  - question: How do you solve bias?
+  - question: How do you solve variance?
+  - question: Why is there a trade off between bias and variance?
+  - question: What happens when you have Low Variance and High Bias?
+  - question: What happens when you have Low Bias and High Variance?
+  - question: What function do you optimise to find the right balance?

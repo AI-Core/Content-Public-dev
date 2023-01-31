@@ -1,0 +1,24 @@
+questions:
+  - question: What is the difference between a model parameter and a hyperparameter?
+    answer: "A model parameter is a configuration variable that is internal to the model and whose value can be estimated from data.
+             They are often not set manually by the practitioner. For example The coefficients in a linear regression or logistic regression.
+             On the other hand, hyperparameter is a configuration that is external to the model and whose value cannot be estimated from data.
+             For example:
+              - learning rate
+              - batch size
+              - regularisation parameter (more on this later)
+              - order of the polynomial features included "
+  - question: Why hyperparameters can't be trained (or are difficult to be trained)?
+    answer: Because they don't depend on the data we have, they rather govern the beaviour of the training algorithm. However, that doesn't mean they can't be optimised. That why we use Grid Search
+  - question: How does Grid Search work?
+  - question: Name one problem of Grid Search?
+    answer: It only contains a single validation set. Also, it is very time consuming
+  - question: How does K-Fold Cross Validation work?
+  - question: Name two alternatives to K-Fold Cross Validation and when would you use them?
+    answer: Stratified K-Fold if your dataset is unbalanced. Time Series cross validation when working with time series data
+  - question: What are some alternatives to Grid Search?
+  - question: What is the usual metric you use to measure the performance using K-Fold Cross Validation? Can you think of other metric?
+    answer: Depending on the type of model, you can use mse, or accuracy for example
+  - question: One of the problems of K-Fold Cross Validation is that the sets might not be balanced. How can you solve it?
+    answer: You can use Stritified K-Fold. You could split your data taking into account stratas in train_test_split, by adding the stratify argument
+  - question: Find a few `sklearn` machine learning methods (say 3). What are their hyperparameters, what are their parameters?

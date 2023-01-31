@@ -1,0 +1,55 @@
+- id: 6b67db06-6016-414b-ae87-387f5297411e
+  name: Connecting PgAdmin to Docker
+  description: |
+    - Your app may commonly depend on a database back-end
+    - This practical will show you how to run a database back-end in a docker container and connect it to pgAdmin
+    - go to docker hub
+    - pull the postgres docker container from docker hub
+    - run a postgres container and connect to it through pgAdmin (hint: you will need to use some flags to expose the ports)
+    - 'docker stop' the container
+    - remove it
+    - run it again, but this time specify flags to:
+    - detach it, so it runs in the background
+    - remove it when it stops
+    - don't forget to allow inbound connections from your IP address on the port your api will listen for requests on
+
+- id: 7be4ff71-3444-4c97-9958-2f83961f51a5
+  name: Your first custom container
+  description: |
+    - create a dummy python file which continuously loops 
+    - create a dockerfile
+    - build the image from the dockerfile using the instructions FROM, RUN, COPY, ENTRYPOINT
+    - run the container 
+    - stop the container
+    - re-run it
+
+
+
+# - id: 96643ec5-8dbd-4863-aa4a-bd036928fec1
+#   name: Turning an API into an executable docker container
+#   description: |
+#     "- create a trivially simple FastAPI
+#     - create the Dockerfile
+#     - 'docker build' the image
+#     - remember to '--tag' it with a name
+#     - use 'docker images' to check it looks good
+#     - run the container locally and use 'requests' in python to test it works
+#     - check the docs and dont forget the other useful flags to
+#     - expose internal ports
+#     - remove the container once it stops
+#     - detach it so it runs in the background
+#     - name it so you can refer to it by name
+#     - use 'docker stop' to stop the container
+#     - remove the container using 'docker remove <container_name>' if you didnt use the '--rm' flag when you ran it'"
+
+# - id: a616c5e5-909f-4735-aa74-d4794c5d0837
+#   name: Deploy this on EC2 and make requests to it over the internet
+#   description: |
+#     - make a FastAPI and containerise it by turning it into a docker image
+#     - publish your image to docker hub
+#     - spin up an EC2 instance and SSH in through VSCode
+#     - pull the docker image and run it with port mapping
+#     - test it from within the EC2 instance
+#     - configure security group inbound rules to expose the API remotely
+#     - be careful of what permissions you give the container, and what code you put inside the API calls if it is openly exposed to anyone on the internet. You don't want to let anyone run up your bill.
+

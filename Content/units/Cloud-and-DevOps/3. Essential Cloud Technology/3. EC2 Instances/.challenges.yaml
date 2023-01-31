@@ -1,0 +1,42 @@
+- id: 83dcbecf-327e-46c9-9fd3-4b934e4c0f0f
+  name: Create an EC2 Instance
+  description: |+
+    1. Read through the notebook and follow the instructions to create an EC2 Instance
+    2. Create an SSH key 
+    3. Create a Security Group with three inbound rules: HTTP, HTTPS, and SSH
+    4. Launch the EC2 Instance
+    5. Change the permissions of your SSH key 
+    6. Connect to your EC2 Instance
+
+- id: 1e386dce-b6f5-4291-9956-2f35fb88652f
+  name: Run a scraper in your EC2 Instance
+  description: |+
+    1. Create a simple scraper in your local machine using selenium.
+    2. Secure copy that script to your EC2 instance
+    3. SSH to your EC2 instance
+    4. Make sure you installed the necessary packages in that instance. You could use a requirements.txt file
+    5. Run your scraper, you might need to install chromedriver and google chrome and set the headless option
+    6. If your scraper takes a lot of time, you can check whether after logging out, the scraper stopped or not
+    7. If it stops, install tmux and run that the scraper inside one multiplexer session
+
+- id: 4ba93e60-6761-4f27-b47b-71c10a18323e
+  name: Set a schedule in your EC2 instance
+  description: |+
+    1. SSH to your EC2
+    2. Create a cronjob so your scraper runs every day at 00:00
+    3. Make sure to make the cronjob to open a multiplexer, and run the scraper inside it
+
+- id: 35b82c2d-e94e-48bf-bf5b-9c98e27bbece
+  name: More cats in your bucket!
+  description: |+
+    1. Edit the cat scraper file so it clicks the Next button, so you can keep extracting more pictures
+    2. Secure copy the modified cat scraper file to your EC2 instance
+    3. SSH to your EC2
+    4. Download awscli as you saw in the previous notebook
+    5. Configure your AWS environment variables so that you can use your bucket from the EC2 instance
+    6. Create a new terminal
+    7. Run your cat scraper file in that terminal
+    8. Log out from your EC2
+    9. Allow it to run a few minutes and SSH again to your EC2
+    10. Check that your session is still available and that the job has finished (or if it is still running)
+    11. Check your bucket to see cute cats!

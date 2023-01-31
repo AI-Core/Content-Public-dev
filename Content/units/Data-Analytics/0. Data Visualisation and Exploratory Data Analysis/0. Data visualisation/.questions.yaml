@@ -1,0 +1,16 @@
+questions:
+  - question: What does EDA stand for? What steps does it entail?
+    answer: Exploratory Data Analysis. Roughly, observing the data, to see its characteristics, and see what is wrong with it to clean it
+  - question: Name at least five different type of graphs
+    answer: Bar, pie, histogram, violin, boxplot
+  - question: Why do you need to explore the data before feeding it into a model?
+  - question: What benefits does visual representation have against summary statistics?
+    answer: The summary statistics might not show some hidden distributions, for example, in the Ascombe quartet
+  - question: Name three different Python libraries that can help us visualize data
+  - question: What is a Sankey diagram?
+    answer: A Sankey diagram depicts flows of any kind, where the width of each flow pictured is based on its quantity.
+  - question: What is a choropeth map?
+    answer: Choropleth maps provide an easy way to visualize how a variable varies across a geographic area
+  - question: What library can you use to plot a geographical map?
+    answer: pycountry along with plotly. An alternative would be geopandas
+    

@@ -1,0 +1,83 @@
+name: Maximum Likelihood Estimation
+questions:
+  - options:
+      - correct: false
+        option: conditional distributions
+      - correct: true
+        option: non-conditional distributions
+      - correct: false
+        option: not considered as distributions
+      - correct: true
+        option: conditioned on features
+      - correct: false
+        option: conditioned on labels
+      - correct: true
+        option: distributions over features
+      - correct: false
+        option: distributions over labels
+    question: Unsupervised models trained using a maximum likelihood procedure are
+  - options:
+      - correct: true
+        option: conditional distributions
+      - correct: false
+        option: non-conditional distributions
+      - correct: false
+        option: not considered as distributions
+      - correct: false
+        option: only distributions for regression tasks
+      - correct: false
+        option: only distributions for classification tasks
+      - correct: true
+        option: conditioned on features
+      - correct: false
+        option: conditioned on labels
+      - correct: false
+        option: distributions over features
+      - correct: true
+        option: distributions over labels
+    question: Supervised models trained using a maximum likelihood procedure are
+  - options:
+      - correct: true
+        option: Our model represents a probability of some particular features belonging
+          to the positive class, and the best model parameters are those which maximise
+          the likelihood of sampling our the members of the positive class in our
+          data from that distribution
+      - correct: false
+        option: Our model represents a conditional probability of a label given some
+          features and the best model parameters are those which maximise the likelihood
+          of sampling our labels from that distribution given the features
+      - correct: false
+        option: Our model is a non-conditional probability distribution over labels,
+          and the best model parameters are those which maximise the likelihood of
+          sampling those labels from that distribution
+    question: What's the intuition behind maximum likelihood estimation for classification?
+  - options:
+      - correct: false
+        option: Our model represents a probability of some particular features belonging
+          to the positive class, and the best model parameters are those which maximise
+          the likelihood of sampling our the members of the positive class in our
+          data from that distribution
+      - correct: true
+        option: Our model represents a conditional probability of a label given some
+          features and the best model parameters are those which maximise the likelihood
+          of sampling our labels from that distribution given the features
+      - correct: false
+        option: Our model is a non-conditional probability distribution over labels,
+          and the best model parameters are those which maximise the likelihood of
+          sampling those labels from that distribution
+    question: What's the intuition behind maximum likelihood estimation for regression?
+  - options:
+      - correct: true
+        option: Often abbreviated to MLE
+      - correct: true
+        option: Leads to the derivation of the mean squared error loss
+      - correct: true
+        option: Leads to the derivation of the cross entropy loss
+      - correct: false
+        option: Leads to the derivation of stochastic gradient descent
+      - correct: false
+        option: Allows us to derive the true parameters of the data generating distribution
+      - correct: false
+        option: Is the basic principle for training most, but not all, machine learning
+          models
+    question: Select everything true about maximum likelihood estimation

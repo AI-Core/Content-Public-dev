@@ -1,0 +1,168 @@
+name: Functions
+questions:
+  - options:
+      - correct: false
+        option: When you want to save memory
+      - correct: true
+        option: When you want to bundle a set of instructions together that you might to use multiple times
+      - correct: true
+        option: When you want to map a function to each element of an iterable (list, set, tuple)
+      - correct: false
+        option: When you want your code to be faster (Considering your code would be the same as in the main body)
+      - correct: true
+        option: When you want to improve the readability of your code
+    question: When would you want to use functions?
+  - options:
+      - correct: false
+        option: We start defining a function by typing "define"
+      - correct: true
+        option: Functions can call other functions
+      - correct: true
+        option: Functions can call themselves
+      - correct: true
+        option: In Python, the convention is that function names made up of multiple words should separate each word with an underscore
+      - correct: false
+        option: In Python, the convention is that function names should always start with a capital letter
+      - correct: false
+        option: Variables defined within a function can be accessed outside of that function
+      - correct: false
+        option: You cannot define a function inside a function
+    question: Select everything true about functions
+  - options:
+      - correct: false
+        option: All functions must take in at least one argument, even if it is just empty
+      - correct: true
+        option: There is no limit on how many arguments a function can take in
+      - correct: true
+        option: You can define default arguments with any type
+      - correct: true
+        option: "'Function parameters' are subtly different to 'function arguments'"
+        reason: They are exactly the same
+      - correct: true
+        option: By convention you should never leave a space on either side of the equals sign that appears when defining a default keyword argument
+      - correct: true
+        option: The default value for a parameter can be a function call
+      - correct: true
+        option: Functions can take in other functions as arguments
+    question: Select everything true about function arguments
+  - options:
+      - correct: false
+        option: All functions must include a return statement
+      - correct: true
+        option: By default, a function will return None
+      - correct: false
+        option: The return keyword must be followed by a variable that you want to return
+        reason: You can write return without any following variable, and the function will return None
+      - correct: true
+        option: When Python hits a return keyword within a function, no more code in the function will be executed
+      - correct: true
+        option: The return keyword cannot appear outside of a function
+    question: Select everything true about the return keyword
+  # - options:
+  #     - correct: false
+  #       option: None; None
+  #     - correct: false
+  #       option: '''Hello there... General Kenobi'''
+  #     - correct: false
+  #       option: None; 'Hello there... General Kenobi'
+  #     - correct: true
+  #       option: '''Hello there... General Kenobi''; None'
+  #     - correct: false
+  #       option: '''Hello there... General Kenobi''; ''Hello there... General Kenobi'''
+  #   question: What would be printed from the code on the right-hand side?
+  # - options:
+  #     - correct: false
+  #       option: There is nothing wrong
+  #     - correct: true
+  #       option: There is no colon
+  #     - correct: false
+  #       option: The function does not have arguments
+  #     - correct: false
+  #       option: The function does not return any variable
+  #     - correct: true
+  #       option: There is no indentation in the second line
+  #     - correct: false
+  #       option: The name of the function can only have alphabetic characters
+  #   question: 'What is wrong with the code on the right-hand side?
+
+
+  #     Select all that apply.'
+  # - options:
+  #     - correct: false
+  #       option: arg can be an integer
+  #     - correct: true
+  #       option: arg can be a list of integers
+  #     - correct: true
+  #       option: arg can be a tuple of integers
+  #     - correct: true
+  #       option: arg can be a set of integers
+  #     - correct: true
+  #       option: arg can be a dictionary whose keys are integers
+  #     - correct: true
+  #       option: The function will return a list of integers
+  #     - correct: false
+  #       option: The function will return a tuple of integers
+  #     - correct: false
+  #       option: The function will return a set of integers
+  #     - correct: false
+  #       option: The function will return a dictionary whose keys are integers
+  #     - correct: false
+  #       option: The function returns odd number(s) of args
+  #     - correct: true
+  #       option: The function returns even number(s) of args
+  #   question: 'Observe the function on the right-hand side:
+
+
+  #     Select everything TRUE about the function.'
+  # - options:
+  #     - correct: false
+  #       option: n
+  #     - correct: false
+  #       option: n - 1
+  #     - correct: false
+  #       option: n + 1
+  #     - correct: false
+  #       option: fun(n)
+  #     - correct: true
+  #       option: fun(n - 1)
+  #     - correct: false
+  #       option: fun(n + 1)
+  #     - correct: false
+  #       option: print(n)
+  #     - correct: false
+  #       option: print(n - 1)
+  #     - correct: false
+  #       option: print(n + 1)
+  #   question: 'Consider the incomplete code on the right-hand side, fill the gap so
+  #     that fun(5) prints:
+
+  #     _5_
+
+  #     _4_
+
+  #     _3_
+
+  #     _2_
+
+  #     _1_
+
+  #     _0_'
+  # - options:
+  #     - correct: false
+  #       option: a), c), f)
+  #     - correct: true
+  #       option: b), d), e)
+  #     - correct: false
+  #       option: c), a), f)
+  #     - correct: false
+  #       option: f), a), b)
+  #     - correct: false
+  #       option: b), c), f)
+  #     - correct: false
+  #       option: a), d), e)
+  #   question: 'The function on the right-hand side returns True if the string passed
+  #     to it is a palindrome and False otherwise. However, it''s not finished yet.
+
+
+  #     Observing the picture, complete the gaps in the right order so that the function
+  #     works right. Assume the right indentation is applied.'

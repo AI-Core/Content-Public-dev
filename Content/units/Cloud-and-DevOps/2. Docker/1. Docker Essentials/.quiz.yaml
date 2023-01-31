@@ -1,0 +1,57 @@
+name: Docker
+questions:
+  - options:
+      - correct: true
+        option: We can specify what files we don't want in the containers using the .dockerignore file.
+      - correct: false
+        option: Images are instantiations of images.
+      - correct: false
+        option: Containers states should be mutable
+      - correct: true
+        option: You can interact with the Docker container using the -it flag.
+      - correct: true
+        option: We can tag the container using the -t flag.
+      - correct: false
+        option: The -p flag allows use to specify which process ID the container should run with. 
+    question: What is true about Docker containers.
+  - options:
+      - correct: false
+        option: ENTRYPOINT commands are ignored when the Docker container is run with command line parameters.
+      - correct: true
+        option: ENTRYPOINT commands aren't ignored when the Docker container is run with command line parameters.
+      - correct: true
+        option: CMD commands are ignored when the Docker container is run with command line parameters.
+      - correct: false
+        option: CMD commands aren't ignored when the Docker container is run with command line parameters.
+      - correct: true
+        option: RUN allows you to build and install applications and packages required for your image to run.
+      - correct: false
+        option: RUN tells your Docker container to run after it's creation.
+    question: Mark which is true about Docker commands. 
+  - options:
+      - correct: true
+        option: Docker volumes allow us to create persistent storage between Docker containers and the local machine.
+      - correct: true
+        option: We can create a Docker volume when running the container with the -v flag.
+      - correct: false
+        option: Docker volume is the only way to get data from a container.
+      - correct: false
+        option: Docker volumes can only be used by one container.
+      - correct: false
+        option: Docker volumes are destroyed after the container is stopped.
+    question: What is true about Docker volumes?
+  - options:
+      - correct: true
+        option: They can help reduce image size.
+      - correct: true
+        option: They make images easier to maintain.
+      - correct: false
+        option: You should only use them when absolutely necessary.
+      - correct: true
+        option: You use multiple FROM statements in a Docker multistage build.
+      - correct: false
+        option: You have to run the whole multistage build and can't stop it at a specific stage.
+    question: What is true about multi-stage builds.
+
+
+

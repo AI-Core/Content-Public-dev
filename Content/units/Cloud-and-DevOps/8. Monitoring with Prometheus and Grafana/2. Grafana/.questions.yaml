@@ -1,0 +1,12 @@
+name: 'Grafana'
+questions: 
+  - question: What is the main purpose of Grafana?
+  - question: Grafana allows you to add multiple _____'s to track metrics from different applications.
+  - question: When you install Grafana how to you gain access to it?
+  - question: What is a Grafana data source?
+  - question: What can you use to separate panels by case with Grafana?
+  - question: You can quickly recreate panels using which part of Grafana?
+  - question: Name some of they types of visualisations Grafana provides
+  - question: What icon can you use to create alerts and notifications?
+  - question: Grafana allows you view dashboards that rotate on a loop which part of Grafana allows you to do this?
+  - question: Grafana explore allows you to do what?

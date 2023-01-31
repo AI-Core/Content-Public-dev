@@ -1,0 +1,70 @@
+name: Data storage
+questions:
+  - question: Which of the following statements regarding the main concepts of data storage are True?
+    options:
+      - option: "The general trend nowadays for data storage is to move towards specialised, on-premise based hardware"
+        correct: false
+      - option: "There is an increasing quantity and variety of data being produced, with non-human data growing rapidly"
+        correct: true
+      - option: "It's sometimes possible to store both structured and unstructured data types using the same tool.  One example is Hadoop's HDFS"
+        correct: true
+      - option: "Network access storage and storage area networks are two terms that describe the same data storage approach"
+        correct: false
+      - option: "Direct access storage is a growing trend in global companies due to its ease of use"
+        correct: false
+      - option: "In general, using cloud-based storage is more costly than leveraging local on-premise hardware"
+        correct: false
+      - option: "A data warehouse is mainly used to store unstructured data"
+        correct: false
+  - question: Which of the following statements about ETL-based data storage are False?
+    options:
+      - option: "An example of a data format which a database can store is a JSON file"
+        correct: false
+      - option: "Structured data currently represents the majority of data being newly generated"
+        correct: false
+      - option: "Postgres and MySQL are examples of popular relational database systems"
+        correct: true
+      - option: "A data warehouse system can be viewed as a specialised database system designed for a specific purpose"
+        correct: true    
+      - option: "data warehouse systems are general composed of 4 tiers, with a database residing on the second tier" 
+        correct: false
+      - option: "An OLAP is one main component of modern data warehouse systems"
+        correct: true
+  - question: Which of the following statements regarding ELT-based data storage are True?
+    options:
+      - option: "ELT storage is the newer trend in industry for data storage and transformation"
+        correct: true
+      - option: "Most ELT storage systems like Hadoop HDFS require the ACID (atomicity, consistency, isolation and durability) properties to function correctly"
+        correct: false
+      - option: "ELT data storage can be used to capture video and image data" 
+        correct: true
+      - option: "An example tool that can be leveraged for ELT data storage is MongoDB" 
+        correct: true
+      - option: "ELT data storage tools can handle both structured and unstructured data if the required technologies are installed" 
+        correct: true
+  - question: Which of the following statements regarding cloud-based data storage are True?
+    options:
+      - option: "Cloud computing and storage is a quickly rising trend in industry"
+        correct: true
+      - option: "organisations have to select either the public or private cloud model.  It's not possible to integrate both"
+        correct: false  
+      - option: "Amazon AWS is an example of a cloud computing provider that companies can use"
+        correct: true
+      - option: "With cloud technologies, it's possible to setup both ETL and ELT types of storage"
+        correct: true  
+      - option: "Cloud storage provides several benefits to companies, but ease of scaling up or down is not one of those benefits due to the network limitations"
+        correct: false
+      - option: "Generally speaking, data security in cloud-based storage is weak"
+        correct: false 
+  - question: Which of the following statements regarding structured and unstructured data types are False?
+    options:
+      - option: "JSON files are an example of a graph object"
+        correct: false
+      - option: "A CSV file with 20 columns and 2 million rows can be stored in a data warehouse"
+        correct: true  
+      - option: "We can query unstructured data such as video files using SQL"
+        correct: false
+      - option: "An OLAP cube can be used to explore image files"
+        correct: false
+      - option: "Hadoop HDFS can store CSV, JSON, video and image data"
+        correct: true  

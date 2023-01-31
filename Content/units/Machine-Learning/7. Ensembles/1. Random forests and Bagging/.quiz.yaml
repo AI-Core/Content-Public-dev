@@ -1,0 +1,90 @@
+name: Random Forests and Bagging
+questions:
+  - question: Which of the following are not Ensembles methods?
+    options:
+      - option: Random Forests
+        correct: false
+      - option: Bagging
+        correct: true
+      - option: Extra Tree Regressor
+        correct: false
+      - option: Ada Boost
+        correct: false
+      - option: Gradient Boosting
+        correct: false
+      - option: Principal Component Analysis
+        correct: True
+  - question: Which of the following is / are true about weak learners used in ensemble model?
+    options:
+      - option: They have low variance and they don't usually overfit
+        correct: true
+      - option: They have high bias, so they can not solve hard learning problems
+        correct: true
+      - option: They have high variance and they don't usually overfit
+        correct: false
+      - option: They have low bias, so they can solve hard learning problems
+        correct: false
+      - option: They are not very accurate
+        correct: true
+      - option: Different learners can come from same algorithm with different hyper parameters
+        correct: true
+      - option: Different learners can come from different algorithms
+        correct: true
+  - question: Which of the following is / are true about ensemble methods?
+    options:
+      - option: They will yield bad results when there is significant diversity among the models
+        correct: False
+      - option: Ensemble learning can only be applied to supervised learning methods.
+        correct: false
+      - option: They provide a better performance
+        correct: true
+      - option: Ensemble classifiers that are more “sure” can vote with more conviction
+        correct: true
+      - option: You need to tune the same hyperparameters for each base model
+        correct: False
+      - option: An ensemble method works better, if the individual base models have high lower correlations with each other
+        correct: True
+  - question: Select everything true about Random Forests
+    options:
+      - option: They can be used fot classification and regression problems
+        correct: true
+      - option: They handles real valued attributes by discretizing them
+        correct: True
+      - option: They are boosting methods
+        correct: False
+      - option: They are bagging methods
+        correct: True
+      - option: They provide a good level of interpretability
+        correct: false
+      - option: If use 3 estimators and a max_depth of 2, assuming each estimator has an accuracy of 70%, the minimum accuracy is 70%
+        correct: false
+  - question: Which of the following is / are true about Bagging?
+    options:
+      - option: Bagging is suitable for high variance low bias models
+        correct: true
+      - option: Bagging is similar to Bootstrapping
+        correct: false
+      - option: Bootsrapping a part of the bagging algorithm
+        correct: true
+      - option: Random Forest is a Bagging method where Decision Trees are ensembled
+        correct: true
+      - option: Random Forest is a Boosting method where Decision Trees are ensembled
+        correct: false
+      - option: Out-of-bag error is the error of the bagging method when the model is not trained with the whole dataset
+        correct: true
+  - question: Which of the following are parameters of RandomForestClassifier?
+    options:
+      - option: n_estimators
+        correct: true
+      - option: max_depth
+        correct: true
+      - option: max_features
+        correct: true
+      - option: min_leaf_nodes
+        correct: false
+      - option: bootstrap
+        correct: True
+      - option: bagging
+        correct: false
+      - option: boosting
+        correct: false

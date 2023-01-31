@@ -1,0 +1,9 @@
+questions:
+  - question: What is the purpose of setup.py?
+  - question: Do you need both requirements.txt and setup.py?
+  - question: What is the purpose of __init__.py?
+  - question: What is the purpose of __main__.py?
+  - question: What does the `find_packages()` function does?
+  - question: You included a few libraries in `install_requires`. What does it do when you install the package?
+  - question: What is twine?
+  - question: What is a distribution file? How do you create one?

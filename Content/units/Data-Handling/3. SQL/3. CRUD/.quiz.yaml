@@ -1,0 +1,64 @@
+name: SQL CRUD
+questions:
+  - question: Select everything true about using the CREATE TABLE command
+    options:
+      - option: You must specify the name of the table
+        correct: true
+      - option: You must give at least a value to one row
+        correct: false
+      - option: You must specify the name of the columns
+        correct: false
+      - option: If you specify the name of the column, you must specify the type of the column
+        correct: true
+      - option: If you specify the name of the column, you must specify the constraint attached to the column
+        correct: false
+  - question: Which of the following are Data Types in SQL?
+    options:
+      - option: TEXT
+        correct: true
+      - option: DOCUMENT
+        correct: false
+      - option: YEAR
+        correct: true
+      - option: SHORTTEXT
+        correct: false
+      - option: INT
+        correct: true
+      - option: MINUTE
+        correct: false
+  - question: Select everything true about Primary Keys
+    options:
+      - option: They are used to identify a record uniquely.
+        correct: true
+      - option: They require the values to be unique.
+        correct: true
+      - option: They can have null values.
+        correct: false
+      - option: We can add CHECK constraints to the column
+        correct: true
+      - option: They can't be used in other tables
+        correct: false
+  - question: Select everything true about Updating a table
+    options: 
+      - option: If you use the UPDATE command, you must specify a condition
+        correct: false
+      - option: You can add new columns to a table using the UPDATE command
+        correct: false
+      - option: You can add new columns to a table using the INSERT INTO command
+        correct: false
+      - option: You can add new columns to a table using the ALTER TABLE command
+        correct: true
+      - option: You can add all the values from a table to another table using the INSERT INTO command
+        correct: true
+      - option: You can add all the values from a table to another table using the ALTER TABLE command
+        correct: false
+  - question: Select everything true about Deleting a table
+    options:
+      - option: If you use the DROP TABLE command, you must specify a condition
+        correct: false
+      - option: If you use the DELETE FROM command, you must specify a condition
+        correct: false
+      - option: DROP TABLE and DELETE FROM do the same thing
+        correct: false
+      - option: DELETE FROM allows you to delete a record from a table
+        correct: true

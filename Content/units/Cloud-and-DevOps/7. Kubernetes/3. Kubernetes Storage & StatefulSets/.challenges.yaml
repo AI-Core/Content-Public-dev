@@ -1,0 +1,43 @@
+- id: 28d1e207-ff83-4e1b-8af9-53f2321beeb8
+  name: Mount Propagation
+  description: |
+    - Look for information about Mount Propagation in Kubernetes https://kubernetes.io/docs/concepts/storage/volumes/#mount-propagation.
+    - How does it work for Volumes?
+
+- id: dbfa40f8-1701-4495-bfb8-ca6af1afc558
+  name: Storage Object in Use Protection
+  description: |
+    - Look for information about Storage Object in Use Protection in Kubernetes https://kubernetes.io/docs/concepts/storage/persistent-volumes/#storage-object-in-use-protection
+ 
+- id: d4ebc8a7-8741-4a6c-a224-5c7343e9b2df
+  name: Volume Binding Mode
+  description: |
+    - Look for information about Volume Binding Mode in Kubernetes https://kubernetes.io/docs/concepts/storage/storage-classes/#volume-binding-mode
+    - How does it relate to Storage Class?
+ 
+- id: f235238b-89f7-4f63-b77f-7b3d1b992f7b
+  name: Allowed Topologies
+  description: |
+    - Look for information about Allowed Topologies in Kubernetes https://kubernetes.io/docs/concepts/storage/storage-classes/#allowed-topologies
+    - How does it relate to Storage Class?
+ 
+- id: cea75642-96c3-4ffe-a0ef-a6bc303ad3f5
+  name: Update Strategies
+  description: |
+    - Look for information about Update Strategies in Kubernetes https://kubernetes.io/docs/concepts/storage/storage-classes/#allowed-topologies
+    - How does it relate to StatefulSets?
+
+
+- id: 55ac4ce2-fc74-48ba-a1c6-d03d56891855
+  name: Deploying WordPress and MySQL with Persistent Volumes
+  description: |
+    - Go to following page https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
+    - Follow the tutorial to deploy a WordPress and MySQL application with persistent volumes.
+    - Don't worry about the Secrets part, you are more than welcomed to tweak that part, but it is not mandatory
+
+- id: 9becffaf-a893-4435-8f66-a17152b39ae6
+  name: Deploying Cassandra with a StatefulSet
+  description: |
+    - Even though you might not know how to use Cassandra, this example will help you understand StatefulSets
+    - Go to the following page https://kubernetes.io/docs/tutorials/stateful-application/cassandra/
+    - Follow the tutorial to deploy a Cassandra application with a StatefulSet.

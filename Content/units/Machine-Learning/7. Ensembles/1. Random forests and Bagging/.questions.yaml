@@ -1,0 +1,15 @@
+questions:
+  - question: What is an ensemble method?
+  - question: What condition do models have to meet in order to make the ensemble work?
+    answer: They should not be correlated. Otherwise the ensemble will have basically the same output as the weak learner
+  - question: What is the advantage of using a weak learner?
+    answer: Weak learners are simple models, and as such, they reduce the variance of the model, preventing overfitting. 
+  - question: What is bootstraping?
+  - question: What is bagging? What is it short for?
+  - question: "True or False. Bagging uses all the samples in the dataset"
+  - question: Is random forest always a bagging method?
+    answer: No, it can also be a pasting method. When sampling is performed without replacement, it is called pasting
+  - question: What is the advantage of using random forest instead of a decision Tree?
+  - question: Name three hyperparameters that you can set in a random forest
+  - question: How do you visualize the most relevant features in a dataset using random forest? How does it work? 
+    answer: feature_importances_. It looks at how much the tree nodes that use that feature reduce impurity on average

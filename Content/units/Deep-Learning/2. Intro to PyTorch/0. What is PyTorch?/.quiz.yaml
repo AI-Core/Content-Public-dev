@@ -1,0 +1,132 @@
+name: 'Deep Learning: PyTorch'
+questions:
+  - options:
+      - correct: false
+        option: It's easier to create more advanced neural networks
+      - correct: true
+        option: It has a more mature ecosystem
+      - correct: true
+        option: Used in industry more often
+      - correct: false
+        option: Used more often in research
+      - correct: false
+        option: Larger ecosystem
+    question: What are the upsides of using Tensorflow rather than PyTorch?
+  - options:
+      - correct: true
+        option: It's easier to create more advanced neural networks
+      - correct: false
+        option: It has a more mature ecosystem
+      - correct: false
+        option: Used in industry more often
+      - correct: true
+        option: Used more often in research
+      - correct: false
+        option: Larger ecosystem
+    question: What are the upsides of using PyTorch rather than Tensorflow?
+  - options:
+      - correct: false
+        option: Newest versions are standalone
+      - correct: true
+        option: Newest versions are part of Tensorflow
+      - correct: true
+        option: Currently acts as a high level frontend library for Tensorflow
+      - correct: true
+        option: Started as a high level library with multiple available backends
+      - correct: false
+        option: Focused on flexibility and extensibility
+      - correct: true
+        option: Focused on quick solutions and ease of use
+      - correct: true
+        option: Is for Tensorflow what PyTorch Lightning is for PyTorch
+    question: Mark everything true about Keras
+  - options:
+      - correct: false
+        option: Simple prints to stdout
+      - correct: true
+        option: High level abstractions allowing us to log various information
+      - correct: true
+        option: Systems with visualization frontends for our experimentation data (e.g. comet.ml/tensorboard)
+      - correct: false
+        option: Control statements of neural networks
+    question: What are deep learning loggers?
+  - options:
+      - correct: false
+        option: It is the same default type as NumPy
+      - correct: false
+        option: It is half precision floating point (float16)
+      - correct: true
+        option: It is standard precision floating point (float32)
+      - correct: false
+        option: 'Could be changed for every tensor at the top of the program (for example: `torch.set\_dtype(torch.float16)`)'
+      - correct: false
+        option: It is double precision floating point (float64)
+    question: Mark everything True about the default datatype for PyTorch tensors
+  - options:
+      - correct: false
+        option: Only CPU & GPU are supported
+      - correct: true
+        option: One can use multiple devices (CPU/GPU/TPU) with more to come
+      - correct: false
+        option: In general we should use `.cuda()` / `.cpu()` casts for tensors
+      - correct: true
+        option: In general, we should use `.to(device)` and specify device as variable, e.g. `device = torch.device("cpu")` because it makes our code generic
+    question: Mark everything True about PyTorch devices
+  - options:
+      - correct: true
+        option: Runs the backpropagation algorithm
+      - correct: true
+        option: "Fills tensor's .grad attribute if they have `requires\_grad=True`"
+      - correct: false
+        option: Optimizes weights of a neural network
+      - correct: true
+        option: Usually runs on a scalar variable (implicitly fed with `1` value as dL/dL = 1 where L is loss)
+      - correct: false
+        option: Can be run on non-scalar variables without any intervention
+      - correct: true
+        option: Can be run on non-scalar variables with appropriate tensor fed to `torch.autograd.backward` function
+    question: What does the backward() call do?
+  - options:
+      - correct: true
+        option: All neural network layers inherit from it
+      - correct: true
+        option: Is a class which should we should extend when creating our neural networks
+      - correct: true
+        option: All PyTorch provided layers inherit from it
+      - correct: true
+        option: Instances of it can be arbitrarily nested within one another
+      - correct: false
+        option: Instances of it cannot be arbitrarily nested within one another
+      - correct: true
+        option: We can use `.add\_module` method to add modules dynamically to it
+      - correct: false
+        option: "We don't have to call super initialization method at the beginning"
+      - correct: false
+        option: We should implement the `forward` method and call it on instances
+      - correct: false
+        option: '`forward` method is restricted when it comes to types of data one can pass to it'
+    question: Mark everything True about `torch.nn.Module`
+  - options:
+      - correct: true
+        option: Allows us to use torch.Tensor as parameters
+      - correct: false
+        option: torch.nn.Module instances have to be wrapped in it when we want them to be optimized
+      - correct: true
+        option: By default, they are optimized and tensors passed to it do not need `requires\_grad=True` parameter
+      - correct: false
+        option: By default they are non-optimizable
+    question: Mark everything True about `torch.nn.Parameter`
+  - options:
+      - correct: false
+        option: Iterate over data, cast them to device, calculate loss, call backward on it
+      - correct: true
+        option: Iterate over data, calculate loss, call backward on it, step optimizer, zero gradient
+      - correct: false
+        option: Iterate over data, cast them to device, calculate loss, call backward on it, step optimizer
+      - correct: true
+        option: Iterate over data, cast them to device, calculate loss, call backward on it, step optimizer, zero gradient after N steps of gradient accumulation (divide gradient by number of iterations)
+      - correct: false
+        option: Iterate over data, cast them to device, calculate loss, step optimizer, zero gradient
+      - correct: true
+        option: Iterate over data, cast them to device, calculate loss, call backward on it, step optimizer, zero gradient
+    question: Mark the correct order of the usual optimization procedure

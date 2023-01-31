@@ -1,0 +1,14 @@
+name: Validation & Testing
+questions:
+  - options:
+      - correct: false
+        option: It is also known as K-fold cross-validation
+      - correct: true
+        option: It is also known as cross-validation
+      - correct: false
+        option: It should be done after evaluating on the test set
+      - correct: true
+        option: The results are used to make decisions about the model
+      - correct: false
+        option: We descend the resulting loss using gradient descent to optimise the parameters
+    question: Mark everything true about evaluating the model on the validation set

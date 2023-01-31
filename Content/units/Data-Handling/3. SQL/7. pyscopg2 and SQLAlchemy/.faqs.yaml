@@ -1,0 +1,9 @@
+id: 84a9c4c6-3bb2-4095-a96a-6d4ec15498c3
+name: pyscopg2 and SQLAlchemy
+questions:
+- answer: "You can alternatively change the line to\n\nfor row in results:\n    data\
+    \ = dict(row)\n"
+  created_at: '2022-02-02 03:39:10'
+  id: 8f049a65-9d67-40fd-9098-6decbc3fab31
+  question: My code is failling on the line result = dict(selected_row.mappings().all()[0])
+    to turn a sqlalchemy object into a dictionary.

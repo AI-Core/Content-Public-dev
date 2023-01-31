@@ -1,0 +1,31 @@
+id: d30506eb-9ff4-44a0-86d3-d8a9b9920b2b
+name: Advanced Python
+questions:
+- answer: Modules are usually installed in a environment or in the main package library.
+    However, when you run your code you need to make sure that you selected the right
+    interpreter or the right kernel. You can check the interpreter on the bottom left
+    of your VSCode window, and the kernel on the top right of your VSCode window (if
+    you are using a notebook). The kernel or interpreter should show the environment
+    in which it's installed between brackets, for example "(base)" means that the
+    interpreter is inside the base environment. If it doesn't show anything like this,
+    you are not in an environment, and it will use the interpreter installed in your
+    computer
+  created_at: '2022-02-02 03:42:10'
+  id: 0acc0966-bb69-42cc-8f17-e027785e4c22
+  question: I installed a library using pip or conda, but when I import it, Python
+    says that this library couldn't be found. What's happening?
+- answer: "This depends on the following question, where is the module with respect\
+    \ to the file you are running? \n\n1. If it's in the same directory, you can simply\
+    \ import it. For example: \"import module\" or \"from module import function_1\"\
+    \n2. If it's in a subdirectory that is in the same directory, you need to specify\
+    \ the subdirectory. For example: \"from subdirectory import module\" or \"from\
+    \ subdirectory.module import function_1\"\n3. If they are in two different subdirectories\
+    \ that are in the same directory, first you need to add an __init__.py file in\
+    \ the subdirectory that contains the file you are going to run and run it from\
+    \ the directory, NOT from the subdirectory. For example: \"from subdirectory_2.module_1\
+    \ import function_1\"\n4. If they are in completely separate locations, refactor\
+    \ your structure, and follow one of the steps mentioned above"
+  created_at: '2022-02-02 03:42:11'
+  id: 46997c6e-d464-40db-9335-99faf637cc03
+  question: I am trying to import a module that is stored in another directory, but
+    Python is unable to find the module. Help me please!

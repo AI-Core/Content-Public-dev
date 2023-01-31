@@ -1,0 +1,12 @@
+questions: 
+  - question: What is meant by data storage? How is it different today than it was 30 years ago?
+  - question: What is unstructured data? Give 2 examples of such data.
+  - question: Briefly explain what the acronym DAS stands for and what it is.
+  - question: What is NAS? How is it different than SAN? 
+  - question: List and briefly explain 1 type of ETL data storage.
+  - question: Explain 2 charactaristics of a database system.
+  - question: What is one challenge today's databases face? Briefly explain why.
+  - question: Briefly explain what is a data warehouse.
+  - question: What is one type of ELT storage commonly used nowadays? Briefly explain it.
+  - question: What is cloud data storage? Is this ia new or old trend? Why?
+  - question: List and briefly explain 3 differences between ETL and ELT storage.

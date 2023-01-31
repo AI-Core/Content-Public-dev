@@ -1,0 +1,8 @@
+questions:
+  - question: What is a mutable data structure? Are lists mutable? And sets?
+  - question: What is an ordered data structure? Are lists ordered? And sets?
+  - question: You have the following list `[1, 5, 6, 9, 7, 5, 10]`. How can you obtain the index of the highest number?
+  - question: Name at least two ways to sort the previous list in inverse order
+  - question: In a Python list, what is the difference between pop and remove?
+  - question: Name at least two ways to retrieve the value of the last element in a list
+  - question: You have a list with repeated values. You want to obtain a LIST with unique values. How would you do it?

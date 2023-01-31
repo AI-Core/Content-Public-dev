@@ -1,0 +1,68 @@
+name: Kubernetes Storage & StatefulSets
+questions:
+  - question: What is a Kubernetes volume?
+    options:
+      - option: The software within an OS that controls capacity allocation for nodes
+        correct: false
+      - option: A directory for the data accessible to containers in a pod
+        correct: true
+      - option: Layering software that puts apps into compartments for easier deployment
+        correct: false
+      - option: Code that enables two software programs to communicate
+        correct: false
+  - question: "True or False: Once you delete a Volume claim, the volume will disappear"
+    options:
+      - option: "True"
+        correct: false
+      - option: "False"
+        correct: true
+  - question: What definition fits best for StatefulSets?
+    options:
+      - option: A set of pods that share a common configuration
+        correct: false
+      - option: A set of pods that share a common state
+        correct: false
+      - option: A set of pods that share a common configuration and state
+        correct: false
+      - option: A set of pods that has a volume attached to it
+        correct: true
+  - question: Which of the following is NOT a Kubernetes Volume?
+    options:
+      - option: EmptyDir
+        correct: false
+      - option: PersistentVolumeClaim
+        correct: false
+      - option: PersistentVolume
+        correct: true
+      - option: HostPath
+        correct: false
+      - option: Secret
+        correct: true
+      - option: ConfigMap
+        correct: true
+  - question: What specifications can you add to a PersistentVolumeClaim?
+    options:
+      - option: accessMode
+        correct: true
+      - option: storageCapacity
+        correct: false
+      - option: storageClassName
+        correct: true
+      - option: dataType
+        correct: false
+      - option: volumeMode
+        correct: true
+  - question: What specification can you add to a StatefulSet?
+    options:
+      - option: selector
+        correct: true
+      - option: replicas
+        correct: true
+      - option: podVolume
+        correct: false
+      - option: podTemplate
+        correct: true
+      - option: storageClassName
+        correct: false
+      - option: storageCapacity
+        correct: false

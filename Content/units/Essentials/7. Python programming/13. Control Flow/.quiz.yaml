@@ -1,0 +1,109 @@
+name: Logical Operators and Flow Control
+questions:
+  - options:
+      - correct: false
+        option: == is a logical operator
+      - correct: false
+        option: += is a logical operator
+      - correct: false
+        option: '!= is a logical operator'
+      - correct: true
+        option: '> means greater than'
+      - correct: false
+        option: => means greater or equal than
+      - correct: true
+        option: _and _is a logical operator
+      - correct: true
+        option: _or _is a logical operator
+      - correct: true
+        option: _in _and _not in_ are membership operators
+      - correct: true
+        option: _is _and _is not_ are identity operators
+      - correct: false
+        option: _or _and | have the same functionality
+      - correct: false
+        option: _and _and & have the same functionality
+      - correct: true
+        option: _x % 2 == 0 _is True only if _x _is even
+      - correct: false
+        option: _x % 1 == 0_ is True only if x is odd
+    question: Select everything TRUE about operators
+  - options:
+      - correct: true
+        option: bool(False)
+      - correct: true
+        option: bool(None)
+      - correct: true
+        option: bool(0)
+      - correct: false
+        option: bool(1)
+      - correct: true
+        option: bool(0.0)
+      - correct: true
+        option: bool([]) _empty list_
+      - correct: false
+        option: bool('.') _string containing a dot_
+      - correct: true
+        option: bool(()) _empty tuple_
+    question: 'The bool() function cast different type of objects into a boolean.
+      Which of these options will return FALSE?
+
+
+      Select all that apply.'
+  - options:
+      - correct: true
+        option: x == 42
+      - correct: true
+        option: x is 42
+      - correct: true
+        option: 24 < x < 53.2
+      - correct: true
+        option: False < x < 53.2
+      - correct: true
+        option: 42 == x < 53.2
+      - correct: true
+        option: 505 > x <= 53.2
+    question: 'Assuming that x = 42, select the operations that return TRUE.
+
+
+      Select all that apply.'
+  # - options:
+  #     - correct: true
+  #       option: It doesn't consider negative numbers
+  #     - correct: false
+  #       option: If x is 5, it prints 'Medium Number'
+  #     - correct: true
+  #       option: If x is 11, it prints 'Medium Number'
+  #     - correct: false
+  #       option: If x is 10, it prints 'Medium Number'
+  #     - correct: false
+  #       option: You always need to end with an else statement
+  #   question: 'You want to create a script that prints:
+
+
+  #     _ ''Low Number''_ if x is less or equal than 5
+
+  #     _ ''Medium Number''_ if x is between 5 and 10
+
+  #     _ ''High Number''_ if x is greater or equal than 10
+
+
+  #     You have the code on the right-hand side picture. What is wrong with it?
+
+
+  #     Select all that apply.'
+  # - options:
+  #     - correct: true
+  #       option: if x='Papaya' the script will print 'Papaya in list or string'
+  #     - correct: false
+  #       option: if x='Fig' the script will print 'Fig in list or string'
+  #     - correct: true
+  #       option: if x='Apple' the script will not print anything
+  #     - correct: true
+  #       option: if x = ['Apple', 'Banana', 'Coconut', 'Date', 'Elderberry', 'Fig'] the script will print 'Fig in list or string'
+  #     - correct: false
+  #       option: if x = ['Apple', 'Banana', 'Coconut', 'Date'] the script will print 'Fig in list or string'
+  #     - correct: true
+  #       option: if x = ['Papaya'] the script will print 'Fig not in list or string'
+  #   question: "You have the code on the right-hand side. \n\nSelect everything TRUE\
+  #     \ about the code"

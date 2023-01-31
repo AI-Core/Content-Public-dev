@@ -1,0 +1,113 @@
+name: 2.2.4 Gradient descent
+questions:
+  - options:
+      - correct: false
+        option: It is a highly popular loss function
+      - correct: false
+        option: It is usually only used where the dataset is large
+      - correct: true
+        option: It is an iterative algorithm
+      - correct: true
+        option: It can be terminated by either reaching a set number of optimisation
+          steps, or by reaching a point where the gradient is below some threshold
+      - correct: false
+        option: For a given model, it will always take the same time to complete the
+          optimisation (on the same hardware)
+      - correct: true
+        option: It scales well to optimise models with billions of parameters
+      - correct: false
+        option: You have to be careful about local minima when using it with linear
+          regression
+      - correct: false
+        option: Regardless of which model you use, you'll always find the global (best)
+          optima using gradient descent
+      - correct: true
+        option: Gradient descent follows a heuristic during optimisation
+      - correct: true
+        option: It can be used for classification or regression, as long as the loss
+          function is differentiable
+    question: Select everything true about gradient descent
+  - options:
+      - correct: true
+        option: Compared to full-batch gradient descent, mini-batch gradient descent
+          is faster to compute the value by which each parameter should be updated
+      - correct: false
+        option: Compared to full-batch gradient descent, mini-batch gradient descent
+          is faster to compute the new value for each parameter, once given the value
+          by which the parameter should be updated
+      - correct: false
+        option: Compared to stochastic gradient descent, mini-batch gradient descent
+          is unlikely to provide more accurate gradient updates (ones which generalise
+          to the larger full training set)
+      - correct: true
+        option: The loss surface changes on every iteration of mini-batch gradient
+          descent
+      - correct: false
+        option: For mini-batch gradient descent, the order of examples should not
+          be shuffled each epoch
+      - correct: true
+        option: Mini-batch gradient descent is a stochastic algorithm
+      - correct: true
+        option: When people use the terms gradient descent or SGD (stochastic gradient
+          descent), they are most likely referring to mini-batch gradient descent,
+          rather than full-batch or stochastic gradient descent
+      - correct: false
+        option: When using full batch gradient descent, it is important to shuffle
+          the dataset before each iteration of the algorithm
+    question: Compare the different types of gradient descent, and mark everything
+      true
+  - options:
+      - correct: false
+        option: Compute the loss
+      - correct: true
+        option: Compute the gradient of the loss analytically
+      - correct: false
+        option: Split the data into train, test and validation sets
+      - correct: false
+        option: Move the model parameters in the direction of the positive gradient
+      - correct: true
+        option: Scale the size of the parameter update by a learning rate
+      - correct: true
+        option: Shuffle the data
+      - correct: true
+        option: Batch the data
+      - correct: false
+        option: Normalise the data
+      - correct: false
+        option: Compute the optimal parameters analytically
+      - correct: false
+        option: Randomly initialise the model parameters
+    question: Which of the following are necessary steps in the SGD algorithm?
+  - options:
+      - correct: false
+        option: The gradient of the loss with respect to our predictions
+      - correct: false
+        option: The gradient of the loss with respect to our features
+      - correct: false
+        option: The gradient of the loss with respect to our labels
+      - correct: true
+        option: The gradient of the loss with respect to our model parameters
+      - correct: false
+        option: The gradient of the predictions with respect to our loss
+      - correct: false
+        option: The gradient of the predictions with respect to our features
+      - correct: false
+        option: The gradient of the predictions with respect to our model parameters
+      - correct: false
+        option: The gradient of the predictions with respect to our labels
+    question: The gradient in gradient descent refers to which of the following?
+  - options:
+      - correct: false
+        option: Use a different learning rate
+      - correct: true
+        option: Standardise the data
+      - correct: true
+        option: Normalise the data
+      - correct: false
+        option: Scale down the data by dividing by a constant
+      - correct: false
+        option: Use an alternative loss function
+      - correct: false
+        option: Use a different learning rate for each parameter
+    question: Sometimes our loss function can be "ill conditioned". Which of the following
+      would be a suitable remedy? Assume your data has 1000 features

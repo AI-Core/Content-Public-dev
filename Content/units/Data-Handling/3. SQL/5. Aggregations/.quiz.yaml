@@ -1,0 +1,61 @@
+name: SQL - Aggregations + Subqueries
+questions:
+  - options:
+      - correct: true
+        option: WHERE
+      - correct: true
+        option: FROM
+      - correct: false
+        option: HAVING
+      - correct: true
+        option: SELECT
+      - correct: true
+        option: JOIN
+      - correct: false
+        option: ORDER BY
+      - correct: false
+        option: LIMIT
+    question: Which keywords are WRITTEN in a position before GROUP BY
+  - options:
+      - correct: true
+        option: WHERE
+      - correct: true
+        option: FROM
+      - correct: false
+        option: HAVING
+      - correct: false
+        option: SELECT
+      - correct: true
+        option: JOIN
+      - correct: false
+        option: ORDER BY
+      - correct: false
+        option: LIMIT
+    question: Which keywords are RUN before GROUP BY
+  - options:
+      - correct: true
+        option: COUNT(\*) will return the number of rows (including those which contain
+          nulls)
+      - correct: false
+        option: COUNT(col\_name) returns the number of values (including nulls)
+      - correct: false
+        option: COUNT(col\_name) returns the same as SUM(col\_name)
+    question: What's True about COUNT?
+  - options:
+      - correct: true
+        option: 'True'
+      - correct: false
+        option: 'False'
+    question: WHERE and HAVING do the same job but at different levels of granularity
+  - options:
+      - correct: false
+        option: 'True'
+      - correct: true
+        option: 'False'
+    question: Each condition in a CASE clause generates a new column
+  - options:
+      - correct: false
+        option: date\_trunc
+      - correct: true
+        option: date\_part
+    question: 'For extracting the day of the month from a date we can use:'

@@ -1,0 +1,16 @@
+- id: 0381c9b4-1d93-4775-b3d2-71b8ad3b4714
+  name: Tracking AWS CloudWatch metrics from Grafana
+  description: |
+    - We are going to create a dashboard to track AWS CloudWatch(Cloudwatch is a dashboarding system for AWS) metrics from Grafana
+    - First we need to configure a AWS user to allow Grafana to track AWS CloudWatch as a datasource
+    1. Head to the IAM dashboard in AWS and create a new user named Grafana and give them Programmatic access
+    2. Next add these policies to the user role by selecting Attach existing policies.
+       - AmazonEC2ReadOnlyAccess 
+       - CloudWatchLogsReadOnlyAccess
+       - CloudWatchReadOnlyAccess
+    3. Finish creating the user and then take a note of the secret access key and access key ID.
+    4. Head on back to Grafana after creating the user and add CloudWatch as a data source.
+    5. Select Access & Secret key as the authentication type and input the Access key and secret key.
+    6. Configure the region and test the connection with Save & Test.
+    7. Now try to create a dashboard to track EC2 metrics with Grafana, EC2 CPU utilisation, failed events etc.
+    8. When adding logs you may need to head back to AWS CloudWatch Log insights to get the queries you will run to generate logs. 

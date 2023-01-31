@@ -1,0 +1,69 @@
+- id: 6be8068b-6520-4832-abd1-92e8b7e4ee86
+  name: My first pytorch dataset
+  description: |
+    - Load in the boston dataset
+    - create a class called BostonDataset which inherits from torch.utils.data.Dataset
+    - implement the two magic methods which need to be overwritten
+      - refer to the torch docs if you cant remember which methods these are or why they are required
+    - check that your dataset works by indexing it and asking for it's len
+    - this doesn't really look like we did anything specific to torch here. But the reason why we inherit from this class is because it acts as an interface, requiring us to implement things which are used by other torch methods, like the DataLoader
+    - remind yourself what an abstract class is. 
+      - Discuss: Is torch.utils.data.Dataset an abstract class?
+        - look at the source code
+
+- id: 6710a569-1c24-4114-b02a-43963bcf8018
+  name: My first dataloader
+  description: |
+    - Now it's time to batch your dataset rather than process it all at once
+    - Load in the boston dataset (for the last time I promise)
+    - turn the dataset into a pytorch dataset by implementing a class that inherits from torch.utils.data.Dataset
+    - Open the docs for torch.utils.data.DataLoader
+    - Use the dataloader to shuffle and batch your data
+    - What does num_workers do?
+      - read the notebook & check the docs
+    - Take a pytorch model which you previously trained in full-batch mode, and add an inner loop within the training loop to iterate through the batches, and implement minibatch gradient descent
+      - Compare speed and performance before and after
+
+- id: f50f9e59-9a24-4083-acbe-c957906c8c35
+  name: Finally, a non-toy dataset
+  description: |
+    - Check out the docs for torchvision.datasets
+      - What are the following keyword arguments for? Which are required?
+        - root, train, download
+    - Download the MNIST dataset using the relevant pytorch class from pytorch
+    - How long is this dataset? 
+      - What about if train=False when you load it in?
+      - Why do you think there are predetermined train-test splits? Hint: MNIST used to be for benchmarking research
+    - Take a look at the type of labels this dataset has. What kind of problem is this?
+    - Use the relevant pytorch layers and loss function to create a neural network class capable of representing this problem
+    - Train a neural network on this dataset and evaluate the performance 
+    - Compare the performance to a linear model from sklearn (or pytorch if you'd rather)
+
+- id: d68ccd7f-be24-4849-ab6f-1e3026f327b0
+  name: Dummy CSV dataset
+  description: |
+    - Create a small CSV with several rows and several columns. 
+      - Have a few columns for features, and the final column for the target.
+      - Give the column some names based on a pretend dataset
+      - Fill the CSV with random numbers
+    - In a new file, create a pytorch dataset which loads in the CSV and implement the getitem method to return you one example
+      - The getitem should return you a tuple of (features, labels)
+        - it should also cast the numbers into pytorch tensors
+
+- id: bebdaeee-23a6-4691-9369-ee194a5d92e7
+  name: Dummy image dataset
+  description: |
+    - Create a folder containing two folders 
+      - These folders will each contain images from one class (e.g. dogs, but please choose something more interesting)
+    - Download some images and put them in the folders
+    - In a new file, create a pytorch dataset
+    - The initialiser should store all of the pathnames of the images in a list
+    - The getitem method should load in one of the images as a PIL image and return a tuple of (image, target)
+      - Hmmm how could you use the filepath to figure out the target?
+
+- id: 56a8508d-0885-4642-9d85-24a033ba57e5
+  name: Your own dataset
+  description: |
+    - turn your own data into a pytorch dataset
+    - load it into a dataloader
+    - build a neural network and evaluate it's performance

@@ -1,0 +1,25 @@
+- name: Explore Kafka
+  id: 5bc5d4ec-363f-11ec-8d3d-0242ac130003
+  description: |
+    1. Download Apache Kafka for Linux
+    2. Untar the file and create a Kafka folder
+    3. Explore the folder contents, especially the bin folder.  Make a note of how many Bash scripts are there.
+    4. Select 5 of the available Bash scripts, and explain what each of them does. Hint, do a web search for each script
+- name: Global Companies using Kafka
+  id: 5bc5d4ec-363f-11ec-8d3d-0242ac130003
+  description: |
+    1. Read about the Global companies that use Kafka https://kafka.apache.org/powered-by 
+    2. Pick 4 companies that you are most familiar with
+    3. Write down for each company, what was Kafka used for in their examples.
+- name: Kafka Use Cases
+  id: 5bc5d4ec-363f-11ec-8d3d-0242ac130003
+  description: |
+    1. Watch this video about the Kafka Use Cases https://videos.confluent.io/watch/5AA8GugNNDgdSs8acTHQFB? 
+    2. Write down the top 3 Use Cases that you find most interesting.
+    3. Briefly explain how Kafka fits in each one.
+- name: Zookeeper Role
+  id: 5bc5d4ec-363f-11ec-8d3d-0242ac130003
+  description: |
+    1. Read the following link about Zookeeper https://dattell.com/data-architecture-blog/what-is-zookeeper-how-does-it-support-kafka/ 
+    2. Make a note of what are the 4 main roles that Zookeeper does in a Kafka system.
+    3. Briefly explain each role.

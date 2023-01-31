@@ -1,0 +1,181 @@
+id: ee468b4e-b54c-464f-becb-caa81721ad06
+name: Web Scraping
+questions:
+- answer: 'Simply go to this website: https://chromedriver.chromium.org/downloads
+
+
+    Select the correct version and the correct Operating System to download it'
+  created_at: '2022-02-02 03:39:10'
+  id: 4248de14-529f-4139-af3f-85d0e33c6e95
+  question: How do I install chromedriver?
+- answer: 'As with many other things, you need to tell your code where to find the
+    necessary files to make the code run. In this case, it is complaining because
+    it doesn''t find chromedriver.
+
+
+    When you use selenium, the first positional argument is the path where chromedriver
+    is stored, so you can write the directory where you store chromedriver.
+
+
+    If you leave that argument empty, selenium will assume that chromedriver is in
+    PATH. For more information, check the FAQ "How do I move a file to PATH?"'
+  created_at: '2022-02-02 03:39:10'
+  id: d1f7f73b-6a1a-4e94-9bf1-ea0e9d09f871
+  question: I have installed chromedriver, but when I try to use selenium, it says
+    that chromedriver has to be in path. What does it mean?
+- answer: 'There might be multiple reasons why that happens. The most common ones
+    are:
+
+
+    1. The element you are trying to locate is in a frame. So you have to switch to
+    frame to navigate through it. Take a look at the Web Scraping notebook to know
+    how to do it
+
+
+    2. The Xpath hasn''t been loaded yet. This error is due to selenium looking for
+    the element very quickly, not giving enough time to load the Xpath you are specifying.
+    So you can add a time.sleep(x) (where x is the number of seconds you want to wait)
+    before finding that element. If that works, we recommend using a WebDriverWait.
+    Take a look at the documentation to know how it works: https://selenium-python.readthedocs.io/waits.html'
+  created_at: '2022-02-02 03:39:10'
+  id: ce5440ef-94a6-466f-bbd3-4f95c352d47e
+  question: I am scraping data using selenium. I am sure that the Xpath is correct,
+    but selenium complains saying that the element corresponding to that Xpath doesn't
+    exist
+- answer: 'This usually happens when the Xpath in your code is too specific. One of
+    the reasons we try not to use long Xpaths is because they heavily rely on the
+    disposition of the website, so if anything changes, your code will break
+
+
+    On the other hand, if you can find the elements by observing their classes, ids,
+    or other characteristics that don''t depend on the disposition of the website,
+    it is less likely that your code will break if the server changes its website.'
+  created_at: '2022-02-02 03:39:10'
+  id: cab61f39-c49c-4484-8cc9-e941866f579a
+  question: 'My scraper has worked fine until now. For some reason now some elements
+    are not found. '
+- answer: "A stale element issue shows up when you are trying to access an element\
+    \ that was there, but is not there anymore. \n\nFor example, you found an element,\
+    \ but before clicking it, you visit another URL. Then you go back to the URL where\
+    \ you found the element, and try to click on it. You know it's there, but selenium\
+    \ doesn't know it! It know that it was there, but it doesn't know if it's still\
+    \ there.\n\nTo solve this, you can find the element again once you go back. Alternatively,\
+    \ if you try to click on a link, you can store all the links, and then go one\
+    \ by one using the get method from driver (don't forget to add a time.sleep()\
+    \ between each visit!)"
+  created_at: '2022-02-02 03:39:10'
+  id: 73530be2-15b4-495d-a1a0-5b6d63c84963
+  question: 'My scraper throws the following error: Stale element reference. What
+    does it mean and how can I solve it?'
+- answer: "That is actually a smart way to do it, and it will save time of coding\
+    \ and of scraping. \n\nMake sure that the URL changes when you move to a new page,\
+    \ and identify what parameter(s) changes when doing so. Then, simply program the\
+    \ logic based on said changes"
+  created_at: '2022-02-02 03:39:10'
+  id: b768f216-7e14-4830-9927-af965471a9bd
+  question: When I visit a website, can I change the URL to move to the next page?
+- answer: "Docker images or EC2 instances don't support any sort of GUI applications,\
+    \ so you need to set headless mode. However, that might not be enough, you have\
+    \ to allow your browser use your mouse, so you need to use the no-sandox option\n\
+    The last issue you might find, is that, when you use Chrome in selenium, it tries\
+    \ to store all the information in a directory called dev/shm, but if that's not\
+    \ enough, Chrome will crash. To avoid it, you can use a workaround that will store\
+    \ the info in a temporary file. \n\nSo, the code you should add when creating\
+    \ the webdriver should look like this:\n\nfrom selenium import webdriver\nfrom\
+    \ selenium.webdriver.chrome.options import Options\n\nchrome_options = Options()\n\
+    chrome_options.add_argument('--headless')\nchrome_options.add_argument('--no-sandbox')\n\
+    chrome_options.add_argument('--disable-dev-shm-usage')\n\ndriver = webdriver.Chrome('/path/to/your_chrome_driver_dir/chromedriver',\
+    \ chrome_options=chrome_options)"
+  created_at: '2022-02-02 03:39:10'
+  id: 5a4d725d-7528-444f-a1a7-90c8d56c336f
+  question: 'When I run my scraper locally, it works fine. Even when I run a container
+    using selenium, it works without any issue. However, when I run it on an EC2 instance,
+    I receive the following error: "devToolsActivePort file doesn''t exist" '
+- answer: Go to the website that you want to scrape data from, and right-click on
+    the "accept cookies" button (or any other variant of it), and click inspect. Right-click
+    on the same button again, and click Inspect again. In the inspector, the path
+    of that button should be highlighted. That is the path that you should use in
+    selenium
+  created_at: '2022-02-02 03:39:10'
+  id: 05303534-34ea-4137-ac72-dc0cc8a9c6e7
+  question: I'm starting the web scraper practical, where we are supposed to force
+    the scraper to accept cookies I am struggling to find the correct element to click
+    in order to do so
+- answer: 'Yes, you have to set headless mode for your driver. For example, if you
+    are using Chrome, you can write:
+
+
+    from selenium import webdriver
+
+    from selenium.webdriver.chrome.options import Options
+
+
+    chrome_options = Options()
+
+    chrome_options.add_argument(''--headless'')
+
+
+    driver = webdriver.Chrome(''/path/to/your_chrome_driver_dir/chromedriver'', chrome_options=chrome_options)'
+  created_at: '2022-02-02 03:39:10'
+  id: 17e9a085-2bd8-4b9c-8cca-0eba854d1492
+  question: Everytime I run selenium, a new window pops up. Is there a way to prevent
+    this?
+- answer: "The JavaScript code in the website is not fully loading. You can tell selenium\
+    \ to make it stop loading after a certain amount of time:\n\n from selenium import\
+    \ webdriver\n\n driver = webdriver.Chrome()\n driver.set_page_load_timeout(2)\n\
+    \ try :\n     driver.get(<Your URL>)\n     print(\"URL successfully Accessed\"\
+    )\n     driver.quit()\n except :\n     print(\"Page load Timeout Occured. Quitting\"\
+    )\n    driver.quit()"
+  created_at: '2022-02-02 03:39:10'
+  id: b3767636-bf5e-47f3-9f51-dd68727be1bb
+  question: When I run my scraper, the script runs for a lot of time without doing
+    anything, until I eventually get a TimeOut error message. How can I solve it?
+- answer: 'Yes, you can choose any website, but, however, you can''t use pages where
+    the data is simply in a table. You should be able to showcase that you can use
+    different webscraping tools
+
+
+    The main idea is that you can create a scraper that can be used in different websites,
+    so it has to contain multiple methods to make it as flexible as possible'
+  created_at: '2022-02-02 03:39:10'
+  id: fb9e27e8-46ba-4099-bd6a-71b3fe602bc2
+  question: 'I don''t know if there should be more details somewhere else regarding
+    the web scraping data project, but it is not mentioned which website I have to
+    extract data from.
+
+    Can I choose anyone?'
+- answer: "The problem is the resolution set by selenium. In headless mode, the resolution\
+    \ is minimal, and when the Javascript code sees this, it doesn't load all the\
+    \ elements you usually see when you open the browser regularly. \n\nBy default,\
+    \ selenium uses a resolution of 1920x1080, so you can set that even in headless\
+    \ mode.\n\nfrom selenium import webdriver\nfrom selenium.webdriver.chrome.options\
+    \ import Options\n\noptions = Options()\noptions.add_argument(\"--headless\")\n\
+    options.add_argument(\"window-size=1920,1080\")\ndriver = webdriver.Chrome(chrome_options=options)"
+  created_at: '2022-02-02 03:39:10'
+  id: 378da5bd-916d-41a8-9b42-1a12bc15a094
+  question: When I run my scraper in headless mode, some elements can't be located.
+    However, when I run it without headless mode, it works fine. What is going on?
+- answer: 'If this happens, there must be something that changed from page to page.
+    It can be an ad that wasn''t there in the first page, or the second page has fewer
+    entries.
+
+
+    Either way, the best approach is to find the differences between both pages, and
+    work out how to generalize the code to make it work on both pages'
+  created_at: '2022-02-02 03:39:11'
+  id: 280959ef-c9ee-4227-ab87-28f3617db353
+  question: I have a scraper that works fine on a page, then it moves to the next
+    page, but now the code throws an error. I am using the same code for both pages,
+    and they have a similar display. Why does it happen?
+- answer: "Many websites blocks automatic softwares that sends requests to access\
+    \ their data. They identify it by seeing the browser you (or your application)\
+    \ are using. So, you can tell your requests to say that the request is sent from\
+    \ a specific browser by adding a header like this:\n\n\nheaders = {\n    'user-agent':\
+    \ 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111\
+    \ Safari/537.36',\n}\nurl = <Your URL>\n\nresponse = requests.get(url, headers=headers,\
+    \ timeout=5)\n\nIf this doesn't work, you might need to change the user-agent,\
+    \ check this website to see which one you can use: https://www.scrapehero.com/how-to-fake-and-rotate-user-agents-using-python-3/"
+  created_at: '2022-02-02 03:39:11'
+  id: 214d0c72-fde5-4e24-ad0a-c055e7dacf54
+  question: "I am using requests to get the html code of a website, but for some reason,\
+    \ it runs indefinitely. \nWhy is this happening?"

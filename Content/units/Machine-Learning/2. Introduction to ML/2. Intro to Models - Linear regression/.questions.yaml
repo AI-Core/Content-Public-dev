@@ -1,0 +1,15 @@
+questions:
+  - question: What type of data do you predict with linear regression? 
+  - question: What is the common equation for linear regression?
+  - question: You have a model with 4 features, and 3 samples. What is the dimension of w? And b?
+  - question: You have a model with 10 features and 20 samples. How many predictions will you obtain?
+  - question: How can you measure the performance of your model? Can you think of more than one metric?
+  - question: When performing linear regression using the analytical solution (from the loss function), how do you calculate the optimal value of the parameters?
+    answer: You can calculate the derivative of the loss function for a linear regression. What you want to calculate is the minimum of the loss function, so you can calculate the derivative of the loss function, MSE for example, with respect to the weights of the model
+  - question: In terms of time complexity, what is the problem of applying the analytical solution in linear regression?
+    answer: The main problem is inverting the input features matrix. The time complexity of inverting a matrix of size $n \times n$ is around $O(n^3)$. This means that computing the analytical solution for these kinds of real world problems is often computationally expensive or even impossible.
+  - question: How can you create a linear regression instance in sklearn?
+    answer: You can use the sklearn.linear_model.LinearRegression() class
+  - question: What method do you use to train the LinearRegression model?
+  - question: What library do you use to save your model? What method do you use for saving it? And for loading it?
+    answer: You can use the joblib library, and the dump method to save the model
