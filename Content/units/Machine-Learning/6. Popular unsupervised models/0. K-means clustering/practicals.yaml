@@ -1,0 +1,13 @@
+- description: |+
+    1. Create a new folder and download [this](https://aicore-files.s3.amazonaws.com/Data-Science/data_utils/utils.py) file into it.
+    2. Create a new python file and import the `get_classification_data` method from utils. 
+    3. Generate some randomised cartoon data with `get_classification_data`. Make 5 clusters and 2 features. Leave the mean at 100, and play around with the standard deviation until you have a small amount of overlap between some of the clusters. 
+    4. Create a KMeans model object with the same number of clusters.
+    5. Fit the model to the preprocessed data using the fit method.
+    6. Predict the cluster of each datapoint in your dataset.
+    7. Visualise your results by plotting the data points and color-coding them based on their cluster assignments.
+
+  id: 5e220144-6058-4ee9-87e5-27ec76a92f6d
+  name: Fit a K-Means Clustering Model
+
+

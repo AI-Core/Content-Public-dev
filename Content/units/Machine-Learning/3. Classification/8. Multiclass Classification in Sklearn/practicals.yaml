@@ -1,10 +1,10 @@
 
 - description: |+ 
-    1. Import the `IRIS` dataset using the `sklearn.datasets` module.
-    2. Create a multiclass classification model that uses logistic regression, and train to classify the species of iris, using 70% of the `IRIS`` dataset.
+    1. Import the `Iris` dataset using the `sklearn.datasets` module.
+    2. Create a multiclass classification model that uses logistic regression, and train to classify the species of iris, using 70% of the `IRIS` dataset.
     3. Validate the initial model approach using the validation set (15% of the `IRIS` dataset). Use `sklearn.metrics.accuracy_score` to check the accuracy.
     4. Find an alternative model that outperforms your initial model. You can also use grid or random search to optimise any hyperparameters.
-    5. Use `SciKit-Learn` or a package of your choice to plot a confusion matrix of your best classifier.
+    5. Use `scikit-learn` or a package of your choice to plot a confusion matrix of your best classifier.
 
   id: 1505072a-94ea-43aa-87b0-1f721dfa448e
 

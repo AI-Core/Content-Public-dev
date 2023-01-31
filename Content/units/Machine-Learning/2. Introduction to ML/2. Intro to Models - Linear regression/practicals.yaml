@@ -21,7 +21,7 @@
 
 
 - description: |+
-    1. Use `scikit-learn`` to create a linear regression model for the house prices in the `California` dataset, this time using `scikit-learn`'s linear model.
+    1. Use `scikit-learn` to create a linear regression model for the house prices in the `California` dataset, this time using `scikit-learn`'s linear model.
     2. Evaluate the model on the test data using `scikit-learn`'s  `MSE` metric.
     3. Save the finished model to disk.
 
@@ -29,7 +29,10 @@
   name: Evaluate the Performance of a Linear Regression Model
 
 - description: |+
-    1. Use the `matplotlib` library to plot the residuals of a linear regression model and interpret the results.
+    1. Create a linear regression model of some example data with `scikit-learn`.
+    2. Use the `matplotlib` library to plot the first 20 real and predicted label values as two series on a graph, where the X-axis is samples, and the Y-axis is the value of the label.
+    2. Now instead plot the MSE in the same way.
+    
 
   id: 46036d2c-eac5-4dc6-888b-3dc44f94e07d
   name: Plot the Residuals of a Linear Regression Model
