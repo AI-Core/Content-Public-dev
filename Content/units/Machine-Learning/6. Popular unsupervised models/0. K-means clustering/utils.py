@@ -1,0 +1,2 @@
+# Run this cell to download the necessary package to run the next cells
+!wget "https://aicore-files.s3.amazonaws.com/Data-Science/data_utils/get_colors.py" "https://aicore-files.s3.amazonaws.com/Data-Science/data_utils/utils.py"
