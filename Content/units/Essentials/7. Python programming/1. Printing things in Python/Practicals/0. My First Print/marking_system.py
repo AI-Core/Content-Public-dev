@@ -5,4 +5,4 @@ def check_step_1(
     assert "print" in your_code, "Your code should contain a print statement."
     assert "This print statement was created in Python" in your_code, \
         "Your print statement should contain the phrase 'This print statement was created in Python'."
-    print("Well done!")
+    print("\033[92m\N{heavy check mark} Well done!")
