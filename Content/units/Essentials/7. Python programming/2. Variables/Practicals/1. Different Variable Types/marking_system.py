@@ -51,8 +51,16 @@ def check_step_3(
         print("\033[91m\N{cross mark} Your answer for question 1 or 2 is incorrect. Please try again.")
 
 def check_step_4(
-    your_code: str,
+    ans_1: str,
 ) -> None:
-    assert "print" in your_code, "Your code should contain a print statement."
-    assert "my_variable" in your_code, "Your print statement should contain the variable 'my_variable'"
-    print("\033[92m\N{heavy check mark} Well done!")
+    ans_1_options = [
+        "Yes",
+        "No, because you can't add variables with different types",
+        "No, because you can't add integers and strings"
+    ]
+    if ans_1 not in ans_1_options:
+        print("\033[91m\N{cross mark} Your answer for question 1 is not recognised. Please try again.")
+    if ans_1 == ans_1_options[0]:
+        print("\033[92m\N{heavy check mark} Well done! You can add new_num and num because they are both integers.")
+    else:
+        print("\033[91m\N{cross mark} That's not quite right. Please try again.")
