@@ -60,11 +60,16 @@ def check_step_1() -> None:
             "If so, please remove it and try again. "
             "If not, make sure there are no loops in your code (e.g. while, for)."
         )
+    else:
 
-    print(
-        "\033[92m\N{heavy check mark} Well done! "
-        "You successfully checked the winner of the game."
-    )
+        print(
+            "\033[92m\N{heavy check mark} Well done! "
+            "You successfully checked the winner of the game."
+        )
+
+    finally:
+        if os.path.exists('output.txt'):
+            os.remove('output.txt')
 
 @timeout_decorator.timeout(5, timeout_exception=TimeoutError)
 def check_step_2() -> None:
@@ -91,11 +96,15 @@ def check_step_2() -> None:
             "If so, please remove it and try again. "
             "If not, make sure there are no loops in your code (e.g. while, for)."
         )
+    else:
+        print(
+            "\033[92m\N{heavy check mark} Well done! "
+            "You successfully checked an invalid input."
+        )
+    finally:
+        if os.path.exists('output.txt'):
+            os.remove('output.txt')
 
-    print(
-        "\033[92m\N{heavy check mark} Well done! "
-        "You successfully checked an invalid input."
-    )
 
 @timeout_decorator.timeout(5, timeout_exception=TimeoutError)
 def check_step_3() -> None:
@@ -122,8 +131,11 @@ def check_step_3() -> None:
             "If so, please remove it and try again. "
             "If not, make sure there are no loops in your code (e.g. while, for)."
         )
-
-    print(
-        "\033[92m\N{heavy check mark} Well done! "
-        "You successfully checked an invalid input."
-    )
+    else:
+        print(
+            "\033[92m\N{heavy check mark} Well done! "
+            "You successfully checked an invalid input."
+        )
+    finally:
+        if os.path.exists('output.txt'):
+            os.remove('output.txt')
