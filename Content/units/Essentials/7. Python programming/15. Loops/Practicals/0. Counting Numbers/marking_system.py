@@ -7,14 +7,6 @@ from contextlib import redirect_stdout
 def check_step_1(
     users_code: str,
 ) -> None:
-    expected_code = (
-        '''
-        n = 1
-        while n <= 50:
-            print(n)
-            n = n + 1
-        '''
-    )
     n_1_possibilities = [
         "n= 1",
         "n =1",
@@ -93,12 +85,6 @@ def check_step_1(
 def check_step_2(
     users_code: str,
 ) -> None:
-    expected_code = (
-        '''
-        for n in range(1, 51):
-            print(n)
-        '''
-    )
     assert len(users_code) > 0, \
         ("Your code is empty. "
          "Please, try again.")

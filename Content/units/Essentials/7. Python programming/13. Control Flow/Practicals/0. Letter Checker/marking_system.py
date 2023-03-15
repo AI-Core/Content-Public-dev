@@ -1,14 +1,6 @@
 def check_step_1(
     users_code: str,
 ) -> None:
-    expected_code = (
-        '''
-        if phrase_1[0] == phrase_2[0]:
-            print('The first letters are the same')
-        else:
-            print('The first letters are different')
-        '''
-    )
     assert len(users_code) > 0, \
         ("Your code is empty. "
          "Please, try again.")

@@ -3,14 +3,6 @@ import os
 def check_step_1(
     users_code: str,
 ) -> None:
-    expected_code = (
-        '''
-        if len(set(my_list)) == len(my_list):
-            print("All elements are unique")
-        else:
-            print("There are duplicate elements in the list")
-        '''
-    )
     assert len(users_code) > 0, \
         ("Your code is empty. "
          "Please, try again.")

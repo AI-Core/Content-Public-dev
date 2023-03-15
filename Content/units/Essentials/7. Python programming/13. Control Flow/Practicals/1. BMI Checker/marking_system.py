@@ -26,18 +26,6 @@ def check_step_1(
 def check_step_2(
     users_code: str,
 ) -> None:
-    expected_code = (
-        '''
-        if bmi < 18.5:
-            print(f"Your BMI is {bmi}. You're in the underweight range.")
-        elif bmi < 25:
-            print(f"Your BMI is {bmi}. You're in the healthy weight range.")
-        elif bmi < 30:
-            print(f"Your BMI is {bmi}. You're in the overweight range.")
-        elif bmi < 40:
-            print(f"Your BMI is {bmi}. You're in the obese range.")
-        '''
-    )
     assert len(users_code) > 0, \
         ("Your code is empty. "
          "Please, try again.")
