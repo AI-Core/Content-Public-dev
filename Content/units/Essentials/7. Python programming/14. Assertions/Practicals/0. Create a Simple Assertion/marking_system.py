@@ -38,6 +38,16 @@ def check_step_1() -> None:
             "but your code printed: "
             f"{output}"
         )
+        with patch('builtins.input', side_effect=['Jane']):
+            os.system(f'python {file_to_run} 2> output.txt')
+        with open('output.txt', 'r') as f:
+            output = f.read()
+        assert 'You are not John' in output, (
+            "Your code does not print the correct output. "
+            "When the user enters a name other than 'John', the output should be "
+            "'You are not John', but your code printed: "
+            f"{output}"
+        )
 
     except TimeoutError:
         assert False, (
