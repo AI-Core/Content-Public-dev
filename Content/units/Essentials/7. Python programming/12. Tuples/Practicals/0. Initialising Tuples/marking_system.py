@@ -1,5 +1,17 @@
 def check_step_1(
     empty_tuple: tuple,
+) -> None:
+    assert empty_tuple == (), \
+        ("The value of 'empty_tuple' is incorrect. "
+         "It should be an empty tuple. Use () to create an empty tuple.")
+
+    print(
+        "\033[92m\N{heavy check mark} Well done! "
+        "You created an empty tuple."
+    )
+
+def check_step_2(
+    empty_tuple: tuple,
     empty_tuple_2: tuple,
     ans: str,
 ) -> None:
@@ -28,7 +40,7 @@ def check_step_1(
         "Both methods will result in the same output."
     )
 
-def check_step_2(
+def check_step_3(
     my_tuple_1: tuple,
     my_tuple_2: tuple,
     my_tuple_3: tuple,
