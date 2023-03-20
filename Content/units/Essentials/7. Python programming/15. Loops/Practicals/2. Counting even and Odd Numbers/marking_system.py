@@ -33,5 +33,5 @@ def check_step_2(
          "Please, try again.")
     print(
         "\033[92m\N{heavy check mark} Well done! "
-        "You successfully calculated the sum of the odd numbers from 1 to 100. "
+        "You successfully calculated the sum of the even numbers from 1 to 100. "
     )

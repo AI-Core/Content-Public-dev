@@ -68,9 +68,9 @@ def check_step_1(
         ("You are printing 51 when running the code. "
          "The code should print the numbers from 1 to 50. "
          "Please, try again.")
-    assert '0' not in output, \
-        ("You are printing 0 when running the code. "
-         "The code should print the numbers from 1 to 50. "
+    assert output.splitlines()[0] == '1', \
+        ("The first number you have to print is 1. "
+         f"Your code is printing {output.splitlines()[0]} instead. "
          "Please, try again.")
     assert '1' in output and '50' in output, \
         ("You are not printing the numbers from 1 to 50. "
@@ -94,7 +94,7 @@ def check_step_2(
     assert "range" in users_code, \
         ("You did not use the range function. "
          "Please, try again.")
-    assert "range(1, 51)" in users_code, \
+    assert "51" in users_code, \
         ("You did not use the range function correctly. "
          "The range function should start at 1 and end at 50. "
          "So, the second argument should be 51. "

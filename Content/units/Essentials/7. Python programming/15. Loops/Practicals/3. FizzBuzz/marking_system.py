@@ -2,6 +2,13 @@ import timeout_decorator
 import io
 from contextlib import redirect_stdout
 
+class FizzBuzzError(Exception):
+    def __init__(self, message=None):
+        if message is None:
+            message = "The number is not in the range."
+        super().__init__(message)
+
+
 @timeout_decorator.timeout(5, timeout_exception=TimeoutError)
 def check_step_1(
     users_code: str,
@@ -20,28 +27,33 @@ def check_step_1(
         with redirect_stdout(f):
             exec(users_code)
         output = f.getvalue()
-        assert '0' not in output, \
-            ("You should not print 0. "
-             "The loop should start from 1. "
-             "Please, try again.")
-        assert '101' not in output, \
-            ("You should not print 101. "
-             "The loop should end at 100. "
-             "Please, try again.")
+        if output.splitlines()[0] != "1":
+            raise FizzBuzzError("The first number your code should print is 1. Please, try again.")
+        if output.splitlines()[-1] != "Buzz":
+            raise FizzBuzzError("The last string your code should print is 'Buzz'. Please, try again.")
         output = output.strip()
-        output = output.split('\n')
-        for line in output:
-            assert line[0] == '1', "The first number your code should print is 1. Please, try again."
-            assert line[1] == '2', "The second number your code should print is 2. Please, try again."
-            assert line[2] == 'Fizz', "The third number your code should print is 'Fizz'. Please, try again."
-            assert line[3] == '4', "The fourth number your code should print is 4. Please, try again."
-            assert line[4] == 'Buzz', "The fifth number your code should print is 'Buzz'. Please, try again."
-            assert line[5] == 'Fizz', "The sixth number your code should print is 'Fizz'. Please, try again."
-            assert line[14] == 'FizzBuzz', \
-                "The fifteenth number your code should print is 'FizzBuzz'. Please, try again."
-            assert line[29] == 'FizzBuzz', \
-                "The thirtieth number your code should print is 'FizzBuzz'. Please, try again."
-            assert line[99] == 'Buzz', "The hundredth number your code should print is 'Buzz'. Please, try again."
+        line = output.split('\n')
+        if line[0] != '1':
+            raise FizzBuzzError("The first number your code should print is 1. Please, try again.")
+        if line[1] != '2':
+            raise FizzBuzzError("The second number your code should print is 2. Please, try again.")
+        if line[2] != 'Fizz':
+            raise FizzBuzzError("The third number your code should print is 'Fizz'. Please, try again.")
+        if line[3] != '4':
+            raise FizzBuzzError("The fourth number your code should print is 4. Please, try again.")
+        if line[4] != 'Buzz':
+            raise FizzBuzzError("The fifth number your code should print is 'Buzz'. Please, try again.")
+        if line[5] != 'Fizz':
+            raise FizzBuzzError("The sixth number your code should print is 'Fizz'. Please, try again.")
+        if line[14] != 'FizzBuzz':
+            raise FizzBuzzError("The fifteenth number your code should print is 'FizzBuzz'. Please, try again.")
+        if line[29] != 'FizzBuzz':
+            raise FizzBuzzError("The thirtieth number your code should print is 'FizzBuzz'. Please, try again.")
+        if line[99] != 'Buzz':
+            raise FizzBuzzError("The hundredth number your code should print is 'Buzz'. Please, try again.")
+
+    except FizzBuzzError as e:
+        raise FizzBuzzError(e) from e
 
     except TimeoutError:
         raise TimeoutError("Your code is taking too long to run. "
