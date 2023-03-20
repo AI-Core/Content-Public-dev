@@ -214,8 +214,13 @@ def check_step_3(
             "city: New York",
         ]
         f = io.StringIO()
+        dict_to_display_2 = {
+            "name": "John",
+            "age": 30,
+        }
+        attributes_to_print_2 = ["name", "age", 'city']
         with redirect_stdout(f):
-            mock_out = display_attributes(dict_to_display, attributes_to_print)
+            mock_out = display_attributes(dict_to_display_2, attributes_to_print_2)
         if mock_out is not None:
             raise ReturnError()
         output_2 = f.getvalue().strip()
@@ -257,33 +262,34 @@ def check_step_3(
         if expected_2[0] not in output_2:
             raise AttributeDisplayError(
                 "The marking system tried to run your function "
-                f"using the argument {dict_to_display}, and the argument "
-                f"{attributes_to_print} for the attributes to print, so it "
+                f"using the argument {dict_to_display_2}, and the argument "
+                f"{attributes_to_print_2} for the attributes to print, so it "
                 f"was looking for '{expected_2[0]}', but couldn't find it "
-                f"in '{output_2}'.\n"
+                f"in \n'{output_2}'.\n"
                 "Make sure you are writing the output as: "
                 "'key: value'"
             )
         if expected_2[1] not in output_2:
             raise AttributeDisplayError(
                 "The marking system tried to run your function "
-                f"using the argument {dict_to_display}, and the argument "
-                f"{attributes_to_print} for the attributes to print, so it "
+                f"using the argument {dict_to_display_2}, and the argument "
+                f"{attributes_to_print_2} for the attributes to print, so it "
                 f"was looking for '{expected_2[1]}', but couldn't find it "
-                f"in '{output_2}'.\n"
+                f"in \n'{output_2}'.\n"
                 "Make sure you are writing the output as: "
                 "'key: value'"
             )
-        if "The key 'city' does not exist" in output_2:
+        if "The key 'city' does not exist" not in output_2:
             raise AttributeDisplayError(
                 "The marking system tried to run your function "
-                f"using the argument {dict_to_display}, and the argument "
-                f"{attributes_to_print} for the attributes to print, so it "
+                f"using the argument {dict_to_display_2}, and the argument "
+                f"{attributes_to_print_2} for the attributes to print, so it "
                 "was looking for 'The key 'city' does not exist', but found it "
-                f"in '{output_2}'.\n"
+                f"in \n '{output_2}'.\n"
                 "If the key is NOT in the dictionary, you should print "
                 "'The key 'key_name' does not exist'."
             )
+    
 
     except ReturnError as e:
         raise ReturnError(e)

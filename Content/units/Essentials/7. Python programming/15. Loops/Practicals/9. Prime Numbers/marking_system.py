@@ -46,7 +46,7 @@ def check_step_1(
              f"'{number} is a prime number' but it did not find it. "
              "Please, check your code and the grammar and try again.")
 
-    assert "299 is not a primer number because it is divisible by 13" in output, \
+    assert "299 is not a prime number because it is divisible by 13" in output, \
         ("Your code is not printing the correct output. "
          "The marking system was looking for a line that contains "
          "'299 is not a primer number because it is divisible by 13' "

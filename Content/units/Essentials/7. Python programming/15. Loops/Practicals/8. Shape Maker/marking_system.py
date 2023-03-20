@@ -59,19 +59,19 @@ def check_step_1(
         ("Your code is not printing the correct pattern. "
          "The number of lines should be at least 9 (one for each row)"
          "Please, try again.")
-    assert len(output[0]) == "1", \
+    assert len(output[0]) == 1, \
         ("Your code is not printing the correct pattern. "
          "The first line should contain one '*'. "
          "Please, try again.")
-    assert len(output[1]) == "2", \
+    assert len(output[1]) == 2, \
         ("Your code is not printing the correct pattern. "
          "The second line should contain two '*'. "
          "Please, try again.")
-    assert len(output[4]) == "5", \
+    assert len(output[4]) == 5, \
         ("Your code is not printing the correct pattern. "
          "The fifth line should contain five '*'. "
          "Please, try again.")
-    assert len(output[5]) == "4", \
+    assert len(output[5]) == 4, \
         ("Your code is not printing the correct pattern. "
          "The sixth line should contain four '*'. "
          "Please, try again.")
