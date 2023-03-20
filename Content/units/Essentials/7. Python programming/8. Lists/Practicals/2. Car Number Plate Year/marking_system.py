@@ -23,14 +23,14 @@ def check_step_1(
         ("The data type of 'plates' is incorrect. "
          "It should be a list. Please, rerun the cell in step 1 to create the variable 'plates'")
 
-    assert year_1 == plates[0][-2:], \
+    assert year_1 == plates[0].split()[0][-2:], \
         ("The value of 'year_1' is incorrect. "
          "It should be the last two characters of the first element of 'plates'. "
-         f"Please, try again. Hint: {plates[0][-2:]}")
-    assert year_2 == plates[1][-2:], \
+         f"Please, try again. Hint: {plates[0].split()[0][:-2]}")
+    assert year_2 == plates[1].split()[0][-2:], \
         ("The value of 'year_2' is incorrect. "
          "It should be the last two characters of the second element of 'plates'")
-    assert year_3 == plates[2][-2:], \
+    assert year_3 == plates[2].split()[0][-2:], \
         ("The value of 'year_3' is incorrect. "
          "It should be the last two characters of the third element of 'plates'")
     
@@ -87,9 +87,9 @@ def check_step_3(
         ("The data type of 'plates' is incorrect. "
          "It should be a list. Please, rerun the cell in step 1 to create the variable 'plates'")
 
-    expected_year_1 = int(plates[0][-2:])
-    expected_year_2 = int(plates[1][-2:])
-    expected_year_3 = int(plates[2][-2:])
+    expected_year_1 = int(plates[0].split(" ")[0][-2:])
+    expected_year_2 = int(plates[1].split(" ")[0][-2:])
+    expected_year_3 = int(plates[2].split(" ")[0][-2:])
 
     assert year_1 == expected_year_1, \
         ("The value of 'year_1' is incorrect. "

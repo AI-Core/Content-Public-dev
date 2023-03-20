@@ -17,7 +17,9 @@ def check_step_1(
 def check_step_2(
     my_dict: dict,
     key_1: int,
-    key_2: int
+    key_2: int,
+    ans_1: str,
+    ans_2: str,
 ) -> None:
     '''
     Checks that the answer is correct
@@ -31,6 +33,12 @@ def check_step_2(
     assert isinstance(key_2, int), \
         ("The data type of 'key_2' is incorrect. "
          "It should be an integer. Make sure you are accesing the value of the key 'key_2'. Please, try again.")
+    assert isinstance(ans_1, str), \
+        ("The data type of 'ans_1' is incorrect. "
+         "Please, make sure you are using the form in this cell")
+    assert isinstance(ans_2, str), \
+        ("The data type of 'ans_2' is incorrect. "
+         "Please, make sure you are using the form in this cell")
     assert my_dict == {"key_1": 1, "key_2": 2}, \
         ("The value of 'my_dict' is incorrect. "
          "It should be a dictionary with the key 'key_1' and the value 1, "
@@ -41,6 +49,12 @@ def check_step_2(
     assert key_2 == 2, \
         ("The value of 'key_2' is incorrect. "
          "It should be 2. Make sure you are accesing the value of the key 'key_2'. Please, try again.")
+    assert ans_1 == "my_dict['key_1']", \
+        ("Your first answer is incorrect. "
+         "Please, try again.")
+    assert ans_2 == "my_dict['key_2']", \
+        ("Your second answer is incorrect. "
+         "Please, try again.")
     print(
         "\033[92m\N{heavy check mark} Well done! "
         "You successfully accessed the values of the dictionary. "
@@ -70,7 +84,7 @@ def check_step_3(
 
 def check_step_4(
     my_dict: dict,
-    my_keys: dict.dict_keys,
+    my_keys,
 ) -> None:
     assert isinstance(my_dict, dict), \
         ("The data type of 'my_dict' is incorrect. "
@@ -96,7 +110,7 @@ def check_step_4(
 
 def check_step_5(
     my_dict: dict,
-    my_values: dict.dict_values,
+    my_values,
 ) -> None:
     assert isinstance(my_dict, dict), \
         ("The data type of 'my_dict' is incorrect. "
@@ -110,6 +124,8 @@ def check_step_5(
     assert isinstance(my_values, expected_type), \
         ("The data type of 'my_values' is incorrect. "
          "It should be a dict_values object. Please, create it using the method .values() on the dictionary.")
+    expected_values = list(expected_values)
+    my_values = list(my_values)
     assert my_values == expected_values, \
         ("The value of 'my_values' is incorrect. "
          "It should be a dict_values object with the values 1 and 2. "
@@ -122,7 +138,7 @@ def check_step_5(
 
 def check_step_6(
     my_dict: dict,
-    my_items: dict.dict_items,
+    my_items: dict,
     ans: str
 ) -> None:
     assert isinstance(my_dict, dict), \
