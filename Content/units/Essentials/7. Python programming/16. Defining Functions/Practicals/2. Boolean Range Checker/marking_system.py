@@ -18,14 +18,14 @@ def check_step_1(
             "number": 5,
         }
         output_1 = in_range(**kwargs)
-        if isinstance(output_1, bool):
+        if not isinstance(output_1, bool):
             raise RangeError(
                 "The marking system tried to run your function "
                 f"using the arguments {kwargs}, so it should return "
                 "a boolean value, but it returned a value of type "
                 f"{type(output_1)}. Please, try again."
             )
-        if output_1 is True:
+        if output_1 is False:
             raise RangeError(
                 "The marking system tried to run your function "
                 f"using the arguments {kwargs}, so it should return "
@@ -45,7 +45,7 @@ def check_step_1(
                 "a boolean value, but it returned a value of type "
                 f"{type(output_2)}. Please, try again."
             )
-        if output_2 is False:
+        if output_2 is True:
             raise RangeError(
                 "The marking system tried to run your function "
                 f"using the arguments {kwargs}, so it should return "

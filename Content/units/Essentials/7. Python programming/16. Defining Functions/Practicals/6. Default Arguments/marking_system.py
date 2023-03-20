@@ -73,6 +73,12 @@ def check_step_1(
             "but something went wrong. Check the error message below. "
             "Please, try again.\n" + str(e)
         )
+    
+    else:
+        print(
+            "\033[92m\N{heavy check mark} Well done! "
+            "You created a function that displays the attributes of the object."
+        )
 
 def check_step_2(
     display_attributes: Callable[[dict, list], None],
@@ -179,6 +185,13 @@ def check_step_2(
             "Please, try again.\n" + str(e)
         )
     
+    else:
+        print(
+            "\033[92m\N{heavy check mark} Well done! "
+            "You created a function that displays the attributes of the object if they are "
+            "in the list of attributes to print."
+        )
+    
 def check_step_3(
     display_attributes: Callable[[dict, list], None],
 ) -> None:
@@ -283,4 +296,11 @@ def check_step_3(
             "The marking system tried to run your function "
             "but something went wrong. Check the error message below. "
             "Please, try again.\n" + str(e)
+        )
+    
+    else:
+        print(
+            "\033[92m\N{heavy check mark} Well done! "
+            "You created a function that displays the attributes of the object if they are "
+            "in the list of attributes to print, and if not, it displays a message."
         )

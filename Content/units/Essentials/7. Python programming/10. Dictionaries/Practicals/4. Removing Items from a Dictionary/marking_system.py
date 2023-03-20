@@ -1,5 +1,6 @@
 def check_step_1(
     my_dict: dict,
+    ans: str,
 ) -> None:
     assert isinstance(my_dict, dict), \
         ("The data type of 'my_dict' is incorrect. "
@@ -8,6 +9,9 @@ def check_step_1(
         ("The value of 'my_dict' is incorrect. "
          "It should be a dictionary with the values: "
          "{'key_2': 2, 'key_3': 3}. Please, try again.")
+    assert ans == "del my_dict['key_1']", \
+        ("Your answer is incorrect. "
+         "Please, try again.")
     print(
         "\033[92m\N{heavy check mark} Well done! "
         "You successfully removed the key 'key_1' from the dictionary using the del keyword. "

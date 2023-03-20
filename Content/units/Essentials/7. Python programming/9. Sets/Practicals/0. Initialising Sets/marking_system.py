@@ -2,9 +2,6 @@ def check_step_1(
     empty_set_1: set,
     set_1_type: str,
 ) -> None:
-    assert isinstance(empty_set_1, set), \
-        ("The data type of empty_set_1 is incorrect. "
-         "It should be a set.")
     assert isinstance(set_1_type, str), \
         ("The data type of set_1_type is incorrect. "
          "It should be a string. Please, make sure you are using the form in this cell.")

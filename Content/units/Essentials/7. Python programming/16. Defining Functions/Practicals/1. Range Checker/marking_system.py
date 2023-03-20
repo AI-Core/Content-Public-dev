@@ -40,7 +40,7 @@ def check_step_1(
             }
             in_range(**kwargs)
         output_2 = f.getvalue()
-        expected_2 = "1 is not between 5 and 10"
+        expected_2 = "1 is NOT between 5 and 10"
         if expected_2 not in output_2:
             raise RangeError(
                 "The marking system tried to run your function "
@@ -50,7 +50,7 @@ def check_step_1(
                 "lower_bound, upper_bound, and number."
             )
     except RangeError as e:
-        print(e)
+        raise RangeError(e)
     except Exception as e:
         raise Exception(
             "The marking system tried to run your function "

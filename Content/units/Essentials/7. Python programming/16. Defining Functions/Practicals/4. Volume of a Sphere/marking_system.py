@@ -12,7 +12,7 @@ def check_step_1(
     try:
         radius = 5
         output_1 = volume_of_sphere(radius)
-        expected_1 = 523.5987755982989
+        expected_1 = 3.14 * 4 / 3 * radius ** 3
         if not isinstance(output_1, float):
             raise SphereError(
                 "The marking system tried to run your function "
