@@ -1,0 +1,711 @@
+[
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2789",
+        "end": "2795",
+        "highlightText": "mlflow",
+        "replacements": [
+            "mellow"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 24,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2908",
+        "end": "2920",
+        "highlightText": "is connected",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 25,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2988",
+        "end": "3003",
+        "highlightText": "is not required",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2594",
+        "end": "2600",
+        "highlightText": "mlflow",
+        "replacements": [
+            "mellow"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 27,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2056",
+        "end": "2166",
+        "highlightText": "All of the above are required after saving a model via log_model, and they can be achieved via an API or a UI.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 28,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2073",
+        "end": "2085",
+        "highlightText": "are required",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 30,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2126",
+        "end": "2146",
+        "highlightText": "they can be achieved",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 29,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1639",
+        "end": "1646",
+        "highlightText": "MLModel",
+        "replacements": [
+            "ML model"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 31,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1652",
+        "end": "1677",
+        "highlightText": "was explicitly registered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 33,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1652",
+        "end": "1677",
+        "highlightText": "was explicitly registered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 32,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "341",
+        "end": "350",
+        "highlightText": "be set up",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 34,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "99",
+        "end": "107",
+        "highlightText": "register",
+        "replacements": [
+            "registering"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 35,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1351",
+        "end": "1357",
+        "highlightText": "mlflow",
+        "replacements": [
+            "mellow"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 36,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1448",
+        "end": "1456",
+        "highlightText": "been set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 37,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1980",
+        "end": "1993",
+        "highlightText": "is documented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 38,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1083",
+        "end": "1096",
+        "highlightText": "is terminated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 40,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1115",
+        "end": "1121",
+        "highlightText": "be run",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 41,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1118",
+        "end": "1127",
+        "highlightText": "run again",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 39,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1148",
+        "end": "1157",
+        "highlightText": "is opened",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 42,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "371",
+        "end": "377",
+        "highlightText": "mlflow",
+        "replacements": [
+            "mellow"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 44,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "392",
+        "end": "409",
+        "highlightText": "backend-store-uri",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 45,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "426",
+        "end": "428",
+        "highlightText": "db",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 46,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "436",
+        "end": "457",
+        "highlightText": "default-artifact-root",
+        "replacements": [
+            "default-artefact-root"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 43,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "585",
+        "end": "591",
+        "highlightText": "be set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 47,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1765",
+        "end": "1766",
+        "highlightText": " 1 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 48,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "828",
+        "end": "839",
+        "highlightText": "postgresql'",
+        "replacements": [
+            "PostgreSQL"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 51,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "842",
+        "end": "847",
+        "highlightText": "mysql",
+        "replacements": [
+            "myself",
+            "MySQL"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 52,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "851",
+        "end": "857",
+        "highlightText": "sqlite",
+        "replacements": [
+            "SQLite"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 53,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "861",
+        "end": "866",
+        "highlightText": "mssql",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 54,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "868",
+        "end": "871",
+        "highlightText": "To",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 50,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "911",
+        "end": "912",
+        "highlightText": "MLFLOW_TRACKING_URI,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 49,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "923",
+        "end": "926",
+        "highlightText": "follows   export",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 55,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1023",
+        "end": "1029",
+        "highlightText": "be set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 56,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1058",
+        "end": "1064",
+        "highlightText": "is run",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 57,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "620",
+        "end": "630",
+        "highlightText": "is not set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 58,
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# MLFlow for Model R",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "69",
+        "end": "79",
+        "highlightText": "thereafter",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Outdated language",
+        "id": 7,
+        "starting_sentence": "## Experiments vs Mo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "148",
+        "end": "157",
+        "highlightText": "carry out",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 8,
+        "starting_sentence": "## Experiments vs Mo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9799804688
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.8491210938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Experiments vs Mo",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "47",
+        "end": "53",
+        "highlightText": "mlflow",
+        "replacements": [
+            "mellow"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "## Retrieving the Mo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.970703125
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.947265625
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.7553710938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Retrieving the Mo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9077148438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Things to Note  W",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "808",
+        "end": "816",
+        "highlightText": "argparse",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 15,
+        "starting_sentence": "## Example  Here, us",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "585",
+        "end": "592",
+        "highlightText": "sklearn",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 16,
+        "starting_sentence": "## Example  Here, us",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "289",
+        "end": "292",
+        "highlightText": "e.g",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 17,
+        "starting_sentence": "## Example  Here, us",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Example  Here, us",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "73",
+        "end": "77",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 7,
+        "starting_sentence": "In summary, MLFlow c",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "In summary, MLFlow c",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "41",
+        "end": "71",
+        "highlightText": "have a good understanding of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 10,
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "73",
+        "end": "73",
+        "highlightText": "MLFlow",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 9,
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9741210938
+            },
+            {
+                "emoji": "\ud83d\udca1",
+                "emojiId": "1f4a1",
+                "name": "inspirational",
+                "confidence": 0.8251953125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 51
+    }
+]

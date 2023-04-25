@@ -1,0 +1,500 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Polymorphism",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "78",
+        "end": "78",
+        "highlightText": "duck",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": " ## If it walks like",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " ## If it walks like",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "205",
+        "end": "209",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 7,
+        "starting_sentence": "This is the principl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "210",
+        "end": "228",
+        "highlightText": "is usually applied",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 8,
+        "starting_sentence": "This is the principl",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "55",
+        "end": "55",
+        "highlightText": "essence",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 9,
+        "starting_sentence": "This is the principl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "82",
+        "end": "151",
+        "highlightText": "to explicitly specify the requirements that your objects have to meet",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 11,
+        "starting_sentence": "This is the principl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "151",
+        "end": "159",
+        "highlightText": ", Python",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 10,
+        "starting_sentence": "This is the principl",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9951171875
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9624023438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "This is the principl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "272",
+        "end": "272",
+        "highlightText": "font",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "Thanks to this duck ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "75",
+        "end": "84",
+        "highlightText": "which is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 9,
+        "starting_sentence": "Thanks to this duck ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "112",
+        "end": "123",
+        "highlightText": "specialized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 8,
+        "starting_sentence": "Thanks to this duck ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\ude4c",
+                "emojiId": "1f64c",
+                "name": "appreciative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Thanks to this duck ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5",
+        "end": "14",
+        "highlightText": "classical",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incorrect phrasing",
+        "id": 4,
+        "starting_sentence": "The classical exampl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "54",
+        "end": "54",
+        "highlightText": "speaks",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "The classical exampl",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "The classical exampl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "912",
+        "end": "912",
+        "highlightText": ")",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 23,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "597",
+        "end": "610",
+        "highlightText": "That's sounds",
+        "replacements": [
+            "That sounds"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 24,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "615",
+        "end": "615",
+        "highlightText": "right",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 25,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "677",
+        "end": "680",
+        "highlightText": "...",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misuse of semicolons, quotation marks, etc.",
+        "id": 26,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "374",
+        "end": "381",
+        "highlightText": "take a",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 28,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": "add the comma(s)",
+        "sentence_no": "0",
+        "begin": "527",
+        "end": "535",
+        "highlightText": "in turn",
+        "replacements": [
+            ", in turn,"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 27,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "176",
+        "end": "184",
+        "highlightText": "is doing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0missing verb",
+        "sentence_no": "0",
+        "begin": "236",
+        "end": "236",
+        "highlightText": "called",
+        "replacements": [
+            "is "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 29,
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9912109375
+            },
+            {
+                "emoji": "\ud83e\udd28",
+                "emojiId": "1f928",
+                "name": "skeptical",
+                "confidence": 0.75
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "This is a basic type",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Using Composition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "459",
+        "end": "474",
+        "highlightText": "to ONLY inherit",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 15,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "170",
+        "end": "181",
+        "highlightText": "inheritance",
+        "replacements": [
+            "inheritances"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 16,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "284",
+        "end": "284",
+        "highlightText": "composition",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 17,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "123",
+        "end": "134",
+        "highlightText": "inheritance",
+        "replacements": [
+            "inheritances"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 18,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1305",
+        "end": "1305",
+        "highlightText": "eventually",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 19,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "597",
+        "end": "626",
+        "highlightText": "those pieces can also be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 21,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "916",
+        "end": "926",
+        "highlightText": "which are",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "1214",
+        "end": "1217",
+        "highlightText": "are",
+        "replacements": [
+            "is"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 23,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the verb",
+        "sentence_no": "0",
+        "begin": "826",
+        "end": "830",
+        "highlightText": "are",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 24,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "1060",
+        "end": "1071",
+        "highlightText": "inheritance",
+        "replacements": [
+            "inheritances"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 28,
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.755859375
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.5053710938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Here is the solution",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 37
+    }
+]

@@ -1,0 +1,771 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "793",
+        "end": "793",
+        "highlightText": "such",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "824",
+        "end": "824",
+        "highlightText": "retweets",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 14,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1042",
+        "end": "1042",
+        "highlightText": "above",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove wordiness",
+        "sentence_no": "0",
+        "begin": "59",
+        "end": "77",
+        "highlightText": "is one that stores",
+        "replacements": [
+            "stores"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "229",
+        "end": "239",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 15,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "287",
+        "end": "625",
+        "highlightText": "A graph data store uses those to represent data as such  - Node   - Stores the data entities   - This entity stores the actual data itself, such as the number of people who read a certain tweet, or the number of people who watched a YouTube video   - Node data can is usually structured as key-value pairs, and is usually an atomic value.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 18,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "480",
+        "end": "481",
+        "highlightText": "tweet,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1037",
+        "end": "1043",
+        "highlightText": "above'",
+        "replacements": [
+            "above"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 11,
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.9174804688
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.873046875
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.43359375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## NoSQL - Graph-Ori",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1687",
+        "end": "1687",
+        "highlightText": "query",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 24,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "267",
+        "end": "271",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 25,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "283",
+        "end": "312",
+        "highlightText": "many use cases can be handled",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "622",
+        "end": "1224",
+        "highlightText": "## Data Manipulation in a Graph Data Store - New relationships between existing data are added by creating new edges between existing nodes   - An edge always has a _start node_, _end node_, _type_, and _direction_   - There is no limit to the number and kind of relationships a node can have - New data is inserted by adding a new node   - Instead of creating tables or columns for each new data type, we can add a new node with a specific relationship to others   ## Data Querying a Graph Data Store A graph in a Graph data store can be traversed along specific edge types or across the entire graph.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 29,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "707",
+        "end": "716",
+        "highlightText": "are added",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "926",
+        "end": "937",
+        "highlightText": "is inserted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 28,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "103",
+        "end": "124",
+        "highlightText": "Despite the fact that",
+        "replacements": [
+            "Even though",
+            "Although"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "570",
+        "end": "577",
+        "highlightText": ", there",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 31,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1340",
+        "end": "1341",
+        "highlightText": "times,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 32,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1346",
+        "end": "1359",
+        "highlightText": "are persisted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 33,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1682",
+        "end": "1688",
+        "highlightText": "query'",
+        "replacements": [
+            "query"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 23,
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9809570311999998
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.91015625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "This advanced model ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "103",
+        "end": "103",
+        "highlightText": "follows",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "The equivalent query",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "96",
+        "end": "104",
+        "highlightText": "follows'",
+        "replacements": [
+            "follows"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "The equivalent query",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "The equivalent query",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "254",
+        "end": "264",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 5,
+        "starting_sentence": "The above Cypher que",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "60",
+        "end": "65",
+        "highlightText": "name",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 6,
+        "starting_sentence": "The above Cypher que",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.994140625
+            },
+            {
+                "emoji": "\ud83d\udc55",
+                "emojiId": "1f455",
+                "name": "informal",
+                "confidence": 0.8603515625
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.650390625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The above Cypher que",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "3432",
+        "end": "3439",
+        "highlightText": "neptune",
+        "replacements": [
+            "Neptune"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 15,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "3479",
+        "end": "3489",
+        "highlightText": "redisgraph",
+        "replacements": [
+            "radiograph"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "145",
+        "end": "475",
+        "highlightText": "## Strengths of Graph Data Stores  - High performance vs SQL databases for graph data   - Very fast in creating relationships between data and querying them   - One recent experiment found that Neo4j (one of the most popular types of graph data stores) was 60% faster than a MySQL database when running a friends of friends query.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 18,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "235",
+        "end": "244",
+        "highlightText": "Very fast",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 17,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "477",
+        "end": "1194",
+        "highlightText": "Here is the [link to the experiment results](https//neo4j.com/news/how-much-faster-is-a-graph-database-really/#~text=For%20the%20simple%20friends%20of,on%20the%20depth%205%20query.)  <p</p  - Query and manipulate any part of the data   - Graph data stores allow you to select and edit any data stored in any node with a query language   - Key-value stores, for example, do not allow you to query attributes of records  <p</p  - Can represent even the most complex relationships between data   - Any node can connect to any other  <p</p  - Flexibility   - New nodes can easily be added at any time - there's no need for updating a schema   - Can support more complex data models when compared to key-value data stores.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 20,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1032",
+        "end": "1061",
+        "highlightText": "New nodes can easily be added",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2400",
+        "end": "2401",
+        "highlightText": "tables,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "2434",
+        "end": "2434",
+        "highlightText": "user",
+        "replacements": [
+            "the ",
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 21,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2471",
+        "end": "2841",
+        "highlightText": "<p</p  - No unified query language   - There isn't yet a universal query language, and there may be a need to learn tool-specific languages to interact with the data  ## Top Use Cases   - Social media networks   - Social media networks are naturally thought of as interconnected nodes representing people, so this is type of data is a natural fit for a graph data store.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 25,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2785",
+        "end": "2788",
+        "highlightText": "is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Redundant words",
+        "id": 24,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "2788",
+        "end": "2788",
+        "highlightText": "type",
+        "replacements": [
+            "a ",
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 23,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1227",
+        "end": "1227",
+        "highlightText": "stores",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 26,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "84",
+        "end": "84",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "134",
+        "end": "134",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 27,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1352",
+        "end": "2290",
+        "highlightText": "<p</p  - ACID guarantees   - Some types of graph data stores can provide ACID (Atomicity, Consistency, Isolation, Durability) properties similar to a RDBMS, which helps maintain data integrity   - For example, the newer versions of MongoDB and Neo4j provide ACID guarantees  #### Limitations of Graph Data Stores  - May be overly complicated for your use case   - Most data manipulation and analysis can be done easily without needing to represent it in a graph   - Because of this, other types of data stores are more widely used, meaning less demand for more graph data stores, resulting in a limited number of them on the market  <p</p  - Slow for common queries   - Queries that span the entire dataset (scans) are slow for graph data stores compared to other data stores     - For example, calculating the average transaction value for each user would require you to get the value node from each transaction node from each user node.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 30,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "1500",
+        "end": "1501",
+        "highlightText": "a RDBMS",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 29,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3080",
+        "end": "3088",
+        "highlightText": "type of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3200",
+        "end": "3200",
+        "highlightText": "products",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 31,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2853",
+        "end": "2870",
+        "highlightText": "having to convert",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 34,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2926",
+        "end": "2955",
+        "highlightText": "a tool like Neo4j can be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 33,
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Graph-oriented data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "0",
+        "end": "394",
+        "highlightText": "'## Key Takeaways  - The Graph-oriented data store is another type of NoSQL that stores data in a graph structure - It is not that widely used, as it is designed for specialised data types such as social media information  - Graphs consist of _nodes_, which store the data entities themselves, and _edges_, which store the relationships between the nodes - Data is added by creating a new node.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 8,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "150",
+        "end": "161",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 7,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "413",
+        "end": "422",
+        "highlightText": "are added",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 12,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "511",
+        "end": "511",
+        "highlightText": "including",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 11,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "540",
+        "end": "540",
+        "highlightText": "ability",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 9,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "924",
+        "end": "926",
+        "highlightText": "OrientDB",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 10,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9780273438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 55
+    }
+]

@@ -1,0 +1,746 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "799",
+        "end": "1181",
+        "highlightText": "To help visualise what this looks like, below is a JSON document that stores information about a user named _Tom_  <p align=center   <img src=images/document.png width=600   <figcaption align=center<citeJSON Document</cite</figcaption </p   Even though document stores do not have a unified schema, they are usually organized in a way to enable easy access and analysis of the data.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 52,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1023",
+        "end": "1033",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 49,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1103",
+        "end": "1124",
+        "highlightText": "are usually organized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 51,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1115",
+        "end": "1124",
+        "highlightText": "organized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 50,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2888",
+        "end": "2888",
+        "highlightText": "statement",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 53,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "647",
+        "end": "670",
+        "highlightText": "Documents can be stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 54,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2039",
+        "end": "2059",
+        "highlightText": "is usually specified",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 55,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1870",
+        "end": "1899",
+        "highlightText": "be automatically incrementing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 56,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1182",
+        "end": "1186",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 57,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1202",
+        "end": "1215",
+        "highlightText": "be considered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 58,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "170",
+        "end": "209",
+        "highlightText": "To organize these documents in one unit",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 59,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "173",
+        "end": "181",
+        "highlightText": "organize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 60,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "211",
+        "end": "234",
+        "highlightText": "there is a specific key",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 61,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1636",
+        "end": "1644",
+        "highlightText": "be added",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 62,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1277",
+        "end": "1295",
+        "highlightText": "is commonly stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 63,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "557",
+        "end": "569",
+        "highlightText": "a variety of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 64,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1413",
+        "end": "1422",
+        "highlightText": "in no way",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 65,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the infinitive",
+        "sentence_no": "0",
+        "begin": "2144",
+        "end": "2144",
+        "highlightText": "understand",
+        "replacements": [
+            "to "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 67,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "2265",
+        "end": "2268",
+        "highlightText": "or",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 66,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2634",
+        "end": "2649",
+        "highlightText": "how to retrieve",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 68,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1827",
+        "end": "1829",
+        "highlightText": "a uniform",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 69,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "11",
+        "end": "31",
+        "highlightText": "Document-oriented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 70,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1584",
+        "end": "1596",
+        "highlightText": "there being",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 71,
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# NoSQL - Document-o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "128",
+        "end": "128",
+        "highlightText": "be",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "In MongoDB (one of t",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "126",
+        "end": "129",
+        "highlightText": "be'",
+        "replacements": [
+            "be"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "In MongoDB (one of t",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "In MongoDB (one of t",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "149",
+        "end": "149",
+        "highlightText": "code",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 8,
+        "starting_sentence": "Now, let's assume we",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the redundancy",
+        "sentence_no": "0",
+        "begin": "46",
+        "end": "49",
+        "highlightText": "to to",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 9,
+        "starting_sentence": "Now, let's assume we",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "145",
+        "end": "150",
+        "highlightText": "code'",
+        "replacements": [
+            "code"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 7,
+        "starting_sentence": "Now, let's assume we",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Now, let's assume we",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "43",
+        "end": "43",
+        "highlightText": "be",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "The corresponding co",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "41",
+        "end": "44",
+        "highlightText": "be'",
+        "replacements": [
+            "be"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "The corresponding co",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "The corresponding co",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "2212",
+        "end": "2222",
+        "highlightText": "obviously",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "0",
+        "end": "639",
+        "highlightText": "'## Strengths of Document-Oriented Data Stores  - Flexibility      - Documents of one data store do not require a specific schema or have to be of the same type     - A flexible schema means that the data model can evolve as the requirements change <p</p  - Easy to update     -  With document stores, you can add new pieces of information easily to specific documents only      -  In contrast, in a relational database, new pieces of information might affect other tables as well <p</p  - Improved read and write speed compared to relational databases     -   In NoSQL document stores you can find everything you need within one document.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 23,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "918",
+        "end": "922",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 24,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1024",
+        "end": "1037",
+        "highlightText": "normalization",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 25,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1056",
+        "end": "1084",
+        "highlightText": "many joins might be required",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1178",
+        "end": "1190",
+        "highlightText": "are required",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1231",
+        "end": "1240",
+        "highlightText": "as it is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 28,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1746",
+        "end": "1748",
+        "highlightText": "mb",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 29,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2663",
+        "end": "2676",
+        "highlightText": "real-time big",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 30,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "change noun form",
+        "sentence_no": "0",
+        "begin": "1314",
+        "end": "1319",
+        "highlightText": "API's",
+        "replacements": [
+            "APIs"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 32,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the noun form",
+        "sentence_no": "0",
+        "begin": "1446",
+        "end": "1451",
+        "highlightText": "API's",
+        "replacements": [
+            "apis",
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 31,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2435",
+        "end": "2439",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 36,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "2544",
+        "end": "2545",
+        "highlightText": "efficiently,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 34,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "2546",
+        "end": "2550",
+        "highlightText": "like",
+        "replacements": [
+            "as"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 33,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1652",
+        "end": "1667",
+        "highlightText": "have a limit on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 38,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "1694",
+        "end": "1696",
+        "highlightText": "it",
+        "replacements": [
+            "they"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 37,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2493",
+        "end": "2506",
+        "highlightText": "media-content",
+        "replacements": [
+            "media content"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 35,
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Strengths of Docu",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "112",
+        "end": "112",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 5,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add the comma(s)",
+        "sentence_no": "0",
+        "begin": "546",
+        "end": "546",
+        "highlightText": "especially",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 6,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "759",
+        "end": "759",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 4,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "767",
+        "end": "768",
+        "highlightText": "industry",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 57
+    }
+]

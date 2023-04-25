@@ -1,0 +1,2134 @@
+[
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "272",
+        "end": "281",
+        "highlightText": "together",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 24,
+        "starting_sentence": "# Data Layers and To",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "322",
+        "end": "325",
+        "highlightText": "in",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 23,
+        "starting_sentence": "# Data Layers and To",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "409",
+        "end": "410",
+        "highlightText": " 6 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 25,
+        "starting_sentence": "# Data Layers and To",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "61",
+        "end": "62",
+        "highlightText": "picture,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 26,
+        "starting_sentence": "# Data Layers and To",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "216",
+        "end": "239",
+        "highlightText": "that we've discussed so",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "# Data Layers and To",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9970703125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Data Layers and To",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1900",
+        "end": "1913",
+        "highlightText": "It's designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 43,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3040",
+        "end": "3040",
+        "highlightText": ")",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 44,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2257",
+        "end": "2260",
+        "highlightText": "MongoDB",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 47,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1445",
+        "end": "1452",
+        "highlightText": "modeled",
+        "replacements": [
+            "modelled"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 48,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2604",
+        "end": "2618",
+        "highlightText": "is that which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 50,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "2632",
+        "end": "2636",
+        "highlightText": "into",
+        "replacements": [
+            "in"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 49,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1478",
+        "end": "1491",
+        "highlightText": "It's designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 52,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "153",
+        "end": "166",
+        "highlightText": "It's designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 53,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "170",
+        "end": "182",
+        "highlightText": "be installed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 54,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "274",
+        "end": "286",
+        "highlightText": "the time of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 55,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "657",
+        "end": "661",
+        "highlightText": "the digital",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 56,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "674",
+        "end": "683",
+        "highlightText": "is stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 57,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "957",
+        "end": "964",
+        "highlightText": "centers",
+        "replacements": [
+            "centres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 58,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "842",
+        "end": "854",
+        "highlightText": "a very large",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 61,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "865",
+        "end": "878",
+        "highlightText": "very powerful",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 62,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "865",
+        "end": "893",
+        "highlightText": "very powerful server machine",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 65,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "886",
+        "end": "893",
+        "highlightText": "machine",
+        "replacements": [
+            "machines"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 63,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "938",
+        "end": "944",
+        "highlightText": "center",
+        "replacements": [
+            "centre"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 64,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1108",
+        "end": "1108",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 66,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1116",
+        "end": "1123",
+        "highlightText": "and is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 67,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1172",
+        "end": "1203",
+        "highlightText": "having to purchase and maintain",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 68,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "1681",
+        "end": "1682",
+        "highlightText": "ecosystem,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 70,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1718",
+        "end": "1718",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 69,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1514",
+        "end": "1523",
+        "highlightText": "real-time",
+        "replacements": [
+            "real time"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 51,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2435",
+        "end": "2444",
+        "highlightText": "real-time",
+        "replacements": [
+            "real time"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 59,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2002",
+        "end": "2019",
+        "highlightText": "high-availability",
+        "replacements": [
+            "high availability"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 60,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2930",
+        "end": "2939",
+        "highlightText": "warehouse",
+        "replacements": [
+            "Warehouse"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 45,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2957",
+        "end": "2966",
+        "highlightText": "warehouse",
+        "replacements": [
+            "Warehouse"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 46,
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Data Storage   T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "899",
+        "end": "1275",
+        "highlightText": "Kafka is one such platform that provides the following functions  - Publish and subscribe one or more data streams - Store records in the same order in which they were created - Process streams of records in real-time as the data is being ingested and transported  #### Flume   Apache Flume is a tool for collecting, aggregating, and transporting big data streams efficiently.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 27,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1062",
+        "end": "1074",
+        "highlightText": "were created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 25,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1132",
+        "end": "1146",
+        "highlightText": "being ingested",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1565",
+        "end": "1577",
+        "highlightText": "very popular",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 28,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1641",
+        "end": "1655",
+        "highlightText": "being replaced",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 29,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "724",
+        "end": "735",
+        "highlightText": "In order to",
+        "replacements": [
+            "To"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 31,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "823",
+        "end": "845",
+        "highlightText": "be properly configured",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 30,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1303",
+        "end": "1303",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 32,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "310",
+        "end": "311",
+        "highlightText": "consumers,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 33,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "316",
+        "end": "326",
+        "highlightText": "is able to",
+        "replacements": [
+            "can"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 35,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "677",
+        "end": "685",
+        "highlightText": "and they",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 36,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "525",
+        "end": "536",
+        "highlightText": "of this are",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 38,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "533",
+        "end": "536",
+        "highlightText": "are",
+        "replacements": [
+            "is"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 37,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "447",
+        "end": "461",
+        "highlightText": "is that which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 40,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "461",
+        "end": "484",
+        "highlightText": "is continuously created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 39,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "722",
+        "end": "726",
+        "highlightText": ". In",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 44,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "736",
+        "end": "744",
+        "highlightText": "properly",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 41,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "826",
+        "end": "845",
+        "highlightText": "properly configured",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 42,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1246",
+        "end": "1249",
+        "highlightText": "big",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 43,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "288",
+        "end": "296",
+        "highlightText": "produces",
+        "replacements": [
+            "producers"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 34,
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Data Acquisition",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "313",
+        "end": "625",
+        "highlightText": "<p align=left   <img src=images/hadoop.png width=150 </p   It is designed to be able to scale-up from a single node/server to any number of machines, with each machine offering local computation and storage in addition to dividing larger jobs into smaller tasks that can run in parallel across the various nodes.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 41,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "375",
+        "end": "386",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 40,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2585",
+        "end": "2932",
+        "highlightText": "#### Apache Flink   Apache Flink is another popular open-source, distributed data processing framework that can process large data streams at-scale in real-time   <p align=left   <img src=images/flink.png width=150 </p   Flink can operate in several types of cluster environments and performs data computations in-memory (similar to Apache Spark).",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 43,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1380",
+        "end": "1380",
+        "highlightText": "in",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 44,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "2197",
+        "end": "2198",
+        "highlightText": "up,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 45,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2207",
+        "end": "2214",
+        "highlightText": "be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 46,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1757",
+        "end": "1774",
+        "highlightText": "was also designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 47,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1811",
+        "end": "1838",
+        "highlightText": "which Hadoop wasn't able to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 48,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "rewrite the phrase",
+        "sentence_no": "0",
+        "begin": "1393",
+        "end": "1414",
+        "highlightText": "has the capability to",
+        "replacements": [
+            "can"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 49,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "873",
+        "end": "893",
+        "highlightText": "support was provided",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 50,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "105",
+        "end": "116",
+        "highlightText": "on the data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 51,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2528",
+        "end": "2533",
+        "highlightText": "to be",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 52,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "1653",
+        "end": "1654",
+        "highlightText": "),",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 53,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2282",
+        "end": "2297",
+        "highlightText": "are those that",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 59,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "2427",
+        "end": "2434",
+        "highlightText": "Extract",
+        "replacements": [
+            "Extracting"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 56,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "2450",
+        "end": "2456",
+        "highlightText": "Load",
+        "replacements": [
+            "Loading "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 57,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2454",
+        "end": "2456",
+        "highlightText": "Apache",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 58,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2477",
+        "end": "2486",
+        "highlightText": "very fast",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 55,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "2980",
+        "end": "2981",
+        "highlightText": "streams,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 60,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2986",
+        "end": "2997",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 61,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "635",
+        "end": "647",
+        "highlightText": "was designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 65,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "666",
+        "end": "667",
+        "highlightText": "data,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 63,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "668",
+        "end": "672",
+        "highlightText": "and",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 62,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "706",
+        "end": "706",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 64,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1061",
+        "end": "1070",
+        "highlightText": "which is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 68,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "1101",
+        "end": "1106",
+        "highlightText": "tools",
+        "replacements": [
+            "tool"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 66,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1135",
+        "end": "1135",
+        "highlightText": "such",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 67,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1860",
+        "end": "2149",
+        "highlightText": "#### Apache Storm   Apache Storm is another free and open-source distributed real-time data processing platform  <p align=left   <img src=images/storm.png width=150 </p  Apache Storm was one of the first real-time data processing engines introduced that could integrate with Apache Hadoop.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 69,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "473",
+        "end": "480",
+        "highlightText": "machine",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 71,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1319",
+        "end": "1329",
+        "highlightText": "originally",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 70,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1839",
+        "end": "1845",
+        "highlightText": "handle",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 72,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2724",
+        "end": "2732",
+        "highlightText": "at-scale",
+        "replacements": [
+            "at scale"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 42,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1602",
+        "end": "1611",
+        "highlightText": "in-memory",
+        "replacements": [
+            "in memory"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 54,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "401",
+        "end": "409",
+        "highlightText": "scale-up",
+        "replacements": [
+            "scale up"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 39,
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Data Processing ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1141",
+        "end": "1141",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 15,
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1157",
+        "end": "1181",
+        "highlightText": "the benefits it provides",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "757",
+        "end": "1095",
+        "highlightText": "#### Snowflake   Snowflake is a recently introduced big data warehouse built on top of cloud infrastructure (such as AWS or Microsoft Azure)   <p align=left   <img src=images/snowflake.png width=150 </p  The Snowflake architecture allows storage and compute to scale independently, so users can pay for storage and computation separately.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 18,
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1037",
+        "end": "1041",
+        "highlightText": ", so",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 17,
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "50",
+        "end": "59",
+        "highlightText": "that are",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "55",
+        "end": "63",
+        "highlightText": "are used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.4970703125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Data Access   Th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "451",
+        "end": "992",
+        "highlightText": "<p align=left   <img src=images/airflow3.png width=150 </p   - Airflow also provides a user interface that can monitor each task's status and allows users to deal with any errors or bugs - It's easy to use for data engineers who have expertise using Python - It's free and open-source with an active community - The tool provides many ready-to-use connectors so that you can work with Google Cloud Platform, Amazon AWS, Microsoft Azure, etc.  #### Apache Oozie   Apache Oozie is system for workflow scheduling designed to manage Hadoop jobs.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 14,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "930",
+        "end": "930",
+        "highlightText": "system",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 13,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1002",
+        "end": "1020",
+        "highlightText": "is normally hosted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1069",
+        "end": "1087",
+        "highlightText": "on a regular basis",
+        "replacements": [
+            "regularly"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "411",
+        "end": "411",
+        "highlightText": "each",
+        "replacements": [
+            "that "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 17,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1322",
+        "end": "1332",
+        "highlightText": "as well as",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 18,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "1413",
+        "end": "1424",
+        "highlightText": "open source",
+        "replacements": [
+            "open-source"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 19,
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Data Management ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "0",
+        "end": "463",
+        "highlightText": "'### Visualisation   This layer is responsible for visually representing data that's been prepared for reporting to business stakeholders  #### Tableau   Tableau is a powerful and increasingly popular data visualisation tool used by top-tier companies for business intelligence and real-time report creation  <p align=left   <img src=images/tableau.png width=150 </p  It helps users to unlock insights in raw data by visualising it in an easy to interpret format.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 26,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "78",
+        "end": "89",
+        "highlightText": "that's been",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 25,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "1455",
+        "end": "1459",
+        "highlightText": "over",
+        "replacements": [
+            "than"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 27,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1142",
+        "end": "1152",
+        "highlightText": "Similar to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 28,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "869",
+        "end": "870",
+        "highlightText": "software,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 29,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1706",
+        "end": "1729",
+        "highlightText": "provides the ability to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "545",
+        "end": "549",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 32,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "788",
+        "end": "796",
+        "highlightText": "back-end",
+        "replacements": [
+            "back end"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 31,
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Visualisation   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1484",
+        "end": "1897",
+        "highlightText": "#### Docker   Docker is another containerisation technology that leverages virtualisation to provide pre-packed software that can be easily deployed and used on servers and on the cloud   <p align=left   <img src=images/docker3.png width=150 </p   Each container is isolated from other containers, and each comes bundled with the required tools, libraries and configuration files needed to operate independently.'",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 16,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "338",
+        "end": "347",
+        "highlightText": "is called",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1073",
+        "end": "1089",
+        "highlightText": "It's widely used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 18,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1396",
+        "end": "1429",
+        "highlightText": "containers can easily be deployed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "390",
+        "end": "400",
+        "highlightText": "be thought",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 21,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "393",
+        "end": "406",
+        "highlightText": "thought of as",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "421",
+        "end": "423",
+        "highlightText": "to",
+        "replacements": [
+            "of"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 20,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "835",
+        "end": "848",
+        "highlightText": "being adopted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 23,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "465",
+        "end": "475",
+        "highlightText": "is defined",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 25,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "520",
+        "end": "521",
+        "highlightText": "virtualisation,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 24,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1255",
+        "end": "1262",
+        "highlightText": "be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1255",
+        "end": "1266",
+        "highlightText": "be used to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "28",
+        "end": "37",
+        "highlightText": "a host of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "102",
+        "end": "103",
+        "highlightText": " 6 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 29,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct quantifier usage",
+        "sentence_no": "0",
+        "begin": "664",
+        "end": "669",
+        "highlightText": "more",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of quantifiers",
+        "id": 32,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "703",
+        "end": "704",
+        "highlightText": "machines,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 34,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "719",
+        "end": "722",
+        "highlightText": "has",
+        "replacements": [
+            "have"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 33,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "723",
+        "end": "726",
+        "highlightText": "its",
+        "replacements": [
+            "their"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 31,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "727",
+        "end": "731",
+        "highlightText": "own",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 38,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "793",
+        "end": "793",
+        "highlightText": "et.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 35,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "669",
+        "end": "681",
+        "highlightText": "light-weight",
+        "replacements": [
+            "lightweight"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 36,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "731",
+        "end": "742",
+        "highlightText": "file-system",
+        "replacements": [
+            "file system"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 37,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1048",
+        "end": "1071",
+        "highlightText": "container-orchestration",
+        "replacements": [
+            "container orchestration"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 28,
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.986328125
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.4448242188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Other Tools  The",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "398",
+        "end": "403",
+        "highlightText": "Which includes",
+        "replacements": [
+            "This"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 23,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "47",
+        "end": "48",
+        "highlightText": " 6 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 25,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "125",
+        "end": "130",
+        "highlightText": "Which is",
+        "replacements": [
+            "This"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 26,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "131",
+        "end": "145",
+        "highlightText": "is mainly used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "572",
+        "end": "577",
+        "highlightText": "Which includes",
+        "replacements": [
+            "This"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 29,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "593",
+        "end": "644",
+        "highlightText": "to visually represent data for reporting purposes",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 30,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "691",
+        "end": "691",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 28,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "759",
+        "end": "759",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 31,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "304",
+        "end": "309",
+        "highlightText": "Which includes",
+        "replacements": [
+            "This"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 32,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "194",
+        "end": "199",
+        "highlightText": "Which consists",
+        "replacements": [
+            "This"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 33,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "404",
+        "end": "412",
+        "highlightText": "includes",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 34,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "488",
+        "end": "493",
+        "highlightText": "tools",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 35,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "766",
+        "end": "773",
+        "highlightText": "include",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 36,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "774",
+        "end": "779",
+        "highlightText": "tools",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 37,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "25",
+        "end": "35",
+        "highlightText": "high-level",
+        "replacements": [
+            "high level"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 24,
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.6674804688
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Key Takeaways  - A",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 155
+    }
+]

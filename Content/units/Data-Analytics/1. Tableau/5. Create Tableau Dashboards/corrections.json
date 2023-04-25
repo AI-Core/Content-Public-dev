@@ -1,0 +1,1013 @@
+[
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "132",
+        "end": "139",
+        "highlightText": "details",
+        "replacements": [
+            "detail"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 7,
+        "starting_sentence": "# Creating Dashboard",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "219",
+        "end": "228",
+        "highlightText": "are using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 8,
+        "starting_sentence": "# Creating Dashboard",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Creating Dashboard",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "981",
+        "end": "1317",
+        "highlightText": "Connection Type  - This item shows the type of current connection (Live or Extract), and allows users to toggle between them - A _Live_ connection means that the data visible in Tableau is updated as the back-end database tables are updated (in real-time) - An _Extract_ takes a copy of the data and does not update in real-time  ### 4.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 11,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1064",
+        "end": "1065",
+        "highlightText": "),",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 10,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1318",
+        "end": "1686",
+        "highlightText": "Filters  - This item provides users with the option of applying any specific filters on incoming data - For instance, we can determine that we only want the data for a specific Year (e.g. 1996) to be ingested into the dashboard, and all other years should be excluded - By using this approach, we minimise the amount of data ingested to speed up the dashboards  ### 5.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 13,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix capitalization",
+        "sentence_no": "0",
+        "begin": "1495",
+        "end": "1499",
+        "highlightText": "Year",
+        "replacements": [
+            "year"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 12,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "611",
+        "end": "980",
+        "highlightText": "Data Source Connections  - This item displays the currently connected data sources (it's possible to connect multiple data sources simultaneously) - It shows the data source type (PostgreSQL), the database name, and all connected tables (Flights etc.) - It also allows users to create some SQL queries that are implemented on the fly across the connected tables  ### 3.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 15,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "918",
+        "end": "933",
+        "highlightText": "are implemented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 14,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "0",
+        "end": "378",
+        "highlightText": "'## Overview of Tableau's User Interface  When first launching Tableau Desktop, and after successfully connecting to the back-end database, this is the main interface that you'll see  <p align=center <img src=images/tableau-p1.png width=900 <figcaption align=center<citeTableau's Main Data Homepage Overview</cite</figcaption </p  Let's briefly explain the main features  ### 1.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 17,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "315",
+        "end": "325",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 16,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "428",
+        "end": "428",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "454",
+        "end": "466",
+        "highlightText": "a variety of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 19,
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Overview of Table",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5972",
+        "end": "5982",
+        "highlightText": "describted",
+        "replacements": [
+            "described"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 13,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "589",
+        "end": "599",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 14,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove wordiness",
+        "sentence_no": "0",
+        "begin": "5151",
+        "end": "5176",
+        "highlightText": "the charts that are valid",
+        "replacements": [
+            "the valid charts"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5393",
+        "end": "5407",
+        "highlightText": "being analysed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4554",
+        "end": "4934",
+        "highlightText": "Columns and Rows  - This section is one of the main parts of the visualisation - We can drag and drop the various fields we want to analyse into columns or rows - We can add raw fields or aggregated fields (such as SUM) - For example, to visualize the flight Departure Delay by Carrier, we'd put the Carrier in the Rows and the SUM(Departure Delays) in the Columns section  ### 5.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 19,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4787",
+        "end": "4787",
+        "highlightText": "example",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4792",
+        "end": "4801",
+        "highlightText": "visualize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 18,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "612",
+        "end": "998",
+        "highlightText": "Main Menu and Toolbar  - This is the main menu which contains all available options to the user - Notice how the main menu in the sheets view has different options than the main menu in the Tableau homepage view we saw earlier - Below the main menu is a toolbar which contains the main options users tend to frequently access (such as Save, Undo, connect a new data source etc.)  ### 2.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 20,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "5737",
+        "end": "5739",
+        "highlightText": "in",
+        "replacements": [
+            "on"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 21,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5905",
+        "end": "5908",
+        "highlightText": "For",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5972",
+        "end": "5982",
+        "highlightText": "describted",
+        "replacements": [
+            "described"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 23,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "377",
+        "end": "381",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 24,
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Tableau Worksheet",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1929",
+        "end": "1939",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 27,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "974",
+        "end": "1457",
+        "highlightText": "Open a New Worksheet  Once the connection is established with the database, click on the New Worksheeticon located at the bottom left of the page  <p align=center <img src= images/tableau-homepage2.png width=600 <figcaption align=center<citeNew Worksheet Icon</cite</figcaption </p  A new view should now appear with all the below fields  <p align=center <img src= images/tableau-dashboard1.png width=600 <figcaption align=center<citeNew Worksheet View</cite</figcaption </p   ### 4.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 32,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1016",
+        "end": "1030",
+        "highlightText": "is established",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 31,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1067",
+        "end": "1080",
+        "highlightText": "Worksheeticon",
+        "replacements": [
+            "Worksheet icon"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 28,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1241",
+        "end": "1251",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 29,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1434",
+        "end": "1444",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 30,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2264",
+        "end": "2655",
+        "highlightText": "Edit the Chart using Marks  Let's perform some edits to the chart using the features provided by the Marks pane - Go ahead and click on the chart type and change it to Line - Click Color and change the chart's color to dark orange - Click Size and make the lines thicker - Click Label and add a description to your chart - Click Tooltip and add explanations to the X and Y axis of the chart.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 34,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "2474",
+        "end": "2479",
+        "highlightText": "color",
+        "replacements": [
+            "colour"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 33,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "2893",
+        "end": "2903",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 35,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1557",
+        "end": "1572",
+        "highlightText": "Similarly, drag",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 36,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "532",
+        "end": "534",
+        "highlightText": "in",
+        "replacements": [
+            "on"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 37,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1656",
+        "end": "1658",
+        "highlightText": "Click",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 38,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2656",
+        "end": "2674",
+        "highlightText": "You'll notice they",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 39,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2072",
+        "end": "2076",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 40,
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Creating Your Fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1232",
+        "end": "1232",
+        "highlightText": ")",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 17,
+        "starting_sentence": "Let's start working ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "504",
+        "end": "933",
+        "highlightText": "Select Chart Type  - Select the Treemap chart type  Your chart should now look like this  <p align=center <img src= images/tableau-dashboard4.png width=600 <figcaption align=center<citeAirport Arrival Delays</cite</figcaption </p  _Note Notice how Tableau automatically adjusts the columns and rows according to which chart it's displaying and also adds labels to each part of the chart along with corresponding numerical values.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 19,
+        "starting_sentence": "Let's start working ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "719",
+        "end": "729",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 18,
+        "starting_sentence": "Let's start working ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "945",
+        "end": "954",
+        "highlightText": "very easy",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 20,
+        "starting_sentence": "Let's start working ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "276",
+        "end": "279",
+        "highlightText": "on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 21,
+        "starting_sentence": "Let's start working ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.97265625
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9506835938
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.7290039062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Let's start working ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "647",
+        "end": "1036",
+        "highlightText": "Go ahead and select Range of Values and enter 1987 for both ranges - Click Apply when done  <p align=center <img src= images/tableau-dashboard5-filter.png width=600 <figcaption align=center<citeFiltering Data by Year</cite</figcaption </p  ##### 10.2 Filter by Month  - Drag the Month field from the Data pane to the Filters shelf - A new window will pop up asking for the filter criteria.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 22,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "871",
+        "end": "881",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 21,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1260",
+        "end": "1270",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 23,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "300",
+        "end": "301",
+        "highlightText": " 2 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 26,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "445",
+        "end": "447",
+        "highlightText": "To",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 24,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1467",
+        "end": "1471",
+        "highlightText": "the Destination",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 27,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1895",
+        "end": "1896",
+        "highlightText": "Return",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 28,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1328",
+        "end": "1335",
+        "highlightText": ", we'll",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 29,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "249",
+        "end": "251",
+        "highlightText": "Do",
+        "replacements": [
+            "To"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 25,
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.7983398438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### 10. Filtering Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1527",
+        "end": "2231",
+        "highlightText": "- In the Save As Type section, click on it and select the Tableau Packaged Workbook options (.twvx)     - This option packages everything required to generate the dashboards into one large package     - To read more about this, check the [official documentation](https//help.tableau.com/current/pro/desktop/en-us/save_savework_packagedworkbooks.htm)  <p align=center <img src= images/tableau-save.png width=600 <figcaption align=center<citeWorkbook Save Settings</cite</figcaption </p  - Click Save to store a copy of the package - This packaged file can now be shared to colleagues, who in turn can import it into their Tableau version and interact with the visualisations   This concludes the notebook.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 25,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1997",
+        "end": "2007",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 23,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2059",
+        "end": "2095",
+        "highlightText": "This packaged file can now be shared",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 24,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1204",
+        "end": "1214",
+        "highlightText": "we're done",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1297",
+        "end": "1308",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "348",
+        "end": "987",
+        "highlightText": "Select the Packed Bubbles Chart Type  - Click on the Packed Bubbles chart to select that visualisation type     - In this type of chart, the size of the bubble reflects the numerical value of each bubble (destination) relative to the others - Finally, click on the Sheet1 title above the chart to add a meaningful name that describes the chart  Your visualisation should now look like  <p align=center <img src= images/tableau-dashboard7.png width=600 <figcaption align=center<citeDestinations Packed Bubble Chart</cite</figcaption </p  We can see from the above diagram that ORD (which stands for Orlando, Florida) is the top destination.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 29,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "869",
+        "end": "879",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 28,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "16",
+        "end": "26",
+        "highlightText": "is entered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 33,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "38",
+        "end": "61",
+        "highlightText": "the box will be colored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 32,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "54",
+        "end": "61",
+        "highlightText": "colored",
+        "replacements": [
+            "coloured"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 31,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "62",
+        "end": "65",
+        "highlightText": "in",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 30,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "94",
+        "end": "101",
+        "highlightText": "colored",
+        "replacements": [
+            "coloured"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 34,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "121",
+        "end": "126",
+        "highlightText": "that something",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 35,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2291",
+        "end": "2296",
+        "highlightText": "some",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 36,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "988",
+        "end": "992",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 37,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "203",
+        "end": "207",
+        "highlightText": "now",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 38,
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9912109375
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.986328125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "If the formula is en",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 75
+    }
+]

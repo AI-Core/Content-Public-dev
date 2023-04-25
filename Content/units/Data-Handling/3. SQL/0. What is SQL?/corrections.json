@@ -1,0 +1,1742 @@
+[
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "17",
+        "end": "20",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 19,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "220",
+        "end": "231",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 20,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "322",
+        "end": "327",
+        "highlightText": "used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 21,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1034",
+        "end": "1041",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1045",
+        "end": "1060",
+        "highlightText": "a wide range of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "876",
+        "end": "881",
+        "highlightText": "also",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 25,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "948",
+        "end": "957",
+        "highlightText": "summarize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 24,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "469",
+        "end": "485",
+        "highlightText": "the way in which",
+        "replacements": [
+            "how"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 31,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "495",
+        "end": "504",
+        "highlightText": "is stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 29,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "518",
+        "end": "524",
+        "highlightText": ", data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "525",
+        "end": "534",
+        "highlightText": "is stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 30,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "564",
+        "end": "564",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 27,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "571",
+        "end": "575",
+        "highlightText": "have",
+        "replacements": [
+            "has"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 26,
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.98828125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1530",
+        "end": "1922",
+        "highlightText": "- They utilize the **relation model of data** Data corresponding to the same ID is used to link records in different **tables** - Data is organized as *relations*, containing a *relation key (ID)* - **Relations** are usually implemented as **tables** - **Tables** are assimilated in common collections in databases called *schemas* - For example One table contains (ID, name, last_name, age).",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 86,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1537",
+        "end": "1544",
+        "highlightText": "utilize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 84,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1668",
+        "end": "1677",
+        "highlightText": "organized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 85,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "11124",
+        "end": "11125",
+        "highlightText": "modified=3333242",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 87,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5504",
+        "end": "5507",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 88,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the phrase",
+        "sentence_no": "0",
+        "begin": "5593",
+        "end": "5613",
+        "highlightText": "be an impediment for",
+        "replacements": [
+            "impede"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 91,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5644",
+        "end": "5647",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 89,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "5738",
+        "end": "5750",
+        "highlightText": "many to-many",
+        "replacements": [
+            "many-to-many"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 90,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5177",
+        "end": "5180",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 92,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5310",
+        "end": "5313",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 93,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change noun form",
+        "sentence_no": "0",
+        "begin": "6922",
+        "end": "6930",
+        "highlightText": "player's",
+        "replacements": [
+            "players"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 94,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2879",
+        "end": "3203",
+        "highlightText": "While SQL began as a language used to manipulate data in relational databases, it has evolved [\u2026] to be a language for manipulating data across various database technologies [\u2026]</p  <p align=centerOne final note SQL is not an acronym for anything (although many people will insist it stands for \u201cStructured Query Language\u201d).",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 95,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "1959",
+        "end": "1959",
+        "highlightText": "smoker",
+        "replacements": [
+            "and "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 96,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2761",
+        "end": "2771",
+        "highlightText": "that they",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 97,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9635",
+        "end": "9761",
+        "highlightText": "Each row of the **junction table** represents the relationship between records in one of the tables being joined to the other.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 98,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9735",
+        "end": "9747",
+        "highlightText": "being joined",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 99,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1969",
+        "end": "2594",
+        "highlightText": "And another table contains (smoker?, cancer_development) - The software used to manage relational databases is referred to as a *Relational DataBase Management System (RDBMS)*  <img src=./images/RDBMS_graphics.png  The Account table is **related** to the three other tables by the following column relations   - **Customer** - cust_id column - **Product** - product_cd column - **Account** - account_id column   <h2 style=color rgb(241, 90, 36) A Brief History</h2   <p align=center\u201cAlong with Codd\u2019s definition of the relational model, he proposed a language called DSL/Alpha for  manipulating the data in relational tables.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 102,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2397",
+        "end": "2400",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 100,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "2549",
+        "end": "2551",
+        "highlightText": "for  manipulating",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 101,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8414",
+        "end": "8414",
+        "highlightText": "case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 103,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4388",
+        "end": "4392",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 104,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3337",
+        "end": "4277",
+        "highlightText": "</p  <p align=centerExtracted from \u2018Learning SQL\u2019 by Alan Beaulieu</p   <h2 style=color rgb(241, 90, 36) SQL database - Pros</h2  SQL Databases provide a ton of **advantages** that make it the de facto standard for many applications - <b style=color rgb(241, 90, 36)Intuitive</b Relations that almost anyone can understand - <b style=color rgb(241, 90, 36)Efficient</b They use *normalization* so it doesn\u2019t repeat its representation of data requiring less space - <b style=color rgb(241, 90, 36)Declarative</b You tell the data what you want, and the system takes care of how to execute the query - <b style=color rgb(241, 90, 36)Robust</b Most databases have *ACID* compliance   **ACID (*Atomicity*, *Consistency*, *Isolation*, and *Durability*)**, is a set of properties then ensures database reliability and consistency    - <b style=color rgb(241, 90, 36)*Atomicity*</b Each statement in an SQL transaction is treated as a single unit.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 107,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3716",
+        "end": "3729",
+        "highlightText": "normalization",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 105,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4249",
+        "end": "4259",
+        "highlightText": "is treated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 106,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "873",
+        "end": "883",
+        "highlightText": "organizing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 108,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8548",
+        "end": "8548",
+        "highlightText": "Equally",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 109,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8624",
+        "end": "8631",
+        "highlightText": "at all",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 110,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "369",
+        "end": "375",
+        "highlightText": ", data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 111,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "686",
+        "end": "689",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 112,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5879",
+        "end": "5882",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 113,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5945",
+        "end": "5948",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 114,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4923",
+        "end": "4923",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 115,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "5016",
+        "end": "5019",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 117,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "5123",
+        "end": "5126",
+        "highlightText": "are",
+        "replacements": [
+            "is"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 116,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5123",
+        "end": "5132",
+        "highlightText": "are saved",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 118,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "10600",
+        "end": "10604",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 119,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6608",
+        "end": "6615",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 120,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9508",
+        "end": "9512",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 122,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "9572",
+        "end": "9577",
+        "highlightText": "which link",
+        "replacements": [
+            "that"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 121,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9621",
+        "end": "9633",
+        "highlightText": "being joined",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 123,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "321",
+        "end": "327",
+        "highlightText": "height",
+        "replacements": [
+            "heights"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 124,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8914",
+        "end": "8925",
+        "highlightText": "be enrolled",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 125,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "10889",
+        "end": "10892",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 126,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "11002",
+        "end": "11008",
+        "highlightText": "pagila",
+        "replacements": [
+            "page",
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 127,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "2652",
+        "end": "2654",
+        "highlightText": "commissioned  a",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 128,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7254",
+        "end": "7321",
+        "highlightText": "The connection between the tables in an **ERD diagram** can be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 130,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7314",
+        "end": "7325",
+        "highlightText": "be used to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 131,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1484",
+        "end": "1486",
+        "highlightText": "a different",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 132,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "7216",
+        "end": "7228",
+        "highlightText": "relationship",
+        "replacements": [
+            "relationships"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 133,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6480",
+        "end": "6480",
+        "highlightText": "example",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 134,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "6524",
+        "end": "6527",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 135,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9212",
+        "end": "9360",
+        "highlightText": "modified=3333242  The *MANY to MANY relationship* occurs when many records in **ONE** table can be represented by **MANY** records in another table.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 137,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "9248",
+        "end": "9260",
+        "highlightText": "relationship",
+        "replacements": [
+            "relationships"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 136,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9308",
+        "end": "9322",
+        "highlightText": "be represented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 138,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "10534",
+        "end": "10534",
+        "highlightText": "ID",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 139,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9883",
+        "end": "9891",
+        "highlightText": "is based",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 141,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "9891",
+        "end": "9894",
+        "highlightText": "on",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 140,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9891",
+        "end": "9894",
+        "highlightText": "on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 142,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2850",
+        "end": "2851",
+        "highlightText": "was,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 143,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2859",
+        "end": "2860",
+        "highlightText": "finally,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 144,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the word",
+        "sentence_no": "0",
+        "begin": "4317",
+        "end": "4327",
+        "highlightText": "successful",
+        "replacements": [
+            "successfully"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of modifiers",
+        "id": 145,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4327",
+        "end": "4327",
+        "highlightText": "or",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 146,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4350",
+        "end": "4359",
+        "highlightText": "is rolled",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 147,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "4724",
+        "end": "4727",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 149,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4847",
+        "end": "4847",
+        "highlightText": "time",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 148,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4865",
+        "end": "4875",
+        "highlightText": "is treated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 150,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8314",
+        "end": "8315",
+        "highlightText": "means,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 151,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8352",
+        "end": "8365",
+        "highlightText": "be associated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 152,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4608",
+        "end": "4608",
+        "highlightText": "state",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 155,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4609",
+        "end": "4644",
+        "highlightText": "the current process will be aborted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 156,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4629",
+        "end": "4633",
+        "highlightText": "will",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Faulty tense sequence",
+        "id": 153,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4644",
+        "end": "4644",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 154,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4649",
+        "end": "4676",
+        "highlightText": "the database will be rolled",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 157,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9405",
+        "end": "9405",
+        "highlightText": "relationship",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 158,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9419",
+        "end": "9434",
+        "highlightText": "with the use of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 159,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "4454",
+        "end": "4457",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 160,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "10104",
+        "end": "10104",
+        "highlightText": "case",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 161,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "10146",
+        "end": "10146",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 162,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "10381",
+        "end": "10381",
+        "highlightText": "saving",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 165,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the noun form",
+        "sentence_no": "0",
+        "begin": "10401",
+        "end": "10405",
+        "highlightText": "ID's",
+        "replacements": [
+            "ids",
+            "ID"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 163,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "10401",
+        "end": "10406",
+        "highlightText": "ID's",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 166,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the noun form",
+        "sentence_no": "0",
+        "begin": "10417",
+        "end": "10421",
+        "highlightText": "ID's",
+        "replacements": [
+            "ids",
+            "ID"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 164,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5827",
+        "end": "5835",
+        "highlightText": "product",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 167,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "95",
+        "end": "107",
+        "highlightText": "data related",
+        "replacements": [
+            "data-related"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 169,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "112",
+        "end": "112",
+        "highlightText": "role",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 168,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "166",
+        "end": "176",
+        "highlightText": "be thought",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 170,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "9006",
+        "end": "9008",
+        "highlightText": "to",
+        "replacements": [
+            "for"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 171,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "788",
+        "end": "798",
+        "highlightText": "processing",
+        "replacements": [
+            "processed"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 172,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "807",
+        "end": "807",
+        "highlightText": "but",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 173,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "976",
+        "end": "977",
+        "highlightText": "second,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 175,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0missing verb",
+        "sentence_no": "0",
+        "begin": "978",
+        "end": "978",
+        "highlightText": " *",
+        "replacements": [
+            "is "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 174,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "10461",
+        "end": "10470",
+        "highlightText": ", imagine",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 176,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8107",
+        "end": "8288",
+        "highlightText": "modified=3333242  With the *ONE to MANY relationship* again the one is represented by the **|** symbol and the three pronged symbol, represented by a *crow-foot* symbol, means many.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 182,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "8147",
+        "end": "8159",
+        "highlightText": "relationship",
+        "replacements": [
+            "relationships"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 178,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8166",
+        "end": "8166",
+        "highlightText": "again",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 179,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8209",
+        "end": "8209",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 180,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "8218",
+        "end": "8231",
+        "highlightText": "three pronged",
+        "replacements": [
+            "three-pronged"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 181,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "8232",
+        "end": "8238",
+        "highlightText": "symbol",
+        "replacements": [
+            "symbols"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 177,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1387",
+        "end": "1409",
+        "highlightText": "in an efficient manner",
+        "replacements": [
+            "efficiently"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 183,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5425",
+        "end": "5429",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 185,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5443",
+        "end": "5444",
+        "highlightText": "common,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 184,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1254",
+        "end": "1254",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 186,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7947",
+        "end": "7952",
+        "highlightText": "just",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 188,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7981",
+        "end": "7981",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 187,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6114",
+        "end": "6123",
+        "highlightText": "visualize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 190,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6204",
+        "end": "6205",
+        "highlightText": "scope,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 189,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6820",
+        "end": "6829",
+        "highlightText": "which is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 191,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "6932",
+        "end": "6936",
+        "highlightText": "Then",
+        "replacements": [
+            "The"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 129,
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " <h2 style=color rgb",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct quantifier usage",
+        "sentence_no": "0",
+        "begin": "146",
+        "end": "150",
+        "highlightText": "any",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of quantifiers",
+        "id": 4,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "167",
+        "end": "167",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 6,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "672",
+        "end": "674",
+        "highlightText": "databases",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.9892578125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 127
+    }
+]

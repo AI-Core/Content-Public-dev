@@ -1,0 +1,879 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8632",
+        "end": "9335",
+        "highlightText": "- The training set     - Used for updating model parameters that can be optimised directly - The validation set     - Used for evaluating trained models' generalisation capability     - Used to compare between different models and different model hyperparameters and make choices about which to use     - NOT used for evaluating final performance - The test set     - Used ONLY to determine a final measure of performance of the model on totally unseen data     - Never used to make any decision about which model or model parameters are better          - doing so would be cheating - picking the best model based on data its final performance will be evaluated on     - Different to the validation set.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 68,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8697",
+        "end": "8713",
+        "highlightText": "can be optimised",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 66,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9254",
+        "end": "9293",
+        "highlightText": "its final performance will be evaluated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 67,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1278",
+        "end": "1836",
+        "highlightText": "_Features_     - The inputs     - The thing you are using to predict the output     - Also referred to as         - Inputs 1. _Labels_     - The output     - Also referred to as          - Outputs         - Targets  Example datasets - A large body of text, where the examples are different sentences - A set of examples containing images and their classification - A set of examples containing features of different houses and the price of that house  In the most usual case, features of an example can be represented as a vector, and the labels as a scalar.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 70,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1781",
+        "end": "1795",
+        "highlightText": "be represented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 69,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1024",
+        "end": "1025",
+        "highlightText": " 4 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 71,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9666",
+        "end": "9684",
+        "highlightText": "Both overfitting",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 72,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7760",
+        "end": "8117",
+        "highlightText": "'To visualise 13 dimensional space, simply think of 3 dimensional space, and say 13 loudly' - Geoff Hinton   ### Hyperparameters  Gradient descent optimises some parameters that control the function which the model represents directly, by directly changing their values during the training process where the model iteratively makes predictions and improves.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 76,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "7774",
+        "end": "7788",
+        "highlightText": "13 dimensional",
+        "replacements": [
+            "13-dimensional"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 74,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "7812",
+        "end": "7825",
+        "highlightText": "3 dimensional",
+        "replacements": [
+            "3-dimensional"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 75,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7994",
+        "end": "7995",
+        "highlightText": "directly,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 73,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "10005",
+        "end": "10007",
+        "highlightText": "model  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 77,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "5430",
+        "end": "5434",
+        "highlightText": "the error",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 78,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1839",
+        "end": "2034",
+        "highlightText": "[](./images/Features%20%26%20Labels.png)  All of the features can be represented in a single matrix, where the rows are examples, and the columns are different features of each of those examples.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 79,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3314",
+        "end": "3318",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 80,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "7364",
+        "end": "7366",
+        "highlightText": "data  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 81,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "346",
+        "end": "360",
+        "highlightText": "extremely hard",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 82,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "79",
+        "end": "88",
+        "highlightText": "be framed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 85,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "92",
+        "end": "92",
+        "highlightText": "mapping",
+        "replacements": [
+            "a ",
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 83,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "130",
+        "end": "132",
+        "highlightText": "output  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 84,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2246",
+        "end": "2249",
+        "highlightText": "Unless",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 86,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2874",
+        "end": "3312",
+        "highlightText": "[](./images/Features%20-Model-_%20Labels.png)  For example - Your model might take in a set of text and predict the next word - Your model might take in the joint positions and accelerations of a robot and use it to predict the next move - Your model might take in the features of a house and use it to predict the price  Because in most important cases, the model is a mathematical function, the data needs to be represented numerically.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 88,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3285",
+        "end": "3299",
+        "highlightText": "be represented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 87,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the phrase",
+        "sentence_no": "0",
+        "begin": "5235",
+        "end": "5257",
+        "highlightText": "Make a prediction from",
+        "replacements": [
+            "Predict"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 90,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "5293",
+        "end": "5297",
+        "highlightText": "the function",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 89,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1095",
+        "end": "1104",
+        "highlightText": "The model",
+        "replacements": [
+            "Model"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 91,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "5359",
+        "end": "5363",
+        "highlightText": "the error",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 92,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1108",
+        "end": "1121",
+        "highlightText": "The criterion",
+        "replacements": [
+            "Criterion"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 93,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3472",
+        "end": "3474",
+        "highlightText": " A ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 94,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3504",
+        "end": "3515",
+        "highlightText": "be referred",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 96,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3562",
+        "end": "3564",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 95,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "681",
+        "end": "683",
+        "highlightText": "As",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 97,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "7515",
+        "end": "7516",
+        "highlightText": "these,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 98,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5467",
+        "end": "5472",
+        "highlightText": ", you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 99,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "5498",
+        "end": "5500",
+        "highlightText": "this  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 100,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9355",
+        "end": "9362",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 101,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9462",
+        "end": "9476",
+        "highlightText": "is not able to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 102,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8156",
+        "end": "8175",
+        "highlightText": "cannot be optimised",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 107,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8184",
+        "end": "8185",
+        "highlightText": "directly,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 104,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8241",
+        "end": "8247",
+        "highlightText": "be set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 108,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8263",
+        "end": "8265",
+        "highlightText": "Hyperparameters",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 105,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8337",
+        "end": "8337",
+        "highlightText": "e.g.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 103,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "8597",
+        "end": "8598",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 106,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4054",
+        "end": "4360",
+        "highlightText": "The cross entropy loss function is designed to take in the probability predicted for _the true class label_, and return - a low loss if that probability is high     - The best probability to predict for the true label would be 1, which will give you a loss of zero - a high loss if that probability is low.",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 112,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "4058",
+        "end": "4071",
+        "highlightText": "cross entropy",
+        "replacements": [
+            "cross-entropy"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 110,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4086",
+        "end": "4097",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 111,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4161",
+        "end": "4163",
+        "highlightText": "_,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 109,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "453",
+        "end": "465",
+        "highlightText": "the task of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 113,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7457",
+        "end": "7458",
+        "highlightText": " 1 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 114,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7470",
+        "end": "7471",
+        "highlightText": " 2 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 115,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7488",
+        "end": "7489",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 116,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2421",
+        "end": "2725",
+        "highlightText": "Whether your targets are continuous or categorical values determines whether you have a _regression_ or _classification_ problem - Regression Targets are continuous     - E.g. House price prediction - Classification Targets are categorical     - E.g. Which word should come next following the input text?",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 117,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4841",
+        "end": "4843",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 118,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4873",
+        "end": "4888",
+        "highlightText": "are initialised",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 119,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "2738",
+        "end": "2745",
+        "highlightText": "defines",
+        "replacements": [
+            "define"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 120,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2758",
+        "end": "2759",
+        "highlightText": "problem,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 122,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "2836",
+        "end": "2837",
+        "highlightText": "input,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 121,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "4400",
+        "end": "4404",
+        "highlightText": "for",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 123,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "4467",
+        "end": "4469",
+        "highlightText": "loss  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 124,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3881",
+        "end": "3934",
+        "highlightText": "The most important loss function for classification",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 125,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "888",
+        "end": "889",
+        "highlightText": "learning,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 126,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "955",
+        "end": "958",
+        "highlightText": "changes   !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 127,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "7647",
+        "end": "7648",
+        "highlightText": " 4 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 128,
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Essential ML conce",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 65
+    }
+]
