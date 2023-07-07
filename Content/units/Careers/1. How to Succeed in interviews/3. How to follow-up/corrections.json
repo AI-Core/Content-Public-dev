@@ -1,0 +1,137 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1527",
+        "end": "1538",
+        "highlightText": "personalize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 61,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1944",
+        "end": "1948",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 62,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "987",
+        "end": "991",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 63,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2115",
+        "end": "2119",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 64,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1628",
+        "end": "1633",
+        "highlightText": "that you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 65,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1302",
+        "end": "1307",
+        "highlightText": "your",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 66,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "2297",
+        "end": "2332",
+        "highlightText": "there are multiple candidates being",
+        "replacements": [
+            "multiple candidates are being"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 68,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2327",
+        "end": "2343",
+        "highlightText": "being considered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 67,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "223",
+        "end": "232",
+        "highlightText": "important",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 69,
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Following up afte",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 10
+    }
+]

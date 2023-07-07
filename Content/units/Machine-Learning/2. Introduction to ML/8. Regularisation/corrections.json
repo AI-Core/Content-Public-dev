@@ -1,0 +1,636 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "772",
+        "end": "799",
+        "highlightText": "exert the most influence on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "# Regularisation Bas",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "804",
+        "end": "809",
+        "highlightText": "whole",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 21,
+        "starting_sentence": "# Regularisation Bas",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "861",
+        "end": "872",
+        "highlightText": "is improved",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "# Regularisation Bas",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "296",
+        "end": "297",
+        "highlightText": "techniques,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 24,
+        "starting_sentence": "# Regularisation Bas",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Regularisation Bas",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "751",
+        "end": "751",
+        "highlightText": "most",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 23,
+        "starting_sentence": "## Early Stopping  E",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "793",
+        "end": "808",
+        "highlightText": "can be combined",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 24,
+        "starting_sentence": "## Early Stopping  E",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0missing verb",
+        "sentence_no": "0",
+        "begin": "439",
+        "end": "439",
+        "highlightText": "the",
+        "replacements": [
+            "is "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 25,
+        "starting_sentence": "## Early Stopping  E",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "291",
+        "end": "291",
+        "highlightText": "the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 26,
+        "starting_sentence": "## Early Stopping  E",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "844",
+        "end": "883",
+        "highlightText": "result in significant improvements over",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "## Early Stopping  E",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.994140625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Early Stopping  E",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Introducing Norm ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " ### Norms ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " To recap, the $L^p$",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "474",
+        "end": "514",
+        "highlightText": "norm penalties   Norm penalties increase",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 21,
+        "starting_sentence": " ### Norm penalties ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "137",
+        "end": "146",
+        "highlightText": "which is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": " ### Norm penalties ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "262",
+        "end": "277",
+        "highlightText": "are rarely used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 23,
+        "starting_sentence": " ### Norm penalties ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "543",
+        "end": "547",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 24,
+        "starting_sentence": " ### Norm penalties ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "996",
+        "end": "1008",
+        "highlightText": "additionally",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 25,
+        "starting_sentence": " ### Norm penalties ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9311523438000001
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " ### Norm penalties ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "377",
+        "end": "392",
+        "highlightText": "with respect to",
+        "replacements": [
+            "concerning",
+            "for",
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 10,
+        "starting_sentence": "## Lasso Regression ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Lasso Regression ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "127",
+        "end": "138",
+        "highlightText": "are applied",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 8,
+        "starting_sentence": "Above, you can obser",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "139",
+        "end": "143",
+        "highlightText": "onto",
+        "replacements": [
+            "to"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 7,
+        "starting_sentence": "Above, you can obser",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "198",
+        "end": "207",
+        "highlightText": "are moved",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 9,
+        "starting_sentence": "Above, you can obser",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.9658203125
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.7763671875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Above, you can obser",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "177",
+        "end": "193",
+        "highlightText": "is often written",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "## Ridge Regression ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "681",
+        "end": "690",
+        "highlightText": "euclidian",
+        "replacements": [
+            "Euclidian"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 12,
+        "starting_sentence": "## Ridge Regression ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9809570312
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.970703125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Ridge Regression ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1870",
+        "end": "1880",
+        "highlightText": "are pruned",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 39,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "559",
+        "end": "568",
+        "highlightText": "are fixed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 40,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1160",
+        "end": "1164",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 41,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2036",
+        "end": "2050",
+        "highlightText": "be disregarded",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 42,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2083",
+        "end": "2096",
+        "highlightText": "be zeroed out",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 44,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2123",
+        "end": "2145",
+        "highlightText": "they should be removed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 43,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "280",
+        "end": "294",
+        "highlightText": "be distributed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 45,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2879",
+        "end": "2895",
+        "highlightText": "are evenly split",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 46,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3165",
+        "end": "3179",
+        "highlightText": "different from",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 47,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1145",
+        "end": "1156",
+        "highlightText": "be equal to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 48,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1930",
+        "end": "1967",
+        "highlightText": "to easily explain phenomena to models",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 49,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "241",
+        "end": "241",
+        "highlightText": " $",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 50,
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## L1 vs L2 Intuitio",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "149",
+        "end": "174",
+        "highlightText": "aforementioned smoothness",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Outdated language",
+        "id": 5,
+        "starting_sentence": "## Changes in the Co",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9853515625
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9038085938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Changes in the Co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "434",
+        "end": "460",
+        "highlightText": "is significantly increased",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "- The graphs highlig",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.646484375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "- The graphs highlig",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## MSE and L2  Now t",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## MSE and L1  We do",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.986328125
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.947265625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 49
+    }
+]

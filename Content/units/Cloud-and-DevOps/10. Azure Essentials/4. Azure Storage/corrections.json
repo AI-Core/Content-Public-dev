@@ -1,0 +1,1494 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Azure Storage",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "581",
+        "end": "593",
+        "highlightText": "is protected",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 14,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1195",
+        "end": "1248",
+        "highlightText": "to easily store and manage data for your applications",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 13,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1248",
+        "end": "1248",
+        "highlightText": "applications",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "296",
+        "end": "303",
+        "highlightText": "be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "308",
+        "end": "323",
+        "highlightText": "a wide range of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "144",
+        "end": "161",
+        "highlightText": "a wide variety of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 17,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1074",
+        "end": "1080",
+        "highlightText": "latter",
+        "replacements": [
+            "later"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 11,
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.505859375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "*Azure Storage* is a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "771",
+        "end": "782",
+        "highlightText": "can be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "434",
+        "end": "443",
+        "highlightText": "optimized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 18,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "576",
+        "end": "591",
+        "highlightText": "can be accessed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "592",
+        "end": "618",
+        "highlightText": "from anywhere in the world",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "258",
+        "end": "259",
+        "highlightText": "blobs,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "283",
+        "end": "299",
+        "highlightText": "tiers of storage",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "385",
+        "end": "396",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.7309570312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Azure Storage Typ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "635",
+        "end": "643",
+        "highlightText": "organize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 27,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "44",
+        "end": "53",
+        "highlightText": "organized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 28,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1367",
+        "end": "1379",
+        "highlightText": "a variety of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1394",
+        "end": "1395",
+        "highlightText": "APIs,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 29,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "990",
+        "end": "1002",
+        "highlightText": "binary large",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 31,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1026",
+        "end": "1038",
+        "highlightText": "type of data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "477",
+        "end": "483",
+        "highlightText": "center",
+        "replacements": [
+            "centre"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 33,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "497",
+        "end": "524",
+        "highlightText": "the account will be created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 34,
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.6875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Blob Storage Stru",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "780",
+        "end": "781",
+        "highlightText": "tiers,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 17,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "272",
+        "end": "281",
+        "highlightText": "optimized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 19,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "311",
+        "end": "312",
+        "highlightText": "operations,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "891",
+        "end": "892",
+        "highlightText": "requirements,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "912",
+        "end": "925",
+        "highlightText": "extremely low",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 20,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "79",
+        "end": "87",
+        "highlightText": "optimize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 22,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "123",
+        "end": "136",
+        "highlightText": "types of data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 24,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "163",
+        "end": "174",
+        "highlightText": "is designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 23,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "510",
+        "end": "521",
+        "highlightText": "compared to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 26,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "534",
+        "end": "535",
+        "highlightText": "tier,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 25,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "405",
+        "end": "413",
+        "highlightText": "that is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 28,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "437",
+        "end": "438",
+        "highlightText": "frequently,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 27,
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.994140625
+            },
+            {
+                "emoji": "\u2b50\ufe0f",
+                "emojiId": "2b50",
+                "name": "cooperative",
+                "confidence": 0.4353027344
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Blob Storage Tier",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "359",
+        "end": "384",
+        "highlightText": "was automatically created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 16,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "150",
+        "end": "165",
+        "highlightText": "You will be met",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1247",
+        "end": "1247",
+        "highlightText": "passed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1342",
+        "end": "1353",
+        "highlightText": "is deployed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1363",
+        "end": "1374",
+        "highlightText": "start using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "926",
+        "end": "927",
+        "highlightText": "long,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "564",
+        "end": "576",
+        "highlightText": "will need to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9921875
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9174804688000003
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## How to create a S",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "682",
+        "end": "682",
+        "highlightText": ".On",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 47,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "945",
+        "end": "945",
+        "highlightText": ".The",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 48,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1280",
+        "end": "1290",
+        "highlightText": "authorized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 49,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2316",
+        "end": "2316",
+        "highlightText": "container",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 50,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "782",
+        "end": "786",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 51,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "2124",
+        "end": "2126",
+        "highlightText": "in",
+        "replacements": [
+            "to"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 52,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3674",
+        "end": "3678",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 53,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3352",
+        "end": "3356",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 54,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "912",
+        "end": "914",
+        "highlightText": "an unique",
+        "replacements": [
+            "a"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 55,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "601",
+        "end": "601",
+        "highlightText": "remember",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 56,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "608",
+        "end": "618",
+        "highlightText": "are stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 57,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "419",
+        "end": "420",
+        "highlightText": "region,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 58,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1421",
+        "end": "1422",
+        "highlightText": "container,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 59,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2417",
+        "end": "2420",
+        "highlightText": "on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 60,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1474",
+        "end": "1478",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 61,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2021",
+        "end": "2031",
+        "highlightText": "is created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 62,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2072",
+        "end": "2078",
+        "highlightText": "to it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 63,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3742",
+        "end": "3745",
+        "highlightText": "on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 64,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3025",
+        "end": "3032",
+        "highlightText": "listed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 65,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "994",
+        "end": "995",
+        "highlightText": "long,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 66,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4310",
+        "end": "4316",
+        "highlightText": "is set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 67,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "4398",
+        "end": "4409",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 68,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3530",
+        "end": "3538",
+        "highlightText": "is using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 70,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3562",
+        "end": "3563",
+        "highlightText": "button,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 69,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "2595",
+        "end": "2606",
+        "highlightText": "are able to",
+        "replacements": [
+            "can"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 71,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4476",
+        "end": "4480",
+        "highlightText": "any",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 72,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1766",
+        "end": "1770",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 73,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1777",
+        "end": "1782",
+        "highlightText": "that anyone",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 74,
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## How to use Storag",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1231",
+        "end": "1232",
+        "highlightText": "code",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 19,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "1036",
+        "end": "1043",
+        "highlightText": "install",
+        "replacements": [
+            "installs"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 20,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "867",
+        "end": "867",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1095",
+        "end": "1095",
+        "highlightText": "Once",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "162",
+        "end": "162",
+        "highlightText": "If",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 23,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "227",
+        "end": "234",
+        "highlightText": "analyze",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 24,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "330",
+        "end": "343",
+        "highlightText": "visualization",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 25,
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## How to access a b",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "103",
+        "end": "103",
+        "highlightText": "account",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "3. Instantiate a Blo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "3. Instantiate a Blo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1131",
+        "end": "1131",
+        "highlightText": "blob",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 13,
+        "starting_sentence": "To find the *storage",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "169",
+        "end": "178",
+        "highlightText": "authorize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 14,
+        "starting_sentence": "To find the *storage",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "460",
+        "end": "492",
+        "highlightText": "Either of these keys can be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "To find the *storage",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "485",
+        "end": "496",
+        "highlightText": "be used to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "To find the *storage",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "To find the *storage",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "156",
+        "end": "157",
+        "highlightText": "file",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": " The blob name shoul",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9921875
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9072265625
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.4526367188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " The blob name shoul",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "369",
+        "end": "373",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 21,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "144",
+        "end": "151",
+        "highlightText": "readall",
+        "replacements": [
+            "read"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 22,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0missing verb",
+        "sentence_no": "0",
+        "begin": "924",
+        "end": "924",
+        "highlightText": "beyond",
+        "replacements": [
+            "is "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 23,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "564",
+        "end": "569",
+        "highlightText": "that you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 24,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "193",
+        "end": "205",
+        "highlightText": "is then used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 25,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "255",
+        "end": "260",
+        "highlightText": "that the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 26,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "630",
+        "end": "635",
+        "highlightText": "that the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 29,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "644",
+        "end": "650",
+        "highlightText": "is set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 28,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "654",
+        "end": "654",
+        "highlightText": "**",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 27,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "691",
+        "end": "697",
+        "highlightText": "is set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 30,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "731",
+        "end": "743",
+        "highlightText": "will need to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 31,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "84",
+        "end": "103",
+        "highlightText": "content of the blob",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9970703125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The download_blob me",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "750",
+        "end": "793",
+        "highlightText": "the container and its blobs can be accessed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 6,
+        "starting_sentence": "## Key takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "793",
+        "end": "793",
+        "highlightText": "accessed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "## Key takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "785",
+        "end": "794",
+        "highlightText": "accessed'",
+        "replacements": [
+            "accessed"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "## Key takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.99609375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 110
+    }
+]

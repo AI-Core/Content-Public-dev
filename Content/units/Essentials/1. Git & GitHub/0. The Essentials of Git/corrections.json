@@ -1,0 +1,1226 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Git  ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "174",
+        "end": "188",
+        "highlightText": "git can be run",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 12,
+        "starting_sentence": "  <font size=+1 git ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "285",
+        "end": "292",
+        "highlightText": "gitbash",
+        "replacements": [
+            "git bash",
+            "kitbash"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 13,
+        "starting_sentence": "  <font size=+1 git ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "174",
+        "end": "177",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 11,
+        "starting_sentence": "  <font size=+1 git ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9438476562
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "  <font size=+1 git ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Version-Control S",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "482",
+        "end": "483",
+        "highlightText": "font",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 13,
+        "starting_sentence": "First, what is a VCS",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the article",
+        "sentence_no": "0",
+        "begin": "62",
+        "end": "64",
+        "highlightText": "a software",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 14,
+        "starting_sentence": "First, what is a VCS",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "219",
+        "end": "227",
+        "highlightText": "thereby",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 15,
+        "starting_sentence": "First, what is a VCS",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "First, what is a VCS",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Git Features ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "244",
+        "end": "253",
+        "highlightText": "been made",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "Other than git, othe",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "417",
+        "end": "423",
+        "highlightText": "commit",
+        "replacements": [
+            "commission"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 12,
+        "starting_sentence": "Other than git, othe",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "493",
+        "end": "496",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 10,
+        "starting_sentence": "Other than git, othe",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.5512695312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Other than git, othe",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Repositories",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "134",
+        "end": "137",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 5,
+        "starting_sentence": "When you tell git to",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "When you tell git to",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "80",
+        "end": "85",
+        "highlightText": "that you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 17,
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "328",
+        "end": "332",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 18,
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "346",
+        "end": "363",
+        "highlightText": "the operation of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "385",
+        "end": "398",
+        "highlightText": "be considered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "26",
+        "end": "29",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 16,
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "308",
+        "end": "311",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 15,
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "As mentioned previou",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "28",
+        "end": "29",
+        "highlightText": "git",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "## State of any File",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## State of any File",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "333",
+        "end": "333",
+        "highlightText": "font",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 27,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "343",
+        "end": "360",
+        "highlightText": "are safely stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 28,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "974",
+        "end": "990",
+        "highlightText": "is now committed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 29,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1106",
+        "end": "1113",
+        "highlightText": "repeats",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Faulty tense sequence",
+        "id": 30,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1114",
+        "end": "1123",
+        "highlightText": "once more",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 31,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "697",
+        "end": "712",
+        "highlightText": "with respect to",
+        "replacements": [
+            "concerning",
+            "for",
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "506",
+        "end": "516",
+        "highlightText": "Thereafter",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Outdated language",
+        "id": 34,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "250",
+        "end": "256",
+        "highlightText": "being",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 35,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "456",
+        "end": "458",
+        "highlightText": "a repository",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 36,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "808",
+        "end": "825",
+        "highlightText": "the file as being",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 37,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "907",
+        "end": "910",
+        "highlightText": "the snapshot",
+        "replacements": [
+            "a"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 38,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "518",
+        "end": "521",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 33,
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " The files in a repo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Branches ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the word",
+        "sentence_no": "0",
+        "begin": "536",
+        "end": "544",
+        "highlightText": "separate",
+        "replacements": [
+            "separately"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of modifiers",
+        "id": 21,
+        "starting_sentence": " One of the powerful",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "734",
+        "end": "737",
+        "highlightText": "Use",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": " One of the powerful",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9653320311999999
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9516601561999999
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " One of the powerful",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Working with Bran",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "439",
+        "end": "439",
+        "highlightText": "command",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 13,
+        "starting_sentence": "  git branch NAME_OF",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.94140625
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.6928710938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "  git branch NAME_OF",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " git checkout testin",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "607",
+        "end": "627",
+        "highlightText": "are simply committed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 16,
+        "starting_sentence": "  Tip git checkout -",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "628",
+        "end": "630",
+        "highlightText": "on",
+        "replacements": [
+            "to"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 15,
+        "starting_sentence": "  Tip git checkout -",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "103",
+        "end": "109",
+        "highlightText": "branch",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 17,
+        "starting_sentence": "  Tip git checkout -",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "  Tip git checkout -",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "179",
+        "end": "179",
+        "highlightText": "p",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "Now, we commit on th",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9951171875
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.6196289062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Now, we commit on th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "100",
+        "end": "104",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 7,
+        "starting_sentence": "### Tip  - Pull all ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Tip  - Pull all ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Merging ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "148",
+        "end": "153",
+        "highlightText": "that you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 7,
+        "starting_sentence": "When you have comple",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "When you have comple",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "113",
+        "end": "115",
+        "highlightText": "In",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": " There are three met",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " There are three met",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Exercise",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1405",
+        "end": "1412",
+        "highlightText": "command",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 63,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "1402",
+        "end": "1403",
+        "highlightText": "add .",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 64,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1417",
+        "end": "1456",
+        "highlightText": "Check the status of the directory again",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 66,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1325",
+        "end": "1334",
+        "highlightText": "be staged",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 68,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "951",
+        "end": "963",
+        "highlightText": "been created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 69,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "538",
+        "end": "543",
+        "highlightText": "mkdir",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 70,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1850",
+        "end": "1867",
+        "highlightText": "message in quotes",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 71,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "290",
+        "end": "299",
+        "highlightText": "carry out",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 72,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1516",
+        "end": "1531",
+        "highlightText": "with respect to",
+        "replacements": [
+            "concerning",
+            "for",
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 73,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "979",
+        "end": "989",
+        "highlightText": "different",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 74,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "178",
+        "end": "188",
+        "highlightText": "Thereafter",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Outdated language",
+        "id": 75,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1624",
+        "end": "1627",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 67,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "1667",
+        "end": "1673",
+        "highlightText": "commit",
+        "replacements": [
+            "commitment"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 65,
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Admittedly, that was",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "#### Using branches ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "999",
+        "end": "1003",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 41,
+        "starting_sentence": "Here, we experiment ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "919",
+        "end": "978",
+        "highlightText": "none of the changes made on the testing branch were applied",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 43,
+        "starting_sentence": "Here, we experiment ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "979",
+        "end": "981",
+        "highlightText": "on",
+        "replacements": [
+            "to"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 42,
+        "starting_sentence": "Here, we experiment ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "475",
+        "end": "475",
+        "highlightText": "git",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 44,
+        "starting_sentence": "Here, we experiment ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Here, we experiment ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "52",
+        "end": "89",
+        "highlightText": "to not compromise your main code base",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 5,
+        "starting_sentence": "As you can now tell,",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "As you can now tell,",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Reverting Changes",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "374",
+        "end": "396",
+        "highlightText": "no change will be made",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "448",
+        "end": "477",
+        "highlightText": "the files WILL NOT be deleted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 16,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "189",
+        "end": "208",
+        "highlightText": "is actually written",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 18,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "192",
+        "end": "201",
+        "highlightText": "actually",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 19,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "272",
+        "end": "280",
+        "highlightText": "unstages",
+        "replacements": [
+            "unstaged"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 17,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "540",
+        "end": "548",
+        "highlightText": "unstages",
+        "replacements": [
+            "upstages",
+            "unstaged"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 20,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "585",
+        "end": "593",
+        "highlightText": "unstages",
+        "replacements": [
+            "upstages",
+            "unstaged"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 21,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "53",
+        "end": "63",
+        "highlightText": "in a hurry",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "  If you accidentall",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Resources ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "18",
+        "end": "32",
+        "highlightText": "https//git-scm",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 6,
+        "starting_sentence": "- [Pro Git Book](htt",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "81",
+        "end": "84",
+        "highlightText": "git",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 5,
+        "starting_sentence": "- [Pro Git Book](htt",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "- [Pro Git Book](htt",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 98
+    }
+]

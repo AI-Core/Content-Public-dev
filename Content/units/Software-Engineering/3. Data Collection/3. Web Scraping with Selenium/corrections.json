@@ -1,0 +1,1698 @@
+[
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "101",
+        "end": "105",
+        "highlightText": "It's",
+        "replacements": [
+            "It was"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 9,
+        "starting_sentence": "# Web Scraping - Sel",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "126",
+        "end": "137",
+        "highlightText": "to be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 13,
+        "starting_sentence": "# Web Scraping - Sel",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "129",
+        "end": "136",
+        "highlightText": "be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "# Web Scraping - Sel",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "166",
+        "end": "185",
+        "highlightText": "it can also be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 10,
+        "starting_sentence": "# Web Scraping - Sel",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "225",
+        "end": "238",
+        "highlightText": "be controlled",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 12,
+        "starting_sentence": "# Web Scraping - Sel",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.8266601562
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.6337890625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Web Scraping - Sel",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "172",
+        "end": "176",
+        "highlightText": "webp",
+        "replacements": [
+            "web"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 5,
+        "starting_sentence": "Click the logo to go",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "243",
+        "end": "253",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 6,
+        "starting_sentence": "Click the logo to go",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "112",
+        "end": "123",
+        "highlightText": "readthedocs",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 7,
+        "starting_sentence": "Click the logo to go",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9560546875
+            },
+            {
+                "emoji": "\ud83d\udc55",
+                "emojiId": "1f455",
+                "name": "informal",
+                "confidence": 0.8872070312
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.7495117188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Click the logo to go",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1491",
+        "end": "1491",
+        "highlightText": "PATH",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 31,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "811",
+        "end": "818",
+        "highlightText": "FireFox",
+        "replacements": [
+            "Firefox"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 32,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1108",
+        "end": "1110",
+        "highlightText": "If",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 33,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1291",
+        "end": "1295",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 34,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "190",
+        "end": "199",
+        "highlightText": "webdriver",
+        "replacements": [
+            "web driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 36,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "210",
+        "end": "210",
+        "highlightText": "such",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 35,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "51",
+        "end": "55",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 38,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "96",
+        "end": "97",
+        "highlightText": "and,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 37,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "256",
+        "end": "256",
+        "highlightText": "browser",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 39,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "908",
+        "end": "915",
+        "highlightText": "mozilla",
+        "replacements": [
+            "Mozilla"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 42,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "916",
+        "end": "927",
+        "highlightText": "geckodriver",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 43,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "937",
+        "end": "939",
+        "highlightText": "If",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 41,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "528",
+        "end": "534",
+        "highlightText": "chrome",
+        "replacements": [
+            "Chrome"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 40,
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Webdriving   Sele",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "78",
+        "end": "78",
+        "highlightText": "p",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "In my case, this is ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "In my case, this is ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "340",
+        "end": "348",
+        "highlightText": "condabin",
+        "replacements": [
+            "contain"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 9,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "352",
+        "end": "355",
+        "highlightText": "usr",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 12,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "369",
+        "end": "372",
+        "highlightText": "usr",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 13,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "387",
+        "end": "390",
+        "highlightText": "usr",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 14,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "391",
+        "end": "395",
+        "highlightText": "sbin",
+        "replacements": [
+            "bin"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 10,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "399",
+        "end": "403",
+        "highlightText": "sbin",
+        "replacements": [
+            "bin"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 11,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "403",
+        "end": "404",
+        "highlightText": "sbin",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 15,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "104",
+        "end": "113",
+        "highlightText": "webdriver",
+        "replacements": [
+            "web driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9799804688
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.7495117188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "This means that Pyth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "274",
+        "end": "274",
+        "highlightText": "chromedriver",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 13,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "274",
+        "end": "286",
+        "highlightText": "chromedriver",
+        "replacements": [
+            "chrome driver",
+            "chromed-river"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 14,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "34",
+        "end": "41",
+        "highlightText": "of the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 15,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "108",
+        "end": "118",
+        "highlightText": "are using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "119",
+        "end": "122",
+        "highlightText": "usr",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 17,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "196",
+        "end": "199",
+        "highlightText": "usr",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 18,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "224",
+        "end": "237",
+        "highlightText": "chromedriver",
+        "replacements": [
+            "chrome driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "238",
+        "end": "241",
+        "highlightText": "usr",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 19,
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9951171875
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9604492188
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.57421875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " 2. Move your driver",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "236",
+        "end": "236",
+        "highlightText": ")",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "Finally, you need to",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "38",
+        "end": "43",
+        "highlightText": ", run",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "Finally, you need to",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Finally, you need to",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "195",
+        "end": "199",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 13,
+        "starting_sentence": "And now you are read",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "461",
+        "end": "472",
+        "highlightText": "start using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 14,
+        "starting_sentence": "And now you are read",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "402",
+        "end": "404",
+        "highlightText": "in",
+        "replacements": [
+            "on"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 15,
+        "starting_sentence": "And now you are read",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.994140625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "And now you are read",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "33",
+        "end": "34",
+        "highlightText": "a HTMLElement",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 4,
+        "starting_sentence": "## Finding tree elem",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "58",
+        "end": "58",
+        "highlightText": "XPath",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "## Finding tree elem",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Finding tree elem",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1097",
+        "end": "1097",
+        "highlightText": "page",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 19,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "670",
+        "end": "670",
+        "highlightText": "Xpath",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 20,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the infinitive",
+        "sentence_no": "0",
+        "begin": "687",
+        "end": "687",
+        "highlightText": "find",
+        "replacements": [
+            "to "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 22,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "726",
+        "end": "726",
+        "highlightText": "type",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 21,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "737",
+        "end": "738",
+        "highlightText": "button,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 23,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "253",
+        "end": "266",
+        "highlightText": "a very simple",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 24,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "267",
+        "end": "272",
+        "highlightText": "Xpath",
+        "replacements": [
+            "XPath"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 25,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the infinitive",
+        "sentence_no": "0",
+        "begin": "471",
+        "end": "471",
+        "highlightText": "find",
+        "replacements": [
+            "to "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 27,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "512",
+        "end": "512",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "557",
+        "end": "562",
+        "highlightText": "Xpath",
+        "replacements": [
+            "XPath"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 29,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "574",
+        "end": "574",
+        "highlightText": "returns",
+        "replacements": [
+            "and "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 26,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "341",
+        "end": "343",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 31,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "375",
+        "end": "375",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 30,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "410",
+        "end": "419",
+        "highlightText": "that have",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9921875
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.8549804688
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " Selenium finds the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "316",
+        "end": "325",
+        "highlightText": "webdriver",
+        "replacements": [
+            "web driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 15,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "371",
+        "end": "380",
+        "highlightText": "webdriver",
+        "replacements": [
+            "web driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "215",
+        "end": "224",
+        "highlightText": "webdriver",
+        "replacements": [
+            "web driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 17,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "443",
+        "end": "447",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 19,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "513",
+        "end": "515",
+        "highlightText": "in",
+        "replacements": [
+            "on"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 18,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "128",
+        "end": "130",
+        "highlightText": "this  from",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 22,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "151",
+        "end": "160",
+        "highlightText": "webdriver",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 21,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "160",
+        "end": "162",
+        "highlightText": "webdriver  from",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 23,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "176",
+        "end": "185",
+        "highlightText": "webdriver",
+        "replacements": [
+            " web driver"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 20,
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Just as a taster, if",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "30",
+        "end": "31",
+        "highlightText": "console",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "### Using the browse",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Using the browse",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1018",
+        "end": "1028",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 25,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "261",
+        "end": "261",
+        "highlightText": "as",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 26,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "800",
+        "end": "810",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 27,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "387",
+        "end": "387",
+        "highlightText": "actually",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "492",
+        "end": "499",
+        "highlightText": "always",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 29,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "19",
+        "end": "28",
+        "highlightText": "come with",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "142",
+        "end": "147",
+        "highlightText": "tools",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 33,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "427",
+        "end": "434",
+        "highlightText": "exactly",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 31,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "492",
+        "end": "498",
+        "highlightText": "always",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 32,
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.5361328125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "  Modern browsers co",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Relative XPaths ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "329",
+        "end": "340",
+        "highlightText": "figcaption'",
+        "replacements": [
+            "fig caption"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": " <font size=+1 We ca",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "36",
+        "end": "37",
+        "highlightText": "elements,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": " <font size=+1 We ca",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9951171875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " <font size=+1 We ca",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1160",
+        "end": "1160",
+        "highlightText": ")",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 15,
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "222",
+        "end": "223",
+        "highlightText": "inside,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "756",
+        "end": "760",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 18,
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "792",
+        "end": "794",
+        "highlightText": "To",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "797",
+        "end": "802",
+        "highlightText": "start",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 20,
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "883",
+        "end": "887",
+        "highlightText": "next",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 19,
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.5849609375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The Xpath of the hig",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "542",
+        "end": "542",
+        "highlightText": "can",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 19,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "586",
+        "end": "625",
+        "highlightText": "can then be programmatically instructed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 20,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "240",
+        "end": "245",
+        "highlightText": "that you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 21,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "189",
+        "end": "193",
+        "highlightText": "only",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 22,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "209",
+        "end": "220",
+        "highlightText": "is rendered",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 23,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "52",
+        "end": "57",
+        "highlightText": "using",
+        "replacements": [
+            "use"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Modal verbs",
+        "id": 24,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "381",
+        "end": "390",
+        "highlightText": "actually",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 26,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "413",
+        "end": "414",
+        "highlightText": "code,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 25,
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.4802246094
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Beyond just GETTI",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "529",
+        "end": "536",
+        "highlightText": "to find",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 15,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "663",
+        "end": "666",
+        "highlightText": "to",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 16,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "730",
+        "end": "776",
+        "highlightText": "to recursively search tags to find inner tags",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 18,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "775",
+        "end": "776",
+        "highlightText": "tags",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 17,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "301",
+        "end": "347",
+        "highlightText": "The appropriate driver must then be downloaded",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "37",
+        "end": "46",
+        "highlightText": "webdriver",
+        "replacements": [
+            "web driver",
+            "web driven"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 20,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "96",
+        "end": "110",
+        "highlightText": "It can be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "187",
+        "end": "198",
+        "highlightText": "be able to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "210",
+        "end": "217",
+        "highlightText": ", we'll",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9340820312
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.8881835938
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.5551757812
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 121
+    }
+]

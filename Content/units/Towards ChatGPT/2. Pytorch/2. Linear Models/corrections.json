@@ -1,0 +1,372 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1330",
+        "end": "1365",
+        "highlightText": "The linear layer can be represented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "1381",
+        "end": "1383",
+        "highlightText": "too  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 14,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "1506",
+        "end": "1507",
+        "highlightText": "a (",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 16,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1539",
+        "end": "1540",
+        "highlightText": "model",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 17,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "999",
+        "end": "1000",
+        "highlightText": "value,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 18,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "634",
+        "end": "638",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 19,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "688",
+        "end": "696",
+        "highlightText": "exactly",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "558",
+        "end": "560",
+        "highlightText": "Of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "33",
+        "end": "49",
+        "highlightText": "are those which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 25,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "108",
+        "end": "110",
+        "highlightText": "When",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 23,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "209",
+        "end": "210",
+        "highlightText": "),",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "251",
+        "end": "253",
+        "highlightText": "equation  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 24,
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9931640625
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.4790039062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Linear Models   Li",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "PyTorch's Linear lay",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "92",
+        "end": "106",
+        "highlightText": "is initialised",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 5,
+        "starting_sentence": "We can use this line",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "130",
+        "end": "130",
+        "highlightText": ")",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "We can use this line",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "We can use this line",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "111",
+        "end": "113",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 5,
+        "starting_sentence": " Linear models are d",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "113",
+        "end": "129",
+        "highlightText": "This can be done",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 6,
+        "starting_sentence": " Linear models are d",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "164",
+        "end": "165",
+        "highlightText": "loop",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": " Linear models are d",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " Linear models are d",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "41",
+        "end": "53",
+        "highlightText": "in our case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 9,
+        "starting_sentence": "Usually, you'd start",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "52",
+        "end": "52",
+        "highlightText": "case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": "Usually, you'd start",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "92",
+        "end": "93",
+        "highlightText": "some,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "Usually, you'd start",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Usually, you'd start",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Now we have everythi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "102",
+        "end": "102",
+        "highlightText": "up",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "Once trained, we can",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "100",
+        "end": "103",
+        "highlightText": "up'",
+        "replacements": [
+            "up"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "Once trained, we can",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Once trained, we can",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 29
+    }
+]

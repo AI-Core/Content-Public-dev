@@ -1,0 +1,294 @@
+[
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "3048",
+        "end": "3052",
+        "highlightText": "find",
+        "replacements": [
+            "finding"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 34,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "3338",
+        "end": "3340",
+        "highlightText": "examples  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 35,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1163",
+        "end": "1167",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 36,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2511",
+        "end": "2513",
+        "highlightText": "WAIT",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 37,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1445",
+        "end": "1449",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 38,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1089",
+        "end": "1090",
+        "highlightText": "application,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 39,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1127",
+        "end": "1136",
+        "highlightText": "specific",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 40,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2519",
+        "end": "2523",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 42,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2545",
+        "end": "2554",
+        "highlightText": "make sure",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 43,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2653",
+        "end": "2658",
+        "highlightText": "doing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incorrect phrasing",
+        "id": 41,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": "add the particle",
+        "sentence_no": "0",
+        "begin": "1340",
+        "end": "1340",
+        "highlightText": "apply",
+        "replacements": [
+            "to "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 44,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1355",
+        "end": "1360",
+        "highlightText": "that they",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 45,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2278",
+        "end": "2283",
+        "highlightText": ", the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 46,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "662",
+        "end": "663",
+        "highlightText": "jobs,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 47,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "676",
+        "end": "685",
+        "highlightText": "you with",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 48,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3691",
+        "end": "3717",
+        "highlightText": "jobs you are qualified for",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 49,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "94",
+        "end": "104",
+        "highlightText": "talk about",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 50,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "757",
+        "end": "775",
+        "highlightText": "you'll be equipped",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 51,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "2746",
+        "end": "2757",
+        "highlightText": "Low quality",
+        "replacements": [
+            "Low-quality"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 53,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2841",
+        "end": "2843",
+        "highlightText": "Here",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 52,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "2890",
+        "end": "2892",
+        "highlightText": "pictures  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 54,
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# The Biggest Mistak",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 22
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "30",
+        "end": "30",
+        "highlightText": "Notebook",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "# This is the lesson",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# This is the lesson",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 2
+    }
+]

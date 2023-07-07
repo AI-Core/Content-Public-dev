@@ -1,0 +1,1589 @@
+[
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "31",
+        "end": "43",
+        "highlightText": "Programming'",
+        "replacements": [
+            "Programming"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "# Classes and Object",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Classes and Object",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "113",
+        "end": "113",
+        "highlightText": "distinction",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 4,
+        "starting_sentence": "## Key Outcomes  - T",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.6948242188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key Outcomes  - T",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1435",
+        "end": "1435",
+        "highlightText": "them",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 37,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1052",
+        "end": "1052",
+        "highlightText": "object",
+        "replacements": [
+            "an "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 38,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1149",
+        "end": "1149",
+        "highlightText": "cat",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 39,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "1152",
+        "end": "1153",
+        "highlightText": "cat ,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 40,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1152",
+        "end": "1163",
+        "highlightText": ", and then",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 41,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "590",
+        "end": "594",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 43,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "612",
+        "end": "612",
+        "highlightText": "though",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 42,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "508",
+        "end": "508",
+        "highlightText": "amount",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 44,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "521",
+        "end": "522",
+        "highlightText": "RAM,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 46,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "527",
+        "end": "527",
+        "highlightText": "also",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 45,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "833",
+        "end": "842",
+        "highlightText": "which is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 48,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "318",
+        "end": "332",
+        "highlightText": "just any thing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 50,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "323",
+        "end": "332",
+        "highlightText": "any thing",
+        "replacements": [
+            "anything"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 49,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "581",
+        "end": "587",
+        "highlightText": "python",
+        "replacements": [
+            "Python"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 47,
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9912109375
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9741210938000004
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## What is Object Or",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "75",
+        "end": "79",
+        "highlightText": "own",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 8,
+        "starting_sentence": "Variable types are a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "171",
+        "end": "175",
+        "highlightText": ", so",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 7,
+        "starting_sentence": "Variable types are a",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\ude10",
+                "emojiId": "1f610",
+                "name": "neutral",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Variable types are a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "506",
+        "end": "506",
+        "highlightText": "class",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 16,
+        "starting_sentence": "## Defining Classes ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "301",
+        "end": "306",
+        "highlightText": "color",
+        "replacements": [
+            "colour"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 18,
+        "starting_sentence": "## Defining Classes ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "392",
+        "end": "392",
+        "highlightText": "such",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "## Defining Classes ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "179",
+        "end": "180",
+        "highlightText": "),",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 19,
+        "starting_sentence": "## Defining Classes ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "501",
+        "end": "507",
+        "highlightText": "class'",
+        "replacements": [
+            "class"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 15,
+        "starting_sentence": "## Defining Classes ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9370117188
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.8491210938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Defining Classes ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1441",
+        "end": "1450",
+        "highlightText": "is passed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 33,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "314",
+        "end": "323",
+        "highlightText": "are named",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 34,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "377",
+        "end": "386",
+        "highlightText": "are named",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 35,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "96",
+        "end": "96",
+        "highlightText": "class",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 36,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "870",
+        "end": "871",
+        "highlightText": "method,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 37,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "897",
+        "end": "906",
+        "highlightText": "is called",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 39,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0missing verb",
+        "sentence_no": "0",
+        "begin": "966",
+        "end": "966",
+        "highlightText": "in",
+        "replacements": [
+            "is "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 38,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1210",
+        "end": "1213",
+        "highlightText": "so",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 40,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "637",
+        "end": "638",
+        "highlightText": "it,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 41,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1283",
+        "end": "1284",
+        "highlightText": "class,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 42,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "242",
+        "end": "247",
+        "highlightText": "thsat",
+        "replacements": [
+            "that"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 44,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "256",
+        "end": "259",
+        "highlightText": "it",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 43,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "256",
+        "end": "259",
+        "highlightText": "it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 46,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "285",
+        "end": "294",
+        "highlightText": "definiton",
+        "replacements": [
+            "definition"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 45,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "186",
+        "end": "187",
+        "highlightText": "functions,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 47,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "759",
+        "end": "771",
+        "highlightText": "bare in mind",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 49,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "759",
+        "end": "763",
+        "highlightText": "bare",
+        "replacements": [
+            "bear"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 48,
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9750976561999996
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.818359375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Ok, so there's quite",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "330",
+        "end": "338",
+        "highlightText": "so as to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 11,
+        "starting_sentence": "## Creating Instance",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "110",
+        "end": "111",
+        "highlightText": "class,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 12,
+        "starting_sentence": "## Creating Instance",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9809570312
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.94140625
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.849609375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Creating Instance",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "113",
+        "end": "113",
+        "highlightText": "class",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "We can then access a",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "108",
+        "end": "114",
+        "highlightText": "class'",
+        "replacements": [
+            "class"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "We can then access a",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "We can then access a",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "309",
+        "end": "309",
+        "highlightText": ".something",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 13,
+        "starting_sentence": "## Don't Get Carried",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "38",
+        "end": "39",
+        "highlightText": "' !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 14,
+        "starting_sentence": "## Don't Get Carried",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "238",
+        "end": "278",
+        "highlightText": "to always assign variables to attributes",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 16,
+        "starting_sentence": "## Don't Get Carried",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "278",
+        "end": "279",
+        "highlightText": "attributes,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "## Don't Get Carried",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Don't Get Carried",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Practicals",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "27",
+        "end": "27",
+        "highlightText": "class",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "## Create a cylinder",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Create a cylinder",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "132",
+        "end": "134",
+        "highlightText": "Create",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 9,
+        "starting_sentence": "### 1. Define a Cyli",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "188",
+        "end": "195",
+        "highlightText": "are set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 10,
+        "starting_sentence": "### 1. Define a Cyli",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.994140625
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9790039062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### 1. Define a Cyli",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "51",
+        "end": "51",
+        "highlightText": "that",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": "#### 2. Then, create",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "52",
+        "end": "56",
+        "highlightText": "that is",
+        "replacements": [
+            "which"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 6,
+        "starting_sentence": "#### 2. Then, create",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "#### 2. Then, create",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "121",
+        "end": "121",
+        "highlightText": "None",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": " #### 3. Add two mor",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " #### 3. Add two mor",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "319",
+        "end": "319",
+        "highlightText": "surface",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 21,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "439",
+        "end": "451",
+        "highlightText": "surface_area",
+        "replacements": [
+            "surface area"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 22,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "463",
+        "end": "478",
+        "highlightText": "are initialised",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 23,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "688",
+        "end": "690",
+        "highlightText": "Create",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 24,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "513",
+        "end": "525",
+        "highlightText": "initiliasing",
+        "replacements": [
+            "initialising"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 27,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "631",
+        "end": "631",
+        "highlightText": "respectively",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 26,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "66",
+        "end": "66",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "662",
+        "end": "665",
+        "highlightText": "and",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 25,
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "#### 4. Add two meth",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "220",
+        "end": "220",
+        "highlightText": "this",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "## Execution Order o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "440",
+        "end": "450",
+        "highlightText": "are called",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 9,
+        "starting_sentence": "## Execution Order o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "450",
+        "end": "453",
+        "highlightText": "called",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "## Execution Order o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "86",
+        "end": "98",
+        "highlightText": "than before",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 11,
+        "starting_sentence": "## Execution Order o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "144",
+        "end": "145",
+        "highlightText": "program,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 10,
+        "starting_sentence": "## Execution Order o",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9931640625
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.7221679688
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Execution Order o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "78",
+        "end": "87",
+        "highlightText": "is called",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 10,
+        "starting_sentence": "## Execution Order Q",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "165",
+        "end": "166",
+        "highlightText": "itself ?",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 9,
+        "starting_sentence": "## Execution Order Q",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83e\udd14",
+                "emojiId": "1f914",
+                "name": "curious",
+                "confidence": 0.966796875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Execution Order Q",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "638",
+        "end": "639",
+        "highlightText": "menu",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 13,
+        "starting_sentence": "## Practical - Creat",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "113",
+        "end": "113",
+        "highlightText": "constructor",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "## Practical - Creat",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the redundancy",
+        "sentence_no": "0",
+        "begin": "285",
+        "end": "292",
+        "highlightText": "pages pages",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "## Practical - Creat",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "303",
+        "end": "307",
+        "highlightText": "lend",
+        "replacements": [
+            "lending"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of modifiers",
+        "id": 14,
+        "starting_sentence": "## Practical - Creat",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "516",
+        "end": "545",
+        "highlightText": "There's some bad Python going",
+        "replacements": [
+            "Some bad Python is going"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 17,
+        "starting_sentence": "## Practical - Creat",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Practical - Creat",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "What is wrong with o",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "303",
+        "end": "316",
+        "highlightText": "are specified",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "379",
+        "end": "380",
+        "highlightText": "double-quotes .",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 16,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "427",
+        "end": "440",
+        "highlightText": "be classified",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "476",
+        "end": "477",
+        "highlightText": "docstrings,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "224",
+        "end": "234",
+        "highlightText": "be checked",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 20,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "262",
+        "end": "268",
+        "highlightText": "using",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 21,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "366",
+        "end": "380",
+        "highlightText": "double-quotes",
+        "replacements": [
+            "double quotes"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 15,
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9931640625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Docstrings  Python",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "25",
+        "end": "65",
+        "highlightText": "The structure of a multiline docstring",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 4,
+        "starting_sentence": "### Multiline Docstr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "143",
+        "end": "143",
+        "highlightText": "description",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "### Multiline Docstr",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Multiline Docstr",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Docstring Conven",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "214",
+        "end": "224",
+        "highlightText": "styleguide",
+        "replacements": [
+            "style guide"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "There are multiple c",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "225",
+        "end": "232",
+        "highlightText": "pyguide",
+        "replacements": [
+            "by guide"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 8,
+        "starting_sentence": "There are multiple c",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "There are multiple c",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Docstring for Cl",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "538",
+        "end": "540",
+        "highlightText": "docstring",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "Thus far, we have on",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "586",
+        "end": "586",
+        "highlightText": "below",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "Thus far, we have on",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "581",
+        "end": "587",
+        "highlightText": "below'",
+        "replacements": [
+            "below"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 11,
+        "starting_sentence": "Thus far, we have on",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Thus far, we have on",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "48",
+        "end": "48",
+        "highlightText": "Class",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "### Practical - Add ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "### Practical - Add ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "8",
+        "end": "17",
+        "highlightText": "codeblock",
+        "replacements": [
+            "code block"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 10,
+        "starting_sentence": "In the codeblock bel",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "75",
+        "end": "76",
+        "highlightText": "earlier,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 9,
+        "starting_sentence": "In the codeblock bel",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "In the codeblock bel",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 118
+    }
+]

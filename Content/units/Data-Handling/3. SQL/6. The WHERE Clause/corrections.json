@@ -1,0 +1,1312 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# <img src=./images/",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "170",
+        "end": "171",
+        "highlightText": "- ,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 13,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "285",
+        "end": "287",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 12,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "338",
+        "end": "339",
+        "highlightText": "boolean,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 11,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "439",
+        "end": "439",
+        "highlightText": "True",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "440",
+        "end": "467",
+        "highlightText": "the record will be included",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "467",
+        "end": "477",
+        "highlightText": "otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 14,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "477",
+        "end": "477",
+        "highlightText": "otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "97",
+        "end": "98",
+        "highlightText": "meet,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 19,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "102",
+        "end": "113",
+        "highlightText": "be included",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 20,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "117",
+        "end": "117",
+        "highlightText": "resultant",
+        "replacements": [
+            "the ",
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 18,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "144",
+        "end": "150",
+        "highlightText": "common",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 21,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "192",
+        "end": "199",
+        "highlightText": "greater",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 22,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "277",
+        "end": "282",
+        "highlightText": "equal",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 23,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "444",
+        "end": "450",
+        "highlightText": "record",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 24,
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.8784179688
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The WHERE statement ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "291",
+        "end": "291",
+        "highlightText": "follows",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "This query will only",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "126",
+        "end": "126",
+        "highlightText": "query",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 13,
+        "starting_sentence": "This query will only",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "184",
+        "end": "188",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 15,
+        "starting_sentence": "This query will only",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "204",
+        "end": "208",
+        "highlightText": ", we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 14,
+        "starting_sentence": "This query will only",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "284",
+        "end": "292",
+        "highlightText": "follows'",
+        "replacements": [
+            "follows"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 11,
+        "starting_sentence": "This query will only",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9951171875
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.8842773438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "This query will only",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1341",
+        "end": "1341",
+        "highlightText": "query",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 14,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1182",
+        "end": "1184",
+        "highlightText": "Let's",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1208",
+        "end": "1215",
+        "highlightText": "be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1215",
+        "end": "1220",
+        "highlightText": ", say",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "160",
+        "end": "177",
+        "highlightText": "selection of data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 20,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "199",
+        "end": "210",
+        "highlightText": "cherry pick",
+        "replacements": [
+            "cherry-pick"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 18,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "255",
+        "end": "267",
+        "highlightText": "been applied",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "504",
+        "end": "504",
+        "highlightText": "multiple",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 21,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1336",
+        "end": "1342",
+        "highlightText": "query'",
+        "replacements": [
+            "query"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 13,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.8984375
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.8408203125
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.560546875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1287",
+        "end": "1287",
+        "highlightText": "True",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 17,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "716",
+        "end": "716",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "756",
+        "end": "756",
+        "highlightText": " r ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 19,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "889",
+        "end": "891",
+        "highlightText": "We",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 20,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "199",
+        "end": "242",
+        "highlightText": "The string pattern should always be wrapped",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "263",
+        "end": "268",
+        "highlightText": ", SQL",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "46",
+        "end": "47",
+        "highlightText": "is,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 24,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "74",
+        "end": "74",
+        "highlightText": "pattern",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 23,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "134",
+        "end": "134",
+        "highlightText": "case",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 25,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "361",
+        "end": "361",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 26,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "402",
+        "end": "412",
+        "highlightText": "character",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9780273438
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9594726562
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The syntax to constr",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.7626953125
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.6337890625
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.6030273438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "This query would onl",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "552",
+        "end": "555",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "The above query filt",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "503",
+        "end": "506",
+        "highlightText": "to",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 8,
+        "starting_sentence": "The above query filt",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "506",
+        "end": "521",
+        "highlightText": "a very specific",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 7,
+        "starting_sentence": "The above query filt",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.8413085938
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.8325195312
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.5444335938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The above query filt",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "202",
+        "end": "202",
+        "highlightText": " C",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "### OR  The OR keywo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "61",
+        "end": "71",
+        "highlightText": "is matched",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 8,
+        "starting_sentence": "### OR  The OR keywo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.6108398438
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.5336914062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### OR  The OR keywo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "489",
+        "end": "489",
+        "highlightText": "example",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 14,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "26",
+        "end": "31",
+        "highlightText": ", all",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "75",
+        "end": "87",
+        "highlightText": "are returned",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 16,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "208",
+        "end": "214",
+        "highlightText": "is met",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "355",
+        "end": "365",
+        "highlightText": "as soon as",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 19,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "391",
+        "end": "397",
+        "highlightText": "is met",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 18,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "482",
+        "end": "490",
+        "highlightText": "example'",
+        "replacements": [
+            "example"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 13,
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.984375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The result is as exp",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "27",
+        "end": "28",
+        "highlightText": "where,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 15,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "54",
+        "end": "54",
+        "highlightText": "both",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "179",
+        "end": "179",
+        "highlightText": "it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "498",
+        "end": "498",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "503",
+        "end": "527",
+        "highlightText": "the row will be returned",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "394",
+        "end": "399",
+        "highlightText": ", you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 20,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "306",
+        "end": "312",
+        "highlightText": "values",
+        "replacements": [
+            "value"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 21,
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9819335938
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9760742188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "In the example above",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "216",
+        "end": "216",
+        "highlightText": "be",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 10,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "102",
+        "end": "106",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 11,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "38",
+        "end": "59",
+        "highlightText": "where the district is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 12,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "214",
+        "end": "217",
+        "highlightText": "be'",
+        "replacements": [
+            "be"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 7,
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The query above will",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "336",
+        "end": "336",
+        "highlightText": "instance",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 11,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "434",
+        "end": "435",
+        "highlightText": "3.99",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "136",
+        "end": "136",
+        "highlightText": "However",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 13,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "181",
+        "end": "191",
+        "highlightText": "the use of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 14,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "15",
+        "end": "15",
+        "highlightText": "but",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "78",
+        "end": "78",
+        "highlightText": "especially",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "96",
+        "end": "102",
+        "highlightText": "wanted",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Faulty tense sequence",
+        "id": 15,
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9653320312
+            },
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.5537109375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Both will work but i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "56",
+        "end": "61",
+        "highlightText": ", for",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "You can also apply t",
+        "cell_number": 1
+    },
+    {
+        "todo": "add the comma(s)",
+        "sentence_no": "0",
+        "begin": "69",
+        "end": "69",
+        "highlightText": "example",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 7,
+        "starting_sentence": "You can also apply t",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "70",
+        "end": "74",
+        "highlightText": "lets",
+        "replacements": [
+            "let's"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 9,
+        "starting_sentence": "You can also apply t",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "You can also apply t",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "539",
+        "end": "552",
+        "highlightText": "very specific",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 11,
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "643",
+        "end": "643",
+        "highlightText": "keyword",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "226",
+        "end": "230",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 14,
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "263",
+        "end": "263",
+        "highlightText": "25th",
+        "replacements": [
+            "from "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 13,
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "137",
+        "end": "137",
+        "highlightText": "the",
+        "replacements": [
+            "on "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 15,
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "173",
+        "end": "173",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9838867188
+            },
+            {
+                "emoji": "\ud83d\ude0d",
+                "emojiId": "1f60d",
+                "name": "admiring",
+                "confidence": 0.5053710938
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.4399414062
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "With the date range ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 92
+    }
+]

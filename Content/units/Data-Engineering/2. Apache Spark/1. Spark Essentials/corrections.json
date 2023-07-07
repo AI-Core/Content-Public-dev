@@ -1,0 +1,3318 @@
+[
+    {
+        "todo": "rewrite the phrase",
+        "sentence_no": "0",
+        "begin": "1030",
+        "end": "1053",
+        "highlightText": "It is important you set",
+        "replacements": [
+            "you must set"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1081",
+        "end": "1092",
+        "highlightText": ", otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 31,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "1182",
+        "end": "1183",
+        "highlightText": "a environment",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 33,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "1205",
+        "end": "1205",
+        "highlightText": "copying",
+        "replacements": [
+            "by "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 34,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "1257",
+        "end": "1259",
+        "highlightText": "file  export",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 35,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the infinitive",
+        "sentence_no": "0",
+        "begin": "405",
+        "end": "408",
+        "highlightText": "to",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 36,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "517",
+        "end": "517",
+        "highlightText": "latest",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 37,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "591",
+        "end": "591",
+        "highlightText": "example",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 38,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "178",
+        "end": "179",
+        "highlightText": "packages,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 39,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "213",
+        "end": "237",
+        "highlightText": "are not easily installed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 40,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "302",
+        "end": "309",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 42,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "328",
+        "end": "335",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 43,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "335",
+        "end": "335",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 41,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1651",
+        "end": "1657",
+        "highlightText": "vscode",
+        "replacements": [
+            "vs code"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 44,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "86",
+        "end": "93",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 45,
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9750976561999997
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Spark basics  One ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "65",
+        "end": "74",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark",
+            "finds park"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "6. To check if the i",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "88",
+        "end": "97",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark",
+            "finds park"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 8,
+        "starting_sentence": "6. To check if the i",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "125",
+        "end": "125",
+        "highlightText": "cell",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "6. To check if the i",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "6. To check if the i",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " <details   <summary",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "204",
+        "end": "204",
+        "highlightText": "First",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 10,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "243",
+        "end": "250",
+        "highlightText": "install",
+        "replacements": [
+            "installed"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 9,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "161",
+        "end": "161",
+        "highlightText": "currently",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 12,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "171",
+        "end": "171",
+        "highlightText": "currently",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 11,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "77",
+        "end": "77",
+        "highlightText": "we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "114",
+        "end": "126",
+        "highlightText": "is installed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "37",
+        "end": "46",
+        "highlightText": "dependant",
+        "replacements": [
+            "dependent"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 14,
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.8559570312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "### Installing Java ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "27",
+        "end": "27",
+        "highlightText": "you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 5,
+        "starting_sentence": "If you have Java ins",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "66",
+        "end": "66",
+        "highlightText": "If",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "If you have Java ins",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "112",
+        "end": "112",
+        "highlightText": "1.8.0",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 6,
+        "starting_sentence": "If you have Java ins",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "125",
+        "end": "125",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": "If you have Java ins",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9838867188
+            },
+            {
+                "emoji": "\u2b50\ufe0f",
+                "emojiId": "2b50",
+                "name": "cooperative",
+                "confidence": 0.609375
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.4274902344
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "If you have Java ins",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "52",
+        "end": "52",
+        "highlightText": "command",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 5,
+        "starting_sentence": "If you aren't receiv",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "If you aren't receiv",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "187",
+        "end": "190",
+        "highlightText": "you",
+        "replacements": [
+            "your"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 9,
+        "starting_sentence": "Lastly we need need ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "7",
+        "end": "7",
+        "highlightText": "Lastly",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 10,
+        "starting_sentence": "Lastly we need need ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "11",
+        "end": "16",
+        "highlightText": "need need",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 11,
+        "starting_sentence": "Lastly we need need ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "116",
+        "end": "120",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 13,
+        "starting_sentence": "Lastly we need need ",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "159",
+        "end": "163",
+        "highlightText": "it's",
+        "replacements": [
+            "its"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Commonly confused words",
+        "id": 12,
+        "starting_sentence": "Lastly we need need ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9970703125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Lastly we need need ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "14",
+        "end": "14",
+        "highlightText": "lines",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "Add the lines",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Add the lines",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the article",
+        "sentence_no": "0",
+        "begin": "15",
+        "end": "19",
+        "highlightText": "the your",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 9,
+        "starting_sentence": "Exit and save the yo",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "24",
+        "end": "30",
+        "highlightText": "bashrc",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 10,
+        "starting_sentence": "Exit and save the yo",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "45",
+        "end": "45",
+        "highlightText": "java",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 11,
+        "starting_sentence": "Exit and save the yo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Exit and save the yo",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "827",
+        "end": "836",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark",
+            "finds park"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 19,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "898",
+        "end": "905",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 21,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "945",
+        "end": "954",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark",
+            "finds park"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 20,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "837",
+        "end": "837",
+        "highlightText": ".init",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 24,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "955",
+        "end": "955",
+        "highlightText": ".find",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 25,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1004",
+        "end": "1014",
+        "highlightText": "been saved",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1014",
+        "end": "1014",
+        "highlightText": "saved",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 22,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "398",
+        "end": "424",
+        "highlightText": "in Python the instructions",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 27,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "231",
+        "end": "231",
+        "highlightText": "script",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 28,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "432",
+        "end": "469",
+        "highlightText": "those instructions will be translated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 31,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "480",
+        "end": "489",
+        "highlightText": "actually",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "503",
+        "end": "505",
+        "highlightText": "Thus",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 30,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "561",
+        "end": "562",
+        "highlightText": "then,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 29,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "4",
+        "end": "15",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark ",
+            "finds park "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 34,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "113",
+        "end": "122",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark",
+            "finds park"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 35,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "122",
+        "end": "122",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 33,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "123",
+        "end": "133",
+        "highlightText": "which will",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 36,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "670",
+        "end": "679",
+        "highlightText": "findspark",
+        "replacements": [
+            "find spark",
+            "finds park"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 39,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "735",
+        "end": "736",
+        "highlightText": "application,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 38,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "749",
+        "end": "749",
+        "highlightText": "spark",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 37,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "793",
+        "end": "801",
+        "highlightText": "you are",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 40,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "941",
+        "end": "944",
+        "highlightText": "tun",
+        "replacements": [
+            "run"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 23,
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.8745117188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## findspark  The Sp",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "134",
+        "end": "141",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 7,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "168",
+        "end": "188",
+        "highlightText": "application specific",
+        "replacements": [
+            "application-specific"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "447",
+        "end": "455",
+        "highlightText": "overides",
+        "replacements": [
+            "overrides"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 5,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "168",
+        "end": "188",
+        "highlightText": "application specific",
+        "replacements": [
+            "application-specific"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 10,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "351",
+        "end": "351",
+        "highlightText": "job",
+        "replacements": [
+            "a ",
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 8,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "489",
+        "end": "489",
+        "highlightText": "it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "487",
+        "end": "490",
+        "highlightText": "it'",
+        "replacements": [
+            "it"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.97265625
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.966796875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Spark config  Giv",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1889",
+        "end": "1914",
+        "highlightText": "to firstly set the config",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 39,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the word",
+        "sentence_no": "0",
+        "begin": "1892",
+        "end": "1899",
+        "highlightText": "firstly",
+        "replacements": [
+            "first"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of modifiers",
+        "id": 37,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "795",
+        "end": "795",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 40,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1102",
+        "end": "1112",
+        "highlightText": "be avoided",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 41,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1988",
+        "end": "1988",
+        "highlightText": "exists",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 45,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "2033",
+        "end": "2033",
+        "highlightText": "global",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 42,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2122",
+        "end": "2124",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 46,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change to\u00a0a\u00a0plural noun",
+        "sentence_no": "0",
+        "begin": "2164",
+        "end": "2171",
+        "highlightText": "context",
+        "replacements": [
+            "contexts"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 44,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2234",
+        "end": "2241",
+        "highlightText": "be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 47,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the adverb",
+        "sentence_no": "0",
+        "begin": "2283",
+        "end": "2295",
+        "highlightText": "historically",
+        "replacements": [
+            "historical"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of modifiers",
+        "id": 43,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "318",
+        "end": "320",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 49,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "409",
+        "end": "409",
+        "highlightText": "cluster",
+        "replacements": [
+            "the ",
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 48,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "527",
+        "end": "534",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 50,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "562",
+        "end": "573",
+        "highlightText": "can be used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 52,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "610",
+        "end": "617",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 51,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "701",
+        "end": "704",
+        "highlightText": "sql",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 53,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1726",
+        "end": "1733",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 56,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "1726",
+        "end": "1733",
+        "highlightText": "pyspark",
+        "replacements": [
+            "Pyspark"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 55,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1733",
+        "end": "1733",
+        "highlightText": "pyspark",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 54,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1190",
+        "end": "1201",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 60,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1346",
+        "end": "1346",
+        "highlightText": "gateway",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 57,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1471",
+        "end": "1480",
+        "highlightText": "analyzing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 58,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1525",
+        "end": "1572",
+        "highlightText": "v2.0 one object to rule them all was introduced",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 59,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1583",
+        "end": "1583",
+        "highlightText": "spark",
+        "replacements": [
+            "the ",
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 61,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the redundancy",
+        "sentence_no": "0",
+        "begin": "1783",
+        "end": "1787",
+        "highlightText": "The the builder",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 62,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1635",
+        "end": "1638",
+        "highlightText": "of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 63,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "953",
+        "end": "955",
+        "highlightText": "jobs",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 64,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1858",
+        "end": "1862",
+        "highlightText": "It's",
+        "replacements": [
+            "Its"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 38,
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.8814912683823529
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.5622414981176469
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Sessions   PySpark",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1106",
+        "end": "1106",
+        "highlightText": "options",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 18,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "853",
+        "end": "861",
+        "highlightText": "and can",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 23,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "865",
+        "end": "877",
+        "highlightText": "constructued",
+        "replacements": [
+            "constructed"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 21,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "892",
+        "end": "905",
+        "highlightText": "parallelizing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 22,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "915",
+        "end": "925",
+        "highlightText": "collection",
+        "replacements": [
+            "collections"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 19,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "961",
+        "end": "968",
+        "highlightText": "dataset",
+        "replacements": [
+            "datasets"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 20,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "36",
+        "end": "36",
+        "highlightText": "we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 25,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "59",
+        "end": "60",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 26,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "136",
+        "end": "136",
+        "highlightText": "fault-tolerant",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 24,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "179",
+        "end": "197",
+        "highlightText": "can be operated on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "765",
+        "end": "780",
+        "highlightText": "can be operated",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 28,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "562",
+        "end": "571",
+        "highlightText": "optimized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 29,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "588",
+        "end": "590",
+        "highlightText": "engine  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 30,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "328",
+        "end": "337",
+        "highlightText": "dataframe",
+        "replacements": [
+            "data frame"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 31,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1099",
+        "end": "1107",
+        "highlightText": "options'",
+        "replacements": [
+            "options"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 17,
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Data Structures  B",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "98",
+        "end": "98",
+        "highlightText": "case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "121",
+        "end": "121",
+        "highlightText": "hence",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 14,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "995",
+        "end": "1001",
+        "highlightText": "be run",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 21,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "1051",
+        "end": "1057",
+        "highlightText": "return",
+        "replacements": [
+            "returning"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 17,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1058",
+        "end": "1058",
+        "highlightText": "number",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 16,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1077",
+        "end": "1077",
+        "highlightText": "file",
+        "replacements": [
+            "a ",
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 15,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "1116",
+        "end": "1119",
+        "highlightText": "sum",
+        "replacements": [
+            "summing"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 18,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "1133",
+        "end": "1139",
+        "highlightText": "return",
+        "replacements": [
+            "returning"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 19,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1184",
+        "end": "1195",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "1491",
+        "end": "1498",
+        "highlightText": "Use",
+        "replacements": [
+            " Uses"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 23,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1619",
+        "end": "1619",
+        "highlightText": "like",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 24,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "340",
+        "end": "340",
+        "highlightText": "number",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 27,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "436",
+        "end": "439",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 29,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "457",
+        "end": "460",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 30,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "461",
+        "end": "468",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 33,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "559",
+        "end": "559",
+        "highlightText": "file",
+        "replacements": [
+            "a ",
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 25,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "635",
+        "end": "638",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 31,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "656",
+        "end": "663",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 34,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "735",
+        "end": "748",
+        "highlightText": "Evaulation",
+        "replacements": [
+            "Evaluation "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 32,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "785",
+        "end": "791",
+        "highlightText": "merely",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 28,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "809",
+        "end": "809",
+        "highlightText": "operation",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 26,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1196",
+        "end": "1204",
+        "highlightText": "speed-up",
+        "replacements": [
+            "speed up"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 20,
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Things to note for f",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "303",
+        "end": "315",
+        "highlightText": "long running",
+        "replacements": [
+            "long-running"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 5,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "78",
+        "end": "78",
+        "highlightText": "few",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 6,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "162",
+        "end": "162",
+        "highlightText": "otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 9,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "172",
+        "end": "172",
+        "highlightText": "otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "258",
+        "end": "258",
+        "highlightText": "otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 10,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "268",
+        "end": "268",
+        "highlightText": "otherwise",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "269",
+        "end": "278",
+        "highlightText": "serialize",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 12,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "303",
+        "end": "315",
+        "highlightText": "long running",
+        "replacements": [
+            "long-running"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 11,
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.994140625
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.7700195312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " .cache() is the sam",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "2533",
+        "end": "2533",
+        "highlightText": "chaining",
+        "replacements": [
+            "of "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 9,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2549",
+        "end": "2549",
+        "highlightText": "data",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 10,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2379",
+        "end": "2402",
+        "highlightText": "ARE ALREADY IMPLEMENTED",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1877",
+        "end": "1889",
+        "highlightText": "neutralValue",
+        "replacements": [
+            "neutral value"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 12,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1931",
+        "end": "1934",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 13,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1952",
+        "end": "1955",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 14,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1956",
+        "end": "1963",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 18,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2048",
+        "end": "2049",
+        "highlightText": " 2 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 20,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2105",
+        "end": "2116",
+        "highlightText": "keyfunction",
+        "replacements": [
+            "key function"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 15,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2155",
+        "end": "2158",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2176",
+        "end": "2179",
+        "highlightText": "api",
+        "replacements": [
+            "API"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 17,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "2180",
+        "end": "2187",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 19,
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## MapReduce operati",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1558",
+        "end": "1558",
+        "highlightText": "schema",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "1601",
+        "end": "1601",
+        "highlightText": ".range",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 14,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1098",
+        "end": "1098",
+        "highlightText": "node",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "1149",
+        "end": "1149",
+        "highlightText": "file",
+        "replacements": [
+            "the ",
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 15,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "289",
+        "end": "296",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 19,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "458",
+        "end": "465",
+        "highlightText": ", hence",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the redundancy",
+        "sentence_no": "0",
+        "begin": "546",
+        "end": "549",
+        "highlightText": "a a  Dataset",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 18,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "947",
+        "end": "947",
+        "highlightText": "we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 20,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "177",
+        "end": "186",
+        "highlightText": "optimized",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Possible dialectisms",
+        "id": 22,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "203",
+        "end": "205",
+        "highlightText": "It",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2000",
+        "end": "2003",
+        "highlightText": "sql",
+        "replacements": [
+            "SQL"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 23,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "2225",
+        "end": "2229",
+        "highlightText": "json",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 25,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "2250",
+        "end": "2253",
+        "highlightText": "csv",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 26,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2424",
+        "end": "2434",
+        "highlightText": "readStream",
+        "replacements": [
+            " read stream"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 24,
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Spark SQL  ## Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "723",
+        "end": "725",
+        "highlightText": "After",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "270",
+        "end": "270",
+        "highlightText": "general",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 14,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "324",
+        "end": "326",
+        "highlightText": "pd",
+        "replacements": [
+            "PD"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 15,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "73",
+        "end": "75",
+        "highlightText": "pd",
+        "replacements": [
+            "PD"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the space",
+        "sentence_no": "0",
+        "begin": "344",
+        "end": "346",
+        "highlightText": "objects  there",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 22,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "344",
+        "end": "346",
+        "highlightText": "there",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "372",
+        "end": "372",
+        "highlightText": "though",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 19,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "406",
+        "end": "420",
+        "highlightText": "In order to",
+        "replacements": [
+            " To"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "458",
+        "end": "458",
+        "highlightText": "DataFrame",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 20,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "554",
+        "end": "554",
+        "highlightText": "session",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 17,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "579",
+        "end": "579",
+        "highlightText": "so",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Operations on Dat",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "# Spark-Submit",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "416",
+        "end": "422",
+        "highlightText": "follow",
+        "replacements": [
+            "follows"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 11,
+        "starting_sentence": "The work you see in ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "422",
+        "end": "422",
+        "highlightText": "follow",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 12,
+        "starting_sentence": "The work you see in ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "98",
+        "end": "110",
+        "highlightText": "were running",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 13,
+        "starting_sentence": "The work you see in ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "337",
+        "end": "343",
+        "highlightText": "be ran",
+        "replacements": [
+            "be run"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 14,
+        "starting_sentence": "The work you see in ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.7514648438
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "The work you see in ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " spark-submit \\   --",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the article",
+        "sentence_no": "0",
+        "begin": "291",
+        "end": "293",
+        "highlightText": "a your",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 7,
+        "starting_sentence": "where  - class is th",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "349",
+        "end": "349",
+        "highlightText": "number",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 8,
+        "starting_sentence": "where  - class is th",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "422",
+        "end": "423",
+        "highlightText": "num-cores",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "where  - class is th",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "23",
+        "end": "33",
+        "highlightText": "entrypoint",
+        "replacements": [
+            "entry point"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 10,
+        "starting_sentence": "where  - class is th",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.990234375
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9497070312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "where  - class is th",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "122",
+        "end": "127",
+        "highlightText": "lorem",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 9,
+        "starting_sentence": "In this case, we are",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "147",
+        "end": "157",
+        "highlightText": "occurences",
+        "replacements": [
+            "occurrences"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 8,
+        "starting_sentence": "In this case, we are",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "170",
+        "end": "170",
+        "highlightText": "word",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 10,
+        "starting_sentence": "In this case, we are",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "18",
+        "end": "30",
+        "highlightText": "are going to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 11,
+        "starting_sentence": "In this case, we are",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "166",
+        "end": "171",
+        "highlightText": "word'",
+        "replacements": [
+            "word"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 7,
+        "starting_sentence": "In this case, we are",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.8422851562
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "In this case, we are",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "109",
+        "end": "109",
+        "highlightText": "run",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 7,
+        "starting_sentence": "In this repo, you wi",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "29",
+        "end": "30",
+        "highlightText": "a example.py",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 8,
+        "starting_sentence": "In this repo, you wi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "In this repo, you wi",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "44",
+        "end": "44",
+        "highlightText": "example.py",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 4,
+        "starting_sentence": "<SPARK_HOME/bin/spar",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "<SPARK_HOME/bin/spar",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "624",
+        "end": "631",
+        "highlightText": "hadoop'",
+        "replacements": [
+            "Hadoop"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 11,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": "choose an\u00a0article",
+        "sentence_no": "0",
+        "begin": "548",
+        "end": "553",
+        "highlightText": "the a",
+        "replacements": [
+            "a"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 12,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "630",
+        "end": "630",
+        "highlightText": "hadoop",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 13,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "396",
+        "end": "417",
+        "highlightText": "hadoop",
+        "replacements": [
+            "Hadoop "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 14,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "72",
+        "end": "83",
+        "highlightText": "for running",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 15,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "171",
+        "end": "184",
+        "highlightText": "steveloughran",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 16,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "185",
+        "end": "193",
+        "highlightText": "winutils",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 17,
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.7919921875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "If you encounter an ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "881",
+        "end": "896",
+        "highlightText": "programmaticaly",
+        "replacements": [
+            "programmatically"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 18,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "963",
+        "end": "982",
+        "highlightText": "sql-getting-started",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 19,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1830",
+        "end": "1830",
+        "highlightText": "pyspark",
+        "replacements": [
+            "a "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 20,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1830",
+        "end": "1837",
+        "highlightText": "pyspark",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 21,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "556",
+        "end": "556",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "813",
+        "end": "813",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 23,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1142",
+        "end": "1150",
+        "highlightText": "would we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misplaced words or phrases",
+        "id": 26,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1142",
+        "end": "1158",
+        "highlightText": "would we need it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct pronoun usage",
+        "sentence_no": "0",
+        "begin": "1156",
+        "end": "1158",
+        "highlightText": "it",
+        "replacements": [
+            "them"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Pronoun use",
+        "id": 24,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1166",
+        "end": "1169",
+        "highlightText": "...",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Misuse of semicolons, quotation marks, etc.",
+        "id": 25,
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9770507811999999
+            },
+            {
+                "emoji": "\ud83d\udc55",
+                "emojiId": "1f455",
+                "name": "informal",
+                "confidence": 0.9716796875
+            },
+            {
+                "emoji": "\ud83e\udd14",
+                "emojiId": "1f914",
+                "name": "curious",
+                "confidence": 0.5830078125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Next steps  - Che",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 238
+    }
+]

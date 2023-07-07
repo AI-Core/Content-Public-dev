@@ -1,0 +1,1513 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "<h1 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "290",
+        "end": "290",
+        "highlightText": "Provides",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 12,
+        "starting_sentence": "*SQLtools* is an ext",
+        "cell_number": 1
+    },
+    {
+        "todo": "add the preposition",
+        "sentence_no": "0",
+        "begin": "304",
+        "end": "304",
+        "highlightText": "the",
+        "replacements": [
+            "with "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 9,
+        "starting_sentence": "*SQLtools* is an ext",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "580",
+        "end": "586",
+        "highlightText": "etc",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 10,
+        "starting_sentence": "*SQLtools* is an ext",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "655",
+        "end": "656",
+        "highlightText": "downloads",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 11,
+        "starting_sentence": "*SQLtools* is an ext",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "100",
+        "end": "109",
+        "highlightText": "all from",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 13,
+        "starting_sentence": "*SQLtools* is an ext",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.87890625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "*SQLtools* is an ext",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "383",
+        "end": "386",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0space",
+        "sentence_no": "0",
+        "begin": "52",
+        "end": "52",
+        "highlightText": ";Installing",
+        "replacements": [
+            " "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 8,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "122",
+        "end": "122",
+        "highlightText": "VSCode",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.998046875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "277",
+        "end": "280",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "Click on the SQLTool",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "88",
+        "end": "88",
+        "highlightText": "but",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "Click on the SQLTool",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "83",
+        "end": "88",
+        "highlightText": "setup",
+        "replacements": [
+            "set up"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 9,
+        "starting_sentence": "Click on the SQLTool",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.4506835938
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Click on the SQLTool",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "14",
+        "end": "14",
+        "highlightText": "Alternatively",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 8,
+        "starting_sentence": "Alternatively if you",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the noun form",
+        "sentence_no": "0",
+        "begin": "110",
+        "end": "114",
+        "highlightText": "ID's",
+        "replacements": [
+            "ids",
+            "ID"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 7,
+        "starting_sentence": "Alternatively if you",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Alternatively if you",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "614",
+        "end": "618",
+        "highlightText": "psql",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 28,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "626",
+        "end": "634",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 27,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "663",
+        "end": "667",
+        "highlightText": "psql",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 29,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "951",
+        "end": "957",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 30,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "719",
+        "end": "725",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 31,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "765",
+        "end": "771",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 32,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "468",
+        "end": "472",
+        "highlightText": "psql",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 35,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "525",
+        "end": "526",
+        "highlightText": "to,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 33,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "560",
+        "end": "571",
+        "highlightText": "PostgresSQL",
+        "replacements": [
+            "PostgreSQL",
+            "Postgres-SQL"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 34,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "142",
+        "end": "146",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 37,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "190",
+        "end": "190",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 36,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "277",
+        "end": "283",
+        "highlightText": "pagila",
+        "replacements": [
+            "Pagila"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 39,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "292",
+        "end": "292",
+        "highlightText": "database",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 38,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "17",
+        "end": "20",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 40,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "93",
+        "end": "106",
+        "highlightText": "be connecting",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 42,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "125",
+        "end": "131",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 41,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "826",
+        "end": "830",
+        "highlightText": "now",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 44,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "830",
+        "end": "842",
+        "highlightText": "been created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 43,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "343",
+        "end": "346",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 46,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "395",
+        "end": "395",
+        "highlightText": "First",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 45,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "399",
+        "end": "404",
+        "highlightText": "will",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 48,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "444",
+        "end": "448",
+        "highlightText": "psql",
+        "replacements": [
+            "SQL"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 47,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "988",
+        "end": "988",
+        "highlightText": "you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 49,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "96",
+        "end": "106",
+        "highlightText": "connecting",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 50,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "997",
+        "end": "1001",
+        "highlightText": "exit",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Word choice",
+        "id": 51,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "<h3 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "167",
+        "end": "173",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 14,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "479",
+        "end": "482",
+        "highlightText": "the postgres",
+        "replacements": [
+            "a"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 15,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "483",
+        "end": "491",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 18,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "496",
+        "end": "496",
+        "highlightText": "user",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 17,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "558",
+        "end": "558",
+        "highlightText": "database",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 16,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "replace the word",
+        "sentence_no": "0",
+        "begin": "286",
+        "end": "291",
+        "highlightText": "login",
+        "replacements": [
+            "log in"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Commonly confused words",
+        "id": 19,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "299",
+        "end": "307",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 20,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "17",
+        "end": "20",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 22,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "107",
+        "end": "107",
+        "highlightText": "we",
+        "replacements": [
+            "and "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 21,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "385",
+        "end": "400",
+        "highlightText": "is not required",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 24,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "412",
+        "end": "412",
+        "highlightText": ") ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 23,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "550",
+        "end": "559",
+        "highlightText": "database'",
+        "replacements": [
+            "database"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 13,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.919921875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "80",
+        "end": "83",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 5,
+        "starting_sentence": "You can return the s",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "You can return the s",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "36",
+        "end": "40",
+        "highlightText": "psql",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 7,
+        "starting_sentence": "On this is complete,",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "48",
+        "end": "56",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "On this is complete,",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "104",
+        "end": "110",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 5,
+        "starting_sentence": "On this is complete,",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "On this is complete,",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "240",
+        "end": "243",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "You should get a mes",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "78",
+        "end": "84",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "You should get a mes",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "156",
+        "end": "162",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 8,
+        "starting_sentence": "You should get a mes",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "You should get a mes",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "21",
+        "end": "26",
+        "highlightText": "setup",
+        "replacements": [
+            "set up"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 7,
+        "starting_sentence": "The database is now ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "The database is now ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "540",
+        "end": "543",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "17",
+        "end": "20",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 9,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "105",
+        "end": "105",
+        "highlightText": "we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "237",
+        "end": "238",
+        "highlightText": "icon,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 10,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "454",
+        "end": "456",
+        "highlightText": "Click",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 11,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "503",
+        "end": "508",
+        "highlightText": "setup",
+        "replacements": [
+            "set up"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 12,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.99609375
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.6650390625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1217",
+        "end": "1220",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 11,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "151",
+        "end": "157",
+        "highlightText": "pagila",
+        "replacements": [
+            "page"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 12,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "748",
+        "end": "748",
+        "highlightText": "option",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct word choice",
+        "sentence_no": "0",
+        "begin": "1124",
+        "end": "1124",
+        "highlightText": "then",
+        "replacements": [
+            "and "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Conjunction use",
+        "id": 14,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "901",
+        "end": "901",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2",
+        "end": "23",
+        "highlightText": "You will be presented",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 17,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "62",
+        "end": "70",
+        "highlightText": ", select",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 16,
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": " You will be present",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "392",
+        "end": "392",
+        "highlightText": "code",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 8,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "402",
+        "end": "403",
+        "highlightText": "below",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "205",
+        "end": "209",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 10,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "210",
+        "end": "217",
+        "highlightText": "be done",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.5317382812
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "<h2 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "<h3 style=color rgb(",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "254",
+        "end": "257",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "120",
+        "end": "120",
+        "highlightText": "pagila",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 8,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "120",
+        "end": "126",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 9,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "17",
+        "end": "17",
+        "highlightText": "first",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 10,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "31",
+        "end": "47",
+        "highlightText": "you're connected",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 12,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "55",
+        "end": "61",
+        "highlightText": "pagila",
+        "replacements": [
+            "pagina"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 11,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "204",
+        "end": "219",
+        "highlightText": "we're connected",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 13,
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "To run the query fir",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "210",
+        "end": "213",
+        "highlightText": "rgb",
+        "replacements": [
+            "RGB"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "You can now run the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "145",
+        "end": "145",
+        "highlightText": "runs",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 7,
+        "starting_sentence": "You can now run the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "9",
+        "end": "13",
+        "highlightText": "now",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 10,
+        "starting_sentence": "You can now run the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "50",
+        "end": "55",
+        "highlightText": "press",
+        "replacements": [
+            "pressing"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 8,
+        "starting_sentence": "You can now run the ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "123",
+        "end": "124",
+        "highlightText": ") .",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 9,
+        "starting_sentence": "You can now run the ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9970703125
+            },
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.857421875
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.4587402344
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "You can now run the ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "134",
+        "end": "152",
+        "highlightText": "to easily navigate",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 6,
+        "starting_sentence": "You may have noticed",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "221",
+        "end": "221",
+        "highlightText": "queries",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "You may have noticed",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "214",
+        "end": "222",
+        "highlightText": "queries'",
+        "replacements": [
+            "queries"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "You may have noticed",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.7841796875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "You may have noticed",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 109
+    }
+]

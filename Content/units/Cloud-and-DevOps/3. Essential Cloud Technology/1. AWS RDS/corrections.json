@@ -1,0 +1,1429 @@
+[
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## AWS RDS",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "873",
+        "end": "873",
+        "highlightText": "dashboard",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 34,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "962",
+        "end": "962",
+        "highlightText": "dashboard",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 35,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1515",
+        "end": "1521",
+        "highlightText": "is set",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 37,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1569",
+        "end": "1574",
+        "highlightText": ", the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 36,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1615",
+        "end": "1630",
+        "highlightText": "that represents",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 38,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2792",
+        "end": "2792",
+        "highlightText": "details",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 39,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the redundancy",
+        "sentence_no": "0",
+        "begin": "2809",
+        "end": "2813",
+        "highlightText": "the the bottom",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 41,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2864",
+        "end": "2868",
+        "highlightText": "the security",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 40,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2865",
+        "end": "2905",
+        "highlightText": "the security group should now be created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 42,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "2425",
+        "end": "2434",
+        "highlightText": "addresses",
+        "replacements": [
+            "address"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 43,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2434",
+        "end": "2434",
+        "highlightText": "IPv6",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 48,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2439",
+        "end": "2440",
+        "highlightText": "IPv6,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 47,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "2441",
+        "end": "2445",
+        "highlightText": "have",
+        "replacements": [
+            "has"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 45,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2495",
+        "end": "2495",
+        "highlightText": "aren't",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 44,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "2495",
+        "end": "2501",
+        "highlightText": "aren't",
+        "replacements": [
+            "isn't"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 46,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1371",
+        "end": "1375",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 51,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1380",
+        "end": "1387",
+        "highlightText": "be seen",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 52,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1412",
+        "end": "1416",
+        "highlightText": "the type",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 50,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1422",
+        "end": "1435",
+        "highlightText": "is configured",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 53,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0missing verb",
+        "sentence_no": "0",
+        "begin": "1489",
+        "end": "1489",
+        "highlightText": "possible",
+        "replacements": [
+            "are "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 49,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "601",
+        "end": "620",
+        "highlightText": "as well as blocking",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 55,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the form of\u00a0the verb",
+        "sentence_no": "0",
+        "begin": "612",
+        "end": "620",
+        "highlightText": "blocking",
+        "replacements": [
+            "block"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 54,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2044",
+        "end": "2047",
+        "highlightText": "it",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 56,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1219",
+        "end": "1219",
+        "highlightText": "can",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 57,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2640",
+        "end": "2645",
+        "highlightText": "since",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Incomplete sentences",
+        "id": 60,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2645",
+        "end": "2645",
+        "highlightText": "believe",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 58,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2663",
+        "end": "2663",
+        "highlightText": "not",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 59,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1264",
+        "end": "1264",
+        "highlightText": "default",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 61,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3029",
+        "end": "3043",
+        "highlightText": "at the moment",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 62,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3105",
+        "end": "3109",
+        "highlightText": ", we",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 63,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "3127",
+        "end": "3130",
+        "highlightText": "on",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 64,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "743",
+        "end": "743",
+        "highlightText": "the",
+        "replacements": [
+            "to "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 65,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "1877",
+        "end": "1889",
+        "highlightText": "all the way",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 67,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1907",
+        "end": "1910",
+        "highlightText": "an example",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 66,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "367",
+        "end": "367",
+        "highlightText": "First",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 68,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "407",
+        "end": "411",
+        "highlightText": "own",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 69,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "2153",
+        "end": "2165",
+        "highlightText": "all the way",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 70,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2238",
+        "end": "2238",
+        "highlightText": "computer",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 71,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2261",
+        "end": "2261",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 72,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2293",
+        "end": "2297",
+        "highlightText": "for",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 75,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2314",
+        "end": "2314",
+        "highlightText": "they",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 73,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2347",
+        "end": "2347",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 74,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "772",
+        "end": "776",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 76,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3301",
+        "end": "3304",
+        "highlightText": "on",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 77,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1749",
+        "end": "1754",
+        "highlightText": "each",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 78,
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "AWS RDS is a service",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "263",
+        "end": "264",
+        "highlightText": "tier,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 9,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "180",
+        "end": "180",
+        "highlightText": "case",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 11,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the verb",
+        "sentence_no": "0",
+        "begin": "200",
+        "end": "203",
+        "highlightText": "is",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 10,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "202",
+        "end": "202",
+        "highlightText": "13.7-R1",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 12,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "215",
+        "end": "228",
+        "highlightText": "been selected",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 14,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "97",
+        "end": "108",
+        "highlightText": "PostgresSQL",
+        "replacements": [
+            "PostgreSQL"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 16,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "108",
+        "end": "114",
+        "highlightText": ", this",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "In the next window, ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "![](images/Create_RD",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "54",
+        "end": "56",
+        "highlightText": "instance  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 5,
+        "starting_sentence": "Subsequently, provid",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Subsequently, provid",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "126",
+        "end": "126",
+        "highlightText": "Existing",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 7,
+        "starting_sentence": "In the DB instance c",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            },
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.7685546875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "In the DB instance c",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "46",
+        "end": "58",
+        "highlightText": "be completed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "Click on Create, and",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "297",
+        "end": "301",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 12,
+        "starting_sentence": "Click on Create, and",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "204",
+        "end": "227",
+        "highlightText": "details of the instance",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 13,
+        "starting_sentence": "Click on Create, and",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Click on Create, and",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "565",
+        "end": "565",
+        "highlightText": "tab",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 8,
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "177",
+        "end": "177",
+        "highlightText": "from",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 11,
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "todo": "fix the agreement mistake",
+        "sentence_no": "0",
+        "begin": "261",
+        "end": "269",
+        "highlightText": "Controls",
+        "replacements": [
+            "Control"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 10,
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "70",
+        "end": "74",
+        "highlightText": ", by",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 12,
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "82",
+        "end": "82",
+        "highlightText": "default",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 13,
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "553",
+        "end": "561",
+        "highlightText": "security",
+        "replacements": [
+            "Security"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 9,
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.99609375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "We will now finally ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "347",
+        "end": "347",
+        "highlightText": "Source",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 18,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "875",
+        "end": "879",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 19,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "254",
+        "end": "257",
+        "highlightText": "as",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 20,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "708",
+        "end": "730",
+        "highlightText": "the IP address for you",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "935",
+        "end": "939",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 25,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "962",
+        "end": "971",
+        "highlightText": ", anytime",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 23,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1003",
+        "end": "1003",
+        "highlightText": "your",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 24,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1505",
+        "end": "1518",
+        "highlightText": "Just remember",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 26,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1338",
+        "end": "1356",
+        "highlightText": "In this case",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 29,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1350",
+        "end": "1350",
+        "highlightText": "case",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 27,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1427",
+        "end": "1427",
+        "highlightText": "information",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1128",
+        "end": "1128",
+        "highlightText": "option",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 30,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1173",
+        "end": "1173",
+        "highlightText": "drops",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 31,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": "add the particle",
+        "sentence_no": "0",
+        "begin": "184",
+        "end": "184",
+        "highlightText": "click",
+        "replacements": [
+            "to "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect verb forms",
+        "id": 32,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1229",
+        "end": "1229",
+        "highlightText": "industry",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 33,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1701",
+        "end": "1706",
+        "highlightText": "rules",
+        "replacements": [
+            "Rules"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 21,
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.9951171875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Make sure the Inboun",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "129",
+        "end": "137",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "Once all the steps a",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "142",
+        "end": "150",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 8,
+        "starting_sentence": "Once all the steps a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "31",
+        "end": "45",
+        "highlightText": "been completed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 9,
+        "starting_sentence": "Once all the steps a",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 1.0
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Once all the steps a",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "56",
+        "end": "56",
+        "highlightText": "works",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "Run the following ce",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "51",
+        "end": "57",
+        "highlightText": "works'",
+        "replacements": [
+            "works"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "Run the following ce",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Run the following ce",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "199",
+        "end": "206",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "Now, we create a new",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9140625
+            },
+            {
+                "emoji": "\u2696\ufe0f",
+                "emojiId": "2696",
+                "name": "objective",
+                "confidence": 0.8920898438
+            },
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.732421875
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Now, we create a new",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "Unfortunately, AWS R",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove a\u00a0space",
+        "sentence_no": "0",
+        "begin": "115",
+        "end": "117",
+        "highlightText": "database  !",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Improper formatting",
+        "id": 6,
+        "starting_sentence": "If you go to pgAdmin",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "If you go to pgAdmin",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4",
+        "end": "11",
+        "highlightText": "can be",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 7,
+        "starting_sentence": "As can be observed, ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the capitalization",
+        "sentence_no": "0",
+        "begin": "58",
+        "end": "66",
+        "highlightText": "postgres",
+        "replacements": [
+            "Postgres"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 6,
+        "starting_sentence": "As can be observed, ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "As can be observed, ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "69",
+        "end": "69",
+        "highlightText": "of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 5,
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "67",
+        "end": "70",
+        "highlightText": "of'",
+        "replacements": [
+            "of"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Conclusion At thi",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83e\udd28",
+                "emojiId": "1f928",
+                "name": "skeptical",
+                "confidence": 0.470703125
+            },
+            {
+                "emoji": "\ud83e\udd13",
+                "emojiId": "1f913",
+                "name": "informative",
+                "confidence": 0.4604492188
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "- the basics of clou",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 107
+    }
+]

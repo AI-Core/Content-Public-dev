@@ -1,0 +1,1443 @@
+[
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "234",
+        "end": "234",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 18,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1552",
+        "end": "1560",
+        "highlightText": "varities",
+        "replacements": [
+            "varieties"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 19,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1172",
+        "end": "1174",
+        "highlightText": "For",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 20,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1582",
+        "end": "1591",
+        "highlightText": "introdued",
+        "replacements": [
+            "introduced"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 21,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "393",
+        "end": "416",
+        "highlightText": "that they stored either",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the preposition",
+        "sentence_no": "0",
+        "begin": "456",
+        "end": "459",
+        "highlightText": "in",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1425",
+        "end": "1440",
+        "highlightText": "can't be stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 24,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "108",
+        "end": "116",
+        "highlightText": "that is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 27,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "113",
+        "end": "120",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 26,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "121",
+        "end": "168",
+        "highlightText": "to efficiently store and process large datasets",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 25,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": "change noun form",
+        "sentence_no": "0",
+        "begin": "256",
+        "end": "262",
+        "highlightText": "1970's",
+        "replacements": [
+            "1970s"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Incorrect noun number",
+        "id": 28,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "645",
+        "end": "645",
+        "highlightText": "recently",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 30,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "736",
+        "end": "736",
+        "highlightText": "Internet",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 29,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "781",
+        "end": "809",
+        "highlightText": "there was a major shift that",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1593",
+        "end": "1642",
+        "highlightText": "It was created by Doug Cutting and Mike Cafarella",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 33,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "756",
+        "end": "768",
+        "highlightText": "smart phones",
+        "replacements": [
+            "smartphones"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 31,
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Hadoop Overview  #",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2118",
+        "end": "2119",
+        "highlightText": " 2 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 15,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "2613",
+        "end": "2621",
+        "highlightText": "prior to",
+        "replacements": [
+            "before"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 17,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "2816",
+        "end": "2816",
+        "highlightText": "performance",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 12,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the quantifier",
+        "sentence_no": "0",
+        "begin": "2845",
+        "end": "2849",
+        "highlightText": "less",
+        "replacements": [
+            "fewer"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of quantifiers",
+        "id": 13,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2862",
+        "end": "2870",
+        "highlightText": "are used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 16,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2870",
+        "end": "2871",
+        "highlightText": "used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 14,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "31",
+        "end": "52",
+        "highlightText": "Hadoop was introduced",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 18,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1638",
+        "end": "1649",
+        "highlightText": "and it was",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 19,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1971",
+        "end": "1975",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 20,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "121",
+        "end": "162",
+        "highlightText": "the flexibility of the tools was enhanced",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "162",
+        "end": "162",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 21,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "170",
+        "end": "184",
+        "highlightText": "became able to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 23,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "307",
+        "end": "325",
+        "highlightText": "was able to defeat",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 24,
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Features of Hadoo",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4806",
+        "end": "4808",
+        "highlightText": "Dear",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 27,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5466",
+        "end": "5478",
+        "highlightText": "-   In",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Hard-to-read text",
+        "id": 31,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5509",
+        "end": "5521",
+        "highlightText": "are compared",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 29,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5521",
+        "end": "5521",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "5590",
+        "end": "5600",
+        "highlightText": "are passed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 30,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "6002",
+        "end": "6004",
+        "highlightText": "is",
+        "replacements": [
+            "are"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 32,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "6014",
+        "end": "6023",
+        "highlightText": "together",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 37,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6068",
+        "end": "6070",
+        "highlightText": "Although",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 34,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6153",
+        "end": "6153",
+        "highlightText": "nowadays",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 33,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6230",
+        "end": "6257",
+        "highlightText": "are almost always performed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 35,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6304",
+        "end": "6314",
+        "highlightText": "being used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 36,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1855",
+        "end": "1864",
+        "highlightText": "Seperates",
+        "replacements": [
+            "Separates"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 38,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2024",
+        "end": "2040",
+        "highlightText": "can be connected",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 39,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "4207",
+        "end": "4215",
+        "highlightText": "suffling",
+        "replacements": [
+            "shuffling",
+            "scuffling"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 41,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "4221",
+        "end": "4223",
+        "highlightText": "is",
+        "replacements": [
+            "are"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 40,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4355",
+        "end": "4356",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 43,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4377",
+        "end": "4442",
+        "highlightText": "the mappers processed in the prevoius step would then be combined",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 44,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "4406",
+        "end": "4414",
+        "highlightText": "prevoius",
+        "replacements": [
+            "previous"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 42,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "3297",
+        "end": "3305",
+        "highlightText": "seperate",
+        "replacements": [
+            "separate"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 46,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3751",
+        "end": "3752",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 47,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "3841",
+        "end": "3848",
+        "highlightText": "recieve",
+        "replacements": [
+            "receive"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 45,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3862",
+        "end": "3863",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 48,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "2765",
+        "end": "2776",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 49,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "4071",
+        "end": "4085",
+        "highlightText": "a step called",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 50,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6444",
+        "end": "6444",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 51,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2965",
+        "end": "2966",
+        "highlightText": "stored,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 53,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "6436",
+        "end": "6444",
+        "highlightText": "back-end",
+        "replacements": [
+            "back end"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 52,
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Hadoop Modules   ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Tools compatible ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Hadoop vs Relatio",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "436",
+        "end": "449",
+        "highlightText": "compatability",
+        "replacements": [
+            "compatibility"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 13,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1726",
+        "end": "1747",
+        "highlightText": "Hadoop was introduced",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1953",
+        "end": "1954",
+        "highlightText": "popularity",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 14,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0comma",
+        "sentence_no": "0",
+        "begin": "1321",
+        "end": "1321",
+        "highlightText": "ideally",
+        "replacements": [
+            ","
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 16,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1346",
+        "end": "1347",
+        "highlightText": " 1 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 17,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1354",
+        "end": "1358",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 18,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1439",
+        "end": "1448",
+        "highlightText": "is stored",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 19,
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Limitations of Ha",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1214",
+        "end": "1221",
+        "highlightText": "indeces",
+        "replacements": [
+            "indices",
+            "indexes"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 7,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "530",
+        "end": "543",
+        "highlightText": "is compressed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 11,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the article",
+        "sentence_no": "0",
+        "begin": "550",
+        "end": "551",
+        "highlightText": "a LZO",
+        "replacements": [
+            "an"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 8,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the redundancy",
+        "sentence_no": "0",
+        "begin": "673",
+        "end": "676",
+        "highlightText": "to to",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 10,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "914",
+        "end": "926",
+        "highlightText": "is then used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 12,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1170",
+        "end": "1177",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 13,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1330",
+        "end": "1331",
+        "highlightText": "requirements",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "292",
+        "end": "305",
+        "highlightText": "is often used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 15,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "171",
+        "end": "175",
+        "highlightText": "it's",
+        "replacements": [
+            "its"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 14,
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 1.0
+            },
+            {
+                "emoji": "\ud83c\udfaf",
+                "emojiId": "1f3af",
+                "name": "direct",
+                "confidence": 0.9931640625
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Popular Use Cases",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "213",
+        "end": "213",
+        "highlightText": "industry",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 18,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1805",
+        "end": "1805",
+        "highlightText": "to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 35,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "426",
+        "end": "448",
+        "highlightText": "was initially designed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 37,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "519",
+        "end": "519",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 36,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "235",
+        "end": "247",
+        "highlightText": "went through",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 38,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "2239",
+        "end": "2239",
+        "highlightText": "Difficulty",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 40,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add an\u00a0article",
+        "sentence_no": "0",
+        "begin": "2271",
+        "end": "2271",
+        "highlightText": "complexity",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 39,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "2339",
+        "end": "2339",
+        "highlightText": "inability",
+        "replacements": [
+            "the "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 41,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "2509",
+        "end": "2554",
+        "highlightText": "There are many global companies that leverage",
+        "replacements": [
+            "Many global companies leverage"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 45,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2583",
+        "end": "2583",
+        "highlightText": "such",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 43,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2633",
+        "end": "2633",
+        "highlightText": "or",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 44,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2683",
+        "end": "2683",
+        "highlightText": "processing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 42,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2470",
+        "end": "2480",
+        "highlightText": "which are",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 46,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "388",
+        "end": "405",
+        "highlightText": "a wide variety of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 47,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2009",
+        "end": "2009",
+        "highlightText": "while",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 48,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "818",
+        "end": "826",
+        "highlightText": "includes",
+        "replacements": [
+            "include"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 49,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "827",
+        "end": "837",
+        "highlightText": "Seperating",
+        "replacements": [
+            "Separating"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 52,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "1036",
+        "end": "1048",
+        "highlightText": "larger sized",
+        "replacements": [
+            "larger-sized"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 51,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1099",
+        "end": "1099",
+        "highlightText": "which",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 50,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1378",
+        "end": "1389",
+        "highlightText": "a number of",
+        "replacements": [
+            "several",
+            "some",
+            "many"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 53,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1552",
+        "end": "1569",
+        "highlightText": "a large number of",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 54,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2121",
+        "end": "2121",
+        "highlightText": "while",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 55,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "87",
+        "end": "95",
+        "highlightText": "that is",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 58,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "92",
+        "end": "99",
+        "highlightText": "is used",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 57,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "100",
+        "end": "147",
+        "highlightText": "to efficiently store and process large datasets",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 56,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1880",
+        "end": "1902",
+        "highlightText": "system or a relational",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 59,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2673",
+        "end": "2684",
+        "highlightText": "processing'",
+        "replacements": [
+            "processing"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 34,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 107
+    }
+]

@@ -1,0 +1,865 @@
+[
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "1516",
+        "end": "1526",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 11,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1101",
+        "end": "1105",
+        "highlightText": "This",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Intricate text",
+        "id": 12,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1123",
+        "end": "1124",
+        "highlightText": " 3 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 13,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1548",
+        "end": "1549",
+        "highlightText": "p ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 14,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "186",
+        "end": "197",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 16,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "266",
+        "end": "331",
+        "highlightText": "with the aim of enhancing business decision-making and optimising",
+        "replacements": [
+            "to enhance business decision-making and optimise"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 17,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "351",
+        "end": "353",
+        "highlightText": "The",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 15,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "502",
+        "end": "511",
+        "highlightText": "together",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 18,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "1035",
+        "end": "1043",
+        "highlightText": "contains",
+        "replacements": [
+            "contain"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 19,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "678",
+        "end": "799",
+        "highlightText": "Experts working in this field were traditionally called Business Analysts (BAs) or Business Intelligence (BI) consultants",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 20,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "686",
+        "end": "694",
+        "highlightText": "working",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 21,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "831",
+        "end": "841",
+        "highlightText": "over time",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 22,
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83d\udc54",
+                "emojiId": "1f454",
+                "name": "formal",
+                "confidence": 0.998046875
+            },
+            {
+                "emoji": "\ud83e\udd14",
+                "emojiId": "1f914",
+                "name": "curious",
+                "confidence": 0.8408203125
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "# Introduction to Da",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "40",
+        "end": "41",
+        "highlightText": " 4 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 28,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "258",
+        "end": "268",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 27,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1409",
+        "end": "1418",
+        "highlightText": "increased",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Faulty tense sequence",
+        "id": 29,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "875",
+        "end": "885",
+        "highlightText": "is focused",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 31,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "983",
+        "end": "984",
+        "highlightText": "Analysis,",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 30,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1269",
+        "end": "1293",
+        "highlightText": "with the goal of finding",
+        "replacements": [
+            "to find"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the wording",
+        "sentence_no": "0",
+        "begin": "1612",
+        "end": "1623",
+        "highlightText": "in order to",
+        "replacements": [
+            "to"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 33,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "347",
+        "end": "357",
+        "highlightText": "is focused",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 35,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "446",
+        "end": "457",
+        "highlightText": "time period",
+        "replacements": [
+            "period",
+            "time"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 37,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the verb form",
+        "sentence_no": "0",
+        "begin": "741",
+        "end": "744",
+        "highlightText": "are",
+        "replacements": [
+            "is"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 34,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "741",
+        "end": "752",
+        "highlightText": "are created",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 36,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3126",
+        "end": "3126",
+        "highlightText": "storm",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 38,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2074",
+        "end": "2074",
+        "highlightText": "to",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 40,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "2212",
+        "end": "2220",
+        "highlightText": "behavior",
+        "replacements": [
+            "behaviour"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 41,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "2175",
+        "end": "2185",
+        "highlightText": "snow storm",
+        "replacements": [
+            "snowstorm"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 39,
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Types of Data Ana",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2873",
+        "end": "2886",
+        "highlightText": "be summarised",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "3042",
+        "end": "3042",
+        "highlightText": "future",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 26,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2054",
+        "end": "2060",
+        "highlightText": "and/or",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 28,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "2102",
+        "end": "2111",
+        "highlightText": "together",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 29,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the phrase",
+        "sentence_no": "0",
+        "begin": "2355",
+        "end": "2364",
+        "highlightText": "actually",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 30,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the word",
+        "sentence_no": "0",
+        "begin": "55",
+        "end": "64",
+        "highlightText": "universal",
+        "replacements": [
+            "universally"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misuse of modifiers",
+        "id": 31,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "90",
+        "end": "167",
+        "highlightText": "the process for implementing data analytics in global companies can be viewed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 34,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "203",
+        "end": "204",
+        "highlightText": " 7 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 33,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "342",
+        "end": "352",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 32,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1605",
+        "end": "1615",
+        "highlightText": "is removed",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 36,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1637",
+        "end": "1650",
+        "highlightText": "are taken out",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 37,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1678",
+        "end": "1689",
+        "highlightText": "is excluded",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 38,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1755",
+        "end": "1756",
+        "highlightText": " 1 ",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Improper formatting",
+        "id": 35,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "654",
+        "end": "666",
+        "highlightText": "been defined",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 39,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1336",
+        "end": "1336",
+        "highlightText": "or",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 40,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1201",
+        "end": "1207",
+        "highlightText": "exact",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 41,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "3036",
+        "end": "3043",
+        "highlightText": "future'",
+        "replacements": [
+            "future"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 25,
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": " ## Process for Data",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "1678",
+        "end": "1684",
+        "highlightText": "still",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 24,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1743",
+        "end": "1756",
+        "highlightText": "are mentioned",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 22,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "1767",
+        "end": "1771",
+        "highlightText": "the jobs",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 21,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "1852",
+        "end": "1864",
+        "highlightText": "are required",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 23,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "878",
+        "end": "886",
+        "highlightText": "modeling",
+        "replacements": [
+            "modelling"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Mixed dialects of English",
+        "id": 25,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2302",
+        "end": "2315",
+        "highlightText": "was requested",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Passive voice misuse",
+        "id": 27,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2366",
+        "end": "2383",
+        "highlightText": "to better analyse",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Inappropriate colloquialisms",
+        "id": 26,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2109",
+        "end": "2130",
+        "highlightText": "above-mentioned study",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Outdated language",
+        "id": 29,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2164",
+        "end": "2164",
+        "highlightText": "and",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 28,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "2918",
+        "end": "2918",
+        "highlightText": "must-have",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 30,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove wordiness",
+        "sentence_no": "0",
+        "begin": "1047",
+        "end": "1066",
+        "highlightText": "are ones which help",
+        "replacements": [
+            "help"
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 32,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct subject-verb agreement",
+        "sentence_no": "0",
+        "begin": "1089",
+        "end": "1096",
+        "highlightText": "creates",
+        "replacements": [
+            "create"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Faulty subject-verb agreement",
+        "id": 31,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "269",
+        "end": "271",
+        "highlightText": "Based",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 33,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "change the spelling",
+        "sentence_no": "0",
+        "begin": "610",
+        "end": "620",
+        "highlightText": "figcaption",
+        "replacements": [],
+        "impact": "critical",
+        "categoryHuman": "Unknown words",
+        "id": 34,
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [],
+        "action": "emotions",
+        "starting_sentence": "## Skills of a Data ",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "1038",
+        "end": "1045",
+        "highlightText": "skills'",
+        "replacements": [
+            "skills"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Confused words",
+        "id": 4,
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Key Takeaways  - ",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 64
+    }
+]

@@ -1,0 +1,311 @@
+[
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "48",
+        "end": "69",
+        "highlightText": "from across the world",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 10,
+        "starting_sentence": "## Pre-trained Model",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "158",
+        "end": "159",
+        "highlightText": "models,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 9,
+        "starting_sentence": "## Pre-trained Model",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "294",
+        "end": "299",
+        "highlightText": "from",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 13,
+        "starting_sentence": "## Pre-trained Model",
+        "cell_number": 1
+    },
+    {
+        "todo": "change preposition",
+        "sentence_no": "0",
+        "begin": "294",
+        "end": "299",
+        "highlightText": "from",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Wrong or missing prepositions",
+        "id": 11,
+        "starting_sentence": "## Pre-trained Model",
+        "cell_number": 1
+    },
+    {
+        "todo": "add a\u00a0hyphen",
+        "sentence_no": "0",
+        "begin": "341",
+        "end": "357",
+        "highlightText": "machine learning",
+        "replacements": [
+            "machine-learning"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 12,
+        "starting_sentence": "## Pre-trained Model",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd1d",
+                "emojiId": "1f91d",
+                "name": "confident",
+                "confidence": 0.9809570312
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Pre-trained Model",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove redundancy",
+        "sentence_no": "0",
+        "begin": "416",
+        "end": "420",
+        "highlightText": "own",
+        "replacements": [
+            ""
+        ],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 10,
+        "starting_sentence": "Many of the examples",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "431",
+        "end": "431",
+        "highlightText": "environment",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Closing punctuation",
+        "id": 9,
+        "starting_sentence": "Many of the examples",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "193",
+        "end": "208",
+        "highlightText": "deformable-detr",
+        "replacements": [
+            "deformable-data"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 12,
+        "starting_sentence": "Many of the examples",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct article usage",
+        "sentence_no": "0",
+        "begin": "245",
+        "end": "245",
+        "highlightText": "example",
+        "replacements": [
+            "an "
+        ],
+        "impact": "critical",
+        "categoryHuman": "Determiner use (a/an/the/this, etc.)",
+        "id": 11,
+        "starting_sentence": "Many of the examples",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "6",
+        "end": "13",
+        "highlightText": "of the",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 13,
+        "starting_sentence": "Many of the examples",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\u261d\ufe0f",
+                "emojiId": "261d",
+                "name": "assertive",
+                "confidence": 0.9990234375
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "Many of the examples",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "126",
+        "end": "139",
+        "highlightText": "you're losing",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 19,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "311",
+        "end": "312",
+        "highlightText": "MacOS,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 20,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "580",
+        "end": "581",
+        "highlightText": "power,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 21,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "608",
+        "end": "610",
+        "highlightText": "Despite",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 22,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "775",
+        "end": "782",
+        "highlightText": "blindly",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Potentially sensitive language",
+        "id": 23,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "209",
+        "end": "226",
+        "highlightText": "from time to time",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Wordy sentences",
+        "id": 24,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": null,
+        "sentence_no": null,
+        "begin": "903",
+        "end": "905",
+        "highlightText": "output",
+        "replacements": [],
+        "impact": "advanced",
+        "categoryHuman": "Punctuation in compound/complex sentences",
+        "id": 26,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": "remove the comma",
+        "sentence_no": "0",
+        "begin": "988",
+        "end": "989",
+        "highlightText": "application,",
+        "replacements": [
+            ""
+        ],
+        "impact": "critical",
+        "categoryHuman": "Comma misuse within clauses",
+        "id": 25,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "todo": "correct your spelling",
+        "sentence_no": "0",
+        "begin": "522",
+        "end": "533",
+        "highlightText": "huggingface",
+        "replacements": [
+            "hugging face"
+        ],
+        "impact": "critical",
+        "categoryHuman": "Misspelled words",
+        "id": 27,
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "emotions": [
+            {
+                "emoji": "\ud83e\udd70",
+                "emojiId": "1f970",
+                "name": "loving",
+                "confidence": 0.7739257812
+            }
+        ],
+        "action": "emotions",
+        "starting_sentence": "## Be careful of fil",
+        "cell_number": 1
+    },
+    {
+        "num_of_corrections": 22
+    }
+]
