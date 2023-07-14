@@ -17,7 +17,10 @@ def check_step_1(
         "'age' should be a parameter of 'validate_profile'. Please, try again."
     assert "email" in validate_profile.__code__.co_varnames, \
         "'email' should be a parameter of 'validate_profile'. Please, try again."
-
+    print(
+        "\033[92m\N{heavy check mark} Well done! "
+        "You have defined the validate_profile function correctly"
+    )
 def check_step_2(
     validate_profile: Callable[[str, str, str], Optional[str]]
 ) -> None:
