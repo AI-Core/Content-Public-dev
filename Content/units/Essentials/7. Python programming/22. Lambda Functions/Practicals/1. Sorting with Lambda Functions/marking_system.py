@@ -14,6 +14,7 @@ def check_step_2(
     data: list, 
     sort_num: Callable[[tuple], str]
 ) -> None:
+    assert isinstance(sort_num, type(lambda x:x)), "The function should utilise a lambda function"
     assert data==sorted(data, key=sort_num), ("The list should be sorted using the sort_num lambda as a key")
 
     print("\033[92m\N{heavy check mark} Well done!")
@@ -22,6 +23,7 @@ def check_step_3(
     data: list, 
     sort_name: Callable[[tuple], str]
 ) -> None:
+    assert isinstance(sort_name, type(lambda x:x)), "The function should utilise a lambda function"
     assert data==sorted(data, key=sort_name), ("The list should be sorted using the sort_name lambda as a key")
 
     print("\033[92m\N{heavy check mark} Well done!")
@@ -30,6 +32,7 @@ def check_step_4(
     data: list, 
     sort_name_len: Callable[[tuple], int]
 ) -> None:
+    assert isinstance(sort_name_len, type(lambda x:x)), "The function should utilise a lambda function"
     assert data==sorted(data, key=sort_name_len), ("The list should be sorted using the sort_name_len lambda as a key")
 
     print("\033[92m\N{heavy check mark} Well done!")
@@ -38,6 +41,6 @@ def check_step_5(
     data: list, 
     sort_name_len: Callable[[tuple], int]
 ) -> None:
-    assert data==sorted(data, key=sort_name_len, reversed=True), ("The list should be sorted backwards using the sort_name_len lambda as a key")
+    assert data==sorted(data, key=sort_name_len)[::-1], ("The list should be sorted backwards using the sort_name_len lambda as a key")
 
     print("\033[92m\N{heavy check mark} Well done!")
