@@ -13,33 +13,50 @@ def check_step_1(
         "You initialised the data correctly.")
     
 def check_step_2(
-    data: list
+    data: list,
+    sort_num: Callable[[tuple], int]
 ) -> None:
-    sort_num = lambda x : x[1]
-    assert data==sorted(data, key=sort_num), ("The data isn't sorted correctly")
+    sort_num_test = lambda x:x[1]
+    assert isinstance(sort_num, type(lambda x:x)), "The function 'sort_num' should utilise a lambda function"
+    assert sort_num((10,20))==20, "Function sort_num should return item at index 1 from inputted tuple"
+    assert data==sorted(data, key=sort_num), "You haven't sorted the data using the lambda 'sort_num'"
+    assert data==sorted(data, key=sort_num_test), ("The data isn't sorted correctly")
 
     print("\033[92m\N{heavy check mark} Well done!")
 
 def check_step_3(
-    data: list
+    data: list,
+    sort_name: Callable[[tuple], int]
 ) -> None:
-    sort_name = lambda x : x[0]
-    assert data==sorted(data, key=sort_name), ("The data isn't sorted correctly")
+    sort_name_test = lambda x:x[0]
+    assert isinstance(sort_name, type(lambda x:x)), "The function 'sort_name' should utilise a lambda function"
+    assert sort_name((10,20))==10, "Function sort_name should return item at index 0 from inputted tuple"
+    assert data==sorted(data, key=sort_name), "You haven't sorted the data using the lambda 'sort_name'"
+    assert data==sorted(data, key=sort_name_test), ("The data isn't sorted correctly")
 
     print("\033[92m\N{heavy check mark} Well done!")
 
 def check_step_4(
-    data: list
+    data: list,
+    sort_name_len: Callable[[tuple], int]
 ) -> None:
-    sort_name_len = lambda x : len(x[0])
-    assert data==sorted(data, key=sort_name_len), ("The data isn't sorted correctly")
+    sort_name_len_test = lambda x:len(x[0])
+    assert isinstance(sort_name_len, type(lambda x:x)), "The function 'sort_name_len' should utilise a lambda function"
+    assert sort_name_len(('hello',20))==5, "Function sort_name_len should return the length of the item at index 0 from inputted tuple"
+    assert data==sorted(data, key=sort_name_len), "You haven't sorted the data using the lambda 'sort_name_len'"
+    assert data==sorted(data, key=sort_name_len_test), ("The data isn't sorted correctly")
 
     print("\033[92m\N{heavy check mark} Well done!")
 
 def check_step_5(
     data: list
 ) -> None:
+    
+    data_test = data.copy()
     sort_name_len = lambda x : len(x[0])
-    assert data==sorted(data, key=sort_name_len)[::-1], ("The data isn't sorted correctly")
+    data_test.sort(key = sort_name_len, reverse = True)
+    
+    
+    assert data==data_test, ("The data isn't sorted correctly")
 
     print("\033[92m\N{heavy check mark} Well done!")
