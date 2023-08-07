@@ -21,7 +21,7 @@ def check_step_2(
             return a / b
         assert div(10/3)==None, "'Error_handler' should return wrapper"
     except TypeError:
-        raise TypeError("'Error_handler' function should process and execute a function and its arguments")
+        raise TypeError("'Error_handler' function should process and execute a function and return its output and the wrapper")
 
     print("\033[92m\N{heavy check mark} Well done!")
 
